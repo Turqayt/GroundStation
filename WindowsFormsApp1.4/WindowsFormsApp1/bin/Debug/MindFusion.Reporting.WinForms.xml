@@ -1,0 +1,855 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MindFusion.Reporting.WinForms</name>
+    </assembly>
+    <members>
+        <member name="T:MindFusion.Reporting.WinForms.PreviewOptions">
+            <summary>
+            Provides properties that allow customization of various
+            aspects of the extended print-preview window.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.PreviewOptions.#ctor">
+            <summary>
+            Initializes a new instance of the PreviewOptions class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.PreviewOptions.ButtonImages">
+            <summary>
+            Gets or sets the list of images to display in print preview toolbar buttons.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.PreviewOptions.PrintToolTip">
+            <summary>
+            Gets or sets the ToolTip text displayed for the Print button.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.PreviewOptions.ZoomToolTip">
+            <summary>
+            Gets or sets the ToolTip text displayed for the Zoom button.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.PreviewOptions.OnePageToolTip">
+            <summary>
+            Gets or sets the ToolTip text displayed for the One Page button.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.PreviewOptions.TwoPagesToolTip">
+            <summary>
+            Gets or sets the ToolTip text displayed for the Two Pages button.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.PreviewOptions.ThreePagesToolTip">
+            <summary>
+            Gets or sets the ToolTip text displayed for the Three Pages button.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.PreviewOptions.FourPagesToolTip">
+            <summary>
+            Gets or sets the ToolTip text displayed for the Four Pages button.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.PreviewOptions.SixPagesToolTip">
+            <summary>
+            Gets or sets the ToolTip text displayed for the Six Pages button.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.PreviewOptions.FirstPageToolTip">
+            <summary>
+            Gets or sets the ToolTip text displayed for the First Page button.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.PreviewOptions.PreviousPageToolTip">
+            <summary>
+            Gets or sets the ToolTip text displayed for the Previous Page button.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.PreviewOptions.NextPageToolTip">
+            <summary>
+            Gets or sets the ToolTip text displayed for the Next Page button.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.PreviewOptions.LastPageToolTip">
+            <summary>
+            Gets or sets the ToolTip text displayed for the Last Page button.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.PreviewOptions.FitToPageToolTip">
+            <summary>
+            Gets or sets the ToolTip text displayed for the Fit to Page button.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.PreviewOptions.LandscapeToolTip">
+            <summary>
+            Gets or sets the ToolTip text displayed for the Landscape button.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.PreviewOptions.PortraitToolTip">
+            <summary>
+            Gets or sets the ToolTip text displayed for the Portrait button.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.PreviewOptions.ZoomAutoCmdText">
+            <summary>
+            Gets or sets the Label of the Zoom menu Auto item.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.PreviewOptions.TitleBarIcon">
+            <summary>
+            Gets or sets the icon displayed in the titlebar of the preview window.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.PreviewOptions.DisplayPrintDialog">
+            <summary>
+            Get or sets a value indicating whether a print setup dialog is
+            displayed when the print button of the preview form is clicked.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.WinForms.PreviewOptions.buttonImages">
+            <summary>
+            A list of images to display in print preview toolbar buttons.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.WinForms.PreviewOptions.printToolTip">
+            <summary>
+            ToolTip text displayed for the Print button.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.WinForms.PreviewOptions.zoomToolTip">
+            <summary>
+            ToolTip text displayed for the Zoom button.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.WinForms.PreviewOptions.onePageToolTip">
+            <summary>
+            ToolTip text displayed for the One Page button.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.WinForms.PreviewOptions.twoPagesToolTip">
+            <summary>
+            ToolTip text displayed for the Two Pages button.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.WinForms.PreviewOptions.threePagesToolTip">
+            <summary>
+            ToolTip text displayed for the Three Pages button.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.WinForms.PreviewOptions.fourPagesToolTip">
+            <summary>
+            ToolTip text displayed for the Four Pages button.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.WinForms.PreviewOptions.sixPagesToolTip">
+            <summary>
+            ToolTip text displayed for the Six Pages button.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.WinForms.PreviewOptions.firstPageToolTip">
+            <summary>
+            ToolTip text displayed for the First Page button.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.WinForms.PreviewOptions.previousPageToolTip">
+            <summary>
+            ToolTip text displayed for the Previous Page button.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.WinForms.PreviewOptions.nextPageToolTip">
+            <summary>
+            ToolTip text displayed for the Next Page button.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.WinForms.PreviewOptions.lastPageToolTip">
+            <summary>
+            ToolTip text displayed for the Last Page button.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.WinForms.PreviewOptions.fitToPageToolTip">
+            <summary>
+            ToolTip text displayed for the Fit to Page button.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.WinForms.PreviewOptions.landscapeToolTip">
+            <summary>
+            ToolTip text displayed for the Landscape button.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.WinForms.PreviewOptions.portraitToolTip">
+            <summary>
+            ToolTip text displayed for the Portrait button.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.WinForms.PreviewOptions.zoomAutoCmdText">
+            <summary>
+            Label of the Zoom menu Auto item.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.WinForms.PreviewOptions.titleBarIcon">
+            <summary>
+            An Icon displayed in the preview window titlebar.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.WinForms.PreviewOptions.displayPrintDialog">
+            <summary>
+            Specifies whether a print setup dialog is displayed when
+            the print button of the preview form is clicked.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Reporting.WinForms.PrintPreviewForm">
+            <summary>
+            Implements an extended print preview form.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.PrintPreviewForm.#ctor">
+            <summary>
+            Initializes a new instance of the PrintPreviewForm class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.PrintPreviewForm.#ctor(System.String,MindFusion.Reporting.WinForms.PreviewOptions)">
+            <summary>
+            Initializes a new instance of the PrintPreviewForm class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.PrintPreviewForm.OnLoad(System.EventArgs)">
+            <summary>
+            Form.OnLoad override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.PrintPreviewForm.ResetPreviewArea">
+            <summary>
+            Initialize the preview area with new document settings.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.PrintPreviewForm.UpdateOrientation">
+            <summary>
+            Updates the state of the Orientation button according
+            to the corresponding value in the underlying document.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.PrintPreviewForm.ToggleOrientation">
+            <summary>
+            Changes the orientation of the underlying document.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.PrintPreviewForm.ZoomDisplay(System.Double)">
+            <summary>
+            Zooms the currently displayed preview with the specified factor
+            and updates the corresponding menu item.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.PrintPreviewForm.OnMenuItem10(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the 10% menu item.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.PrintPreviewForm.OnMenuItem25(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the 25% menu item.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.PrintPreviewForm.OnMenuItem50(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the 50% menu item.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.PrintPreviewForm.OnMenuItem75(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the 75% menu item.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.PrintPreviewForm.OnMenuItem100(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the 100% menu item.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.PrintPreviewForm.OnMenuItem150(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the 150% menu item.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.PrintPreviewForm.OnMenuItem200(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the 200% menu item.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.PrintPreviewForm.OnMenuItem500(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the 500% menu item.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.PrintPreviewForm.OnMenuAuto(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the Auto menu item.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.PrintPreviewForm.toolBarMain_ButtonClick(System.Object,System.Windows.Forms.ToolBarButtonClickEventArgs)">
+            <summary>
+            Handles the ButtonClick event of the main toolbar.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.PrintPreviewForm.OnMenuItemPrinter(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the Printer menu item.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.PrintPreviewForm.Document">
+            <summary>
+            Gets or sets the internal version of the document.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.PrintPreviewForm.UseAntiAlias">
+            <summary>
+            Gets or sets the anti-alias flag on the preview control.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.WinForms.PrintPreviewForm.PortaraitImage">
+            <summary>
+            The index of the Portrait button image.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.WinForms.PrintPreviewForm.LandscapeImage">
+            <summary>
+            The index of the Landscape button image.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.WinForms.PrintPreviewForm.previewOptions">
+            <summary>
+            An object specifying various settings for the print preview form.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.WinForms.PrintPreviewForm.documentName">
+            <summary>
+            A object keeping the name of the document supplied to the form's
+            constructor.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.PrintPreviewForm.Dispose(System.Boolean)">
+            <summary>
+            Form.Dispose override.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Reporting.WinForms.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.Resources.FitPage">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.Resources.FourPages">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.Resources.OnePage">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.Resources.Printer">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.Resources.SixPages">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.Resources.TwoPages">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Reporting.WinForms.ReportCanvas">
+            <summary>
+            Represents a control that can display a
+            MindFusion.Reporting.Report objects.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.#ctor">
+            <summary>
+            Initializes a new instance of the ReportCanvas class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.DoLayout">
+            <summary>
+            Layout the pages.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Control.OnPaint override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.Recalc(System.Int32,System.Drawing.SizeF)">
+            <summary>
+            Causes the control to recalculate all internals
+            and repaint its client area.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.CalcPageOffset(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="page"></param>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.CalcCenteringOffset(System.Int32,System.Drawing.SizeF)">
+            <summary>
+            Calculates the offsets which would center the page or pages
+            within the client area.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.CalculateScale">
+            <summary>
+            Calculates the scale ratio of the pages.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.GetClientRectangle">
+            <summary>
+            Gets the rectangle that represents the client area of the control.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.GoToPage(System.Int32)">
+            <summary>
+            For quick way to go to a page.
+            </summary>
+            <param name="pageNumber">The number of the page.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.DocToDevice(System.Drawing.SizeF)">
+            <summary>
+            Converts the specified size from document to client coordinates.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.DocToDevice(System.Drawing.PointF)">
+            <summary>
+            Converts the specified point from document to client coordinates.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.DocToDevice(System.Drawing.RectangleF)">
+            <summary>
+            Converts the specified point from document to client coordinates.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.DeviceToDoc(System.Drawing.SizeF)">
+            <summary>
+            Converts the specified size from client to document coordinates.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.DeviceToDoc(System.Drawing.Rectangle)">
+            <summary>
+            Converts the specified rectangle from client to document coordinates.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.DeviceToDoc(MindFusion.Drawing.IGraphics,System.Drawing.Rectangle)">
+            <summary>
+            Converts the specified rectangle from client to document coordinates.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.ReportCanvas.Report">
+            <summary>
+            Gets or sets a reference to the associated MindFusion.Reporting.Report object.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.ReportCanvas.PaperSize">
+            <summary>
+            Gets or sets the size of the pages displayed on the canvas, expressed in millimeters.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.ReportCanvas.Margins">
+            <summary>
+            Gets or sets the margins of the displayed pages, expressed in millimeters.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.ReportCanvas.ScrollRange">
+            <summary>
+            IScrollable.ScrollRange implementation.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.ReportCanvas.ScrollPosition">
+            <summary>
+            IScrollable.ScrollPosition implementation.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Reporting.WinForms.ReportCanvas.ScrollRangeChanged">
+            <summary>
+            IScrollable.ScrollRangeChanged implementation.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Reporting.WinForms.ReportCanvas.ReportCanvasGridLayered">
+            <summary>
+            This class halps to layout the pages in ReportCanvas.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.ReportCanvasGridLayered.CalculateGridSize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.ReportCanvas.ReportCanvasGridLayered.RowCount">
+            <summary>
+            Get the number of rowCount in the grid.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.ReportCanvas.ReportCanvasGridLayered.ColumnCount">
+            <summary>
+            Get the number of columnCount in the grid.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.ReportCanvasGridLayered.GetGridLayout">
+            <summary>
+            Gets the number of rowCount and columnCount in visible area of the ReportCanvas. 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.ReportCanvasGridLayered.GetRow(System.Int32)">
+            <summary>
+            Return the row index of the specified page.
+            </summary>
+            <param name="pageNumber">Number of a page.</param>
+            <returns>The index of the row.</returns>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.ReportCanvasGridLayered.GetColumnWidth(System.Int32)">
+            <summary>
+            Gets the width of the specified column.
+            </summary>
+            <param name="column">The one-based index of the column.</param>
+            <returns>The width of the column.</returns>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.ReportCanvasGridLayered.GetRowHeight(System.Int32)">
+            <summary>
+            Gets the height of the specified row.
+            </summary>
+            <param name="row">The one-based index of the row.</param>
+            <returns>The height of the row.</returns>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.ReportCanvasGridLayered.GetRowHeight(System.Int32,System.Object)">
+            <summary>
+            Gets the height of the specified row.
+            </summary>
+            <param name="page">The one-based index of the row.</param>
+            <param name="obj">It is always null.</param>
+            <returns>The height of the row.</returns>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.ReportCanvasGridLayered.GetColumnWidth(System.Int32,System.Object)">
+            <summary>
+            </summary>
+            <param name="page"></param>
+            <param name="obj">It is always null.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.ReportCanvasGridLayered.GetColumn(System.Int32)">
+            <summary>
+            Returns the column index of the specified page.
+            </summary>
+            <param name="pageNumber">Number of a page.</param>
+            <returns>The index of the column.</returns>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.ReportCanvasGridLayered.GetColumnX(System.Int32)">
+            <summary>
+            Gets the x-coordinate of the upper-left corner of the specified column.
+            </summary>
+            <param name="column"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.ReportCanvasGridLayered.GetRowY(System.Int32)">
+            <summary>
+            Get the y-coordinate of the upper-left corner of the specefied row.
+            </summary>
+            <param name="row"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.ReportCanvasGridLayered.GetPageBounds(System.Int32,System.Drawing.SizeF)">
+            <summary>
+            </summary>
+            <param name="pageNumber"></param>
+            <param name="pageSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.ReportCanvasGridLayered.GetPagePosition(System.Int32)">
+            <summary>
+            Gets the upper-left point ot the page.
+            </summary>
+            <param name="pageNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.ReportCanvas.ReportCanvasGridLayered.PageCount">
+            <summary>
+            Set the number of the pages.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.ReportCanvasGridLayered.AddPageSize(System.Int32,System.Drawing.SizeF)">
+            <summary>
+            Calculates the width and height(without paddings) of the rowCount and columnCount in the grid.
+            </summary>
+            <param name="pageNumber">Number of a page.</param>
+            <param name="pageSize">The size of the page.</param>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.ReportCanvasGridLayered.GetWidth">
+            <summary>
+            Gets the width of the ReportCanvas.
+            </summary>
+            <returns>A float value indicating the width of the Reportcanvas.</returns>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.ReportCanvasGridLayered.CalcWidth">
+            <summary>
+            Calculates the width of the ReportCanvas.
+            </summary>
+            <returns>A float value indicating the width of the ReportCanvas.</returns>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.ReportCanvasGridLayered.GetHeight">
+            <summary>
+            Gets the height of the ReportCanvas.
+            </summary>
+            <returns>A float value indicating the height of the ReportCanvas.</returns>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.ReportCanvasGridLayered.CalcHeight">
+            <summary>
+            Calculates the height of the ReportCanvas.
+            </summary>
+            <returns>A float value indicating the height of the ReportCanvas.</returns>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.ReportCanvas.ReportCanvasGridLayered.Padding">
+            <summary>
+            Set page padding.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.WinForms.ReportCanvas.ReportCanvasGridLayered.rowsHeight">
+            <summary>
+            Height of table rowCount.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.WinForms.ReportCanvas.ReportCanvasGridLayered.columnsWidth">
+            <summary>
+            Width of the table columnCount.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.WinForms.ReportCanvas.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportCanvas.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Reporting.WinForms.ReportPrinter">
+            <summary>
+            Serves as a PrintDocument for MindFusion.Reporting.Report components.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportPrinter.#ctor">
+            <summary>
+            Initializes a new instance of the ReportPrinter class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportPrinter.#ctor(System.ComponentModel.IContainer)">
+            <summary>
+            Initializes a new instance of the ReportPrinter class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportPrinter.OnBeginPrint(System.Drawing.Printing.PrintEventArgs)">
+            <summary>
+            PrintDocument.OnBeginPrint override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportPrinter.OnQueryPageSettings(System.Drawing.Printing.QueryPageSettingsEventArgs)">
+            <summary>
+            PrintDocument.OnQueryPageSettings override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportPrinter.OnPrintPage(System.Drawing.Printing.PrintPageEventArgs)">
+            <summary>
+            PrintDocument.OnPrintPage override.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.ReportPrinter.Report">
+            <summary>
+            Gets or sets the Report associated with this print document.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.WinForms.ReportPrinter.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportPrinter.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportPrinter.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Reporting.WinForms.ReportViewer">
+            <summary>
+            Represents a scrollable control that can display a
+            MindFusion.Reporting.Report objects.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportViewer.#ctor">
+            <summary>
+            Initializes a new instance of the ReportViewer class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportViewer.Print">
+            <summary>
+            Prints the pages to the default printer.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportViewer.OnZoomIn(System.Object,System.EventArgs)">
+            <summary>
+            Increases zoom factor.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportViewer.OnZoomOut(System.Object,System.EventArgs)">
+            <summary>
+            Decreases zoom factor.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportViewer.OnScaleTBxKeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+            <summary>
+            Sets a fixed scale factor to be used when FitPage is disabled.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportViewer.OnInvalidated(System.Windows.Forms.InvalidateEventArgs)">
+            <summary>
+            Control.OnInvalidated override.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.ReportViewer.Report">
+            <summary>
+            Gets or sets a reference to the Report displayed in the viewer.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.ReportViewer.PaperSize">
+            <summary>
+            Gets or sets the size of the pages displayed in the viewer, expressed in millimeters.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.ReportViewer.Margins">
+            <summary>
+            Gets or sets the margins of the pages displayed in the viewer, expressed in millimeters.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.ReportViewer.LicenseKey">
+            <summary>
+            Gets or sets the license key of the control.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Reporting.WinForms.ReportViewer.PreparePrintSettings">
+            <summary>
+            Raised before printing a report to let you customize its PrinterSettings.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Reporting.WinForms.ReportViewer.PreparePrintDialog">
+            <summary>
+            Raised before printing a report to let you customize the print dialog.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.WinForms.ReportViewer.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportViewer.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ReportViewer.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Reporting.WinForms.PrintReportEventArgs">
+            <summary>
+            Provides data to print-related event handlers.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.PrintReportEventArgs.PrintDialog">
+            <summary>
+            The PrintDialog shown to customize the print process.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.PrintReportEventArgs.ReportPrinter">
+            <summary>
+            The ReportPrinter instance used to print.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.PrintReportEventArgs.Handled">
+            <summary>
+            Gets or sets whether the event has been handled.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Reporting.WinForms.ScrollViewer">
+            <summary>
+            Represents a control that can host another control and provide scrolling
+            capabilities if the hosted control is larger than the client area.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ScrollViewer.#ctor">
+            <summary>
+            Initializes a new instance of the ScrollViewer class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.WinForms.ScrollViewer.ScrollableControl">
+            <summary>
+            Gets or sets a reference to the hosted control.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ScrollViewer.OnLayout(System.Windows.Forms.LayoutEventArgs)">
+            <summary>
+            ContainerControl.OnLayout override.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.WinForms.ScrollViewer.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ScrollViewer.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.Reporting.WinForms.ScrollViewer.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,1689 @@
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\EntityFramework.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\GMap.NET.Core.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Data.SQLite.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\EntityFramework.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Data.SQLite.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Core.XForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Licensing.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Core.XForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ActiproSoftware.Gauge.Wpf.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ActiproSoftware.Shared.Wpf.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Core.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Gauge.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.SfGauge.XForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ActiproSoftware.Gauge.Wpf.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ActiproSoftware.Shared.Wpf.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Core.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Gauge.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.SfGauge.XForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1_MarkupCompile.cache
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1_MarkupCompile.lref
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Compression.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Pdf.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Compression.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Pdf.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.g.resources
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\MainWindow.g.cs
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\MainWindow.baml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\UserControl1.g.cs
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\UserControl1.baml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.pdb
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Windows.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Grouping.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Shared.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Windows.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Grouping.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Shared.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Gauge.Windows.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Gauge.Windows.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DlhSoft.DataControlLibrary.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DlhSoft.DataFramework.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.Extras.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OxyPlot.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OxyPlot.WindowsForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ScottPlot.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Core.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChart.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChartToImageConverter.Wpf.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.SfChart.WPF.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.SfSmithChart.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Drawing.Common.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.ValueTuple.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DlhSoft.DataControlLibrary.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DlhSoft.DataFramework.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.Extras.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OxyPlot.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OxyPlot.WindowsForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ScottPlot.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Core.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChart.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChartToImageConverter.Wpf.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.SfChart.WPF.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.SfSmithChart.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.ValueTuple.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Barcodes.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Barcodes.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Charting.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Charting.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Common.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Common.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.DataBinding.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Pdf.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Svg.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Visio.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.Controls.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Graphs.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Keyboard.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Licensing.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Pdf.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.Pdf.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Scripting.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.StandardForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Svg.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.UI.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Vsx.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Zip.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Barcodes.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Charting.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Charting.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Common.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.DataBinding.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Pdf.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Svg.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Visio.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.Controls.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Keyboard.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.Pdf.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Scripting.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.StandardForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.UI.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Vsx.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.licenses
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\CodeArtEng.Gauge.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Evergine.Common.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Evergine.Mathematics.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Evergine.Platform.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Evergine.Yaml.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Reflection.TypeExtensions.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Evergine.Common.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Evergine.Mathematics.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Evergine.Platform.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Evergine.Yaml.pdb
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Reflection.TypeExtensions.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ActiproSoftware.Gauge.Wpf.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ActiproSoftware.Shared.Wpf.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Core.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Gauge.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\CodeArtEng.Gauge.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DlhSoft.DataControlLibrary.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DlhSoft.DataFramework.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.Extras.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\EntityFramework.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Evergine.Common.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Evergine.Mathematics.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Evergine.Platform.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Evergine.Yaml.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\GMap.NET.Core.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Barcodes.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Barcodes.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Charting.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Charting.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Common.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Common.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.DataBinding.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Pdf.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Svg.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Visio.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.Controls.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Graphs.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Keyboard.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Licensing.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Pdf.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.Pdf.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Scripting.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.StandardForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Svg.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.UI.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Vsx.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OxyPlot.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OxyPlot.WindowsForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ScottPlot.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Windows.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Compression.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Core.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Core.XForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Gauge.Windows.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Grouping.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Licensing.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChart.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChartToImageConverter.Wpf.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Pdf.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.SfChart.WPF.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.SfGauge.XForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.SfSmithChart.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Shared.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Data.SQLite.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Drawing.Common.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Reflection.TypeExtensions.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.ValueTuple.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Zip.dll
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ActiproSoftware.Gauge.Wpf.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ActiproSoftware.Shared.Wpf.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Core.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Gauge.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DlhSoft.DataControlLibrary.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DlhSoft.DataFramework.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.Extras.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\EntityFramework.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Evergine.Common.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Evergine.Mathematics.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Evergine.Platform.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Evergine.Yaml.pdb
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.pdb
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Barcodes.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Charting.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Charting.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Common.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.DataBinding.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Pdf.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Svg.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Visio.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.Controls.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Keyboard.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.Pdf.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Scripting.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.StandardForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.UI.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Vsx.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OxyPlot.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OxyPlot.WindowsForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ScottPlot.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Windows.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Compression.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Core.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Core.XForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Gauge.Windows.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Grouping.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChart.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChartToImageConverter.Wpf.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Pdf.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.SfChart.WPF.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.SfGauge.XForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.SfSmithChart.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Shared.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Data.SQLite.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Reflection.TypeExtensions.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.ValueTuple.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\MainWindow.g.cs
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\UserControl1.g.cs
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1_MarkupCompile.cache
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1_MarkupCompile.lref
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\MainWindow.baml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\UserControl1.baml
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.g.resources
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.licenses
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Turqay\OneDrive\Desktop\Turgay\hepsi\Yer Istasyonu\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ActiproSoftware.Gauge.Wpf.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ActiproSoftware.Shared.Wpf.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Core.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Gauge.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\CodeArtEng.Gauge.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DlhSoft.DataControlLibrary.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DlhSoft.DataFramework.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.Extras.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\EntityFramework.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Evergine.Common.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Evergine.Mathematics.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Evergine.Platform.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Evergine.Yaml.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\GMap.NET.Core.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Barcodes.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Barcodes.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Charting.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Charting.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Common.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Common.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.DataBinding.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Pdf.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Svg.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Visio.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.Controls.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Graphs.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Keyboard.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Licensing.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Pdf.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.Pdf.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Scripting.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.StandardForms.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Svg.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.UI.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Vsx.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OxyPlot.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OxyPlot.WindowsForms.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ScottPlot.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Windows.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Compression.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Core.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Core.XForms.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Gauge.Windows.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Grouping.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Licensing.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChart.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChartToImageConverter.Wpf.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Pdf.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.SfChart.WPF.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.SfGauge.XForms.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.SfSmithChart.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Shared.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Data.SQLite.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Drawing.Common.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Reflection.TypeExtensions.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.ValueTuple.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Zip.dll
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ActiproSoftware.Gauge.Wpf.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ActiproSoftware.Shared.Wpf.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Core.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Gauge.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DlhSoft.DataControlLibrary.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DlhSoft.DataFramework.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.Extras.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\EntityFramework.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Evergine.Common.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Evergine.Mathematics.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Evergine.Platform.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Evergine.Yaml.pdb
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.pdb
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Barcodes.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Charting.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Charting.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Common.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.DataBinding.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Pdf.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Svg.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Visio.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.Controls.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Keyboard.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.Pdf.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Scripting.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.StandardForms.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.UI.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Vsx.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OxyPlot.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OxyPlot.WindowsForms.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ScottPlot.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Windows.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Compression.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Core.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Core.XForms.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Gauge.Windows.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Grouping.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChart.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChartToImageConverter.Wpf.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Pdf.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.SfChart.WPF.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.SfGauge.XForms.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.SfSmithChart.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Shared.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Data.SQLite.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Reflection.TypeExtensions.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.ValueTuple.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\MainWindow.g.cs
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\UserControl1.g.cs
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1_MarkupCompile.cache
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1_MarkupCompile.lref
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\MainWindow.baml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\UserControl1.baml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.g.resources
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.licenses
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1_Content.g.cs
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AvionicsInstrumentsControls.AvionicsInstrumentsControlsRessources.resources
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ActiproSoftware.Gauge.Wpf.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ActiproSoftware.Shared.Wpf.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Core.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Gauge.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\CodeArtEng.Gauge.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DlhSoft.DataControlLibrary.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DlhSoft.DataFramework.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.Extras.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\EntityFramework.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Evergine.Common.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Evergine.Mathematics.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Evergine.Platform.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Evergine.Yaml.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\GMap.NET.Core.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Barcodes.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Barcodes.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Charting.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Charting.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Common.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Common.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.DataBinding.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Pdf.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Svg.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Visio.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.Controls.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Graphs.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Keyboard.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Licensing.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Pdf.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.Pdf.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Scripting.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.StandardForms.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Svg.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.UI.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Vsx.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OxyPlot.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OxyPlot.WindowsForms.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ScottPlot.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Windows.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Compression.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Core.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Core.XForms.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Gauge.Windows.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Grouping.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Licensing.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChart.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChartToImageConverter.Wpf.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Pdf.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.SfChart.WPF.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.SfGauge.XForms.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.SfSmithChart.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Shared.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Data.SQLite.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Drawing.Common.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Reflection.TypeExtensions.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.ValueTuple.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Zip.dll
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ActiproSoftware.Gauge.Wpf.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ActiproSoftware.Shared.Wpf.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Core.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Gauge.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DlhSoft.DataControlLibrary.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DlhSoft.DataFramework.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.Extras.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\EntityFramework.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Evergine.Common.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Evergine.Mathematics.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Evergine.Platform.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Evergine.Yaml.pdb
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.pdb
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Barcodes.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Charting.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Charting.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Common.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.DataBinding.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Pdf.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Svg.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Visio.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.Controls.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Keyboard.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.Pdf.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Scripting.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.StandardForms.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.UI.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\MindFusion.Vsx.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OxyPlot.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\OxyPlot.WindowsForms.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\ScottPlot.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Windows.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Compression.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Core.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Core.XForms.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Gauge.Windows.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Grouping.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChart.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChartToImageConverter.Wpf.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Pdf.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.SfChart.WPF.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.SfGauge.XForms.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.SfSmithChart.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Syncfusion.Shared.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Data.SQLite.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Reflection.TypeExtensions.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\System.ValueTuple.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\MainWindow.g.cs
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\UserControl1.g.cs
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1_Content.g.cs
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1_MarkupCompile.cache
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1_MarkupCompile.lref
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\MainWindow.baml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\UserControl1.baml
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.g.resources
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AvionicsInstrumentsControls.AvionicsInstrumentsControlsRessources.resources
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.licenses
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Turqay\OneDrive\Desktop\YerIstasyonu Tasarim Rapor ve Genel\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\ActiproSoftware.Gauge.Wpf.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\ActiproSoftware.Shared.Wpf.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Core.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Gauge.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\CodeArtEng.Gauge.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\DlhSoft.DataControlLibrary.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\DlhSoft.DataFramework.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.Extras.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\EntityFramework.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Evergine.Common.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Evergine.Mathematics.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Evergine.Platform.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Evergine.Yaml.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\GMap.NET.Core.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\LiveCharts.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Barcodes.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Barcodes.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Charting.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Charting.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Common.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Common.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.DataBinding.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Pdf.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Svg.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Visio.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.Controls.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Graphs.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Keyboard.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Licensing.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Pdf.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.Pdf.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Scripting.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.StandardForms.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Svg.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.UI.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Vsx.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\OxyPlot.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\OxyPlot.WindowsForms.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\ScottPlot.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Windows.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Compression.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Core.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Core.XForms.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Gauge.Windows.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Grouping.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Licensing.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChart.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChartToImageConverter.Wpf.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Pdf.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.SfChart.WPF.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.SfGauge.XForms.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.SfSmithChart.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Shared.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.Data.SQLite.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.Drawing.Common.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.Reflection.TypeExtensions.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.ValueTuple.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Zip.dll
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\ActiproSoftware.Gauge.Wpf.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\ActiproSoftware.Shared.Wpf.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Core.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Gauge.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\DlhSoft.DataControlLibrary.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\DlhSoft.DataFramework.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.Extras.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\EntityFramework.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Evergine.Common.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Evergine.Mathematics.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Evergine.Platform.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Evergine.Yaml.pdb
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\LiveCharts.pdb
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\LiveCharts.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Barcodes.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Charting.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Charting.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Common.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.DataBinding.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Pdf.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Svg.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Visio.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.Controls.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Keyboard.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.Pdf.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Scripting.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.StandardForms.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.UI.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Vsx.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\OxyPlot.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\OxyPlot.WindowsForms.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\ScottPlot.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Windows.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Compression.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Core.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Core.XForms.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Gauge.Windows.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Grouping.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChart.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChartToImageConverter.Wpf.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Pdf.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.SfChart.WPF.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.SfGauge.XForms.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.SfSmithChart.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Shared.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.Data.SQLite.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.Reflection.TypeExtensions.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.ValueTuple.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\MainWindow.g.cs
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\UserControl1.g.cs
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\WindowsFormsApp1_Content.g.cs
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\WindowsFormsApp1_MarkupCompile.cache
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\WindowsFormsApp1_MarkupCompile.lref
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\MainWindow.baml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\UserControl1.baml
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.g.resources
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AvionicsInstrumentsControls.AvionicsInstrumentsControlsRessources.resources
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.licenses
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Turqay\OneDrive\Desktop\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\ActiproSoftware.Gauge.Wpf.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\ActiproSoftware.Shared.Wpf.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Core.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Gauge.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\CodeArtEng.Gauge.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\DlhSoft.DataControlLibrary.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\DlhSoft.DataFramework.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.Extras.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\EntityFramework.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Evergine.Common.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Evergine.Mathematics.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Evergine.Platform.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Evergine.Yaml.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\GMap.NET.Core.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\LiveCharts.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Barcodes.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Barcodes.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Charting.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Charting.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Common.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Common.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.DataBinding.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Pdf.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Svg.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Visio.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.Controls.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Graphs.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Keyboard.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Licensing.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Pdf.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.Pdf.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Scripting.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.StandardForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Svg.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.UI.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Vsx.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\OxyPlot.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\OxyPlot.WindowsForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\ScottPlot.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Windows.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Compression.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Core.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Core.XForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Gauge.Windows.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Grouping.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Licensing.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChart.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChartToImageConverter.Wpf.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Pdf.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.SfChart.WPF.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.SfGauge.XForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.SfSmithChart.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Shared.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.Data.SQLite.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.Drawing.Common.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.Reflection.TypeExtensions.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.ValueTuple.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Zip.dll
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\ActiproSoftware.Gauge.Wpf.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\ActiproSoftware.Shared.Wpf.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Core.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Gauge.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\DlhSoft.DataControlLibrary.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\DlhSoft.DataFramework.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.Extras.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\EntityFramework.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Evergine.Common.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Evergine.Mathematics.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Evergine.Platform.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Evergine.Yaml.pdb
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\LiveCharts.pdb
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\LiveCharts.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Barcodes.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Charting.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Charting.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Common.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.DataBinding.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Pdf.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Svg.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Visio.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.Controls.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Keyboard.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.Pdf.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Scripting.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.StandardForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.UI.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\MindFusion.Vsx.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\OxyPlot.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\OxyPlot.WindowsForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\ScottPlot.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Windows.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Compression.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Core.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Core.XForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Gauge.Windows.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Grouping.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChart.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChartToImageConverter.Wpf.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Pdf.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.SfChart.WPF.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.SfGauge.XForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.SfSmithChart.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Syncfusion.Shared.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.Data.SQLite.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.Reflection.TypeExtensions.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\System.ValueTuple.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\MainWindow.g.cs
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\UserControl1.g.cs
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\WindowsFormsApp1_Content.g.cs
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\WindowsFormsApp1_MarkupCompile.cache
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\WindowsFormsApp1_MarkupCompile.lref
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\MainWindow.baml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\UserControl1.baml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.g.resources
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AvionicsInstrumentsControls.AvionicsInstrumentsControlsRessources.resources
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.licenses
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu Temel Tasarim\VerticalSpeedNeedle\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\ActiproSoftware.Gauge.Wpf.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\ActiproSoftware.Shared.Wpf.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Core.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Gauge.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\CodeArtEng.Gauge.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\DlhSoft.DataControlLibrary.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\DlhSoft.DataFramework.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.Extras.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\EntityFramework.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Evergine.Common.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Evergine.Mathematics.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Evergine.Platform.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Evergine.Yaml.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\GMap.NET.Core.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\LiveCharts.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Barcodes.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Barcodes.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Charting.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Charting.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Common.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Common.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.DataBinding.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Pdf.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Svg.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Visio.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.Controls.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Graphs.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Keyboard.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Licensing.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Pdf.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.Pdf.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Scripting.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.StandardForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Svg.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.UI.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Vsx.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\OxyPlot.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\OxyPlot.WindowsForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\ScottPlot.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Windows.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Compression.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Core.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Core.XForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Gauge.Windows.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Grouping.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Licensing.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChart.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChartToImageConverter.Wpf.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Pdf.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.SfChart.WPF.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.SfGauge.XForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.SfSmithChart.WinForms.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Shared.Base.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Data.SQLite.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Drawing.Common.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Reflection.TypeExtensions.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.ValueTuple.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Zip.dll
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\ActiproSoftware.Gauge.Wpf.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\ActiproSoftware.Shared.Wpf.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Core.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Gauge.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\DlhSoft.DataControlLibrary.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\DlhSoft.DataFramework.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.Extras.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\EntityFramework.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Evergine.Common.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Evergine.Mathematics.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Evergine.Platform.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Evergine.Yaml.pdb
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\LiveCharts.pdb
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\LiveCharts.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Barcodes.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Charting.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Charting.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Common.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.DataBinding.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Pdf.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Svg.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Visio.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.Controls.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Keyboard.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.Pdf.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Scripting.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.StandardForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.UI.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Vsx.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\OxyPlot.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\OxyPlot.WindowsForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\ScottPlot.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Windows.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Compression.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Core.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Core.XForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Gauge.Windows.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Grouping.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChart.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChartToImageConverter.Wpf.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Pdf.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.SfChart.WPF.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.SfGauge.XForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.SfSmithChart.WinForms.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Shared.Base.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Data.SQLite.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Reflection.TypeExtensions.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.ValueTuple.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\MainWindow.g.cs
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\UserControl1.g.cs
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1_Content.g.cs
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1_MarkupCompile.cache
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1_MarkupCompile.lref
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\MainWindow.baml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\UserControl1.baml
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.g.resources
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AvionicsInstrumentsControls.AvionicsInstrumentsControlsRessources.resources
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.licenses
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Turqay\OneDrive\Desktop\Yeni klasör\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\MainWindow.g.cs
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\UserControl1.g.cs
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1_Content.g.cs
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1_MarkupCompile.cache
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1_MarkupCompile.lref
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\MainWindow.baml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\UserControl1.baml
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.g.resources
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AvionicsInstrumentsControls.AvionicsInstrumentsControlsRessources.resources
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.licenses
+C:\Users\Turqay\OneDrive\Desktop\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\ActiproSoftware.Gauge.Wpf.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\ActiproSoftware.Shared.Wpf.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Core.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Gauge.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\CodeArtEng.Gauge.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\DlhSoft.DataControlLibrary.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\DlhSoft.DataFramework.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.Extras.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\EntityFramework.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Evergine.Common.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Evergine.Mathematics.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Evergine.Platform.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Evergine.Yaml.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\GMap.NET.Core.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\LiveCharts.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Barcodes.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Barcodes.WinForms.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Charting.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Charting.WinForms.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Common.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Common.WinForms.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.DataBinding.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Pdf.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Svg.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Visio.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.Controls.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.WinForms.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Graphs.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Keyboard.WinForms.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Licensing.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.WinForms.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Pdf.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.WinForms.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.Pdf.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Scripting.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.StandardForms.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Svg.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.UI.WinForms.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Vsx.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\OxyPlot.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\OxyPlot.WindowsForms.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\ScottPlot.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Base.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Windows.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Compression.Base.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Core.WinForms.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Core.XForms.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Gauge.Windows.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Grouping.Base.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Licensing.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChart.Base.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChartToImageConverter.Wpf.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Pdf.Base.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.SfChart.WPF.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.SfGauge.XForms.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.SfSmithChart.WinForms.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Shared.Base.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Data.SQLite.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Drawing.Common.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Reflection.TypeExtensions.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.ValueTuple.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Zip.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\ActiproSoftware.Gauge.Wpf.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\ActiproSoftware.Shared.Wpf.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Core.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Gauge.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\DlhSoft.DataControlLibrary.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\DlhSoft.DataFramework.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.Extras.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\EntityFramework.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Evergine.Common.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Evergine.Mathematics.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Evergine.Platform.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Evergine.Yaml.pdb
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\LiveCharts.pdb
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\LiveCharts.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Barcodes.WinForms.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Charting.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Charting.WinForms.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Common.WinForms.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.DataBinding.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Pdf.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Svg.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Visio.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.Controls.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.WinForms.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Keyboard.WinForms.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.WinForms.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.WinForms.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.Pdf.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Scripting.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.StandardForms.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.UI.WinForms.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MindFusion.Vsx.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\OxyPlot.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\OxyPlot.WindowsForms.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\ScottPlot.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Base.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Windows.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Compression.Base.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Core.WinForms.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Core.XForms.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Gauge.Windows.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Grouping.Base.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChart.Base.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChartToImageConverter.Wpf.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Pdf.Base.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.SfChart.WPF.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.SfGauge.XForms.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.SfSmithChart.WinForms.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Syncfusion.Shared.Base.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Data.SQLite.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Reflection.TypeExtensions.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.ValueTuple.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\MainWindow.g.cs
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\UserControl1.g.cs
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1_Content.g.cs
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1_MarkupCompile.cache
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1_MarkupCompile.lref
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\MainWindow.baml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\UserControl1.baml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.g.resources
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AvionicsInstrumentsControls.AvionicsInstrumentsControlsRessources.resources
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.licenses
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\IronPython.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\IronPython.Modules.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\IronPython.SQLite.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\IronPython.Wpf.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Microsoft.Scripting.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Buffers.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Memory.dll
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\IronPython.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\IronPython.Modules.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\IronPython.SQLite.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\IronPython.Wpf.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Microsoft.Dynamic.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Microsoft.Scripting.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\Microsoft.Scripting.Metadata.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Buffers.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\System.Memory.xml
+C:\Users\Turqay\WindowsFormsApp1.2\WindowsFormsApp1\bin\Debug\MAVLink.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\ActiproSoftware.Gauge.Wpf.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\ActiproSoftware.Shared.Wpf.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Core.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Gauge.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\CodeArtEng.Gauge.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\DlhSoft.DataControlLibrary.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\DlhSoft.DataFramework.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.Extras.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\EntityFramework.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Evergine.Common.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Evergine.Mathematics.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Evergine.Platform.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Evergine.Yaml.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\GMap.NET.Core.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\IronPython.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\IronPython.Modules.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\IronPython.SQLite.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\IronPython.Wpf.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\LiveCharts.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MAVLink.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Microsoft.Scripting.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Barcodes.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Barcodes.WinForms.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Charting.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Charting.WinForms.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Common.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Common.WinForms.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.DataBinding.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Pdf.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Svg.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Visio.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.Controls.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.WinForms.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Graphs.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Keyboard.WinForms.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Licensing.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.WinForms.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Pdf.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.WinForms.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.Pdf.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Scripting.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.StandardForms.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Svg.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.UI.WinForms.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Vsx.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\OxyPlot.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\OxyPlot.WindowsForms.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\ScottPlot.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Base.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Windows.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Syncfusion.Compression.Base.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Syncfusion.Core.WinForms.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Syncfusion.Core.XForms.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Syncfusion.Gauge.Windows.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Syncfusion.Grouping.Base.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Syncfusion.Licensing.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChart.Base.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChartToImageConverter.Wpf.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Syncfusion.Pdf.Base.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Syncfusion.SfChart.WPF.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Syncfusion.SfGauge.XForms.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Syncfusion.SfSmithChart.WinForms.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Syncfusion.Shared.Base.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\System.Buffers.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\System.Data.SQLite.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\System.Drawing.Common.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\System.Memory.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\System.Reflection.TypeExtensions.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\System.ValueTuple.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Zip.dll
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\ActiproSoftware.Gauge.Wpf.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\ActiproSoftware.Shared.Wpf.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Core.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\C1.Xamarin.Forms.Gauge.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\DlhSoft.DataControlLibrary.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\DlhSoft.DataFramework.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\DlhSoft.ProjectDataControlLibrary.Extras.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\EntityFramework.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Evergine.Common.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Evergine.Mathematics.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Evergine.Platform.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Evergine.Yaml.pdb
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\IronPython.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\IronPython.Modules.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\IronPython.SQLite.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\IronPython.Wpf.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\LiveCharts.pdb
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\LiveCharts.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Microsoft.Dynamic.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Microsoft.Scripting.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Microsoft.Scripting.Metadata.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Barcodes.WinForms.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Charting.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Charting.WinForms.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Common.WinForms.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.DataBinding.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Pdf.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Svg.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.Export.Visio.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Diagramming.WinForms.Controls.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Gauges.WinForms.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Keyboard.WinForms.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Mapping.WinForms.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Reporting.WinForms.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Scheduling.Pdf.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Scripting.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Spreadsheet.WinForms.StandardForms.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.UI.WinForms.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\MindFusion.Vsx.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\OxyPlot.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\OxyPlot.WindowsForms.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\ScottPlot.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Base.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Syncfusion.Chart.Windows.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Syncfusion.Compression.Base.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Syncfusion.Core.WinForms.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Syncfusion.Core.XForms.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Syncfusion.Gauge.Windows.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Syncfusion.Grouping.Base.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChart.Base.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Syncfusion.OfficeChartToImageConverter.Wpf.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Syncfusion.Pdf.Base.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Syncfusion.SfChart.WPF.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Syncfusion.SfGauge.XForms.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Syncfusion.SfSmithChart.WinForms.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Syncfusion.Shared.Base.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\System.Buffers.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\System.Data.SQLite.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\System.Memory.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\System.Reflection.TypeExtensions.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\System.ValueTuple.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\obj\Debug\MainWindow.g.cs
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\obj\Debug\UserControl1.g.cs
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\obj\Debug\WindowsFormsApp1_Content.g.cs
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\obj\Debug\WindowsFormsApp1_MarkupCompile.cache
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\obj\Debug\WindowsFormsApp1_MarkupCompile.lref
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\obj\Debug\MainWindow.baml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\obj\Debug\UserControl1.baml
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.g.resources
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AvionicsInstrumentsControls.AvionicsInstrumentsControlsRessources.resources
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.licenses
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Turqay\WindowsFormsApp1.4\WindowsFormsApp1\bin\Debug\System.Drawing.Common.xml

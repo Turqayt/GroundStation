@@ -1,0 +1,354 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MindFusion.Gauges.WinForms</name>
+    </assembly>
+    <members>
+        <member name="T:MindFusion.Gauges.WinForms.BaseGauge`1">
+            <summary>
+            Represents the base class of linear and oval gauge controls.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.BaseGauge`1.#ctor">
+            <summary>
+            Initializes a new instance of the BaseGauge class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.BaseGauge`1.CreateInnerGauge">
+            <summary>
+            Creates the internal gauge object that will be used for painting and hit-testing.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.BaseGauge`1.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Control.OnPaint override.
+            </summary>
+            <param name="e">
+            A PaintEventArgs that contains the event data.
+            </param>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.BaseGauge`1.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Control.OnMouseDown override.
+            </summary>
+            <param name="e">
+            A MouseEventArgs that contains the event data.
+            </param>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.BaseGauge`1.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Control.OnMouseMove override.
+            </summary>
+            <param name="e">
+            A MouseEventArgs that contains the event data.
+            </param>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.BaseGauge`1.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Control.OnMouseUp override.
+            </summary>
+            <param name="e">
+            A MouseEventArgs that contains the event data.
+            </param>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.BaseGauge`1.OnSizeChanged(System.EventArgs)">
+            <summary>
+            Control.OnSizeChanged override.
+            </summary>
+            <param name="e">
+            An EventArgs that contains the event data.
+            </param>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.BaseGauge`1.HitTestObj(System.Drawing.PointF,MindFusion.Gauges.HitTestResultHandler)">
+            <summary>
+            Checks whether the specified point lies within the visual structure of a scale element.
+            </summary>
+            <param name="point">
+            The point to test.
+            </param>
+            <param name="f">
+            A delegate invoked for VisualElement objects during hit-testing.
+            </param>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.BaseGauge`1.GetElementByName(System.String)">
+            <summary>
+            Returns the VisualElement object corresponding to the specified name.
+            </summary>
+            <param name="name">
+            The name of the object to find.
+            </param>
+            <returns>
+            The VisualElement corresponding to the specified name or null
+            (Nothing in Visual Basic) if an element with the specified name
+            does not exists.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.BaseGauge`1.OnPrepaintBackground(MindFusion.Gauges.PrepaintEventArgs)">
+            <summary>
+            Raises the PrepaintBackground event.
+            </summary>
+            <param name="e">
+            An object, containing the event data.
+            </param>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.BaseGauge`1.OnPaintBackground(MindFusion.Gauges.CustomPaintEventArgs)">
+            <summary>
+            Raises the PaintBackground event.
+            </summary>
+            <param name="e">
+            An object, containing the event data.
+            </param>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.BaseGauge`1.OnPrepaintForeground(MindFusion.Gauges.PrepaintEventArgs)">
+            <summary>
+            Raises the PrepaintForeground event.
+            </summary>
+            <param name="e">
+            An object, containing the event data.
+            </param>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.BaseGauge`1.OnPaintForeground(MindFusion.Gauges.CustomPaintEventArgs)">
+            <summary>
+            Raises the PaintForeground event.
+            </summary>
+            <param name="e">
+            An object, containing the event data.
+            </param>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.BaseGauge`1.OnPrepaintScale(MindFusion.Gauges.PrepaintEventArgs)">
+            <summary>
+            Raises the PrepaintScale event.
+            </summary>
+            <param name="e">
+            An object, containing the event data.
+            </param>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.BaseGauge`1.OnPaintScale(MindFusion.Gauges.CustomPaintEventArgs)">
+            <summary>
+            Raises the PaintScale event.
+            </summary>
+            <param name="e">
+            An object, containing the event data.
+            </param>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.BaseGauge`1.OnPrepaintPointer(MindFusion.Gauges.PrepaintEventArgs)">
+            <summary>
+            Raises the PrepaintPointer event.
+            </summary>
+            <param name="e">
+            An object, containing the event data.
+            </param>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.BaseGauge`1.OnPaintPointer(MindFusion.Gauges.CustomPaintEventArgs)">
+            <summary>
+            Raises the PaintPointer event.
+            </summary>
+            <param name="e">
+            An object, containing the event data.
+            </param>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.BaseGauge`1.OnPrepaintTick(MindFusion.Gauges.PrepaintEventArgs)">
+            <summary>
+            Raises the PrepaintTick event.
+            </summary>
+            <param name="e">
+            An object, containing the event data.
+            </param>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.BaseGauge`1.OnPaintTick(MindFusion.Gauges.CustomPaintEventArgs)">
+            <summary>
+            Raises the PaintTick event.
+            </summary>
+            <param name="e">
+            An object, containing the event data.
+            </param>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.BaseGauge`1.OnInnerGaugePrepaintBackground(System.Object,MindFusion.Gauges.PrepaintEventArgs)">
+            <summary>
+            Handles the PrepaintBackground event of the inner gauge.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.BaseGauge`1.OnInnerGaugePaintBackground(System.Object,MindFusion.Gauges.CustomPaintEventArgs)">
+            <summary>
+            Handles the PaintBackground event of the inner gauge.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.BaseGauge`1.OnInnerGaugePrepaintForeground(System.Object,MindFusion.Gauges.PrepaintEventArgs)">
+            <summary>
+            Handles the PrepaintForeground event of the inner gauge.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.BaseGauge`1.OnInnerGaugePaintForeground(System.Object,MindFusion.Gauges.CustomPaintEventArgs)">
+            <summary>
+            Handles the PaintForeground event of the inner gauge.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.BaseGauge`1.OnInnerGaugePrepaintScale(System.Object,MindFusion.Gauges.PrepaintEventArgs)">
+            <summary>
+            Handles the PrepaintScale event of the inner gauge.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.BaseGauge`1.OnInnerGaugePaintScale(System.Object,MindFusion.Gauges.CustomPaintEventArgs)">
+            <summary>
+            Handles the PaintScale event of the inner gauge.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.BaseGauge`1.OnInnerGaugePrepaintPointer(System.Object,MindFusion.Gauges.PrepaintEventArgs)">
+            <summary>
+            Handles the PrepaintPointer event of the inner gauge.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.BaseGauge`1.OnInnerGaugePaintPointer(System.Object,MindFusion.Gauges.CustomPaintEventArgs)">
+            <summary>
+            Handles the PaintPointer event of the inner gauge.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.BaseGauge`1.OnInnerGaugePrepaintTick(System.Object,MindFusion.Gauges.PrepaintEventArgs)">
+            <summary>
+            Handles the PrepaintTick event of the inner gauge.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.BaseGauge`1.OnInnerGaugePaintTick(System.Object,MindFusion.Gauges.CustomPaintEventArgs)">
+            <summary>
+            Handles the PaintTick event of the inner gauge.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.BaseGauge`1.OnInnerGaugeInvalidated(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Invalidated event of the inner gauge.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Gauges.WinForms.BaseGauge`1.InnerGauge">
+            <summary>
+            Gets the underlying MindFusion.Gauges.BaseGauge&lt;T&gt; object.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Gauges.WinForms.BaseGauge`1.DefaultSize">
+            <summary>
+            Control.DefaultSize override.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Gauges.WinForms.BaseGauge`1.Scales">
+            <summary>
+            Gets or sets the scales contained in the gauge.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Gauges.WinForms.BaseGauge`1.CacheVisuals">
+            <summary>
+            Gets or sets a value indicating whether the gauge will cache all background
+            and foreground elements to improve performance.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Gauges.WinForms.BaseGauge`1.LicenseKey">
+            <summary>
+            Gets or sets the license key of the control.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Gauges.WinForms.BaseGauge`1.PrepaintBackground">
+            <summary>
+            Raised when the gauge background is being painted.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Gauges.WinForms.BaseGauge`1.PaintBackground">
+            <summary>
+            Raised when the gauge background is being painted.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Gauges.WinForms.BaseGauge`1.PrepaintForeground">
+            <summary>
+            Raised when the gauge foreground is being painted.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Gauges.WinForms.BaseGauge`1.PaintForeground">
+            <summary>
+            Raised when the gauge foreground is being painted.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Gauges.WinForms.BaseGauge`1.PrepaintScale">
+            <summary>
+            Raised when a tick in the gauge is being painted.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Gauges.WinForms.BaseGauge`1.PaintScale">
+            <summary>
+            Raised when a tick in the gauge is being painted.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Gauges.WinForms.BaseGauge`1.PrepaintPointer">
+            <summary>
+            Raised when a pointer in the gauge is being painted.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Gauges.WinForms.BaseGauge`1.PaintPointer">
+            <summary>
+            Raised when a pointer in the gauge is being painted.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Gauges.WinForms.BaseGauge`1.PrepaintTick">
+            <summary>
+            Raised when a tick in the gauge is being painted.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Gauges.WinForms.BaseGauge`1.PaintTick">
+            <summary>
+            Raised when a tick in the gauge is being painted.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Gauges.WinForms.LinearGauge">
+            <summary>
+            Represents a linear gauge control.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.LinearGauge.#ctor">
+            <summary>
+            Initializes a new instance of the LinearGauge class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.LinearGauge.CreateInnerGauge">
+            <summary>
+            BaseGauge.CreateInnerGauge override.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Gauges.WinForms.LinearGauge.InnerGauge">
+            <summary>
+            Gets the underlying MindFusion.Gauges.LinearGauge.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Gauges.WinForms.LinearGauge.DefaultSize">
+            <summary>
+            Control.DefaultSize override.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Gauges.WinForms.LinearGauge.Orientation">
+            <summary>
+            Gets or sets the orientation of the gauge.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Gauges.WinForms.OvalGauge">
+            <summary>
+            Represents a circular gauge control.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.OvalGauge.#ctor">
+            <summary>
+            Initializes a new instance of the OvalGauge class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Gauges.WinForms.OvalGauge.CreateInnerGauge">
+            <summary>
+            BaseGauge.CreateInnerGauge override.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Gauges.WinForms.OvalGauge.InnerGauge">
+            <summary>
+            Gets the underlying MindFusion.Gauges.OvalGauge.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Gauges.WinForms.OvalGauge.Style">
+            <summary>
+            Gets or sets the visual style of the oval gauge.
+            </summary>
+        </member>
+    </members>
+</doc>

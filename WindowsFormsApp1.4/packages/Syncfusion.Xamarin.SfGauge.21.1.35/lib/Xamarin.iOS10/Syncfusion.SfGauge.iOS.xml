@@ -1,0 +1,2044 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Syncfusion.SfGauge.iOS</name>
+    </assembly>
+    <members>
+        <member name="T:Syncfusion.SfGauge.iOS.RangeAnimationLayer">
+            <summary>
+            Represents RangeAnimationLayer.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.RangeAnimationLayer.#ctor(Syncfusion.SfGauge.iOS.SFRangeLayer)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.SfGauge.iOS.RangeAnimationLayer"/> class.
+            </summary>
+            <param name="rangelayer">To get the range layer</param>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.RangeAnimationLayer.Rangelayer">
+            <summary>
+            Gets or sets the range layer.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFGaugeAnnotation.Angle">
+            <summary>
+            Gets or sets the Angle of Annotation
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFGaugeAnnotation.Offset">
+            <summary>
+            Gets or sets the Offset of Annotation
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFGaugeAnnotation.View">
+            <summary>
+            Gets or sets the View of Annotation
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFGaugeAnnotation.HorizontalAlignment">
+            <summary>
+            Gets or sets a value of HorizontalAlignment
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFGaugeAnnotation.VerticalAlignment">
+            <summary>
+            Gets or sets a value of VerticalViewAlignment
+            </summary>     
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFGaugeAnnotation.ViewMargin">
+            <summary>
+            Gets or sets the position of the view
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFArcLayer.StartAngle">
+            <summary>
+            Gets or sets the StartAngle of ArcLayer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFArcLayer.EndAngle">
+            <summary>
+            Gets or sets the EndAngle of ArcLayer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFArcLayer.Width">
+            <summary>
+            Gets or sets the Width of ArcLayer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFArcLayer.RimThickness">
+            <summary>
+            Gets or sets the RimThickness of ArcLayer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFArcLayer.Radius">
+            <summary>
+            Gets or sets the Radius of ArcLayer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFArcLayer.KnobRadius">
+            <summary>
+            Gets or sets the KnobRadius of ArcLayer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFArcLayer.RimColor">
+            <summary>
+            Gets or sets the RimColor of ArcLayer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFArcLayer.Type">
+            <summary>
+            Gets or sets the Type of ArcLayer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFArcLayer.Gauge">
+            <summary>
+            Gets or sets the gauge
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFCircularGaugeType.SFCircularGaugeTypeDefault">
+            <summary>
+            Represents the Default gauge type
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFCircularGaugeType.SFCircularGaugeTypeNorth">
+            <summary>
+            Represents the North gauge type
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFCircularGaugeType.SFCircularGaugeTypeSouth">
+            <summary>
+            Enumeration for South the gauge type
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFCircularGaugeType.SFCircularGaugeTypeEast">
+             <summary>
+            Represents the East gauge type
+             </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFCircularGaugeType.SFCircularGaugeTypeWest">
+            <summary>
+            Enumeration for West the gauge type
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFCircularGaugeType.SFCircularGaugeTypeNorthEast">
+            <summary>
+            Represents the NorthEast gauge type
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFCircularGaugeType.SFCircularGaugeTypeSouthEast">
+            <summary>
+            Enumeration for SouthEast the gauge type
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFCircularGaugeType.SFCircularGaugeTypeSouthWest">
+            <summary>
+            Represents the SouthWest gauge type
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFCircularGaugeType.SFCircularGaugeTypeNorthWest">
+            <summary>
+            Represents the NorthWest gauge type
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFCircularGauge.rectBounds">
+            <summary>
+            Gets or sets the bounds
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFCircularGauge.circularCoefficient">
+            <summary>
+            Gets or sets the circular coefficient
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFCircularGauge.isFrameChanged">
+            <summary>
+            Checks whether the frame is changed or not.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFCircularGauge.#ctor(CoreGraphics.CGRect)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.SfGauge.iOS.SFCircularGauge"/> class.
+            </summary>
+            <param name="frame">To get the frame</param>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFCircularGauge.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.SfGauge.iOS.SFCircularGauge"/> class.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFCircularGauge.#ctor(System.IntPtr)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.SfGauge.iOS.SFCircularGauge"/> class.
+            </summary>
+            <param name="handle">To get the handle</param>
+        </member>
+        <member name="E:Syncfusion.SfGauge.iOS.SFCircularGauge.Disposed">
+            <summary>
+             Gets or sets the dispose
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularGauge.Scales">
+            <summary>
+            Gets or sets the collection of CircularScale
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularGauge.CircularCoefficient">
+            <summary>
+            Gets or sets the circular coefficient.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularGauge.IsCenterAligned">
+            <summary>
+            Gets or sets a value indicating whether this <see cref="T:Syncfusion.SfGauge.iOS.SFCircularGauge"/> is center placed.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularGauge.Headers">
+            <summary>
+            Gets or sets the collection of headers
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularGauge.Delegate">
+            <summary>
+            Gets or sets the Delegate of headers
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularGauge.PointerValue">
+            <summary>
+            Gets or sets the PointerValue of CircularPointer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularGauge.GaugeType">
+            <summary>
+            Gets or sets the GaugeType of CircularPointer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularGauge.Frame">
+            <summary>
+            Gets or sets the Frame of CircularPointer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularGauge.Site">
+            <summary>
+            Gets or sets the site
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularGauge.Annotations">
+            <summary>
+            Gets or sets the Annotations of CircularPointer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularGauge.CircularRadius">
+            <summary>
+            Gets or sets the radius
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularGauge.RectCenter">
+            <summary>
+            Gets or sets the gauge center
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFCircularGauge.AwakeFromNib">
+            <summary>
+            Method used for designer
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFCircularGauge.CreateDesignTimeCircularGauge(Syncfusion.SfGauge.iOS.SFCircularGauge)">
+            <summary>
+            Method used to design the circular gauge.
+            </summary>
+            <param name="gauge">The gauge</param>
+            <returns>Returns the circular gauge</returns>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFCircularGauge.GaugeInitializer">
+            <summary>
+            Method used to initialize the circular gauge.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFCircularGauge.CalculateBounds(Syncfusion.SfGauge.iOS.SFCircularScale)">
+            <summary>
+             Calculates the bounds from the available size.
+            </summary>
+            <param name="scale">To set the scale</param>      
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFCiruclarGaugePointerType.SFCiruclarGaugePointerTypeBar">
+            <summary>
+            Represents Bar Pointer
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFCiruclarGaugePointerType.SFCiruclarGaugePointerTypeTriangle">
+            <summary>
+            Represents Triangle Pointer
+            </summary>
+        </member>
+        <member name="E:Syncfusion.SfGauge.iOS.SFCircularPointer.ValueChangeStarted">
+            <summary>
+            Called when the user starts selecting a new value of pointer by dragging.
+            </summary>
+            <seealso cref="!:EnableDragging">
+            While dragging the pointer, there are other events (ValueChanging and ValueChangeCompleted) will be called after the ValueChangeStarted event.
+            </seealso>
+            <remarks>
+            This event shouldn't be used to update the pointer value (use PointerPositionChanged event for that), but rather to be notified when the user has started selecting a new value by starting a drag. The value passed will be the last value that the pointer had before the change began.
+            </remarks>
+        </member>
+        <member name="E:Syncfusion.SfGauge.iOS.SFCircularPointer.ValueChanging">
+            <summary>
+            Called during a drag when the user is selecting before a new value for the pointer by dragging.
+            </summary>
+            <seealso cref="!:EnableDragging">
+            While dragging the pointer, there are other events (ValueChangeCompleted) will be called after the ValueChanging event.
+            </seealso>
+            <remarks>
+            This event shouldn't be used to update the pointer value (use PointerPositionChanged event for that), but rather it will show the old value and new value of the pointer.
+            </remarks>
+        </member>
+        <member name="E:Syncfusion.SfGauge.iOS.SFCircularPointer.ValueChangeCompleted">
+            <summary>
+            Called when the user is done selecting a new value of the pointer by dragging.
+            </summary>
+            <seealso cref="!:EnableDragging">
+            While dragging the pointer, there are other events (ValueChangeStarted and ValueChanging ) will be called before the ValueChangeCompleted event.
+            </seealso>
+            <remarks>
+            This event shouldn't be used to update the pointer value (use PointerPositionChanged event for that), but rather to know when the user has completed selecting a new value by ending a drag.
+            </remarks>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularPointer.Width">
+            <summary>
+            Gets or sets the width of the Pointer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularPointer.Value">
+            <summary>
+            Gets or sets the value to which the pointer should point
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularPointer.Color">
+            <summary>
+            Gets or sets the color of the pointer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularPointer.EnableAnimation">
+            <summary>
+            Gets or sets a value indicating whether to enable/disable the pointer animation
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularPointer.AnimationDuration">
+            <summary>
+            Gets or sets animation duration of the pointer
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFCircularPointer.OnPointerValueChangeStarted(Syncfusion.SfGauge.iOS.SFCircularPointer.PointerValueChangedEventArgs)">
+            <summary>
+            This method is used for ValueChangeStart Event.
+            </summary>
+            <param name="args">Pointer ValueChanged event args.</param>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFCircularPointer.OnPointerValueChanging(Syncfusion.SfGauge.iOS.SFCircularPointer.PointerValueChangingEventArgs)">
+            <summary>
+            This method is used for ValueChanging Event.
+            </summary>
+            <param name="args">Pointer ValueChanging event args.</param>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFCircularPointer.OnPointerValueChangeCompleted(Syncfusion.SfGauge.iOS.SFCircularPointer.PointerValueChangedEventArgs)">
+            <summary>
+            This method is used for ValueChangeEnd Event.
+            </summary>
+            <param name="args">Pointer ValueChanged event args.</param>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFCircularPointer.DrawNeedlePointer">
+            <summary>
+            This method is used for drawing the needle pointer.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFCircularPointer.GetStepFrequencyValue(System.Double)">
+            <summary>
+            To get the step frequency value from the start and end value of the pointer.
+            </summary>
+            <param name="currentValue">Specify the current value of pointer. </param>
+            <returns>It returns the step value of the pointer</returns>
+        </member>
+        <member name="T:Syncfusion.SfGauge.iOS.SFCircularPointer.PointerValueChangingEventArgs">
+            <summary>
+            To get the ValueChanging event arguments.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularPointer.PointerValueChangingEventArgs.Cancel">
+            <summary>
+            Gets or sets a value indicating whether to restrict the updating pointer value and cancel dragging.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularPointer.PointerValueChangingEventArgs.NewValue">
+            <summary>
+            Gets the new pointer value which is updating the pointer value.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularPointer.PointerValueChangingEventArgs.OldValue">
+            <summary>
+            Gets the old value of pointer which is updated by pointer dragging.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularPointer.PointerValueChangingEventArgs.CurrentValue">
+            <summary>
+            Gets or sets a value indicates whether the current drag value.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularPointer.PointerValueChangingEventArgs.PreviousValue">
+            <summary>
+            Gets or sets a value indicates whether the previous drag value.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfGauge.iOS.SFCircularPointer.PointerValueChangedEventArgs">
+            <summary>
+            To get the pointer drag value changed arguments.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularPointer.PointerValueChangedEventArgs.CurrentValue">
+            <summary>
+            Gets or sets the value indicates whether the current drag value.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularPointer.PointerValueChangedEventArgs.Value">
+            <summary>
+            Gets the updated value of pointer.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularRange.Color">
+            <summary>
+            Gets or sets the color of the range
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularRange.StartValue">
+            <summary>
+            Gets or sets the start value for the range
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularRange.EndValue">
+            <summary>
+            Gets or sets the end value for the range
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularRange.Width">
+            <summary>
+            Gets or sets the width of the range
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularRange.Offset">
+            <summary>
+            Gets or sets the offset value for the range, which is in factor value
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularRange.InnerStartOffset">
+            <summary>
+            Gets or sets the InnerStartOffset value for the range, which is in factor value
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularRange.OuterStartOffset">
+            <summary>
+            Gets or sets the OuterStartOffset value for the range, which is in factor value
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularRange.InnerEndOffset">
+            <summary>
+            Gets or sets the InnerEndOffset value for the range, which is in factor value
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularRange.OuterEndOffset">
+            <summary>
+            Gets or sets the OuterEndOffset value for the range, which is in factor value
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularRange.GradientStops">
+            <summary>
+            Gets or sets the gradient values of the range
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFCircularRange.Dispose(System.Boolean)">
+            <summary>
+            Dispose circular range objects
+            </summary>
+            <param name="disposing">To get the dispose.</param>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFCircularScaleDirection.Clockwise">
+            <summary>
+            Represents the Clockwise scale direction
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFCircularScaleDirection.AntiClockwise">
+            <summary>
+            Represents the AntiClockwise scale direction
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.Interval">
+            <summary>
+            Gets or sets the interval in the scale
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.EnableAutoInterval">
+            <summary>
+            Gets or sets the EnableAutoInterval in the scale
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.MaximumLabels">
+            <summary>
+            Gets or sets the MaximumLabels in the scale
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.CustomLabels">
+            <summary>
+            Gets or sets the custom labels for linear scale.
+            </summary>
+            <value>The custom labels.</value>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.MinorTicksPerInterval">
+            <summary>
+            Gets or sets the total number of minor ticks between each major ticks in the scale
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.MinorTickSettings">
+            <summary>
+            Gets or sets the customization for minor ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.MajorTickSettings">
+            <summary>
+            Gets or sets the customization for major ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.RadiusFactor">
+            <summary>
+            Gets or sets the radius factor for minor ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.ScaleStartOffset">
+            <summary>
+            Gets or sets the ScaleStartOffset of the scale.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.ScaleEndOffSet">
+            <summary>
+            Gets or sets the ScaleEndOffSet of the scale.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.StartAngle">
+            <summary>
+            Gets or sets the start angle of the range
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.SweepAngle">
+            <summary>
+            Gets or sets the sweep angle of the range
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.StartValue">
+            <summary>
+            Gets or sets the start value of scale
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.EndValue">
+            <summary>
+            Gets or sets the end value of scale
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.RimWidth">
+            <summary>
+            Gets or sets the width of the rim
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.RimColor">
+            <summary>
+            Gets or sets the color of the rim
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.Pointers">
+            <summary>
+            Gets or sets the pointers of the scale
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.Ranges">
+            <summary>
+            Gets or sets the ranges of the scale
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.LabelFont">
+            <summary>
+            Gets or sets the font of the label
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.LabelOffset">
+            <summary>
+            Gets or sets the offset of the label
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.NumberOfDecimalDigits">
+            <summary>
+            Gets or sets the no of Fractional Digit display
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.LabelColor">
+            <summary>
+            Gets or sets the color of the label
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.LabelPrefix">
+            <summary>
+            Gets or sets the prefix of the label
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.LabelPostfix">
+            <summary>
+            Gets or sets the postfix of the label
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.ShowLabels">
+            <summary>
+            Gets or sets whether to show label or not
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.UseRangeColorForLabels">
+            <summary>
+            Gets or sets whether to show label or not
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.EnableAutoAngle">
+            <summary>
+            Gets or sets whether to rotate label or not
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.ShowRim">
+            <summary>
+            Gets or sets whether to show rim or not
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.ShowTicks">
+            <summary>
+            Gets or sets a value indicating whether to show ticks or not
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.ShowFirstLabel">
+            <summary>
+            Gets or sets a value indicating whether to show first label or not.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.ShowLastLabel">
+            <summary>
+            Gets or sets a value indicating whether to show last label or not.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.Direction">
+            <summary>
+            Gets or sets direction of the scale
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.RangeLayerCollection">
+            <summary>
+            Gets or sets rangePointers of the scale
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFCircularScale.ScaleCustomLabels">
+            <summary>
+            Gets or sets the scale custom labels
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFCircularScale.GetCenter(System.Single,System.Single)">
+            <summary>
+            Calculates the center position.
+            </summary>
+            <param name="availableWidth">available width</param>
+            <param name="availableHeight">availabel height</param>
+            <returns>Actual center position of the gauge</returns>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFCircularScale.GetActualCenter(System.Single,System.Single,System.Single)">
+            <summary>
+            Calculates the actual center position based on the start and sweep angles.
+            </summary>
+            <param name="x">center x position of available size</param>
+            <param name="y">center y position of available size</param>
+            <param name="radius">radius value</param>
+            <returns>Returns center point</returns>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFCircularScale.GetMinMaxValue(CoreGraphics.CGPoint,CoreGraphics.CGPoint,System.Int32)">
+            <summary>
+            Calculates the minimum and maximum value.
+            </summary>
+            <param name="point1">start point</param>
+            <param name="point2">end point</param>
+            <param name="degree">angle in degrees</param>
+            <returns>Returns minmax value</returns>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFCircularScale.GetWrapAngle(System.Double,System.Int32,System.Int32)">
+            <summary>
+            Calculates the angle based on start and sweep angles.
+            </summary>
+            <param name="angle">start or sweep angle</param>
+            <param name="min">Minimum angle as -630</param>
+            <param name="max">Maximum angle as 630</param>
+            <returns>Returns angle</returns>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.LabelCreatedEventArgs.LabelContent">
+            <summary>
+            Gets or sets LabelContent of label
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFGaugeHeader.HorizontalHeaderPosition">
+            <summary>
+            Gets or sets the horizontal position for header.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFGaugeHeader.VerticalHeaderPosition">
+            <summary>
+            Gets or sets the vertical position for header.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFGaugeHeader.TextStyle">
+            <summary>
+            Gets or sets the style of the text
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFGaugeHeader.Text">
+            <summary>
+            Gets or sets string value for the text
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFGaugeHeader.TextColor">
+            <summary>
+            Gets or sets color for the text
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFGaugeHeader.Position">
+            <summary>
+            Gets or sets position the text
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFGaugeHeader.ArcRadius">
+            <summary>
+            Gets or sets the radius of gauge
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFNeedlePointer.stepFrequency">
+            <summary>
+            Gets or sets the step frequency value.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFNeedlePointer.KnobStrokeWidth">
+            <summary>
+            Gets or sets the KnobStrokeWidth of the Needle Pointer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFNeedlePointer.KnobStrokeColor">
+            <summary>
+            Gets or sets the KnobStrokeColor of the Needle Pointer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFNeedlePointer.TailColor">
+            <summary>
+            Gets or sets the tail color of the pointer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFNeedlePointer.TailLengthFactor">
+            <summary>
+            Gets or sets the TailLengthFactor of the Needle Pointer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFNeedlePointer.TailStrokeWidth">
+            <summary>
+            Gets or sets the TailStrokeWidth of the Needle Pointer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFNeedlePointer.TailStrokeColor">
+            <summary>
+            Gets or sets the TailStrokeColor of the Needle Pointer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFNeedlePointer.EnableDragging">
+            <summary>
+            Gets or sets a value indicating whether to enable dragging or not.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFNeedlePointer.StepFrequency">
+            <summary>
+            Gets or sets the snap value to the needle pointer. While dragging the pointer, it will move to next value based on step frequency value. Default value is 0. 
+            </summary>
+            <remarks> To drag with step frequency value, enable dragging support for pointer. </remarks>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFPointerPosition.RangeStartValue">
+            <summary>
+            Gets or sets the start value for the RangePointer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFPointerPosition.PointerValue">
+            <summary>
+            Gets or sets the pointer value of the pointer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFPointerPosition.RangeStartPosition">
+            <summary>
+            Gets or sets the position for the RangeStart
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFPointerPosition.PointerValuePosition">
+            <summary>
+            Gets or sets the position of the PointerValue
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFPointerPosition.PointerIndex">
+            <summary>
+            Gets or sets the Index of the Pointer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFPointerPosition.ScaleIndex">
+            <summary>
+            Gets or sets the Index of the Scale
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFRangeLayer.StartValue">
+            <summary>
+            Gets or sets the StartValue of Range.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFRangeLayer.EndValue">
+            <summary>
+            Gets or sets the EndValue of Range.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFRangeLayer.OldEndValue">
+            <summary>
+            Gets or sets the oldEndValue of Range.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFRangeLayer.Width">
+            <summary>
+            Gets or sets the Width of Range.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFRangeLayer.RangeThickness">
+            <summary>
+            Gets or sets the RangeThickness of Range.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFRangeLayer.Radius">
+            <summary>
+            Gets or sets the Radius of Range.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFRangeLayer.RangeColor">
+            <summary>
+            Gets or sets the RangeColor of Range.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFRangeLayer.KnobRadius">
+            <summary>
+            Gets or sets the KnobRadius of Range.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFRangeLayer.Type">
+            <summary>
+            Gets or sets the Type of Range.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFRangeLayer.Gauge">
+            <summary>
+            Gets or sets the gauge
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFRangeLayer.DrawRangePointer(System.Boolean)">
+            <summary>
+             Draw the range pointer and animate when animation enabled and can animator is true.
+            </summary>
+            <param name="canAnimate">Specify whether the animation should be performed or not.</param>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFCiruclarGaugeRangeCap.Start">
+            <summary>
+            Represents for the Start RangeCap
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFCiruclarGaugeRangeCap.End">
+            <summary>
+            Represents for the End RangeCap
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFCiruclarGaugeRangeCap.Both">
+            <summary>
+            Represents for the Both RangeCap
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFCiruclarGaugeRangeCap.None">
+            <summary>
+            Represents for the None RangeCap
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFRangePointer.IsRangeStartChanged">
+            <summary>
+            Gets or sets a value indicating whether range is started or not.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFRangePointer.RangeLayer">
+            <summary>
+            Gets or sets a value for the range layer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFRangePointer.StartOffset">
+            <summary>
+            Gets or sets the StartOffset of RangePointer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFRangePointer.EndOffset">
+            <summary>
+            Gets or sets the EndOffset of Range Pointers
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFRangePointer.Offset">
+            <summary>
+            Gets or sets the Offset of Range Pointers
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFRangePointer.RadiusFactor">
+            <summary>
+            Gets or sets the radius factor for Range Pointers
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFRangePointer.RangeStart">
+            <summary>
+            Gets or sets the start value for Range Pointers
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFRangePointer.RangeCap">
+            <summary>
+            Gets or sets the range cap for Range Pointers
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFRangePointer.DrawRangePointerForAnimation(System.Boolean)">
+            <summary>
+            Render the rang pointer with animation when adding pointer dynamically.
+            </summary>
+            <param name="shouldAnimate">Animate based on dynamic property changes</param>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTickSettings.Size">
+            <summary>
+            Gets or sets the length or height of the major and minor tick
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTickSettings.Width">
+            <summary>
+            Gets or sets the width or thickness of the major and minor tick
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTickSettings.Offset">
+            <summary>
+            Gets or sets the major and minor tick, in term of factor
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTickSettings.Color">
+            <summary>
+            Gets or sets the color of the major and minor tick
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTickSettings.StartOffset">
+            <summary>
+            Gets or sets the major and minor tick Start offset
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTickSettings.EndOffset">
+            <summary>
+            Gets or sets the major and minor tick end offset
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTicksView.MajorTicks">
+            <summary>
+            Gets or sets the MajorTicks of Ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTicksView.StrokeWidth">
+            <summary>
+            Gets or sets the StrokeWidth of Ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTicksView.Radius">
+            <summary>
+            Gets or sets the Radius of Ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTicksView.MajorTicksColor">
+            <summary>
+            Gets or sets the MajorTicksColor of Ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTicksView.MinorTicksColor">
+            <summary>
+            Gets or sets the MinorTicksColor of Ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTicksView.ArcColor">
+            <summary>
+            Gets or sets the ArcColor of Ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTicksView.Interval">
+            <summary>
+            Gets or sets the Interval of Ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTicksView.MinorTicksPerInterval">
+            <summary>
+            Gets or sets the MinorTicksPerInterval of Ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTicksView.MinorTickSettings">
+            <summary>
+            Gets or sets the MinorTickSettings of Ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTicksView.MajorTickSettings">
+            <summary>
+            Gets or sets the MajorTickSettings of Ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTicksView.Radious">
+            <summary>
+            Gets or sets the Radius of Ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTicksView.ScalePosition">
+            <summary>
+            Gets or sets the ScalePosition of Ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTicksView.StartAngle">
+            <summary>
+            Gets or sets the StartAngle of Ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTicksView.SweepAngle">
+            <summary>
+            Gets or sets the SweepAngle of Ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTicksView.StartValue">
+            <summary>
+            Gets or sets the StartValue of Ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTicksView.EndValue">
+            <summary>
+            Gets or sets the EndValue of Ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTicksView.RimThinkness">
+            <summary>
+            Gets or sets the RimThickness of Ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTicksView.RimColor">
+            <summary>
+            Gets or sets the RimColor of Ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTicksView.Pointers">
+            <summary>
+            Gets or sets the Pointers of Ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTicksView.Ranges">
+            <summary>
+            Gets or sets the Ranges of Ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTicksView.LabelFont">
+            <summary>
+            Gets or sets the LabelFont of Ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTicksView.LabelOffset">
+            <summary>
+            Gets or sets the LabelOffset of Ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTicksView.LabelColor">
+            <summary>
+            Gets or sets the LabelColor of Ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTicksView.LabelPrefix">
+            <summary>
+            Gets or sets the LabelPrefix of Ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTicksView.LabelPostfix">
+            <summary>
+            Gets or sets the LabelPostfix of Ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTicksView.ShowScaleLabel">
+            <summary>
+            Gets or sets a value indicating whether the ShowScaleLabel of Ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFTicksView.ShowRim">
+            <summary>
+            Gets or sets a value indicating whether the ShowRim of Ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFDigitalGauge.CharacterType">
+            <summary>
+            Gets or sets the Character Type to display in view
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFDigitalGauge.StrokeType">
+            <summary>
+            Gets or sets Stroke type to change the view of character edges
+            </summary>
+            <value>The type of the stroke.</value>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFDigitalGauge.DimmedSegmentAlpha">
+            <summary>
+            Gets or sets the Alpha values for Disabled segment color
+            </summary>
+            <value>The dimmed segment alpha.</value>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFDigitalGauge.CharacterHeight">
+            <summary>
+            Gets or sets Character Height for each character of Digital Gauge.
+            </summary>
+            <value>The height of the character.</value>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFDigitalGauge.CharacterWidth">
+            <summary>
+            Gets or sets Character Width for each character of Digital Gauge
+            </summary>
+            <value>The width of the character.</value>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFDigitalGauge.SegmentWidth">
+            <summary>
+            Gets or sets segment width for each character's segment
+            </summary>
+            <value>The width of the segment.</value>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFDigitalGauge.CharactersSpacing">
+            <summary>
+            Gets or sets space between each character
+            </summary>
+            <value>The characters spacing.</value>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFDigitalGauge.VerticalPadding">
+            <summary>
+            Gets or sets Vertical padding in Digital Gauge Frame
+            </summary>
+            <value>The vertical padding.</value>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFDigitalGauge.HorizontalPadding">
+            <summary>
+            Gets or sets Horizontal padding in Digital Gauge Frame
+            </summary>
+            <value>The horizontal padding.</value>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFDigitalGauge.CharacterColor">
+            <summary>
+            Gets or sets segment color for each character
+            </summary>
+            <value>The color of the character.</value>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFDigitalGauge.DimmedSegmentColor">
+            <summary>
+            Gets or sets segment color for disabled segment in each character
+            </summary>
+            <value>The color of the dimmed segment.</value>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFDigitalGauge.Value">
+            <summary>
+            Gets or sets string value to Display in Digital Gauge frame
+            </summary>
+            <value>The value.</value>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFDigitalGauge.#ctor(System.IntPtr)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.SfGauge.iOS.SFDigitalGauge"/> class.
+            </summary>
+            <param name="handle">The handle </param>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFDigitalGauge.AwakeFromNib">
+            <summary>
+            Method used for designer
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFDigitalGauge.CreateDesignTimeDigitalGauge(Syncfusion.SfGauge.iOS.SFDigitalGauge)">
+            <summary>
+            Method used to design the digital gauge.
+            </summary>
+            <param name="digitalGauge">The gauge</param>
+            <returns>Returns the gauge</returns>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFDigitalGauge.ResetSize">
+            <summary>
+            used to reset the size in DigitalGauge
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFDigitalGauge.SizeOfContents">
+            <summary>
+            used to specify the size of the contents in DigitalGauge 
+            </summary>
+            <returns>Returns size of the Content </returns>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFDigitalGauge.Site">
+            <summary>
+            Gets or sets site
+            </summary>
+        </member>
+        <member name="E:Syncfusion.SfGauge.iOS.SFDigitalGauge.Disposed">
+            <summary>
+            Gets or sets the dispose.
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfGauge.iOS.ViewAlignment">
+            <summary>
+            Represents ViewAlignment
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.ViewAlignment.Start">
+            <summary>
+            Represents Start ViewAlignment
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.ViewAlignment.Center">
+            <summary>
+            Represents Center ViewAlignment
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.ViewAlignment.End">
+            <summary>
+            Represents End ViewAlignment
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearGaugeAnnotation.ViewMargin">
+            <summary>
+            Gets or sets the position of the view
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfGauge.iOS.SFLinearAnnotationCollection">
+            <summary>
+             Represents the SFLinearAnnotationCollection class
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFBarPointer.timer">
+            <summary>
+            The timer.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFBarPointer.timeOffset">
+            <summary>
+            The time offset.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFBarPointer.lastStep">
+            <summary>
+            The Last step.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFBarPointer.PreviousValue">
+            <summary>
+            Gets or sets the previous value.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFBarPointer.ActualValue">
+            <summary>
+            Gets or sets the actual value.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFBarPointer.CornerRadiusValue">
+            <summary>
+            Gets or sets the rounded corner radius.
+            </summary>
+            <value>The rounded corner radius.</value>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFBarPointer.CornerRadiusType">
+            <summary>
+            Gets or sets the range cap.
+            </summary>
+            <value>The range cap.</value>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFBarPointer.GradientStops">
+            <summary>
+            Gets or sets the gradient values of the range
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFBarPointer.BarPointerAnimation">
+            <summary>
+            Animation of the BarPointer.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFLinearGauge.internalAnnotationsCollection">
+            <summary>
+            Gets or sets the annotation collection.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearGauge.Scales">
+             <summary>
+            Gets or sets the collection of Scales
+             </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearGauge.Header">
+            <summary>
+            Gets or sets the collection of Headers
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearGauge.Orientation">
+            <summary>
+            Gets or sets the orientation of the Linear Gauge
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFLinearGauge.deviceOrientation">
+            <summary>
+            Device Orientation.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFLinearGauge.deviceRotatedObserver">
+            <summary>
+            Device rotated observer field.
+            </summary>
+        </member>
+        <member name="E:Syncfusion.SfGauge.iOS.SFLinearGauge.Disposed">
+             <summary>
+            Gets or sets the dispose
+             </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearGauge.Frame">
+            <summary>
+            Gets or sets the Frame of CircularPointer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearGauge.Site">
+             <summary>
+            Gets or sets the site
+             </summary>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFLinearGauge.#ctor(System.IntPtr)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.SfGauge.iOS.SFLinearGauge"/> class.
+            </summary>
+            <param name="handle">To get the handle.</param>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFLinearGauge.AwakeFromNib">
+            <summary>
+            Method used for designer
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFLinearGauge.CreateDesignTimeLinearGauge(Syncfusion.SfGauge.iOS.SFLinearGauge)">
+            <summary>
+            Method used to design the linear gauge.
+            </summary>
+            <param name="linearGauge">The gauge</param>
+            <returns>Returns linear gauge</returns>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFLinearGauge.TraitCollectionDidChange(UIKit.UITraitCollection)">
+            <summary>
+            Called when the device is rotated.
+            </summary>
+            <param name="previousTraitCollection"> The UITraitCollection .</param>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFLinearGauge.DeviceRotated(Foundation.NSNotification)">
+            <summary>
+            Called when the device is rotated.
+            </summary>
+            <param name="obj">The sNSNotification.</param>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFLinearGauge.CheckDeviceRotationWhileAnimation">
+            <summary>
+             Check Device Rotation While Animation.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFLinearGauge.ResetAnnotation">
+            <summary>
+            Reset the Annotation.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFLinearGauge.ValidateNeedlePointerValue(System.nfloat,System.nfloat,System.nfloat)">
+            <summary>
+             used to validate the needle value and returns the correct needle value based on the minimum and maximum scale value
+            </summary>
+            <param name="scaleMinimum">scale minimum value</param>
+            <param name="scaleMaximum">scale maximum value</param>
+            <param name="needleValue">Needle value</param>
+            <returns>Needle Pointer Value</returns>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFLinearGauge.SetValue(System.nfloat,System.Boolean,Syncfusion.SfGauge.iOS.SFLinearPointer)">
+            <summary>
+             used to set values for pointer in LinearGauge
+            </summary>
+            <param name="value">To get the value</param>
+            <param name="animated">To get the animation</param>
+            <param name="pointer">To get the pointer</param>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFLinearGauge.SetValue(System.nfloat,System.Boolean,System.Int32)">
+            <summary>
+            used to set values for pointer in LinearGauge
+            </summary>
+            <param name="value">To get the value</param>
+            <param name="animated">To get the animation</param>
+            <param name="pointer">To get the pointer</param>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFLinearGauge.Refresh">
+            <summary>
+             Refresh values in LinearGauge
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFLinearGaugeOrientation.SFLinearGaugeOrientationVertical">
+            <summary>
+              Denotes the Vertical Orientation
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFLinearGaugeOrientation.SFLinearGaugeOrientationHorizontal">
+            <summary>
+            Denotes the Horizontal Orientation
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearLabel.Font">
+            <summary>
+             Gets or sets the font of the header
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearLabel.Text">
+            <summary>
+            Gets or sets the text of the header
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearLabel.Color">
+            <summary>
+             Gets or sets the color of the header
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearLabel.Position">
+            <summary>
+            Gets or sets the position of the header
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfGauge.iOS.CornerRadiusType">
+            <summary>
+            Represents CornerRadiusType
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.CornerRadiusType.Start">
+            <summary>
+            Represents Start CornerRadiusType
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.CornerRadiusType.End">
+            <summary>
+            Represents End CornerRadiusType
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.CornerRadiusType.Both">
+            <summary>
+            Represents Both CornerRadiusType
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.CornerRadiusType.None">
+            <summary>
+            Represents None CornerRadiusType
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearPointer.Thickness">
+            <summary>
+             Gets or sets the thickness of the Pointer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearPointer.Value">
+            <summary>
+             Gets or sets the value of the Pointer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearPointer.Color">
+            <summary>
+            Gets or sets the color of the Pointer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearPointer.EnableAnimation">
+            <summary>
+             Gets or sets a value indicating whether to enable animation in Linear Gauge
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearPointer.AnimationDuration">
+            <summary>
+            Gets or sets animation duration of the pointer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearRange.Color">
+            <summary>
+            Gets or sets the Color of the Range
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearRange.StartValue">
+            <summary>
+            Gets or sets the start value for the Range
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearRange.EndValue">
+            <summary>
+            Gets or sets the end value for the Range
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearRange.StartWidth">
+            <summary>
+             Gets or sets the start width for the Range
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearRange.EndWidth">
+            <summary>
+             Gets or sets the end width for the Range
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearRange.Offset">
+            <summary>
+             Gets or sets the  offset value for the Range
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearRange.GradientStops">
+            <summary>
+            Gets or sets the gradient values of the range
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFLinearScale.scaleOffset">
+            <summary>
+            Gets or sets the scaleOffset
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFLinearScale.isLastLabel">
+            <summary>
+            Indicating whether the label is last label or not.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFLinearScale.isLastMinorTicksAdded">
+            <summary>
+            Indicating whether the last minor ticks added in linear scale.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearScale.StartValue">
+            <summary>
+            Gets or sets the Start Value.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearScale.CustomLabels">
+            <summary>
+            Gets or sets the custom labels for linear scale
+            </summary>
+            <value>The custom labels.</value>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearScale.ScalePosition">
+            <summary>
+             Gets or sets the direction to the scale
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearScale.Interval">
+            <summary>
+             Gets or sets the interval in between the scale
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearScale.MinorTicksPerInterval">
+            <summary>
+             Gets or sets the minor interval in between the scale
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearScale.MinorTickSettings">
+            <summary>
+             Sets the MinorTickSettings for the scale
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearScale.MajorTickSettings">
+            <summary>
+              Gets or sets the majorTickSettings for the scale
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearScale.Minimum">
+            <summary>
+            Gets or sets the minimum value for the scale
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearScale.Maximum">
+            <summary>
+              Gets or sets the maximum value for the scale
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearScale.ScaleOffset">
+            <summary>
+            Gets or sets the value of ScaleOffset
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearScale.ScaleBarColor">
+            <summary>
+              Gets or sets the color for the scale bar
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearScale.ScaleBarLength">
+            <summary>
+             Gets or sets the length for the scale bar
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearScale.ScaleBarSize">
+            <summary>
+             Gets or sets the size for the scale bar
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearScale.FrameOffset">
+            <summary>
+            Gets or sets the offset value for the scale bar
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearScale.Pointers">
+            <summary>
+            Gets or sets the collection for the Pointers
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearScale.Ranges">
+            <summary>
+             Gets or sets the collection for the Ranges
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearScale.LabelFont">
+            <summary>
+             Gets or sets the Font style for the label
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearScale.LabelOffset">
+            <summary>
+              Gets or sets the offset value for the label
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearScale.Offset">
+            <summary>
+              Gets or sets the offset value for the scale
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearScale.CornerRadius">
+            <summary>
+            Gets or sets the corner radius value for the scale
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearScale.CornerRadiusType">
+            <summary>
+            Gets or sets the corner radius type
+            </summary>
+            <value>The corner radius type.</value>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearScale.LabelColor">
+            <summary>
+              Gets or sets the color for the label
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFLinearScale.labelFormat">
+            <summary>
+            Declared the labelFormat variable and set the default value as empty.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearScale.LabelFormat">
+            <summary>
+            Gets or Sets the format value of label.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFLinearScale.culture">
+            <summary>
+            Declared the culture variable of CultureInfo type and set the default value.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearScale.Culture">
+            <summary>
+            Gets or Sets the Culture value of label.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearScale.LabelPrefix">
+            <summary>
+              Gets or sets the prefix value for the label
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearScale.LabelPostfix">
+            <summary>
+            Gets or sets the postfix value for the label
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearScale.ShowScaleLabel">
+            <summary>
+            Gets or sets a value indicating whether to show Label for the scale
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearScale.ShowTicks">
+            <summary>
+            Gets or sets a value indicating whether to show Ticks for the scale
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearScale.OpposedPosition">
+            <summary>
+            Gets or sets a value indicating the side of the scale
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearScale.MaximumLabels">
+            <summary>
+              Gets or sets the max labels value for the label
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearScale.ShowRim">
+            <summary>
+             Gets or sets a value indicating whether to show the Scale
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearScale.GradientStops">
+            <summary>
+            Gets or sets the gradient values of the linear scale
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFLinearScale.Dispose(System.Boolean)">
+            <summary>
+            Dispose scale pointer and range collection changed events.
+            </summary>
+            <param name="disposing">To get the dispose.</param>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFLinearScale.GetFormattedString(System.Double,System.String)">
+            <summary>
+            Method used to format the label 
+            </summary>
+            <param name="scaleLabel">To get the label values</param>
+            <param name="format">To get the formatted string type</param>
+            <returns>The formatted Text</returns>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFLinearScale.DrawCustomMinorTicks(CoreGraphics.CGContext,System.Double[],System.Int32,System.Single,System.Single,System.Single)">
+            <summary>
+            Method used to draw the custom minor ticks
+            </summary>
+            <param name="ctx">to get the context</param>
+            <param name="customMajorLabels">to get the custom labels</param>
+            <param name="customLabelsIndex">to get the label index</param>
+            <param name="pointX">to get the x point</param>
+            <param name="pointY">to get the y point</param>
+            <param name="scaleLength">to get the scale length</param>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.SFLinearScale.CalculatMinorTicksDistance(System.Double[],System.Int32,System.Single,System.Int32)">
+            <summary>
+            Method used to calculate minor ticks distance
+            </summary>
+            <param name="customMajorLabels">to get the custom labels</param>
+            <param name="customLabelsIndex">to get the index</param>
+            <param name="scaleLength">to get the scale length</param>
+            <param name="minorTicksCount">to get the minor ticks count</param>
+            <returns>returns the distance of minor ticks</returns>
+        </member>
+        <member name="T:Syncfusion.SfGauge.iOS.SFLinearGaugeScalePosition">
+            <summary>
+            Gets or sets the LinearGaugeScalePosition
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFLinearGaugeScalePosition.SFLinearGaugeScalePositionForward">
+            <summary>
+            Gets or sets the SFLinearGaugeScalePositionForward LinearGaugeScalePosition
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFLinearGaugeScalePosition.SFLinearGaugeScalePositionBackward">
+            <summary>
+            Gets or sets SFLinearGaugeScalePositionBackward LinearGaugeScalePosition
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearTickSettings.Length">
+            <summary>
+             Gets or sets length value of the Ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearTickSettings.Thickness">
+            <summary>
+             Gets or sets thickness value of the Ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearTickSettings.Color">
+            <summary>
+             Gets or sets color of the Ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFLinearTickSettings.Offset">
+            <summary>
+            Gets or sets offSet value of the Ticks
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFSymbolPointer.IsRotated">
+            <summary>
+            Gets or sets a value indicating whether the frame is updated due to rotation
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFSymbolPointer.LengthFactor">
+            <summary>
+             Gets or sets the length factor for the Pointer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFSymbolPointer.Offset">
+            <summary>
+            Gets or sets the  offset value for the Pointer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFSymbolPointer.SymbolPosition">
+            <summary>
+            Gets or sets the SymbolPosition for the Pointer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFSymbolPointer.MarkerShape">
+            <summary>
+            Gets or sets the SymbolPosition for the Pointer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFSymbolPointer.ImageSource">
+            <summary>
+            Gets or sets the ImageSource of the Marker Pointer
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfGauge.iOS.SymbolPointerPosition">
+            <summary>
+            Represents SymbolPointerPosition
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SymbolPointerPosition.Far">
+            <summary>
+            Represents Far SymbolPointerPosition
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SymbolPointerPosition.Away">
+             <summary>
+            Represents Away SymbolPointerPosition
+             </summary>
+        </member>
+        <member name="T:Syncfusion.SfGauge.iOS.MarkerShape">
+            <summary> 
+            Represents MarkerShape of MarkerPointer
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.MarkerShape.Circle">
+            <summary>
+            Represents Circle MarkerShape of MarkerPointer
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.MarkerShape.Diamond">
+            <summary>
+            Represents Diamond MarkerShape of MarkerPointer
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.MarkerShape.Image">
+            <summary>
+            Represents Image MarkerShape of MarkerPointer
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.MarkerShape.InvertedTriangle">
+            <summary>
+            Represents InvertedTriangle MarkerShape of MarkerPointer
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.MarkerShape.Triangle">
+            <summary>
+            Represents Triangle MarkerShape of MarkerPointer
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.MarkerShape.Rectangle">
+            <summary>
+            Represents Rectangle MarkerShape of MarkerPointer
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.SFMarkerPointer.stepFrequency">
+            <summary>
+            Gets or sets the step frequency value.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFMarkerPointer.MarkerWidth">
+            <summary>
+            Gets or sets the MarkerWidth of the Marker Pointer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFMarkerPointer.MarkerHeight">
+            <summary>
+            Gets or sets the MarkerHeight of the Marker Pointer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFMarkerPointer.MarkerShape">
+            <summary>
+            Gets or sets the MarkerShape of the Marker Pointer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFMarkerPointer.ImageSource">
+            <summary>
+            Gets or sets the ImageSource of the Marker Pointer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFMarkerPointer.Offset">
+            <summary>
+            Gets or sets the Offset of the Marker Pointer
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFMarkerPointer.EnableDragging">
+            <summary>
+            Gets or sets a value indicating whether to enable dragging or not.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.SFMarkerPointer.StepFrequency">
+            <summary>
+            Gets or sets the snap value to the marker pointer. While dragging the pointer, it will move to next value based on step frequency value. Default value is 0. 
+            </summary>
+            <remarks> To drag with step frequency value, enable dragging support for pointer. </remarks>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.GaugeGradientStop.color">
+            <summary>
+            Gets or sets color.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.GaugeGradientStop.gradientValue">
+            <summary>
+            Gets or sets gradient value.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.GaugeGradientStop.actualValue">
+            <summary>
+            Gets or sets the value for actual value of gradient stop
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.GaugeGradientStop.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.SfGauge.iOS.GaugeGradientStop"/> class.
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.GaugeGradientStop.Color">
+            <summary>
+            Gets or sets the gradient color of the range
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.GaugeGradientStop.Value">
+            <summary>
+            Gets or sets the value for the range
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.GaugeGradientStop.ActualValue">
+            <summary>
+            Gets or sets the value for actual value of gradient stop
+            </summary>
+        </member>
+        <member name="P:Syncfusion.SfGauge.iOS.GaugeGradientStop.Gauge">
+            <summary>
+            Gets or sets the gauge.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.GradientView.centerX">
+            <summary>
+            Gets or sets the centerX.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.GradientView.centerY">
+            <summary>
+            Gets or sets centerY.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.GradientView.arcRadius">
+            <summary>
+            Gets or sets the arc radius.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.GradientView.arcstartAngle">
+            <summary>
+            Gets or sets the arc start angle.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.GradientView.arcEndAngle">
+            <summary>
+            Gets or sets the arc end angle.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.GradientView.arcClockwise">
+            <summary>
+            Gets or sets the arc clockwise.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.GradientView.startColor">
+            <summary>
+            Gets or sets the start color.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.GradientView.endColor">
+            <summary>
+            Gets or sets the end color.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.GradientView.arcWidth">
+            <summary>
+            Gets or sets arc width.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.GradientView.arcOffset">
+            <summary>
+            Gets or sets the arc offset.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.GradientView.isMiddleGradient">
+            <summary>
+            Checks whether the gradient is not the last gradient.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.GradientView.extraAngle">
+            <summary>
+            Describe the addition angle added to the gradient to fix the thin line shown between two gradients.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.GradientView.innerCenterX">
+            <summary>
+            Gets or sets the inner centerX.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.GradientView.innerCenterY">
+            <summary>
+            Gets or sets the inner centerY.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.GradientView.innerRadius">
+            <summary>
+            Gets or sets the inner radius.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.GradientView.innerStartAngle">
+            <summary>
+            Gets or sets the inner start angle.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.iOS.GradientView.innerEndAngle">
+            <summary>
+            Gets or sets the inner end angle.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.GradientView.#ctor(CoreGraphics.CGPoint,System.nfloat,System.nfloat,System.nfloat,System.Boolean,UIKit.UIColor,UIKit.UIColor,System.nfloat,System.nfloat,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.SfGauge.iOS.GradientView"/> class.
+            </summary>
+            <param name="center">To get the center</param>
+            <param name="radius">To get the radius</param>
+            <param name="startAngle">To get the start angle</param>
+            <param name="endAngle">To get the end angle</param>
+            <param name="clockwise">To get the clockwise</param>
+            <param name="color1">To get the color1</param>
+            <param name="color2">To get the color2</param>
+            <param name="offset">To get the offset</param>
+            <param name="width">To get the width</param>
+            <param name="isInBetweenGradient">To get the in between gradient</param>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.GradientView.#ctor(Syncfusion.SfGauge.iOS.ArcData,Syncfusion.SfGauge.iOS.ArcData,System.Boolean,UIKit.UIColor,UIKit.UIColor,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.SfGauge.iOS.GradientView"/> class.
+            </summary>
+            <param name="outerArc">To get the outer arc</param>
+            <param name="innerArc">To get the inner arc</param>
+            <param name="clockwise">To get the clockwise</param>
+            <param name="color1">To get the color1</param>
+            <param name="color2">To get the color2</param>
+            <param name="isInBetweenGradient">To get the in between gradient</param>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.GradientView.Draw(CoreGraphics.CGRect)">
+            <summary>
+            To draw the gradient view.
+            </summary>
+            <param name="rect">To get the rectangle</param>
+        </member>
+        <member name="M:Syncfusion.SfGauge.iOS.GradientView.CreateGradientColor(CoreGraphics.CGColor[],Foundation.NSNumber[],CoreGraphics.CGRect,System.nfloat)">
+            <summary>
+            To create the gradient color.
+            </summary>
+            <param name="colors">To get the color</param>
+            <param name="locations">To get the locations</param>
+            <param name="rect">To get the rectangle</param>
+            <param name="angle">To get the angle</param>
+            <returns>Returns the gradient color</returns>
+        </member>
+    </members>
+</doc>

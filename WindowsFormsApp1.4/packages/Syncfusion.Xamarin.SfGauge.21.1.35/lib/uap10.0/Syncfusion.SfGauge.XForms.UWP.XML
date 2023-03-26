@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Syncfusion.SfGauge.XForms.UWP</name>
+    </assembly>
+    <members>
+        <member name="M:Syncfusion.SfGauge.XForms.UWP.GaugeEventDependencyService.Syncfusion#SfGauge#XForms#IGaugeEventDependencyService#GetStreamAsync(Syncfusion.SfGauge.XForms.SfCircularGauge)">
+            <summary>
+            This method returns the stream of circular gauge output.
+            </summary>
+            <param name="gauge">To get a forms circular gauge.</param>
+            <returns>It will returns the circular gauge as stream asynchronously.</returns>
+        </member>
+        <member name="M:Syncfusion.SfGauge.XForms.UWP.GaugeEventDependencyService.Syncfusion#SfGauge#XForms#IGaugeEventDependencyService#SaveAsImage(System.String,Syncfusion.SfGauge.XForms.SfCircularGauge)">
+            <summary>
+            This method is used to export the gauge as image in the given file name and image format.
+            </summary>
+            <param name="fileName">Contains the filename of the image.</param>
+            <param name="gauge">Forms gauge object.</param>
+        </member>
+        <member name="M:Syncfusion.SfGauge.XForms.UWP.GaugeEventDependencyService.ChangeNativeGaugeAppearance(Syncfusion.UI.Xaml.Gauges.SfCircularGauge,Syncfusion.SfGauge.XForms.SfCircularGauge)">
+            <summary>
+            Method is used to change the native gauge appearnce while exporting as image and stream.
+            </summary>
+            <param name="nativeGauge">Native gauge.</param>
+            <param name="gauge">Forms gauge.</param>
+        </member>
+        <member name="T:Syncfusion.SfGauge.XForms.UWP.HeaderMapping">
+            <summary>
+            Represents the header mapping
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.XForms.UWP.HeaderMapping.native">
+            <summary>
+            Gets or set the native circular gauge
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfGauge.XForms.UWP.HeaderMapping.GetTextWidth(Windows.UI.Xaml.Controls.TextBlock,Syncfusion.SfGauge.XForms.Header)">
+            <summary>
+            Method used to get the width of text block
+            </summary>
+            <param name="textBlock">to get the text block</param>
+            <param name="header">to get the header</param>
+            <returns>returns the text width</returns>
+        </member>
+        <member name="M:Syncfusion.SfGauge.XForms.UWP.HeaderMapping.GetTextHeight(Windows.UI.Xaml.Controls.TextBlock,Syncfusion.SfGauge.XForms.Header)">
+            <summary>
+            Method used to get the height of text block
+            </summary>
+            <param name="textBlock">to get the text block</param>
+            <param name="header">to get the header</param>
+            <returns>returns the text height</returns>
+        </member>
+        <member name="M:Syncfusion.SfGauge.XForms.UWP.HeaderMapping.SetHeader(Syncfusion.SfGauge.XForms.SfCircularGauge,Syncfusion.UI.Xaml.Gauges.SfCircularGauge,Syncfusion.SfGauge.XForms.Header,Windows.UI.Xaml.Controls.Grid)">
+            <summary>
+            Method used to set header for circular gauge
+            </summary>
+            <param name="formsGauge">to get forms gauge</param>
+            <param name="NativeGauge">to get native gauge</param>
+            <param name="header">to get header</param>
+            <param name="headerGrid">to get header grid</param>
+        </member>
+        <member name="M:Syncfusion.SfGauge.XForms.UWP.HeaderMapping.GetHeaderMargin(Syncfusion.SfGauge.XForms.Header,Windows.Foundation.Size)">
+            <summary>
+            Method used to calculate the margin for text block
+            </summary>
+            <param name="header">to get the header</param>
+            <param name="scaleSize">to get the gauge size</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.SfGauge.XForms.UWP.HeaderMapping.OnHeaderPropertiesChanged(System.String,Syncfusion.SfGauge.XForms.Header,Syncfusion.UI.Xaml.Gauges.SfCircularGauge,Syncfusion.SfGauge.XForms.SfCircularGauge)">
+            <summary>
+            Method used to change the header when header properties changing
+            </summary>
+            <param name="propertyName">to get property name</param>
+            <param name="header">to get header</param>
+            <param name="NativeGauge">to get native gauge</param>
+            <param name="formsGauge">to get forms gauge</param>
+        </member>
+        <member name="T:Syncfusion.SfGauge.XForms.UWP.PointerMapping">
+            <summary>
+            Represents the pointer mapping
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfGauge.XForms.UWP.PointerMapping.HookDraggingEvents">
+            <summary>
+            To hook the pointer dragging events.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfGauge.XForms.UWP.PointerMapping.NewPointer_ValueChanging(System.Object,Syncfusion.UI.Xaml.Gauges.PointerValueChangingEventArgs)">
+            <summary>
+            Raise the pointer ValueChanging event.
+            </summary>
+            <param name="sender">Native pointer.</param>
+            <param name="e">ValueChanging event arguments.</param>
+        </member>
+        <member name="M:Syncfusion.SfGauge.XForms.UWP.PointerMapping.NewPointer_ValueChangeCompleted(System.Object,Syncfusion.UI.Xaml.Gauges.PointerValueChangedEventArgs)">
+            <summary>
+            Raise the pointer ValueChangeCompleted event.
+            </summary>
+            <param name="sender">Native pointer.</param>
+            <param name="e">ValueChangeCompleted event arguments.</param>
+        </member>
+        <member name="M:Syncfusion.SfGauge.XForms.UWP.PointerMapping.NewPointer_ValueChangeStarted(System.Object,Syncfusion.UI.Xaml.Gauges.PointerValueChangedEventArgs)">
+            <summary>
+            Raise the pointer ValueChangeStarted event.
+            </summary>
+            <param name="sender">Native pointer.</param>
+            <param name="e">ValueChangeStarted event arguments.</param>
+        </member>
+        <member name="M:Syncfusion.SfGauge.XForms.UWP.PointerMapping.nativeCircularPointer_PointerPositionChanged(System.Object,Syncfusion.UI.Xaml.Gauges.PointerPosition)">
+            <summary>
+            Raise the pointer PointerPositionChanged event.
+            </summary>
+            <param name="sender">Native pointer.</param>
+            <param name="pointerPosition">PointerPositionChanged event arguments.</param>
+        </member>
+        <member name="M:Syncfusion.SfGauge.XForms.UWP.RangeMapping.RangeOffsetMapping(Syncfusion.UI.Xaml.Gauges.CircularRange,System.Double,System.String)">
+            <summary>
+            Sets value from the forms to native internal property
+            </summary>
+            <param name="nativeRange">Native Range</param>
+            <param name="formValue">Form value</param>
+            <param name="name">Property Name</param>
+        </member>
+        <member name="T:Syncfusion.SfGauge.XForms.UWP.SfCircularGaugeMapping">
+            <summary>
+            Represents the circular gauge mapping
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.XForms.UWP.SfCircularGaugeMapping.defaultScale">
+            <summary>
+            To enable or disable default scale.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfGauge.XForms.UWP.SfCircularGaugeMapping.OnGaugePropertiesChanged(System.String,Syncfusion.SfGauge.XForms.SfCircularGauge,Syncfusion.UI.Xaml.Gauges.SfCircularGauge)">
+            <summary>
+            Method used to change the gauge properties
+            </summary>
+            <param name="propertyName">to get property name</param>
+            <param name="formsGauge">to get forms gauge</param>
+            <param name="nativeGauge">to get native gauge</param>
+        </member>
+        <member name="F:Syncfusion.SfGauge.XForms.UWP.LinearTicksMapping.formsMajorTicks">
+            <summary>
+            Gets or sets the <see cref="T:Syncfusion.SfGauge.XForms.LinearTickSettings"/> instance.
+            </summary>
+        </member>
+        <member name="F:Syncfusion.SfGauge.XForms.UWP.LinearTicksMapping.formsMinorTicks">
+            <summary>
+            Gets or sets the <see cref="T:Syncfusion.SfGauge.XForms.LinearTickSettings"/> instance.
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfGauge.XForms.UWP.SfLinearGaugeMapping.Scales_CollectionChanged(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            This method is called when scales collection changed
+            </summary>
+            <param name="sender">The sender</param>
+            <param name="e">Event args</param>
+        </member>
+        <member name="M:Syncfusion.SfGauge.XForms.UWP.SfDigitalGaugeRenderer.SetAutomationId(System.String)">
+            <summary>
+            Sets the automation ID.
+            </summary>
+            <param name="id">Automation ID</param>
+        </member>
+        <member name="M:Syncfusion.SfGauge.XForms.UWP.SfDigitalGaugeRenderer.OnCreateAutomationPeer">
+            <summary>
+            Provide automation peer for the control
+            </summary>
+        </member>
+        <member name="T:Syncfusion.SfGauge.XForms.UWP.SfGaugeRenderer">
+            <summary>
+            Reprsents the gauge renderer
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfGauge.XForms.UWP.SfGaugeRenderer.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Syncfusion.SfGauge.XForms.UWP.SfGaugeRenderer"/> class .
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfGauge.XForms.UWP.SfGaugeRenderer.OnElementChanged(Xamarin.Forms.Platform.UWP.ElementChangedEventArgs{Syncfusion.SfGauge.XForms.SfCircularGauge})">
+            <summary>
+            The on element changed method
+            </summary>
+            <param name="e">to get events</param>
+        </member>
+        <member name="M:Syncfusion.SfGauge.XForms.UWP.SfGaugeRenderer.SetAutomationId(System.String)">
+            <summary>
+            Sets the automation ID.
+            </summary>
+            <param name="id">Automation ID</param>
+        </member>
+        <member name="M:Syncfusion.SfGauge.XForms.UWP.SfGaugeRenderer.OnCreateAutomationPeer">
+            <summary>
+            Provide automation peer for the control
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfGauge.XForms.UWP.SfGaugeRenderer.Dispose(System.Boolean)">
+            <summary>
+            Dispose the circular gauge objects.
+            </summary>
+            <param name="disposing">to get dispose</param>
+        </member>
+        <member name="M:Syncfusion.SfGauge.XForms.UWP.SfGaugeRenderer.Init">
+            <summary>
+            Method used to initialize the gauge renderer
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfGauge.XForms.UWP.SfGaugeRenderer.SetInternalProperty(System.Type,System.Object,System.String,System.Object)">
+            <summary>
+            To set internal property
+            </summary>
+            <param name="type">to get type</param>
+            <param name="obj">to get object</param>
+            <param name="propertyName">to get property name</param>
+            <param name="value">to get value</param>
+        </member>
+        <member name="M:Syncfusion.SfGauge.XForms.UWP.SfGaugeRenderer.TriggerInternalMethod(System.Type,System.Object,System.String,System.Object[])">
+            <summary>
+            Method used to trigger the internal methods
+            </summary>
+            <param name="type">to get type</param>
+            <param name="obj">to get object</param>
+            <param name="methodName">to get method name</param>
+            <param name="args">to get arguments</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.SfGauge.XForms.UWP.SfGaugeRenderer.OnElementPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            The on element property changed event
+            </summary>
+            <param name="sender">to get sender</param>
+            <param name="e">to get event</param>
+        </member>
+        <member name="M:Syncfusion.SfGauge.XForms.UWP.SfGaugeRenderer.GetPropertiesChanged(System.Type,System.Object)">
+            <summary>
+            Method used to get the properties
+            </summary>
+            <param name="type"></param>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.SfGauge.XForms.UWP.SfGaugeRenderer.GetWindowsColor(Xamarin.Forms.Color)">
+            <summary>
+            To get the windows color
+            </summary>
+            <param name="xColor">to get color</param>
+            <returns></returns>
+        </member>
+        <member name="M:Syncfusion.SfGauge.XForms.UWP.SfLinearGaugeRenderer.SetAutomationId(System.String)">
+            <summary>
+            Sets the automation ID.
+            </summary>
+            <param name="id">Automation ID</param>
+        </member>
+        <member name="M:Syncfusion.SfGauge.XForms.UWP.SfLinearGaugeRenderer.OnCreateAutomationPeer">
+            <summary>
+            Provide automation peer for the control
+            </summary>
+        </member>
+        <member name="M:Syncfusion.SfGauge.XForms.UWP.SfLinearGaugeRenderer.Dispose(System.Boolean)">
+            <summary>
+            Releases the unmanaged resources used by the <see cref="T:Syncfusion.SfGauge.XForms.UWP.SfLinearGaugeRenderer"/> 
+            </summary>
+            <param name="disposing">true to release both managed and unmanaged resources; false to release only unmanaged resources.</param>
+        </member>
+    </members>
+</doc>

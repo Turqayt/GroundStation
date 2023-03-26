@@ -1,0 +1,866 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MindFusion.DataBinding</name>
+    </assembly>
+    <members>
+        <member name="T:MindFusion.DataBinding.BindingTarget">
+            <summary>
+            Represents target objects in data binding.
+            </summary>
+        </member>
+        <member name="M:MindFusion.DataBinding.BindingTarget.CollectionLoaded(System.Collections.IList)">
+            <summary>
+            Called when updates of a Collection binding are done.
+            </summary>
+            <param name="targetItems">A list of target items created from source data.</param>
+        </member>
+        <member name="M:MindFusion.DataBinding.BindingTarget.CollectionLoaded(System.Collections.IList,System.Collections.IList)">
+            <summary>
+            Called when updates of a Collection binding are done.
+            </summary>
+            <param name="targetItems">A list of target items created from source data.</param>
+            <param name="sourceItems">A list of data source items.</param>
+        </member>
+        <member name="T:MindFusion.DataBinding.PropertyType">
+            <summary>
+            Specifies the way the data bound properties are interpreted.
+            </summary>
+        </member>
+        <member name="F:MindFusion.DataBinding.PropertyType.Value">
+            <summary>
+            A simple value property.
+            </summary>
+        </member>
+        <member name="F:MindFusion.DataBinding.PropertyType.Reference">
+            <summary>
+            A reference property is one that refers to an object in
+            another data-bound collection.
+            </summary>
+        </member>
+        <member name="F:MindFusion.DataBinding.PropertyType.Collection">
+            <summary>
+            A collection property contains references to objects in
+            another data-bound collection.
+            </summary>
+        </member>
+        <member name="F:MindFusion.DataBinding.PropertyType.ManyToOne">
+            <summary>
+            The property is a foreign key identifying a record in a related table.
+            </summary>
+        </member>
+        <member name="F:MindFusion.DataBinding.PropertyType.ManyToMany">
+            <summary>
+            Specifies a collection of records that is retrieved through
+            an intermediate table that defines a many-to-many relation.
+            </summary>
+        </member>
+        <member name="T:MindFusion.DataBinding.BoundProperty">
+            <summary>
+            Represents a mapping between a property and a field in the data source.
+            </summary>
+        </member>
+        <member name="M:MindFusion.DataBinding.BoundProperty.#ctor(System.String,System.String,MindFusion.DataBinding.PropertyType)">
+            <summary>
+            Initializes a new instance of the BoundProperty class.
+            </summary>
+            <param name="sourceMember">
+            The name of the field in the data source.
+            </param>
+            <param name="targetMember">
+            The name of the property.
+            </param>
+            <param name="propertyType">
+            The type of the property.
+            </param>
+        </member>
+        <member name="M:MindFusion.DataBinding.BoundProperty.#ctor(System.String,System.String,MindFusion.DataBinding.PropertyType,System.String)">
+            <summary>
+            Initializes a new instance of the BoundProperty class.
+            </summary>
+            <param name="sourceMember">
+            The name of the field in the data source.
+            </param>
+            <param name="targetMember">
+            The name of the property.
+            </param>
+            <param name="propertyType">
+            The type of the property.
+            </param>
+            <param name="manyToManyTable">
+            The name of the related table in the data source when the
+            property type is ManyToMany.
+            </param>
+        </member>
+        <member name="M:MindFusion.DataBinding.BoundProperty.#ctor(System.String,System.String,MindFusion.DataBinding.PropertyType,MindFusion.DataBinding.DataSourceTracker)">
+            <summary>
+            Initializes a new instance of the BoundProperty class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.DataBinding.BoundProperty.SourceMember">
+            <summary>
+            Gets or sets the name of the corresponding field
+            in the data source.
+            </summary>
+        </member>
+        <member name="P:MindFusion.DataBinding.BoundProperty.TargetMember">
+            <summary>
+            Gets or sets the name of the bound property.
+            </summary>
+        </member>
+        <member name="P:MindFusion.DataBinding.BoundProperty.PropertyType">
+            <summary>
+            Gets or sets the type of the property.
+            </summary>
+        </member>
+        <member name="P:MindFusion.DataBinding.BoundProperty.ManyToManyTable">
+            <summary>
+            Gets or sets the name of the associated many-to-many table.
+            </summary>
+            <remarks>
+            Only valid if the property is of type ManyToMany.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.DataBinding.BoundPropertyConverter.#ctor">
+            <summary>
+            Initializes a new instance of the BoundPropertyConverter class.
+            </summary>
+        </member>
+        <member name="T:MindFusion.DataBinding.BoundPropertyList">
+            <summary>
+            Defines a mapping between properties and data source fields.
+            </summary>
+        </member>
+        <member name="M:MindFusion.DataBinding.BoundPropertyList.#ctor">
+            <summary>
+            Initializes a new instance of the BoundPropertyList class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.DataBinding.BoundPropertyList.IdField">
+            <summary>
+            Gets or sets the unique identifier field of the corresponding
+            data member in the associated data source.
+            </summary>
+        </member>
+        <member name="T:MindFusion.DataBinding.BoundPropertyListEditor">
+            <summary>
+            Design-time editor for List&lt;BoundProperty&gt; for Location objects.
+            </summary>
+        </member>
+        <member name="M:MindFusion.DataBinding.BoundPropertyListForm.IsBindableDataSource(System.Object)">
+            <summary>
+            Checks whether the specified data source is tagged
+            as bindable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.DataBinding.BoundPropertyListForm.GetItemProperties(System.Object,System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MindFusion.DataBinding.BoundPropertyListForm.GetItemProperties(System.Object)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MindFusion.DataBinding.BoundPropertyListForm.Collection">
+            <summary>
+            Gets or sets the edited BoundProperty collection.
+            </summary>
+        </member>
+        <member name="F:MindFusion.DataBinding.BoundPropertyListForm._selecting">
+            <summary>
+            A flag indicating whether the selected list item is
+            currntly being changed.
+            </summary>
+        </member>
+        <member name="F:MindFusion.DataBinding.BoundPropertyListForm._selectingDataSourceType">
+            <summary>
+            A flag indicating whether the data source type
+            is changed programmatically.
+            </summary>
+        </member>
+        <member name="F:MindFusion.DataBinding.BoundPropertyListForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.DataBinding.BoundPropertyListForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.DataBinding.BoundPropertyListForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.DataBinding.DataBinder">
+            <summary>
+            Stores or retrieves structured data to and from arbitrary
+            collections of objects.
+            </summary>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataBinder.#ctor(System.Boolean)">
+            <summary>
+            Initializes a new instance of the DataBinder class.
+            </summary>
+            <param name="keepInSync">
+            Specifies whether the data source and the control's
+            data collections should be kept synchronized.
+            </param>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataBinder.AddDataSource(System.Object,System.String)">
+            <summary>
+            Adds a new data source that will be managed by this DataBinder instance.
+            </summary>
+            <param name="dataSource">
+            A data source to be managed by this DataBinder.
+            </param>
+            <param name="dataMember">
+            The data source member that provides the data items.
+            </param>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataBinder.AddDataSource(System.Object,System.String,System.Boolean)">
+            <summary>
+            Adds a new data source that will be managed by this DataBinder instance.
+            </summary>
+            <param name="dataSource">
+            A data source to be managed by this DataBinder.
+            </param>
+            <param name="dataMember">
+            The data source member that provides the data items.
+            </param>
+            <param name="append">
+            Specifies whether the tracker should be added to the end of the list.
+            When setting-up master-details binding, the master tracker should come
+            after the details tracker.
+            </param>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataBinder.DataBind">
+            <summary>
+            Loads the source data into target items as set up via
+            current list of DataSourceTracker objects.
+            </summary>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataBinder.DataBind(System.Object)">
+            <summary>
+            Loads the source data into target items as set up via
+            current list of DataSourceTracker objects.
+            </summary>
+            <param name="param">An optional parameter that will be passed to IItemFactory.AddItem.</param>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataBinder.LoadSourceData(System.Object)">
+            <summary>
+            Loads the source data into target items as set up via
+            current list of DataSourceTracker objects.
+            </summary>
+            <param name="param">An optional parameter that will be passed to IItemFactory.AddItem.</param>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataBinder.LoadTargetData(System.Boolean)">
+            <summary>
+            Loads data from binding target items into the data source.
+            </summary>
+            <param name="delayManyToMany">True to delay updating the many-to-many tables.</param>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataBinder.WriteDelayedTables">
+            <summary>
+            Finish writing many-to-many tables that were delayed.
+            </summary>
+        </member>
+        <member name="F:MindFusion.DataBinding.DataBinder.trackers">
+            <summary>
+            Contains the tracker for all data sources managed by this DataBinder.
+            </summary>
+        </member>
+        <member name="F:MindFusion.DataBinding.DataBinder.keepInSync">
+            <summary>
+            Specifies whether the data source and the control's data collections
+            should be kept synchronized.
+            </summary>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataMemberListEditor.#ctor">
+            <summary>
+            Initializes a new instance of the DataMemberListEditor class.
+            </summary>
+        </member>
+        <member name="F:MindFusion.DataBinding.DataMemberListEditor._picker">
+            <summary>
+            An object of type System.Windows.Forms.Design.DesignBindingPicker
+            instantiated through reflection.
+            </summary>
+        </member>
+        <member name="T:MindFusion.DataBinding.DataSourceTracker">
+            <summary>
+            Determines and manages the properties of a data source.
+            </summary>
+        </member>
+        <member name="T:MindFusion.DataBinding.DataSourceTracker.ObjectComparer">
+            <summary>
+            Styles in Planner.NET are considered equal when they are
+            memberwise equivalent. This causes key duplicate exception
+            when there are two equal styles in the schedule. This class
+            resolves this situation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataSourceTracker.#ctor(System.Collections.IList,MindFusion.DataBinding.DataBinder,System.Boolean)">
+            <summary>
+            Initializes a new DataSourceTracker instance.
+            </summary>
+            <param name="dataItems">
+            An IList providing access to the data source items.
+            </param>
+            <param name="dataBinder">
+            A DataBinder used to get access to other DataSourceTracker objects.
+            </param>
+            <param name="keepInSync">
+            Specifies whether the data source and the control's
+            data collections should be kept synchronized.
+            </param>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataSourceTracker.CreateTracker(System.Object,MindFusion.DataBinding.DataBinder,System.Boolean)">
+            <summary>
+            Create a new DataSourceTracker for the provided data source.
+            </summary>
+            <param name="dataSource">
+            The data source for which a DataSourceTracker should be created.
+            </param>
+            <param name="dataBinder">
+            A DataBinder used to get access to other DataSourceTracker objects.
+            </param>
+            <param name="keepInSync">
+            Specifies whether the data source and the control's
+            data collections should be kept synchronized.
+            </param>
+            <returns>
+            A DataSourceTracker describing the specified data source.
+            </returns>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataSourceTracker.CreateTracker(System.Object,System.String,MindFusion.DataBinding.DataBinder,System.Boolean)">
+            <summary>
+            Create a new DataSourceTracker for the provided data source.
+            </summary>
+            <param name="dataSource">
+            The data source for which a DataSourceTracker should be created.
+            </param>
+            <param name="dataMember">
+            The data source member that provides the data items.
+            </param>
+            <param name="dataBinder">
+            A DataBinder used to get access to other DataSourceTracker objects.
+            </param>
+            <param name="keepInSync">
+            Specifies whether the data source and the control's
+            data collections should be kept synchronized.
+            </param>
+            <returns>
+            A DataSourceTracker describing the specified data source.
+            </returns>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataSourceTracker.Clone">
+            <summary>
+            Clones this DataSourceTracker.
+            </summary>
+            <returns>A new DataSourceTracker instance.</returns>
+        </member>
+        <member name="P:MindFusion.DataBinding.DataSourceTracker.SourceItems">
+            <summary>
+            Gets the list of source items.
+            </summary>
+        </member>
+        <member name="P:MindFusion.DataBinding.DataSourceTracker.TargetItems">
+            <summary>
+            Gets or sets the list of target items.
+            </summary>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataSourceTracker.AddProperty(System.String,System.String)">
+            <summary>
+            Adds a new simple value binding between the data source and
+            the target collection.
+            </summary>
+            <param name="sourceMember">
+            A member field or property of the data source.
+            </param>
+            <param name="targetMember">
+            A corresponding member field or property of the target items.
+            </param>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataSourceTracker.AddProperty(System.String,System.String,MindFusion.DataBinding.PropertyType,MindFusion.DataBinding.DataSourceTracker)">
+            <summary>
+            Adds a new reference binding between the data source and
+            the target collection.
+            </summary>
+            <param name="sourceMember">
+            A member field or property of the data source.
+            </param>
+            <param name="targetMember">
+            A corresponding member field or property of the target items.
+            </param>
+            <param name="propertyType">
+            Specifies the type of the property.
+            </param>
+            <param name="tracker">
+            Tracks the collection that contains the object
+            referred by this property.
+            </param>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataSourceTracker.AddProperties(System.Collections.Generic.List{MindFusion.DataBinding.BoundProperty})">
+            <summary>
+            Configures bindings for multiple properties.
+            </summary>
+            <param name="properties">A list of BoundProperty objects specifying the property mappings.</param>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataSourceTracker.ReadSourceItems(System.Object)">
+            <summary>
+            Fills the target list with items corresponding to
+            the source items. Attaches event listeners so
+            the items are kept synchronized.
+            </summary>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataSourceTracker.ReadTargetItems(System.Boolean)">
+            <summary>
+            Fills the source list with items corresponding to
+            the target items. Attaches event listeners so
+            the items are kept synchronized.
+            </summary>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataSourceTracker.SetSourceType(System.Type)">
+            <summary>
+            Specifies what type of items should be created in the
+            source collection when an item is added to the target collection.
+            </summary>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataSourceTracker.getSourceType">
+            <summary>
+            Returns the source items type.
+            </summary>
+            <returns>
+            A Type instance representing the source items type.
+            </returns>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataSourceTracker.SetTargetType(System.Type)">
+            <summary>
+            Specifies what type of items should be created in
+            the target collection when an item is added to
+            the source collection.
+            </summary>
+            <param name="type">
+            The type of target items.
+            </param>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataSourceTracker.SetTargetFactory(MindFusion.DataBinding.IItemFactory)">
+            <summary>
+            Sets the factory used to create items in the target collection
+            or remove existing items from there.
+            </summary>
+            <param name="factory">
+            An object implementing the IItemFactory interface.
+            </param>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataSourceTracker.getDataItems(System.Object,System.String)">
+            <summary>
+            Gets the IList interface that provides access to the data source items.
+            </summary>
+            <param name="dataSource">
+            The data object where we look for an IList.
+            </param>
+            <param name="dataMember">
+            The data source member that provides the data items.
+            </param>
+            <returns>
+            An IList providing access to the data items.
+            </returns>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataSourceTracker.getMember(System.Object,System.String)">
+            <summary>
+            Gets a property descriptor for the specified object and property.
+            </summary>
+            <param name="item">
+            An object whose property we are itnerested in.
+            </param>
+            <param name="member">
+            The property name.
+            </param>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataSourceTracker.readSchema(System.Collections.IList)">
+            <summary>
+            Finds the properties supported by the data source items.
+            </summary>
+            <param name="list">
+            An IList whose items schema should be read.
+            </param>
+            <returns>
+            A PropertyDescriptorCollection containing the item properties.
+            </returns>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataSourceTracker.addSourceItem">
+            <summary>
+            Creates a new item and adds it to the source collection.
+            </summary>
+            <returns>
+            The new item.
+            </returns>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataSourceTracker.addSourceItem(System.Object,System.Boolean)">
+            <summary>
+            Creates a new item, copies its properties from a target item and
+            adds it to the source collection.
+            </summary>
+            <returns>
+            A new source item with properties set to the target
+            item property values.
+            </returns>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataSourceTracker.addTargetItem(System.Object)">
+            <summary>
+            Creates a new item and adds it to the target collection.
+            </summary>
+            <returns>
+            The new item.
+            </returns>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataSourceTracker.addTargetItem(System.Object,System.Object)">
+            <summary>
+            Creates a new item, copies its properties from a source item and
+            adds it to the target collection.
+            </summary>
+            <param name="sourceItem">The source item for which a target item should be created.</param>
+            <param name="param">An optional parameter that will be passed to IItemFactory.addItem.</param>
+            <returns>A new target item with properties set to the source item property values.</returns>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataSourceTracker.updateSourceItem(System.Object,System.Object,System.Boolean)">
+            <summary>
+            Copies the source item properties from the target item properties.
+            </summary>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataSourceTracker.updateTargetItem(System.Object,System.Object)">
+            <summary>
+            Copies the target item properties from the source item properties.
+            </summary>
+            <param name="source">
+            The source item.
+            </param>
+            <param name="target">
+            The target item.
+            </param>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataSourceTracker.attachSourceChangeEvent(System.Object)">
+            <summary>
+            Subscribes to an event that is raised when item properties change.
+            </summary>
+            <param name="item">
+            The item that will be tracked for changes.
+            </param>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataSourceTracker.detachSourceChangeEvent(System.Object)">
+            <summary>
+            Unsubscribes from the event that is raised when item properties change.
+            </summary>
+            <param name="item">
+            An item tracked for changes.
+            </param>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataSourceTracker.onSourcePropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            Raised when the value of an item's poperty changes.
+            </summary>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataSourceTracker.onUnknownSourcePropertyChanged(System.Object,System.EventArgs)">
+            <summary>
+            Raised when the value of an item's poperty changes.
+            </summary>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataSourceTracker.attachTargetChangeEvent(System.Object)">
+            <summary>
+            Subscribes to an event that is raised when item properties change.
+            </summary>
+            <param name="item">
+            The item that will be tracked for changes.
+            </param>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataSourceTracker.detachTargetChangeEvent(System.Object)">
+            <summary>
+            Unsubscribes from the event that is raised when item properties change.
+            </summary>
+            <param name="item">
+            An item tracked for changes.
+            </param>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataSourceTracker.onTargetPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            Raised when the value of an item's poperty changes.
+            </summary>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataSourceTracker.sourceListChanged(System.Object,System.ComponentModel.ListChangedEventArgs)">
+            <summary>
+            Raised when a source IBindingList changes.
+            </summary>
+            <param name="sender">
+            The changed list.
+            </param>
+            <param name="e">
+            Specifies what has changed.
+            </param>
+        </member>
+        <member name="M:MindFusion.DataBinding.DataSourceTracker.onItemPairAdded(System.Object,System.Object)">
+            <summary>
+            This method should be called each time a pair of items is
+            added to the source and target collections. It maps
+            the items and attaches change events to them.
+            </summary>
+            <param name="sourceItem">
+            The source item.
+            </param>
+            <param name="targetItem">
+            The target item.
+            </param>
+        </member>
+        <member name="E:MindFusion.DataBinding.DataSourceTracker.BindComplete">
+            <summary>
+            Raised when all target items have been loaded from the data source.
+            </summary>
+        </member>
+        <member name="P:MindFusion.DataBinding.DataSourceTracker.DataAdapter">
+            <summary>
+            Gets or sets a DataAdapter object used to save the data.
+            </summary>
+        </member>
+        <member name="P:MindFusion.DataBinding.DataSourceTracker.TargetContext">
+            <summary>
+            Used to specify path in target object hierarchies.
+            </summary>
+        </member>
+        <member name="P:MindFusion.DataBinding.DataSourceTracker.DataBinder">
+            <summary>
+            Gets a DataBinder object that gives access to other DataSourceTracker
+            objects, which are needed when handling references between items from
+            different data source collections.
+            </summary>
+        </member>
+        <member name="P:MindFusion.DataBinding.DataSourceTracker.IdField">
+            <summary>
+            Gets or sets the primary key field in a data table.
+            </summary>
+        </member>
+        <member name="P:MindFusion.DataBinding.DataSourceTracker.Properties">
+            <summary>
+            Gets a Dictionary object that maps the data source item properties 
+            to the control's item properties.
+            </summary>
+        </member>
+        <member name="F:MindFusion.DataBinding.DataSourceTracker.dataSource">
+            <summary>
+            A reference to the data source.
+            </summary>
+        </member>
+        <member name="F:MindFusion.DataBinding.DataSourceTracker.sourceItems">
+            <summary>
+            Provides access to the data source items.
+            </summary>
+        </member>
+        <member name="F:MindFusion.DataBinding.DataSourceTracker.targetItems">
+            <summary>
+            A list of items that should be kept synchroznied with
+            the data source items.
+            </summary>
+        </member>
+        <member name="F:MindFusion.DataBinding.DataSourceTracker.sourceSchema">
+            <summary>
+            A list of properties supported by the data source items.
+            </summary>
+        </member>
+        <member name="F:MindFusion.DataBinding.DataSourceTracker.sourceType">
+            <summary>
+            The type of items contained within the data source.
+            </summary>
+        </member>
+        <member name="F:MindFusion.DataBinding.DataSourceTracker.targetType">
+            <summary>
+            The type of the target class whose instances are
+            mapped to the data source items.
+            </summary>
+        </member>
+        <member name="F:MindFusion.DataBinding.DataSourceTracker.targetFactory">
+            <summary>
+            Used to add new items or remove existing ones from
+            the target collection.
+            </summary>
+        </member>
+        <member name="F:MindFusion.DataBinding.DataSourceTracker.sourceMap">
+            <summary>
+            Maps data source items to items from the built-in
+            classes in MindFusion components.
+            </summary>
+        </member>
+        <member name="F:MindFusion.DataBinding.DataSourceTracker.targetMap">
+            <summary>
+            Maps items from the built-in classes in MindFusion
+            components to the data source items.
+            </summary>
+        </member>
+        <member name="F:MindFusion.DataBinding.DataSourceTracker.sourcePropertyMap">
+            <summary>
+            Maps source item properties to the target item properties.
+            </summary>
+        </member>
+        <member name="F:MindFusion.DataBinding.DataSourceTracker.targetPropertyMap">
+            <summary>
+            Maps target item properties to the source item properties.
+            </summary>
+        </member>
+        <member name="F:MindFusion.DataBinding.DataSourceTracker.dataBinder">
+            <summary>
+            A DataBinder that gives us access to other DataSourceTracker objects,
+            which are needed when handling references between items from different
+            data source collections.
+            </summary>
+        </member>
+        <member name="F:MindFusion.DataBinding.DataSourceTracker.keepInSync">
+            <summary>
+            Specifies whether the data source and the control's data collections
+            should be kept synchronized.
+            </summary>
+        </member>
+        <member name="F:MindFusion.DataBinding.DataSourceTracker.idField">
+            <summary>
+            Specifies the primary key field in a data table.
+            </summary>
+        </member>
+        <member name="F:MindFusion.DataBinding.DataSourceTracker.dataAdapter">
+            <summary>
+            Specifies a DataAdapter object used to save the data.
+            </summary>
+        </member>
+        <member name="F:MindFusion.DataBinding.DataSourceTracker.delayedWriteList">
+            <summary>
+            Contains data needed to save delay-written many-to-many tables.
+            </summary>
+        </member>
+        <member name="T:MindFusion.DataBinding.GeneralPropertyDescriptor">
+            <summary>
+            A property descriptor that can represent non-public or virtual (in the
+            sense of the IVirtualPropertyProvider interface) properties.
+            </summary>
+        </member>
+        <member name="M:MindFusion.DataBinding.GeneralPropertyDescriptor.#ctor(System.Type,System.String)">
+            <summary>
+            Initializes a new instance of the GeneralPropertyDescriptor class.
+            </summary>
+        </member>
+        <member name="T:MindFusion.DataBinding.ImageConverterEx">
+            <summary>
+            Provides additional converting capabilities for an image
+            to and from string.
+            </summary>
+        </member>
+        <member name="M:MindFusion.DataBinding.ImageConverterEx.CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type)">
+            <summary>
+            ImageConverter.CanConvertFrom override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.DataBinding.ImageConverterEx.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)">
+            <summary>
+            ImageConverter.ConvertFrom override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.DataBinding.ImageConverterEx.CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type)">
+            <summary>
+            ImageConverter.CanConvertTo override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.DataBinding.ImageConverterEx.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)">
+            <summary>
+            ImageConverter.ConvertTo override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.DataBinding.ImageConverterEx.FromByteArray(System.Byte[])">
+            <summary>
+            Converts the specified byte array to a string.
+            </summary>
+        </member>
+        <member name="M:MindFusion.DataBinding.ImageConverterEx.ToByteArray(System.String)">
+            <summary>
+            Converts the specified string to a byte array.
+            </summary>
+        </member>
+        <member name="T:MindFusion.DataBinding.ImagePropertyDescriptor">
+            <summary>
+            A property descriptor for images, which provides converter
+            that can convert images to and from string.
+            </summary>
+        </member>
+        <member name="M:MindFusion.DataBinding.ImagePropertyDescriptor.#ctor(System.Type,System.String)">
+            <summary>
+            Initializes a new instance of the ImagePropertyDescriptor class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.DataBinding.ImagePropertyDescriptor.Converter">
+            <summary>
+            PropertyDescriptor.Converter override.
+            </summary>
+        </member>
+        <member name="T:MindFusion.DataBinding.IItemFactory">
+            <summary>
+            Provides methods for creating, adding and removing items from a
+            collection during data-binding.
+            </summary>
+        </member>
+        <member name="M:MindFusion.DataBinding.IItemFactory.AddItem(System.Collections.IList,System.Object)">
+            <summary>
+            Creates a new item and adds it to the specified collection.
+            </summary>
+            <param name="items">The collection where the items should be added.</param>
+            <param name="param">An optional parameter passed to the method.</param>
+            <returns>The newly created item.</returns>
+        </member>
+        <member name="M:MindFusion.DataBinding.IItemFactory.RemoveItem(System.Collections.IList,System.Object)">
+            <summary>
+            Removes an item from the specified collection.
+            </summary>
+            <param name="items">The collection from which the item should be removed.</param>
+            <param name="item">The item that should be removed.</param>
+        </member>
+        <member name="T:MindFusion.DataBinding.IVirtualPropertyProvider">
+            <summary>
+            Provides virtual properties on an object which can be data-bound.
+            </summary>
+            <remarks>
+            Implement this interface when you want to perform data-binding
+            of a property that do not exist. For example, when the name of the
+            data-bound property is not be available at compile time.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.DataBinding.IVirtualPropertyProvider.GetValue(System.String)">
+            <summary>
+            Gets the value of the virtual property with the specified name.
+            </summary>
+            <param name="propertyName">
+            The name of the virtual property.
+            </param>
+            <returns>
+            The value of the virtual property.
+            </returns>
+            <remarks>
+            This method is invoked during data-binding of a property that does
+            not exist on an object.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.DataBinding.IVirtualPropertyProvider.SetValue(System.String,System.Object)">
+            <summary>
+            Sets the value of the specified virtual property.
+            </summary>
+            <param name="propertyName">
+            The name of the virtual property.
+            </param>
+            <param name="value">
+            The value of the virtual property.
+            </param>
+            <remarks>
+            This method is invoked during data-binding of a property that does
+            not exist on an object.
+            </remarks>
+        </member>
+    </members>
+</doc>

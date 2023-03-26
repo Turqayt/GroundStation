@@ -1,0 +1,2833 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MindFusion.Excel</name>
+    </assembly>
+    <members>
+        <member name="T:MindFusion.Excel.Alignment">
+            <summary>
+            Represents formatting information pertaining to text alignment in cells.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Alignment.#ctor">
+            <summary>
+            Initializes a new instance of the Alignment class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Alignment.GetHashCode">
+            <summary>
+            Object.GetHashCode override.
+            </summary>
+            <returns>
+            A hash code for the current object.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.Alignment.Equals(System.Object)">
+            <summary>
+            Object.Equals override.
+            </summary>
+            <param name="obj">
+            The object to compare with the current object.
+            </param>
+            <returns>
+            true if the specified object is equal to the current object;
+            otherwise, false.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.Alignment.Save(System.Xml.Linq.XElement,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with its default name under the specified parent.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Alignment.Save(System.Xml.Linq.XElement,System.Xml.Linq.XName,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with the specified name under the specified parent.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Alignment.HorizontalAlignment">
+            <summary>
+            Gets or sets the type of horizontal alignment in the cells.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Alignment.VerticalAlignment">
+            <summary>
+            Gets or sets the type of vertical alignment in the cells.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Alignment.Indent">
+            <summary>
+            Gets or sets an integer value, where an increment of 1 represents 3 spaces.
+            Indicates the number of spaces (of the normal style font) of indentation
+            for text in a cell.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Alignment.JustifyLastLine">
+            <summary>
+            Gets or sets a value indicating if the cells justified or distributed
+            alignment should be used on the last line of text.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Alignment.ReadingOrder">
+            <summary>
+            Gets or sets an integer value indicating whether the reading order
+            (bidirectionality) of the cell is left-to-right, right-to-left, or
+            context dependent.
+            </summary>
+            <remarks>
+            A value of 0 indicates Context Dependent. A value of 1 - Left-to-Right.
+            A value of 2 - Right-to-Left.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Excel.Alignment.RelativeIndent">
+            <summary>
+            Gets or sets an integer value to indicate the additional number of spaces
+            of indentation to adjust for text in a cell.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Alignment.ShrinkToFit">
+            <summary>
+            Gets or sets a value indicating if the displayed text in the cell should
+            be shrunk to fit the cell width.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Alignment.TextRotation">
+            <summary>
+            Gets or sets the text rotation in cells, expressed in degrees.
+            </summary>
+            <remarks>
+            Values range from 0 to 180. The first letter of the text is considered
+            the center-point of the arc.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Excel.Alignment.WrapText">
+            <summary>
+            Gets or sets a value indicating if the text in a cell should be
+            line-wrapped within the cell.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.Border">
+            <summary>
+            Represents the border around the cells in a worksheet.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Border.#ctor">
+            <summary>
+            Initializes a new instance of the Border class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Border.GetHashCode">
+            <summary>
+            Object.GetHashCode override.
+            </summary>
+            <returns>
+            A hash code for the current object.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.Border.Equals(System.Object)">
+            <summary>
+            Object.Equals override.
+            </summary>
+            <param name="obj">
+            The object to compare with the current object.
+            </param>
+            <returns>
+            true if the specified object is equal to the current object;
+            otherwise, false.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.Border.Save(System.Xml.Linq.XElement,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with its default name under the specified parent.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Border.Save(System.Xml.Linq.XElement,System.Xml.Linq.XName,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with the specified name under the specified parent.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Border.Left">
+            <summary>
+            Gets or sets the left side of the border.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Border.Top">
+            <summary>
+            Gets or sets the top side of the border.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Border.Right">
+            <summary>
+            Gets or sets the right side of the border.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Border.Bottom">
+            <summary>
+            Gets or sets the bottom side of the border.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Border.Horizontal">
+            <summary>
+            Gets or sets the horizontal inner border of a range of cells.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Border.Vertical">
+            <summary>
+            Gets or sets the vertical inner border of a range of cells.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Border.Diagonal">
+            <summary>
+            Gets or sets the diagonal border, possibly including diagonally up
+            and diagonally down.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Border.DiagonalUp">
+            <summary>
+            Gets or sets a boolean value indicating if the cell's diagonal border includes a diagonal line,
+            starting at the bottom left corner of the cell and moving up to the top right corner of the cell.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Border.DiagonalDown">
+            <summary>
+            Gets or sets a value indicating if the cell's diagonal border includes a diagonal line, starting at
+            the top left corner of the cell and moving down to the bottom right corner of the cell.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Border.Outline">
+            <summary>
+            Gets or sets a value indicating if left, right, top, and bottom borders should be applied only
+            to outside borders of a cell range.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.BorderSide">
+            <summary>
+            Represents the side of a border.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.BorderSide.#ctor">
+            <summary>
+            Initializes a new instance of the BorderSide class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.BorderSide.GetHashCode">
+            <summary>
+            Object.GetHashCode override.
+            </summary>
+            <returns>
+            A hash code for the current object.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.BorderSide.Equals(System.Object)">
+            <summary>
+            Object.Equals override.
+            </summary>
+            <param name="obj">
+            The object to compare with the current object.
+            </param>
+            <returns>
+            true if the specified object is equal to the current object;
+            otherwise, false.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.BorderSide.Save(System.Xml.Linq.XElement,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with its default name under the specified parent.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.BorderSide.Save(System.Xml.Linq.XElement,System.Xml.Linq.XName,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with the specified name under the specified parent.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.BorderSide.Color">
+            <summary>
+            Gets or sets the color of the border side.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.BorderSide.LineStyle">
+            <summary>
+            Gets or sets the style of the border side.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.Cell">
+            <summary>
+            Represents a cell in a worksheet.
+            </summary>
+            <remarks>
+            This class cannot be instantiated directly. In order to obtain a reference to a cell
+            call the Cell method of the respective Worksheet object.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Excel.Cell.#ctor(MindFusion.Excel.Worksheet,System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the Cell class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Cell.Save(System.Xml.Linq.XElement,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with its default name under the specified parent.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Cell.Save(System.Xml.Linq.XElement,System.Xml.Linq.XName,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with the specified name under the specified parent.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Cell.MergeDown">
+            <summary>
+            Gets or sets a value indicating the number of cells below the current cell
+            that are merged with the cell.
+            </summary>
+            <remarks>
+            A value of 0 indicates no merged cells. A value of 1 indicates one merged cell in
+            addition to the current cell (for a total of two cells) and so on.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Excel.Cell.MergeAcross">
+            <summary>
+            Gets or sets a value indicating the number of cells to the right of
+            the current cell that are merged with the cell.
+            </summary>
+            <remarks>
+            A value of 0 indicates no merged cells. A value of 1 indicates one merged
+            cell in addition to the current cell (for a total of two cells) and so on.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Excel.Cell.Value">
+            <summary>
+            Gets or sets the vlue of the cell.
+            </summary>
+            <remarks>
+            The type of the value depends on the type of the cell. It is either number,
+            string, boolean or a StringItem instance.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Excel.Cell.ValueAsString">
+            <summary>
+            Gets the value of this cell as a StringItem, if possible.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Cell.Type">
+            <summary>
+            Gets or sets the value type of this cell.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Cell.Style">
+            <summary>
+            Gets or sets the formating to apply to the cell.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Cell.Reference">
+            <summary>
+            Gets a Reference object identifying the location of the cell
+            in the worksheet.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Cell.Column">
+            <summary>
+            Gets the 0-based index of the column containing this cell.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Cell.Row">
+            <summary>
+            Gets the 0-based index of the row containing this cell.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.CellStyle">
+            <summary>
+            This class is currently not used.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.CellStyle.Save(System.Xml.Linq.XElement,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with its default name under the specified parent.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.CellStyle.Save(System.Xml.Linq.XElement,System.Xml.Linq.XName,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with the specified name under the specified parent.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.CellType">
+            <summary>
+            Indicates the cell's data type.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.CellType.Boolean">
+            <summary>
+            Cell containing a boolean.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.CellType.Number">
+            <summary>
+            Cell containing a number.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.CellType.String">
+            <summary>
+            Cell containing a formula string.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.CellType.SharedString">
+            <summary>
+            Cell containing a shared string.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.CellType.InlineString">
+            <summary>
+            Cell containing an (inline) rich string, i.e., one not in
+            the shared string table.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.Color">
+            <summary>
+            Represents a color in a worksheet.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Color.#ctor">
+            <summary>
+            Initializes a new instance of the Color class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Color.GetHashCode">
+            <summary>
+            Object.GetHashCode override.
+            </summary>
+            <returns>
+            A hash code for the current object.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.Color.Equals(System.Object)">
+            <summary>
+            Object.Equals override.
+            </summary>
+            <param name="obj">
+            The object to compare with the current object.
+            </param>
+            <returns>
+            true if the specified object is equal to the current object;
+            otherwise, false.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.Color.op_Inequality(MindFusion.Excel.Color,MindFusion.Excel.Color)">
+            <summary>
+            Compares two Color objects for inequality.
+            </summary>
+            <param name="a">
+            The first object to compare.
+            </param>
+            <param name="b">
+            The second object to compare.
+            </param>
+            <returns>
+            true if the color are not equal; otherwise, false.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.Color.op_Equality(MindFusion.Excel.Color,MindFusion.Excel.Color)">
+            <summary>
+            Compares two Color objects for equality.
+            </summary>
+            <param name="a">
+            The first object to compare.
+            </param>
+            <param name="b">
+            The second object to compare.
+            </param>
+            <returns>
+            true if the colors are equal; otherwise, false.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.Color.Save(System.Xml.Linq.XElement,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with its default name under the specified parent.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Color.Save(System.Xml.Linq.XElement,System.Xml.Linq.XName,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with the specified name under the specified parent.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Color.Auto">
+            <summary>
+            Gets or sets a value indicating the color is automatic and system color dependent.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Color.Index">
+            <summary>
+            Gets or sets an indexed color value.
+            </summary>
+            <remarks>
+            Only used for backwards compatibility.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Excel.Color.Rgb">
+            <summary>
+            Gets or sets the standard RGB components of the color.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Color.ThemeColor">
+            <summary>
+            Gets or sets an index into the color scheme collection, identifying a system color.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Color.Tint">
+            <summary>
+            Gets or sets the tint value applied to the color.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.Column">
+            <summary>
+            Represents a column in a worksheet.
+            </summary>
+            <remarks>
+            This class cannot be instantiated directly. In order to obtain a reference to a column
+            call the Column method of the respective Worksheet object.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Excel.Column.#ctor(MindFusion.Excel.Worksheet,System.Int32)">
+            <summary>
+            Initializes a new instance of the Column class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Column.Save(System.Xml.Linq.XElement,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with its default name under the specified parent.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Column.Save(System.Xml.Linq.XElement,System.Xml.Linq.XName,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with the specified name under the specified parent.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Column.Index">
+            <summary>
+            Gets the 0-based index of this column.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Column.Width">
+            <summary>
+            Gets or sets the column width, in points (1/72th of an inch).
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Column.PageBreakAfter">
+            <summary>
+            Gets or sets a value indicating whether to force a page break after this row.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.ContentTypes">
+            <summary>
+            Defines some of the commonly used content types in Open Office XML.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.Document">
+            <summary>
+            Represents an Open Office XML document, which can be saved to a stream.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Document.#ctor">
+            <summary>
+            Initializes a new instance of the Document class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Document.Save(System.String)">
+            <summary>
+            Saves the Excel document as an Open XML file format.
+            </summary>
+            <param name="file">
+            The name of the target file.
+            </param>
+        </member>
+        <member name="M:MindFusion.Excel.Document.Save(System.String,MindFusion.Excel.SerializationOptions)">
+            <summary>
+            Saves the Excel document as an Open XML file format.
+            </summary>
+            <param name="file">
+            The name of the target file.
+            </param>
+            <param name="options">
+            An object specifying user preferences.
+            </param>
+        </member>
+        <member name="M:MindFusion.Excel.Document.Save(System.IO.Stream)">
+            <summary>
+            Saves the Excel document as an Open XML file format.
+            </summary>
+            <param name="stream">
+            The target stream.
+            </param>
+        </member>
+        <member name="M:MindFusion.Excel.Document.Save(System.IO.Stream,MindFusion.Excel.SerializationOptions)">
+            <summary>
+            Saves the Excel document as an Open XML file format.
+            </summary>
+            <param name="stream">
+            The target stream.
+            </param>
+            <param name="options">
+            An object specifying user preferences.
+            </param>
+        </member>
+        <member name="P:MindFusion.Excel.Document.Workbook">
+            <summary>
+            Gets a reference to the single workbook contained in the document.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Document.Properties">
+            <summary>
+            Gets or sets an object containing various general properties of the document,
+            such as author, last modified date and so on.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.DocumentProperties">
+            <summary>
+            Contains the common properties of a document.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.DocumentProperties.#ctor">
+            <summary>
+            Initializes a new instance of the DocumentProperties class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.DocumentProperties.Category">
+            <summary>
+            Gets or sets the 'Category' document property.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.DocumentProperties.ContentStatus">
+            <summary>
+            Gets or sets the 'ContentStatus' document property.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.DocumentProperties.ContentType">
+            <summary>
+            Gets or sets the 'ContentType' document property.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.DocumentProperties.Creator">
+            <summary>
+            Gets or sets the 'Creator' document property.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.DocumentProperties.Created">
+            <summary>
+            Gets or sets the 'Created' document property.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.DocumentProperties.LastModifiedBy">
+            <summary>
+            Gets or sets the 'LastModifiedBy' document property.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.DocumentProperties.Modified">
+            <summary>
+            Gets or sets the 'Modified' document property.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.DocumentProperties.Subject">
+            <summary>
+            Gets or sets the 'Subject' document property.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.DocumentProperties.Title">
+            <summary>
+            Gets or sets the 'Title' document property.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.Drawing">
+            <summary>
+            Represents a drawing within a worksheet. A drawing can contain unlimited
+            number of visual elements such as pictures, diagrams and charts.
+            </summary>
+            <remarks>
+            This class cannot be instantiated directly. In order to obtain a reference to a drawing
+            call the Drawing method of the respective Worksheet object.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Excel.Drawing.#ctor(MindFusion.Excel.Worksheet)">
+            <summary>
+            Initializes a new instance of the Drawing class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Drawing.AddPicture">
+            <summary>
+            Creates and adds a new picture to the drawing.
+            </summary>
+            <returns>
+            A Picture object representing the newly created picture.
+            </returns>
+        </member>
+        <member name="T:MindFusion.Excel.Fill">
+            <summary>
+            Represents fill formatting for the cells in a worksheet.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Fill.#ctor">
+            <summary>
+            Initializes a new instance of the Fill class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Fill.GetHashCode">
+            <summary>
+            Object.GetHashCode override.
+            </summary>
+            <returns>
+            A hash code for the current object.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.Fill.Equals(System.Object)">
+            <summary>
+            Object.Equals override.
+            </summary>
+            <param name="obj">
+            The object to compare with the current object.
+            </param>
+            <returns>
+            true if the specified object is equal to the current object;
+            otherwise, false.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.Fill.Save(System.Xml.Linq.XElement,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with its default name under the specified parent.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Fill.Save(System.Xml.Linq.XElement,System.Xml.Linq.XName,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with the specified name under the specified parent.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Fill.GradientFill">
+            <summary>
+            Gets or sets a gradient-style cell fill.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Fill.PatternFill">
+            <summary>
+            Gets or sets a pattern-style or a solid cell fill.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.Font">
+            <summary>
+            Represents a font.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Font.#ctor">
+            <summary>
+            Initializes a new instance of the Font class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Font.GetHashCode">
+            <summary>
+            Object.GetHashCode override.
+            </summary>
+            <returns>
+            A hash code for the current object.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.Font.Equals(System.Object)">
+            <summary>
+            Object.Equals override.
+            </summary>
+            <param name="obj">
+            The object to compare with the current object.
+            </param>
+            <returns>
+            true if the specified object is equal to the current object;
+            otherwise, false.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.Font.Save(System.Xml.Linq.XElement,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with its default name under the specified parent.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Font.Save(System.Xml.Linq.XElement,System.Xml.Linq.XName,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with the specified name under the specified parent.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Font.Bold">
+            <summary>
+            Gets or sets a value indicating whether the font is bold.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Font.CharacterSet">
+            <summary>
+            Gets or sets the font's character set.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Font.Color">
+            <summary>
+            Gets or sets the font color.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Font.Condense">
+            <summary>
+            Gets or sets a value indicating whether the font is condensed.
+            This is a Macintosh compatibility setting.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Font.Extend">
+            <summary>
+            Gets or sets a value indicating whether the font is stretched out.
+            This is a compatibility setting used for previous spreadsheet applications.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Font.FontFamily">
+            <summary>
+            Gets or sets the font family.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Font.Italic">
+            <summary>
+            Gets or sets a value indicating whether the font is italic.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Font.FontName">
+            <summary>
+            Gets or sets the font name.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Font.Outline">
+            <summary>
+            Gets or sets a value indicating whether the font is outlined.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Font.Scheme">
+            <summary>
+            Gets or sets the font scheme of the text.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Font.Shadow">
+            <summary>
+            Gets or sets a value indicating whether the font has shadow.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Font.StrikeThrough">
+            <summary>
+            Gets or sets a value indicating whether the font is stricken out.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Font.FontSize">
+            <summary>
+            Gets or sets the font size, in points (1/72-th of an inch).
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Font.Underline">
+            <summary>
+            Gets or sets a value indicating whether the font is underlined.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Font.VerticalAlignment">
+            <summary>
+            Gets or sets the relative vertical alignment of the font.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.FontScheme">
+            <summary>
+            Defines the font scheme, if any, to which this font belongs.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.FontScheme.None">
+            <summary>
+            This font is not a theme font.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.FontScheme.Major">
+            <summary>
+            This font is the major font for this theme.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.FontScheme.Minor">
+            <summary>
+            This font is the minor font for this theme.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.Format">
+            <summary>
+            This class is currently not used.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Format.Save(System.Xml.Linq.XElement,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with its default name under the specified parent.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Format.Save(System.Xml.Linq.XElement,System.Xml.Linq.XName,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with the specified name under the specified parent.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.Formatting">
+            <summary>
+            Represents incremental formatting.
+            </summary>
+            <remarks>
+            This class is currently not used.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Excel.Formatting.Save(System.Xml.Linq.XElement,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with its default name under the specified parent.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Formatting.Save(System.Xml.Linq.XElement,System.Xml.Linq.XName,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with the specified name under the specified parent.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.Gradient">
+            <summary>
+            Represents a gradient-style fill for the cells in a worksheet.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Gradient.#ctor">
+            <summary>
+            Initializes a new instance of the Gradient class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Gradient.GetHashCode">
+            <summary>
+            Object.GetHashCode override.
+            </summary>
+            <returns>
+            A hash code for the current object.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.Gradient.Equals(System.Object)">
+            <summary>
+            Object.Equals override.
+            </summary>
+            <param name="obj">
+            The object to compare with the current object.
+            </param>
+            <returns>
+            true if the specified object is equal to the current object;
+            otherwise, false.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.Gradient.Save(System.Xml.Linq.XElement,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with its default name under the specified parent.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Gradient.Save(System.Xml.Linq.XElement,System.Xml.Linq.XName,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with the specified name under the specified parent.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Gradient.Stops">
+            <summary>
+            Gets a collection of GradientStop objects constituting this gradient.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Gradient.GradientType">
+            <summary>
+            Gets or sets a value indicating the type of the gradient - linear or path.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Gradient.GradientAngle">
+            <summary>
+            Gets or sets the angle of a linear gradient.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Gradient.Left">
+            <summary>
+            Gets or sets the position of the left edge (from left to right) of the
+            inner rectangle of a path gradient, expressed relatively in the range [0..1].
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Gradient.Top">
+            <summary>
+            Gets or sets the position of the top edge (from top to bottom) of the
+            inner rectangle of a path gradient, expressed relatively in the range [0..1].
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Gradient.Right">
+            <summary>
+            Gets or sets the position of the right edge (from left to right) of the
+            inner rectangle of a path gradient, expressed relatively in the range [0..1].
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Gradient.Bottom">
+            <summary>
+            Gets or sets the position of the bottom edge (from top to bottom) of the
+            inner rectangle of a path gradient, expressed relatively in the range [0..1].
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.GradientStop">
+            <summary>
+            Represents a gradient stop, constituting a gradient fill.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.GradientStop.#ctor">
+            <summary>
+            Initializes a new instance of the GradientStop class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.GradientStop.GetHashCode">
+            <summary>
+            Object.GetHashCode override.
+            </summary>
+            <returns>
+            A hash code for the current object.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.GradientStop.Equals(System.Object)">
+            <summary>
+            Object.Equals override.
+            </summary>
+            <param name="obj">
+            The object to compare with the current object.
+            </param>
+            <returns>
+            true if the specified object is equal to the current object;
+            otherwise, false.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.GradientStop.Save(System.Xml.Linq.XElement,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with its default name under the specified parent.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.GradientStop.Save(System.Xml.Linq.XElement,System.Xml.Linq.XName,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with the specified name under the specified parent.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.GradientStop.Position">
+            <summary>
+            Gets or sets the position of the stop.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.GradientStop.Color">
+            <summary>
+            Gets or sets the color of the stop.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.GradientType">
+            <summary>
+            The type of gradient fill being used, either linear or path.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.GradientType.Linear">
+            <summary>
+            This gradient fill is of linear gradient type. Linear
+            gradient type means that the transition from one color
+            to the next is along a line (e.g., horizontal, vertical,
+            diagonal, etc.).
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.GradientType.Path">
+            <summary>
+            This gradient fill is of path gradient type. Path gradient
+            type means the that the boundary of transition from
+            one color to the next is a rectangle.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.HorizontalAlignment">
+            <summary>
+            Defines the possible horizontal alignments for the text in a cell.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.HorizontalAlignment.General">
+            <summary>
+            The horizontal alignment is general-aligned. Text data
+            is left-aligned. Numbers, dates, and times are rightaligned.
+            Boolean types are centered.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.HorizontalAlignment.Left">
+            <summary>
+            The horizontal alignment is left-aligned, even in Right-to-Left mode.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.HorizontalAlignment.Center">
+            <summary>
+            The horizontal alignment is centered, meaning the text
+            is centered across the cell.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.HorizontalAlignment.Right">
+            <summary>
+            The horizontal alignment is right-aligned, meaning that
+            cell contents are aligned at the right edge of the cell,
+            even in Right-to-Left mode.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.HorizontalAlignment.Fill">
+            <summary>
+            Indicates that the value of the cell should be filled
+            across the entire width of the cell.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.HorizontalAlignment.Justify">
+            <summary>
+            The horizontal alignment is justified (flush left and
+            right). For each line of text, aligns each line of the
+            wrapped text in a cell to the right and left (except the
+            last line).
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.HorizontalAlignment.CenterContinuous">
+            <summary>
+            The horizontal alignment is centered across multiple cells.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.HorizontalAlignment.Distributed">
+            <summary>
+            Indicates that each 'word' in each line of text inside the cell
+            is evenly distributed across the width of the cell, with flush
+            right and left margins.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.IndexedColors.Save(System.Xml.Linq.XElement,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with its default name under the specified parent.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.IndexedColors.Save(System.Xml.Linq.XElement,System.Xml.Linq.XName,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with the specified name under the specified parent.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.IndexedColors.IsRegistered(System.UInt32)">
+            <summary>
+            Checks if the specified rgb value is registered in the color table.
+            </summary>
+            <param name="rgb">
+            The rgb value to check.
+            </param>
+            <returns>
+            true if the rgb is registered; otherwise, false.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.IndexedColors.Register(System.UInt32)">
+            <summary>
+            Registers the specified rgb value in the table. If the rgb is already registered,
+            this method returns the index of the previously registered rgb value.
+            </summary>
+            <param name="rgb">
+            The rgb value to register.
+            </param>
+            <returns>
+            The index of the rgb.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.IndexedColors.Unregister(System.UInt32)">
+            <summary>
+            Unregisters the specified rgb value from the table.
+            </summary>
+            <param name="rgb">
+            The rgb value to unregister.
+            </param>
+            <returns>
+            true if the rgb was found and unregistered; otherwise, false.
+            </returns>
+        </member>
+        <member name="T:MindFusion.Excel.Interop">
+            <summary>
+            Provides extender methods to help reduce differences across different platforms.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.IntersectingMergeCellsHandling">
+            <summary>
+            Specifies the action that should be performed if intersecting merged
+            cells are encountered during serialization.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.IntersectingMergeCellsHandling.Default">
+            <summary>
+            Performs the default action, which is throwing an exception.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.IntersectingMergeCellsHandling.Ignore">
+            <summary>
+            Skips the merged cell serialization.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.IntersectingMergeCellsHandling.Fix">
+            <summary>
+            Attempts to fix the intersecting merged cell by adjusting excluding the
+            intersecting portion. If the intersecting merged cell is completely
+            contained in another merged cell, it is ignored.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.LineStyle">
+            <summary>
+            The line style of the border in a cell.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.LineStyle.None">
+            <summary>
+            The line style of a border is none (no border visible).
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.LineStyle.DashDot">
+            <summary>
+            The line style of a border is dash-dot.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.LineStyle.DashDotDot">
+            <summary>
+            The line style of a border is dash-dot-dot.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.LineStyle.Dashed">
+            <summary>
+            The line style of a border is dashed.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.LineStyle.Dotted">
+            <summary>
+            The line style of a border is dotted.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.LineStyle.Double">
+            <summary>
+            The line style of a border is double line.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.LineStyle.Hairline">
+            <summary>
+            The line style of a border is hairline.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.LineStyle.Medium">
+            <summary>
+            The line style of a border is medium.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.LineStyle.MediumDashDot">
+            <summary>
+            The line style of a border is medium dash-dot.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.LineStyle.MediumDashDotDot">
+            <summary>
+            The line style of a border is medium dash-dot-dot.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.LineStyle.MediumDashed">
+            <summary>
+            The line style of a border is medium dashed.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.LineStyle.SlantDashDot">
+            <summary>
+            The line style of a border is slant-dash-dot.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.LineStyle.Thick">
+            <summary>
+            The line style of a border is 'thick'.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.LineStyle.Thin">
+            <summary>
+            The line style of a border is thin.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.MergedArea.GetHashCode">
+            <summary>
+            Object.GetHashCode override.
+            </summary>
+            <returns>
+            A hash code for the current object.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.MergedArea.Equals(System.Object)">
+            <summary>
+            Object.Equals override.
+            </summary>
+            <param name="obj">
+            The object to compare with the current object.
+            </param>
+            <returns>
+            true if the specified object is equal to the current object;
+            otherwise, false.
+            </returns>
+        </member>
+        <member name="T:MindFusion.Excel.NumberFormat">
+            <summary>
+            Defines number formatting for the cells in a worksheet.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.NumberFormat.#ctor">
+            <summary>
+            Initializes a new instance of the NumberFormat class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.NumberFormat.GetHashCode">
+            <summary>
+            Object.GetHashCode override.
+            </summary>
+            <returns>
+            A hash code for the current object.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.NumberFormat.Equals(System.Object)">
+            <summary>
+            Object.Equals override.
+            </summary>
+            <param name="obj">
+            The object to compare with the current object.
+            </param>
+            <returns>
+            true if the specified object is equal to the current object;
+            otherwise, false.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.NumberFormat.Save(System.Xml.Linq.XElement,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with its default name under the specified parent.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.NumberFormat.Save(System.Xml.Linq.XElement,System.Xml.Linq.XName,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with the specified name under the specified parent.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.NumberFormat.Id">
+            <summary>
+            Gets or sets the identifier used to reference this number format.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.NumberFormat.FormatCode">
+            <summary>
+            Gets or sets the number format code.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.PageMargins">
+            <summary>
+            Represents the page margins for a sheet or a custom sheet view.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.PageMargins.#ctor">
+            <summary>
+            Initializes a new instance of the PageMargins class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.PageMargins.Save(System.Xml.Linq.XElement,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with its default name under the specified parent.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.PageMargins.Save(System.Xml.Linq.XElement,System.Xml.Linq.XName,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with the specified name under the specified parent.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.PageMargins.Left">
+            <summary>
+            Gets or sets the left page margin, expressed in inches.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.PageMargins.Right">
+            <summary>
+            Gets or sets the right page margin, expressed in inches.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.PageMargins.Top">
+            <summary>
+            Gets or sets the top page margin, expressed in inches.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.PageMargins.Bottom">
+            <summary>
+            Gets or sets the bottom page margin, expressed in inches.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.PageMargins.Header">
+            <summary>
+            Gets or sets the header page margin, expressed in inches.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.PageMargins.Footer">
+            <summary>
+            Gets or sets the footer page margin, expressed in inches.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.PageOrientation">
+            <summary>
+            Defines the print orientation for a sheet.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PageOrientation.Portrait">
+            <summary>
+            Portrait orientation.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PageOrientation.Landscape">
+            <summary>
+            Landscape orientation.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.PageSetupSettings">
+            <summary>
+            Contains the page setup settings for a worksheet.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.PageSetupSettings.#ctor">
+            <summary>
+            Initializes a new instance of the PageSetupSettings class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.PageSetupSettings.Save(System.Xml.Linq.XElement,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with its default name under the specified parent.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.PageSetupSettings.Save(System.Xml.Linq.XElement,System.Xml.Linq.XName,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with the specified name under the specified parent.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.PageSetupSettings.Orientation">
+            <summary>
+            Gets or sets the orientation of the page.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.PageSetupSettings.PaperSize">
+            <summary>
+            Gets or sets the size of the paper.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.PaperSize">
+            <summary>
+            Specifies a paper size.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.Letter">
+            <summary>
+            (8.5 in. by 11 in.)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.LetterSmall">
+            <summary>
+            (8.5 in. by 11 in.)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.Tabloid">
+            <summary>
+            (11 in. by 17 in.)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.Ledger">
+            <summary>
+            (17 in. by 11 in.)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.Legal">
+            <summary>
+            (8.5 in. by 14 in.)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.Statement">
+            <summary>
+            (5.5 in. by 8.5 in.)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.Executive">
+            <summary>
+            (7.25 in. by 10.5 in.)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.A3">
+            <summary>
+            (297 mm by 420 mm)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.A4">
+            <summary>
+            (210 mm by 297 mm)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.A4Small">
+            <summary>
+            (210 mm by 297 mm)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.A5">
+            <summary>
+            (148 mm by 210 mm)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.B4">
+            <summary>
+            (250 mm by 353 mm)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.B5">
+            <summary>
+            (176 mm by 250 mm)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.Folio">
+            <summary>
+            (8.5 in. by 13 in.)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.Quarto">
+            <summary>
+            (215 mm by 275 mm)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.Standard">
+            <summary>
+            (10 in. by 14 in.)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.Standard2">
+            <summary>
+            (11 in. by 17 in.)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.Note">
+            <summary>
+            (8.5 in. by 11 in.)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.Envelope9">
+            <summary>
+            (3.875 in. by 8.875 in.)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.Envelope10">
+            <summary>
+            (4.125 in. by 9.5 in.)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.Envelope11">
+            <summary>
+            (4.5 in. by 10.375 in.)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.Envelope12">
+            <summary>
+            (4.75 in. by 11 in.)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.Envelope14">
+            <summary>
+            (5 in. by 11.5 in.)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.C">
+            <summary>
+            (17 in. by 22 in.)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.D">
+            <summary>
+            (22 in. by 34 in.)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.E">
+            <summary>
+            (34 in. by 44 in.)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.DLEnvelope">
+            <summary>
+            (110 mm by 220 mm)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.C5Envelope">
+            <summary>
+            (162 mm by 229 mm)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.C3Envelope">
+            <summary>
+            (324 mm by 458 mm)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.C4Envelope">
+            <summary>
+            (229 mm by 324 mm)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.C6Envelope">
+            <summary>
+            (114 mm by 162 mm)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.C65Envelope">
+            <summary>
+            (114 mm by 229 mm)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.B4Envelope">
+            <summary>
+            (250 mm by 353 mm)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.B5Envelope">
+            <summary>
+            (176 mm by 250 mm)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.B6Envelope">
+            <summary>
+            (176 mm by 125 mm)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.ItalyEnvelope">
+            <summary>
+            (110 mm by 230 mm)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.MonarchEnvelope">
+            <summary>
+            (3.875 in. by 7.5 in.).
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.Envelope634">
+            <summary>
+            (3.625 in. by 6.5 in.)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.USStandardFanfold">
+            <summary>
+            (14.875 in. by 11 in.)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.GermanStandardFanfold">
+            <summary>
+            (8.5 in. by 12 in.)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.GermanLegalFanfold">
+            <summary>
+            (8.5 in. by 13 in.)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.IsoB4">
+            <summary>
+            (250 mm by 353 mm)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.JapaneseDoublePostcard">
+            <summary>
+            (200 mm by 148 mm)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.Standard3">
+            <summary>
+            (9 in. by 11 in.)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.Standard4">
+            <summary>
+            (10 in. by 11 in.)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.Standard5">
+            <summary>
+            (15 in. by 11 in.)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.InviteEnvelope">
+            <summary>
+            (220 mm by 220 mm)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.LetterExtra">
+            <summary>
+            (9.275 in. by 12 in.)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.LegalExtra">
+            <summary>
+            (9.275 in. by 15 in.)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.TabloidExtra">
+            <summary>
+            (11.69 in. by 18 in.)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.A4Extra">
+            <summary>
+            (236 mm by 322 mm)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.LetterTransverse">
+            <summary>
+            (8.275 in. by 11 in.)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.A4Transverse">
+            <summary>
+            (210 mm by 297 mm)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.LetterExtraTransverse">
+            <summary>
+            (9.275 in. by 12 in.)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.SuperA">
+            <summary>
+            (227 mm by 356 mm)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.SuperB">
+            <summary>
+            (305 mm by 487 mm)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.LetterPlus">
+            <summary>
+            (8.5 in. by 12.69 in.)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.A4Plus">
+            <summary>
+            (210 mm by 330 mm)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.A5Transverse">
+            <summary>
+            (148 mm by 210 mm)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.B5Transverse">
+            <summary>
+            (182 mm by 257 mm)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.A3Extra">
+            <summary>
+            (322 mm by 445 mm)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.A5Extra">
+            <summary>
+            (174 mm by 235 mm)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.B5Extra">
+            <summary>
+            (201 mm by 276 mm)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.A2">
+            <summary>
+            (420 mm by 594 mm)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.A3Transverse">
+            <summary>
+            (297 mm by 420 mm)
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PaperSize.A3ExtraTransverse">
+            <summary>
+            (322 mm by 445 mm)
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.Pattern">
+            <summary>
+            Represents a pattern or a solid fill for a cell.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Pattern.#ctor">
+            <summary>
+            Initializes a new instance of the Pattern class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Pattern.GetHashCode">
+            <summary>
+            Object.GetHashCode override.
+            </summary>
+            <returns>
+            A hash code for the current object.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.Pattern.Equals(System.Object)">
+            <summary>
+            Object.Equals override.
+            </summary>
+            <param name="obj">
+            The object to compare with the current object.
+            </param>
+            <returns>
+            true if the specified object is equal to the current object;
+            otherwise, false.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.Pattern.Save(System.Xml.Linq.XElement,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with its default name under the specified parent.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Pattern.Save(System.Xml.Linq.XElement,System.Xml.Linq.XName,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with the specified name under the specified parent.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Pattern.PatternType">
+            <summary>
+            Gets or sets a value specifying the pattern type.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Pattern.ForegroundColor">
+            <summary>
+            Gets or sets the foreground color of the pattern.
+            For solid patterns this color is used.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Pattern.BackgroundColor">
+            <summary>
+            Gets or sets the background color of the pattern.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.PatternType">
+            <summary>
+            Indicates the style of fill pattern being used for a cell format.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PatternType.None">
+            <summary>
+            The fill style is none (no fill). When foreground and/or
+            background colors are specified, a pattern of 'none'
+            overrides and means the cell has no fill.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PatternType.DarkDown">
+            <summary>
+            The fill style is 'dark down'.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PatternType.DarkGray">
+            <summary>
+            The fill style is 'dark gray'.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PatternType.DarkGrid">
+            <summary>
+            The fill style is 'dark grid'.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PatternType.DarkHorizontal">
+            <summary>
+            The fill style is dark horizontal.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PatternType.DarkTrellis">
+            <summary>
+            The fill style is 'dark trellis'.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PatternType.DarkUp">
+            <summary>
+            The fill style is 'dark up'.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PatternType.DarkVertical">
+            <summary>
+            The fill style is 'dark vertical'.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PatternType.Gray0625">
+            <summary>
+            The fill style is grayscale of 0.0625 (1/16) value.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PatternType.Gray125">
+            <summary>
+            The fill style is grayscale of 0.125 (1/8) value.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PatternType.LightDown">
+            <summary>
+            The fill style is 'light down'.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PatternType.LightGray">
+            <summary>
+            The fill style is light gray.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PatternType.LightGrid">
+            <summary>
+            The fill style is 'light grid'.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PatternType.LightHorizontal">
+            <summary>
+            The fill style is light horizontal.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PatternType.LightTrellis">
+            <summary>
+            The fill style is 'light trellis'.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PatternType.LightUp">
+            <summary>
+            The fill style is light up.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PatternType.LightVertical">
+            <summary>
+            The fill style is light vertical.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PatternType.MediumGray">
+            <summary>
+            The fill style is medium gray.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.PatternType.Solid">
+            <summary>
+            The fill style is solid. When solid is specified, the
+            foreground color is the only color rendered,
+            even when a background color is also specified.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.Picture">
+            <summary>
+            Represents a picture in a drawing within a worksheet.
+            </summary>
+            <remarks>
+            This class cannot be instantiated directly. In order to obtain a reference to a picture
+            call the AddPicture method of the respective Drawing object.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Excel.Picture.#ctor(MindFusion.Excel.Drawing)">
+            <summary>
+            Initializes a new instance of the Picture class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Picture.Save(System.Xml.Linq.XElement,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with its default name under the specified parent.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Picture.Save(System.Xml.Linq.XElement,System.Xml.Linq.XName,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with the specified name under the specified parent.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Picture.Source">
+            <summary>
+            Gets or sets the image source of the picture.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Picture.FromColumn">
+            <summary>
+            Gets or sets the 0-based index of the column in which the picture starts.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Picture.FromRow">
+            <summary>
+            Gets or sets the 0-based index of the row in which the picture starts.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Picture.ToColumn">
+            <summary>
+            Gets or sets the 0-based index of the column in which the picture ends.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Picture.ToRow">
+            <summary>
+            Gets or sets the 0-based index of the row in which the picture ends.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Picture.FromColumnOffset">
+            <summary>
+            Gets or sets the offset of the picture from its start column, in points (1/72th of an inch).
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Picture.FromRowOffset">
+            <summary>
+            Gets or sets the offset of the picture from its start row, in points (1/72th of an inch).
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Picture.ToColumnOffset">
+            <summary>
+            Gets or sets the offset of the picture from its end column, in points (1/72th of an inch).
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Picture.ToRowOffset">
+            <summary>
+            Gets or sets the offset of the picture from its end row, in points (1/72th of an inch).
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Picture.Description">
+            <summary>
+            Gets or sets the alternative text of the picture.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Picture.Hidden">
+            <summary>
+            Gets or sets a value indicating whether the picture should not be visible.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Picture.Name">
+            <summary>
+            Gets or sets the name of the picture, typically the name of the source file.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Picture.RotationAngle">
+            <summary>
+            Gets or sets the rotation angle of the picture, expressed in angles.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.Platform">
+            <summary>
+            Encapsulates platform-specific code.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.ProtectionProperties">
+            <summary>
+            Contains protection properties associated with a cell.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.ProtectionProperties.#ctor">
+            <summary>
+            Initializes a new instance of the ProtectionProperties class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.ProtectionProperties.GetHashCode">
+            <summary>
+            Object.GetHashCode override.
+            </summary>
+            <returns>
+            A hash code for the current object.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.ProtectionProperties.Equals(System.Object)">
+            <summary>
+            Object.Equals override.
+            </summary>
+            <param name="obj">
+            The object to compare with the current object.
+            </param>
+            <returns>
+            true if the specified object is equal to the current object;
+            otherwise, false.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.ProtectionProperties.Save(System.Xml.Linq.XElement,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with its default name under the specified parent.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.ProtectionProperties.Save(System.Xml.Linq.XElement,System.Xml.Linq.XName,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with the specified name under the specified parent.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.ProtectionProperties.Hidden">
+            <summary>
+            Gets or sets a value indicating if the cell is hidden.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.ProtectionProperties.Locked">
+            <summary>
+            Gets or sets a value indicating if the cell is locked.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Reference.ToString">
+            <summary>
+            Object.ToString override.
+            </summary>
+            <returns>
+            A string that represents the current object.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.Reference.GetHashCode">
+            <summary>
+            Object.GetHashCode override.
+            </summary>
+            <returns>
+            A hash code for the current object.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.Reference.Equals(System.Object)">
+            <summary>
+            Object.Equals override.
+            </summary>
+            <param name="obj">
+            The object to compare with the current object.
+            </param>
+            <returns>
+            true if the specified object is equal to the current object;
+            otherwise, false.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.Reference.GetColumnLetter(System.Int32)">
+            <summary>
+            Returns the character representation of the specified column.
+            </summary>
+            <param name="columnIndex">
+            The 0-based index of the column.
+            </param>
+            <returns>
+            The letter representing the column.
+            </returns>
+        </member>
+        <member name="T:MindFusion.Excel.RichTextRun">
+            <summary>
+            Represents a portion of a text with custom formatting properties.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.RichTextRun.#ctor">
+            <summary>
+            Initializes a new instance of the RichTextRun class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.RichTextRun.GetHashCode">
+            <summary>
+            Text.GetHashCode override.
+            </summary>
+            <returns>
+            A hash code for the current object.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.RichTextRun.Equals(System.Object)">
+            <summary>
+            Object.Equals override.
+            </summary>
+            <param name="obj">
+            The object to compare with the current object.
+            </param>
+            <returns>
+            true if the specified object is equal to the current object;
+            otherwise, false.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.RichTextRun.Save(System.Xml.Linq.XElement,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with its default name under the specified parent.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.RichTextRun.RunProperties">
+            <summary>
+            Gets or sets the formatting properties applied to the text.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.Row">
+            <summary>
+            Represents a row in a worksheet.
+            </summary>
+            <remarks>
+            This class cannot be instantiated directly. In order to obtain a reference to a row
+            call the Row method of the respective Worksheet object.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Excel.Row.#ctor(MindFusion.Excel.Worksheet,System.Int32)">
+            <summary>
+            Initializes a new instance of the Row class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Row.Save(System.Xml.Linq.XElement,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with its default name under the specified parent.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Row.Save(System.Xml.Linq.XElement,System.Xml.Linq.XName,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with the specified name under the specified parent.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Row.Index">
+            <summary>
+            Gets the 0-based index of the row.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Row.Height">
+            <summary>
+            Gets or sets the row height, in points (1/72th of an inch).
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Row.PageBreakAfter">
+            <summary>
+            Gets or sets a value indicating whether to force a page break after this row.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.RunProperties">
+            <summary>
+            Contains custom formatting properties applied to a portion of the text.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.RunProperties.#ctor">
+            <summary>
+            Initializes a new instance of the RunProperties class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.RunProperties.GetHashCode">
+            <summary>
+            Object.GetHashCode override.
+            </summary>
+            <returns>
+            A hash code for the current object.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.RunProperties.Equals(System.Object)">
+            <summary>
+            Object.Equals override.
+            </summary>
+            <param name="obj">
+            The object to compare with the current object.
+            </param>
+            <returns>
+            true if the specified object is equal to the current object;
+            otherwise, false.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.RunProperties.Save(System.Xml.Linq.XElement,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with its default name under the specified parent.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.RunProperties.Save(System.Xml.Linq.XElement,System.Xml.Linq.XName,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with the specified name under the specified parent.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.RunProperties.Font">
+            <summary>
+            Gets or sets the font name of the text.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.RunProperties.CharacterSet">
+            <summary>
+            Gets or sets the character set of the text.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.RunProperties.FontFamily">
+            <summary>
+            Gets or sets the font family of the text.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.RunProperties.Bold">
+            <summary>
+            Gets or sets a value indicating whether the text is bold.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.RunProperties.Italic">
+            <summary>
+            Gets or sets a value indicating whether the text is italic.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.RunProperties.StrikeThrough">
+            <summary>
+            Gets or sets a value indicating whether the text is stricken out.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.RunProperties.Outline">
+            <summary>
+            Gets or sets a value indicating whether the text is outlined.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.RunProperties.Shadow">
+            <summary>
+            Gets or sets a value indicating whether the text casts shadow.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.RunProperties.Condense">
+            <summary>
+            Gets or sets a value indicating whether the text is condensed.
+            This is a Macintosh compatibility setting.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.RunProperties.Extend">
+            <summary>
+            Gets or sets a value indicating whether the text is stretched out.
+            This is a compatibility setting used for previous spreadsheet applications.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.RunProperties.Color">
+            <summary>
+            Gets or sets the color of the text.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.RunProperties.FontSize">
+            <summary>
+            Gets or sets the font size of the text.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.RunProperties.Underline">
+            <summary>
+            Gets or sets a value indicating whether the font is underlined.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.RunProperties.VerticalAlignment">
+            <summary>
+            Gets or sets the vertical position of the text relative to the text's
+            default appearance.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.RunProperties.Scheme">
+            <summary>
+            Gets or sets the font scheme of the text.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.SerializationContext">
+            <summary>
+            Provides contextual information during serialization.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.SerializationContext.GetDrawingElementId">
+            <summary>
+            Returns an unique drawing element identifier within the current serialization.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.SerializationContext.Stylesheet">
+            <summary>
+            Gets or sets the currently active stylesheet. Styles of the serialized elements should
+            be registered in this object.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.SerializationContext.StringTable">
+            <summary>
+            Gets or sets the currently active string table. Shared strings of the serialized elements
+            should be registered in this object.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.SerializationContext.IndexedColors">
+            <summary>
+            Gets or sets a list with indexed colors. All rgb values should register themselves in
+            this list when it is present.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.SerializationOptions">
+            <summary>
+            Supplies options during document serialization.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.SerializationOptions.#cctor">
+            <summary>
+            Static constructor.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.SerializationOptions.#ctor">
+            <summary>
+            Initializes a new instance of the SerializationOptions class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.SerializationOptions.Default">
+            <summary>
+            Gets the default SerializationOptions.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.SerializationOptions.ThrowOnError">
+            <summary>
+            Gets or sets a value indicating whether to throw when the library encounters
+            corrupted data which would make the output invalid.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.SerializationOptions.IntersectingMergeCellsHandling">
+            <summary>
+            Gets or sets a value indicating how to handle intersecting merged
+            cells during serialization.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.SharedStringTable">
+            <summary>
+            Represents the shared string table of a workbook.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.SharedStringTable.IsRegistered(MindFusion.Excel.StringItem)">
+            <summary>
+            Checks if the specified item or an equal item is registered in the string table.
+            </summary>
+            <param name="item">
+            The item to check.
+            </param>
+            <returns>
+            true if the item or an equal item is registered; otherwise, false.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.SharedStringTable.Register(MindFusion.Excel.StringItem)">
+            <summary>
+            Registers the specified item in the table. If the item or an equal item is already registered,
+            this method returns the index of the previously registered item.
+            </summary>
+            <param name="item">
+            The item to register.
+            </param>
+            <returns>
+            The index of the item.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.SharedStringTable.Unregister(MindFusion.Excel.StringItem)">
+            <summary>
+            Unregisters the specified item from the table.
+            </summary>
+            <param name="item">
+            The item to unregister.
+            </param>
+            <returns>
+            true if the item was found and unregistered; otherwise, false.
+            </returns>
+        </member>
+        <member name="T:MindFusion.Excel.StringItem">
+            <summary>
+            Represents the string value of a cell.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.StringItem.#ctor">
+            <summary>
+            Initializes a new instance of the StringItem class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.StringItem.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the StringItem class with the specified value.
+            </summary>
+            <param name="value">
+            The initial value of the string item.
+            </param>
+        </member>
+        <member name="M:MindFusion.Excel.StringItem.ToString">
+            <summary>
+            Object.ToString override.
+            </summary>
+            <returns>
+            A string that represents the current object.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.StringItem.GetHashCode">
+            <summary>
+            Object.GetHashCode override.
+            </summary>
+            <returns>
+            A hash code for the current object.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.StringItem.Equals(System.Object)">
+            <summary>
+            Object.Equals override.
+            </summary>
+            <param name="obj">
+            The object to compare with the current object.
+            </param>
+            <returns>
+            true if the specified object is equal to the current object;
+            otherwise, false.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.StringItem.Save(System.Xml.Linq.XElement,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with its default name under the specified parent.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.StringItem.Save(System.Xml.Linq.XElement,System.Xml.Linq.XName,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with the specified name under the specified parent.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.StringItem.Items">
+            <summary>
+            Gets the text portions constituting this string item.
+            </summary>
+            <remarks>
+            This collection should contain either individual Text object or a
+            sequence of RichTextRun objects. A mix of both types is considered an error.
+            </remarks>
+        </member>
+        <member name="T:MindFusion.Excel.Style">
+            <summary>
+            Represents a set of formatting properties that can be applied to a cell
+            in the worksheet.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Style.#ctor">
+            <summary>
+            Initializes a new instance of the Style class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Style.GetHashCode">
+            <summary>
+            Object.GetHashCode override.
+            </summary>
+            <returns>
+            A hash code for the current object.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.Style.Equals(System.Object)">
+            <summary>
+            Object.Equals override.
+            </summary>
+            <param name="obj">
+            The object to compare with the current object.
+            </param>
+            <returns>
+            true if the specified object is equal to the current object;
+            otherwise, false.
+            </returns>
+        </member>
+        <member name="P:MindFusion.Excel.Style.Alignment">
+            <summary>
+            Gets or sets the formatting information of the associated cell.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Style.Protection">
+            <summary>
+            Gets or sets the protection properties of the associated cell.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Style.NumberFormat">
+            <summary>
+            Gets or sets the number format properties of the associated cell.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Style.Font">
+            <summary>
+            Gets or sets the font of the assocated cell.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Style.Fill">
+            <summary>
+            Gets or sets the fill of the associated cell.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Style.Border">
+            <summary>
+            Gets or sets the border formatting of the associated cell.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.Stylesheet">
+            <summary>
+            Represents the stylesheet of a workbook.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Stylesheet.IsRegistered(MindFusion.Excel.Style)">
+            <summary>
+            Checks if the specified style or an equal style is registered in the stylesheet.
+            </summary>
+            <param name="style">
+            The style to check.
+            </param>
+            <returns>
+            true if the style or an equal style is registered; otherwise, false.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.Stylesheet.Register(MindFusion.Excel.Style)">
+            <summary>
+            Registers the specified style in the stylesheet. If the style or an equal style is already registered,
+            this method returns the index of the previously registered style.
+            </summary>
+            <param name="style">
+            The style to register.
+            </param>
+            <returns>
+            The index of the style.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.Stylesheet.Unregister(MindFusion.Excel.Style)">
+            <summary>
+            Unregisters the specified style from the stylesheet.
+            </summary>
+            <param name="style">
+            The style to unregister.
+            </param>
+            <returns>
+            true if the style was found and unregistered; otherwise, false.
+            </returns>
+        </member>
+        <member name="T:MindFusion.Excel.Text">
+            <summary>
+            Represents a portion of a text.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Text.#ctor">
+            <summary>
+            Initializes a new instance of the Text class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Text.ToString">
+            <summary>
+            Object.ToString override.
+            </summary>
+            <returns>
+            A string that represents the current object.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.Text.GetHashCode">
+            <summary>
+            Object.GetHashCode override.
+            </summary>
+            <returns>
+            A hash code for the current object.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.Text.Equals(System.Object)">
+            <summary>
+            Object.Equals override.
+            </summary>
+            <param name="obj">
+            The object to compare with the current object.
+            </param>
+            <returns>
+            true if the specified object is equal to the current object;
+            otherwise, false.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.Text.Save(System.Xml.Linq.XElement,MindFusion.Excel.SerializationContext)">
+            <summary>
+            Saves the current object with its default name under the specified parent.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Text.Value">
+            <summary>
+            Gets or sets the string value of the text.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.Utilities">
+            <summary>
+            Provides global utility methods.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Utilities.PointsToEmus(System.Double)">
+            <summary>
+            Converts the specified value from points (1/72-th of an inch) to EMUs (1/914.400 of an inch).
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Utilities.TransformAngle(System.Double)">
+            <summary>
+            Converts the specified angle from degrees to Excel units (1/60.000-th of a degree).
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.VerticalAlignment">
+            <summary>
+            Defines the type of vertical alignment for a cell.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.VerticalAlignment.Bottom">
+            <summary>
+            The vertical alignment is aligned-to-bottom.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.VerticalAlignment.Center">
+            <summary>
+            The vertical alignment is centered across the height of
+            the cell.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.VerticalAlignment.Distributed">
+            <summary>
+            When text direction is horizontal: the vertical
+            alignment of lines of text is distributed vertically,
+            where each line of text inside the cell is evenly
+            distributed across the height of the cell, with flush top
+            and bottom margins.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.VerticalAlignment.Justify">
+            <summary>
+            When text direction is horizontal: the vertical
+            alignment of lines of text is distributed vertically,
+            where each line of text inside the cell is evenly
+            distributed across the height of the cell, with flush top
+            and bottom margins.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.VerticalAlignment.Top">
+            <summary>
+            The vertical alignment is aligned-to-top.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.VerticalRunAlignment">
+            <summary>
+            Defines the possible settings for vertical alignment of a run of text.
+            </summary>
+            <remarks>
+            This is used to get superscript or subscript text without altering the
+            font size properties of the rest of the text run.
+            </remarks>
+        </member>
+        <member name="F:MindFusion.Excel.VerticalRunAlignment.Baseline">
+            <summary>
+            Returns the text in this run to the baseline, default,
+            alignment, and returns it to the original font size.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.VerticalRunAlignment.Subscript">
+            <summary>
+            Specifies that this text should be subscript.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Excel.VerticalRunAlignment.Superscript">
+            <summary>
+            Specifies that this text should be superscript.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.Workbook">
+            <summary>
+            Represents a workbook within a document.
+            </summary>
+            <remarks>
+            This class cannot be instantiated directly. The sole instance of this class
+            can be accessed through the Workbook property of the Document class.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Excel.Workbook.#ctor(MindFusion.Excel.Document)">
+            <summary>
+            Initializes a new instance of the Workbook class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Workbook.Worksheets">
+            <summary>
+            Gets an object identifying all worksheets in this workbook.
+            </summary>
+            <remarks>
+            The returned object can be used to add new worksheets as well as
+            delete existing ones.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Excel.Workbook.DefaultFont">
+            <summary>
+            Gets or sets the default font in the workbook.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.Worksheet">
+            <summary>
+            Represents a worksheet in an Excel document.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Worksheet.#ctor(MindFusion.Excel.Workbook)">
+            <summary>
+            Initializes a new instance of the Worksheet class for the specified workbook.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Worksheet.Cell(System.Int32,System.Int32)">
+            <summary>
+            Provides access to the cell at the specified location.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Worksheet.Row(System.Int32)">
+            <summary>
+            Provides access to the row with the specified index.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Worksheet.Column(System.Int32)">
+            <summary>
+            Provides access to the column with the specified index.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Worksheet.Drawing">
+            <summary>
+            Provides access to the Drawing object associated with the worksheet.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Worksheet.Name">
+            <summary>
+            Gets the name of the worksheet.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Worksheet.Workbook">
+            <summary>
+            Gets a reference to the parent workbook.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Worksheet.PageMargins">
+            <summary>
+            Gets or sets the page margins for the worksheet, possibly null.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Worksheet.PageSetup">
+            <summary>
+            Gets or sets the page setup settings for the worksheet, possibly null.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.Worksheets">
+            <summary>
+            Represents a collection of worksheets in a workbook.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Worksheets.#ctor(MindFusion.Excel.Workbook)">
+            <summary>
+            Initializes a new instance of the Worksheets class for the specified workbook.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Worksheets.GetEnumerator">
+            <summary>
+            IEnumerable&lt;Worksheet&gt;.GetEnumerator implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Worksheets.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            IEnumerable.GetEnumerator explicit implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.Worksheets.Add(System.String)">
+            <summary>
+            Adds and returns a new Worksheet with the specified name. If a worksheet with that
+            name already exists or the name is not a valid worksheet name, an exception is raised.
+            </summary>
+            <param name="name">
+            The case-insensitive name of the worksheet to add.
+            </param>
+            <returns>
+            The newly created and added worksheet.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Excel.Worksheets.Delete(System.String)">
+            <summary>
+            Deletes the worksheet with the specified name. Nothing happens if there
+            is no worksheet with this name.
+            </summary>
+            <param name="name">
+            The case-insensitive name of the worksheet to delete.
+            </param>
+        </member>
+        <member name="P:MindFusion.Excel.Worksheets.Item(System.String)">
+            <summary>
+            Gets the worksheet with the specified name or null if there is no worksheet with this name.
+            </summary>
+            <param name="name">
+            The case-insensitive name of the worksheet to return.
+            </param>
+            <returns>
+            The Worksheet with the specified name.
+            </returns>
+        </member>
+        <member name="P:MindFusion.Excel.Worksheets.Count">
+            <summary>
+            Gets the number of worksheets in the collection.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.XHelper">
+            <summary>
+            Provides helper methods for working with System.Xml.Linq objects;
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.Xmlns">
+            <summary>
+            Defines some of the commonly used XML namespaces in Open Office XML.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Xmlns.Main">
+            <summary>
+            Provides access to the main schema used by all Excel components.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.Xmlns.Relationships">
+            <summary>
+            Provides access to the relationship schema.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Excel.XNameAttribute">
+            <summary>
+            Defines the XML name of a property or field in the Open Office XML format.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Excel.XNameAttribute.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the XNameAttribute class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Excel.XNameAttribute.Name">
+            <summary>
+            Gets or sets the XML name of the related property or field.
+            </summary>
+        </member>
+    </members>
+</doc>

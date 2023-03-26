@@ -1,0 +1,744 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>C1.UWP.Gauge</name>
+    </assembly>
+    <members>
+        <member name="T:C1.UWP.Gauge.GaugeValueEventArgs">
+            <summary>
+            Argument passed when a value change event has triggered.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.GaugeValueEventArgs.Value">
+            <summary>
+            The value regarding the change.
+            </summary>
+        </member>
+        <member name="M:C1.UWP.Gauge.GaugeValueEventArgs.#ctor(System.Double)">
+            <summary>
+            Default constructor.
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="T:C1.UWP.Gauge.GaugeRange">
+            <summary>
+            Defines ranges to be used with <see cref="T:C1.UWP.Gauge.C1Gauge"/> controls.
+            </summary>
+            <remarks>
+            Range objects have min and max properties that define the range's domain, as well as color and thickness properties that define the range's appearance.
+            Every Gauge control has at least two ranges: the <see cref="p:Face"/> defines the minimum and maximum values for the gauge, and the <see cref="p:Pointer"/> displays the gauge's current value.
+            In addition to the built-in ranges, gauges may have additional ranges used to display regions of significance (for example, low, medium, and high values).
+            </remarks>
+        </member>
+        <member name="M:C1.UWP.Gauge.GaugeRange.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.UWP.Gauge.GaugeRange"/>.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.GaugeRange.Color">
+            <summary>
+            Gets or sets the color used to display this range.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.GaugeRange.Min">
+            <summary>
+            Gets or sets the minimum value for this range.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.GaugeRange.Max">
+            <summary>
+            Gets or sets the maximum value for this range.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.GaugeRange.Name">
+            <summary>
+            Gets or sets whether the name of this <see cref="T:C1.UWP.Gauge.GaugeRange"/>.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.GaugeRange.Thickness">
+            <summary>
+            Gets or sets the thickness of this range as a percentage of the parent gauge's thickness.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.GaugeRange.BorderColor">
+            <summary>
+            Gets or sets the color used to display the border of this range.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.GaugeRange.BorderWidth">
+            <summary>
+            Gets or sets the border width of this range.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.GaugeRange.BorderDashes">
+            <summary>
+            Gets or sets the dashes pattern used in the border of this range.
+            </summary>
+        </member>
+        <member name="E:C1.UWP.Gauge.GaugeRange.PropertyChanged">
+            <summary>
+            Occurs when a property value changes.
+            </summary>
+        </member>
+        <member name="M:C1.UWP.Gauge.GaugeRange.OnPropertyChanged(System.String)">
+            <summary>
+            Called when a property changed.
+            </summary>
+            <param name="propertyName">Name of the property.</param>
+        </member>
+        <member name="T:C1.UWP.Gauge.GaugeRangeCollection">
+            <summary>
+            Collection of <see cref="T:C1.UWP.Gauge.GaugeRange"/>.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.GaugeRangeCollection.IsReadOnly">
+            <summary>
+            Gets a value indicating whether is possible to modify this collection.
+            </summary>
+        </member>
+        <member name="E:C1.UWP.Gauge.GaugeRangeCollection.RangePropertyChanged">
+            <summary>
+            Occurs when a property of a range changes.
+            </summary>
+        </member>
+        <member name="M:C1.UWP.Gauge.GaugeRangeCollection.OnCollectionChanged(System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            Raises the <see cref="E:CollectionChanged" /> event.
+            </summary>
+            <param name="e">The <see cref="T:System.Collections.Specialized.NotifyCollectionChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:C1.UWP.Gauge.GaugeRangeCollection.InsertItem(System.Int32,C1.UWP.Gauge.GaugeRange)">
+            <summary>
+            Inserts the range in the collection.
+            </summary>
+            <param name="index">The index to be inserted.</param>
+            <param name="range">The range to be inserted.</param>
+            <exception cref="T:System.InvalidOperationException"></exception>
+        </member>
+        <member name="M:C1.UWP.Gauge.GaugeRangeCollection.MoveItem(System.Int32,System.Int32)">
+            <summary>
+            Moves the range from oldIndex to newIndex.
+            </summary>
+            <param name="oldIndex">The old index.</param>
+            <param name="newIndex">The new index.</param>
+            <exception cref="T:System.InvalidOperationException"></exception>
+        </member>
+        <member name="M:C1.UWP.Gauge.GaugeRangeCollection.RemoveItem(System.Int32)">
+            <summary>
+            Removes the range.
+            </summary>
+            <param name="index">The index.</param>
+            <exception cref="T:System.InvalidOperationException"></exception>
+        </member>
+        <member name="M:C1.UWP.Gauge.GaugeRangeCollection.SetItem(System.Int32,C1.UWP.Gauge.GaugeRange)">
+            <summary>
+            Sets the range.
+            </summary>
+            <param name="index">The index.</param>
+            <param name="item">The range.</param>
+            <exception cref="T:System.InvalidOperationException"></exception>
+        </member>
+        <member name="M:C1.UWP.Gauge.GaugeRangeCollection.ClearItems">
+            <summary>
+            Clears the ranges.
+            </summary>
+            <exception cref="T:System.InvalidOperationException"></exception>
+        </member>
+        <member name="T:C1.UWP.Gauge.C1BulletGraph">
+            <summary>
+            The <see cref="T:C1.UWP.Gauge.C1BulletGraph"/> is a type of linear gauge designed specifically for use in dashboards. It displays a single key measure along with a comparative measure and qualitative ranges to instantly signal whether the measure is good, bad, or in some other state.
+            </summary>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1BulletGraph.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.UWP.Gauge.C1BulletGraph"/>.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1BulletGraph.Good">
+            <summary>
+            Gets or sets a reference value considered good for the measure.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1BulletGraph.Bad">
+            <summary>
+            Gets or sets a reference value considered bad for the measure.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1BulletGraph.Target">
+            <summary>
+            Gets or sets the target value for the measure.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1BulletGraph.BadRangeColor">
+            <summary>
+            Gets or sets the color of the bad range.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1BulletGraph.GoodRangeColor">
+            <summary>
+            Gets or sets the color of the good range.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1BulletGraph.TargetColor">
+            <summary>
+            Gets or sets the color of the target.
+            </summary>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1BulletGraph.GetRangeRect(C1.UWP.Gauge.GaugeRange,System.Double)">
+            <summary>
+            Get the rectangle of gauge range.
+            </summary>
+            <param name="range">The gauge range.</param>
+            <param name="value">The gauge value.</param>
+            <returns>The rectangle of gauge range.</returns>
+        </member>
+        <member name="T:C1.UWP.Gauge.C1Gauge">
+            <summary>
+            Base class for the Gauge controls 
+            </summary>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1Gauge.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.UWP.Gauge.C1Gauge"/> control.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1Gauge.Face">
+            <summary>
+            Gets the <see cref="T:C1.UWP.Gauge.GaugeRange"/> used to represent the gauge's overall geometry and appearance.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1Gauge.Pointer">
+            <summary>
+            Gets the <see cref="T:C1.UWP.Gauge.GaugeRange"/> used to represent the gauge's current value.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1Gauge.Ranges">
+            <summary>
+            Gets the collection of ranges in this gauge.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1Gauge.IsReadOnly">
+            <summary>
+            Gets or sets a value to determine whether the gauge is readonly.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1Gauge.Format">
+            <summary>
+            Gets or sets the format string used for displaying the gauge values as text.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1Gauge.MinFont">
+            <summary>
+            Gets or sets the minimum value font style.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1Gauge.MaxFont">
+            <summary>
+            Gets or sets the maximum value font style.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1Gauge.ValueFont">
+            <summary>
+            Gets or sets the value font style.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1Gauge.MinTextColor">
+            <summary>
+            Gets or sets the color of the minimum label.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1Gauge.MaxTextColor">
+            <summary>
+            Gets or sets the color of the maximum label.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1Gauge.ValueTextColor">
+            <summary>
+            Gets or sets the color of the value label.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1Gauge.ShowRanges">
+            <summary>
+            Gets or sets whether the gauge should display the ranges contained in the ranges property.
+            </summary>
+            <remarks>
+            If this property is set to false, the ranges contained in the ranges property are not displayed in the gauge. Instead, they are used to interpolate the color of the pointer range while animating value changes.
+            </remarks>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1Gauge.ShowText">
+            <summary>
+            Gets or sets which values should be displayed as text in the gauge.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1Gauge.Step">
+            <summary>
+            Gets or sets a value that determines the intervals the <see cref="p:Value"/> can be set when the user interacts directly with the control. For instance if Step=25 the possible values will be 0,25,50,75,100.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1Gauge.Thickness">
+            <summary>
+            Gets or sets the thickness of the gauge, on a scale between zero and one.
+            </summary>
+            <remarks>
+            Setting the thickess to one causes the gauge to fill as much of the control area as possible. Smaller values create thinner gauges.
+            </remarks>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1Gauge.Origin">
+            <summary>
+            Gets or sets the starting point used for painting the range.
+            </summary>
+            <remarks>
+            By default, this property is set to double.Nan, which causes the value range
+            to start at the gauge's minimum value, or zero if the minimum is less than zero.
+            </remarks>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1Gauge.Value">
+            <summary>
+            Gets or sets the value displayed on the gauge.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1Gauge.IsAnimated">
+            <summary>
+            Gets or sets a value indicating whether the control will transition from one state to another using animations.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1Gauge.LoadAnimation">
+            <summary>
+            Gets or sets the animation used when the control is loaded.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1Gauge.UpdateAnimation">
+            <summary>
+            Gets or sets the animation used when the value property changes.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1Gauge.Min">
+            <summary>
+            Gets or sets the minimum value of the gauge.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1Gauge.Max">
+            <summary>
+            Gets or sets the maximum value of the gauge.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1Gauge.FaceColor">
+            <summary>
+            Gets or sets the color of the face.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1Gauge.FaceBorderColor">
+            <summary>
+            Gets or sets the color of the face border.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1Gauge.FaceBorderWidth">
+            <summary>
+            Gets or sets the width of the face border.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1Gauge.FaceBorderDashes">
+            <summary>
+            Gets or sets the face border dashes.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1Gauge.PointerColor">
+            <summary>
+            Gets or sets the color of the pointer.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1Gauge.IsAnimating">
+            <summary>
+            Gets the animation is processing.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1Gauge.ValueConverter">
+            <summary>
+            Gets or sets an <see cref="T:Windows.UI.Xaml.Data.IValueConverter"/> associated with this.
+            </summary>
+        </member>
+        <member name="E:C1.UWP.Gauge.C1Gauge.ValueChanged">
+            <summary>
+            ​Occurs when the value changed.
+            </summary>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1Gauge.OnValueChangedEvent(C1.UWP.Gauge.GaugeValueEventArgs)">
+            <summary>
+            Raises the <see cref="E:ValueChangedEvent" /> event.
+            </summary>
+            <param name="e">The <see cref="T:C1.UWP.Gauge.GaugeValueEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="E:C1.UWP.Gauge.C1Gauge.Tapped">
+            <summary>
+            Occurs for every touch event.
+            </summary>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1Gauge.Refresh(System.Boolean)">
+            <summary>
+            Refreshes the control.
+            </summary>
+            <param name="fullUpdate">Whether to update the control layout as well as the content.</param>
+            <returns></returns>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1Gauge.GetValueFromPoint(Windows.Foundation.Point)">
+            <summary>
+            Get guage value from the point.
+            </summary>
+            <param name="point">The tapped point.</param>
+            <returns>The gauge value.</returns>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1Gauge.GetPercent(System.Double)">
+            <summary>
+            Get the value of percent.
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1Gauge.FormatDecimal(System.Double)">
+            <summary>
+            Format decimal number to the string.
+            </summary>
+            <param name="number"></param>
+            <returns></returns>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1Gauge.DrawGauge">
+            <summary>
+            Draw the gauge.
+            </summary>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1Gauge.StartLoadAnimation">
+            <summary>
+            Start loading animation.
+            </summary>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1Gauge.StartUpdateAnimation">
+            <summary>
+            Start updating animation.
+            </summary>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1Gauge.UpdateRange(C1.UWP.Gauge.GaugeRange,System.Double)">
+            <summary>
+            Update gauge range.
+            </summary>
+            <param name="range">The gauge range.</param>
+            <param name="value">The gauge value.</param>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1Gauge.DrawMinMaxText">
+            <summary>
+            Draw the text of Min and Max.
+            </summary>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1Gauge.DrawValueText(System.Double)">
+            <summary>
+            Draw the text of Value.
+            </summary>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1Gauge.UpdateRangeElement(C1.UWP.Gauge.GaugeRange,System.Double)">
+            <summary>
+            Update element range.
+            </summary>
+            <param name="range">The gauge range.</param>
+            <param name="value">The gauge value.</param>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1Gauge.OnApplyTemplate">
+            <summary>
+            Invoked when applying control template.
+            </summary>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1Gauge.MeasureOverride(Windows.Foundation.Size)">
+            <summary>
+            Provides the behavior for the Measure pass of the layout cycle.
+            </summary>
+            <param name="availableSize">The available size that this object can give to child objects.</param>
+            <returns>
+                The size that this object determines it needs during layout, based on its calculations
+                of the allocated sizes for child objects or based on other considerations such
+                as a fixed container size.
+            </returns>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1Gauge.GetPointerColor(System.Double)">
+            <summary>
+            Get point color from the value.
+            </summary>
+            <param name="value">The gauge value.</param>
+            <returns>The point color of the value.</returns>
+        </member>
+        <member name="F:C1.UWP.Gauge.C1Gauge._textMin">
+            <summary>
+            The string of Min, Max, and Value.
+            </summary>
+        </member>
+        <member name="F:C1.UWP.Gauge.C1Gauge._textMax">
+            <summary>
+            The string of Min, Max, and Value.
+            </summary>
+        </member>
+        <member name="F:C1.UWP.Gauge.C1Gauge._textValue">
+            <summary>
+            The string of Min, Max, and Value.
+            </summary>
+        </member>
+        <member name="F:C1.UWP.Gauge.C1Gauge._textMinRect">
+            <summary>
+            The rectangle of Min, Max, and Value.
+            </summary>
+        </member>
+        <member name="F:C1.UWP.Gauge.C1Gauge._textMaxRect">
+            <summary>
+            The rectangle of Min, Max, and Value.
+            </summary>
+        </member>
+        <member name="F:C1.UWP.Gauge.C1Gauge._textValueRect">
+            <summary>
+            The rectangle of Min, Max, and Value.
+            </summary>
+        </member>
+        <member name="E:C1.UWP.Gauge.C1Gauge.Disposed">
+            <summary>
+            Occurs when the object is disposed.
+            </summary>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1Gauge.Dispose">
+            <summary>
+            Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+            </summary>
+        </member>
+        <member name="T:C1.UWP.Gauge.GaugeShowText">
+            <summary>
+            Specifies which values should be displayed as text.
+            </summary>
+        </member>
+        <member name="F:C1.UWP.Gauge.GaugeShowText.All">
+            <summary>
+            Show the gauge's value, min, and max as text. 
+            </summary>
+        </member>
+        <member name="F:C1.UWP.Gauge.GaugeShowText.MinMax">
+            <summary>
+            Show the gauge's min and max values as text. 
+            </summary>
+        </member>
+        <member name="F:C1.UWP.Gauge.GaugeShowText.Value">
+            <summary>
+            Show the gauge's value as text. 
+            </summary>
+        </member>
+        <member name="F:C1.UWP.Gauge.GaugeShowText.None">
+            <summary>
+            Do not show any text in the gauge. 
+            </summary>
+        </member>
+        <member name="T:C1.UWP.Gauge.C1LinearGauge">
+            <summary>
+            The <see cref="T:C1.UWP.Gauge.C1LinearGauge"/> displays a linear scale with an indicator that represents a single value and optional ranges to represent reference values.
+            </summary>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1LinearGauge.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.UWP.Gauge.C1LinearGauge"/> control.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1LinearGauge.Direction">
+            <summary>
+            Gets or sets the format string used for displaying the gauge values as text.
+            </summary>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1LinearGauge.GetValueFromPoint(Windows.Foundation.Point)">
+            <summary>
+            Get guage value from the point.
+            </summary>
+            <param name="point">The tapped point.</param>
+            <returns>The gauge value.</returns>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1LinearGauge.GetRangeRect(C1.UWP.Gauge.GaugeRange,System.Double)">
+            <summary>
+            Get the rectangle of gauge range.
+            </summary>
+            <param name="range">The gauge range.</param>
+            <param name="value">The gauge value.</param>
+            <returns>The rectangle of gauge range.</returns>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1LinearGauge.DrawMinMaxText">
+            <summary>
+            Draw the text of Min and Max.
+            </summary>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1LinearGauge.DrawValueText(System.Double)">
+            <summary>
+            Draw the text of Value.
+            </summary>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1LinearGauge.UpdateRangeElement(C1.UWP.Gauge.GaugeRange,System.Double)">
+            <summary>
+            Update element range.
+            </summary>
+            <param name="range">The gauge range.</param>
+            <param name="value">The gauge value.</param>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1LinearGauge.GetRangeRect(C1.UWP.Gauge.GaugeRange)">
+            <summary>
+            Get the rectangle of gauge range.
+            </summary>
+            <param name="rng">The gauge range.</param>
+            <returns>The rectangle of gauge range.</returns>
+        </member>
+        <member name="T:C1.UWP.Gauge.LinearGaugeDirection">
+            <summary>
+            Represents the direction in which the pointer of a <see cref="T:C1.UWP.Gauge.C1LinearGauge"/> increases.
+            </summary>
+        </member>
+        <member name="F:C1.UWP.Gauge.LinearGaugeDirection.Down">
+            <summary>
+            Gauge value increases from top to bottom. 
+            </summary>
+        </member>
+        <member name="F:C1.UWP.Gauge.LinearGaugeDirection.Left">
+            <summary>
+            Gauge value increases from right to left. 
+            </summary>
+        </member>
+        <member name="F:C1.UWP.Gauge.LinearGaugeDirection.Right">
+            <summary>
+            Gauge value increases from left to right. 
+            </summary>
+        </member>
+        <member name="F:C1.UWP.Gauge.LinearGaugeDirection.Up">
+            <summary>
+            Gauge value increases from bottom to top. 
+            </summary>
+        </member>
+        <member name="T:C1.UWP.Gauge.LinearGaugeDirectionEx">
+            <summary>
+            Extensions for <see cref="T:C1.UWP.Gauge.LinearGaugeDirection"/>
+            </summary>
+        </member>
+        <member name="M:C1.UWP.Gauge.LinearGaugeDirectionEx.IsHorizontal(C1.UWP.Gauge.LinearGaugeDirection)">
+            <summary>
+            Check Whether if the direction is horizontal or not.
+            </summary>
+            <param name="direction"></param>
+            <returns>True if the direction is horizontal</returns>
+        </member>
+        <member name="T:C1.UWP.Gauge.C1RadialGauge">
+            <summary>
+            The <see cref="T:C1.UWP.Gauge.C1RadialGauge"/> displays a circular scale with an indicator that represents a single value and optional ranges to represent reference values.
+            </summary>
+        </member>
+        <member name="F:C1.UWP.Gauge.C1RadialGauge.DefaultAutoScale">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:C1.UWP.Gauge.C1RadialGauge.DefaultStartAngle">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:C1.UWP.Gauge.C1RadialGauge.DefaultSweepAngle">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1RadialGauge.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.UWP.Gauge.C1RadialGauge"/> control.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1RadialGauge.AutoScale">
+            <summary>
+            Gets or sets whether the gauge should automatically scale to fill the host element.
+            </summary>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1RadialGauge.StartAngle">
+            <summary>
+            Gets or sets the starting angle for the gauge, in degrees.
+            </summary>
+            <remarks>
+            Angles are measured clockwise, starting at the 9 o'clock position.
+            </remarks>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1RadialGauge.SweepAngle">
+            <summary>
+            Gets or sets the sweeping angle for the gauge, in degrees.
+            </summary>
+            <remarks>
+            Angles are measured clockwise, starting at the 9 o'clock position.
+            </remarks>
+        </member>
+        <member name="P:C1.UWP.Gauge.C1RadialGauge.IsReversed">
+            <summary>
+            Gets or sets a flag which indicates whether the radial gauge is reversed.
+            </summary>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1RadialGauge.GetValueFromPoint(Windows.Foundation.Point)">
+            <summary>
+            Get guage value from the point.
+            </summary>
+            <param name="point">The tapped point.</param>
+            <returns>The gauge value.</returns>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1RadialGauge.GetCenterPoint">
+            <summary>
+            Get radial center.
+            </summary>
+            <returns>The point of center.</returns>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1RadialGauge.GetRadialOuter">
+            <summary>
+            Get radial outer.
+            </summary>
+            <returns>The radial outer.</returns>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1RadialGauge.GetRadialInner">
+            <summary>
+            Get radial inner.
+            </summary>
+            <returns>The radial inner.</returns>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1RadialGauge.DrawMinMaxText">
+            <summary>
+            Draw the text of Min and Max.
+            </summary>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1RadialGauge.DrawValueText(System.Double)">
+            <summary>
+            Draw the text of Value.
+            </summary>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1RadialGauge.DrawGauge">
+            <summary>
+            Draw the gauge.
+            </summary>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1RadialGauge.UpdateRangeElement(C1.UWP.Gauge.GaugeRange,System.Double)">
+            <summary>
+            Update element range.
+            </summary>
+            <param name="range">The gauge range.</param>
+            <param name="value">The gauge value.</param>
+        </member>
+        <member name="T:C1.UWP.Gauge.C1_UWP_Gauge_XamlTypeInfo.XamlMetaDataProvider">
+            <summary>
+            Main class for providing metadata for the app or library
+            </summary>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1_UWP_Gauge_XamlTypeInfo.XamlMetaDataProvider.GetXamlType(System.Type)">
+            <summary>
+            GetXamlType(Type)
+            </summary>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1_UWP_Gauge_XamlTypeInfo.XamlMetaDataProvider.GetXamlType(System.String)">
+            <summary>
+            GetXamlType(String)
+            </summary>
+        </member>
+        <member name="M:C1.UWP.Gauge.C1_UWP_Gauge_XamlTypeInfo.XamlMetaDataProvider.GetXmlnsDefinitions">
+            <summary>
+            GetXmlnsDefinitions()
+            </summary>
+        </member>
+    </members>
+</doc>

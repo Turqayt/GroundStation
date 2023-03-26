@@ -1,0 +1,581 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Evergine.Platform</name>
+    </assembly>
+    <members>
+        <member name="T:Evergine.Platform.AssetsDirectory">
+            <inheritdoc />
+        </member>
+        <member name="M:Evergine.Platform.AssetsDirectory.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Evergine.Platform.AssetsDirectory" /> class.
+            </summary>
+        </member>
+        <member name="M:Evergine.Platform.AssetsDirectory.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Evergine.Platform.AssetsDirectory" /> class.
+            </summary>
+            <param name="rootPath">The root path of the assets directory.</param>
+        </member>
+        <member name="M:Evergine.Platform.AssetsDirectory.EnumerateDirectories(System.String,System.String,System.IO.SearchOption)">
+            <inheritdoc />
+        </member>
+        <member name="M:Evergine.Platform.AssetsDirectory.EnumerateFiles(System.String,System.String,System.IO.SearchOption)">
+            <inheritdoc />
+        </member>
+        <member name="M:Evergine.Platform.AssetsDirectory.Exists(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:Evergine.Platform.AssetsDirectory.Open(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="T:Evergine.Platform.DllRegister">
+            <summary>
+            Helpers to load native libraries.
+            </summary>
+        </member>
+        <member name="M:Evergine.Platform.DllRegister.Register(System.Reflection.Assembly)">
+            <summary>
+            Register the given assembly native libraries to be loaded.
+            </summary>
+            <param name="assembly">The assembly to be registered.</param>
+        </member>
+        <member name="M:Evergine.Platform.DllRegister.Register(System.Reflection.Assembly,Evergine.Platform.INativeLibraryRegisterMapping)">
+            <summary>
+            Register the given assembly native libraries to be loaded.
+            </summary>
+            <param name="assembly">The assembly to be registered.</param>
+            <param name="mapping">The mapping.</param>
+        </member>
+        <member name="T:Evergine.Platform.FileSystemName">
+            <summary>
+            Provides methods for matching file system names.
+            </summary>
+        </member>
+        <member name="M:Evergine.Platform.FileSystemName.MatchesSimpleExpression(System.String,System.String,System.Boolean)">
+            <summary>
+            Return true if the given expression matches the given name. '*' and '?' are wildcards, '\' escapes.
+            </summary>
+        </member>
+        <member name="M:Evergine.Platform.FileSystemName.MatchesSimpleExpression(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.Boolean)">
+            <summary>
+            Return true if the given expression matches the given name. '*' and '?' are wildcards, '\' escapes.
+            </summary>
+        </member>
+        <member name="T:Evergine.Platform.Accelerometer">
+            <summary>
+            Accelerometer data of the acceleration of the device in three dimensional space.
+            </summary>
+        </member>
+        <member name="P:Evergine.Platform.Accelerometer.IsStarted">
+            <summary>
+            Gets a value indicating whether the accelerometer sensor has been started.
+            </summary>
+        </member>
+        <member name="P:Evergine.Platform.Accelerometer.Acceleration">
+            <summary>
+            Gets the acceleration vector in G's (gravitational force).
+            </summary>
+            <remarks>
+            The coordinate-system is defined relative to the screen of the device in its default orientation.
+            The axes are not swapped when the device's screen orientation changes.
+            The X axis is horizontal and points to the left, the Y axis is vertical and points up and the Z axis points
+            towards the outside of the back face of the screen. In this system, coordinates behind the screen have
+            positive Z values.
+            </remarks>
+        </member>
+        <member name="M:Evergine.Platform.Accelerometer.Start">
+            <summary>
+            Start monitoring for changes to accelerometer.
+            </summary>
+        </member>
+        <member name="M:Evergine.Platform.Accelerometer.Stop">
+            <summary>
+            Stop monitoring for changes to accelerometer.
+            </summary>
+        </member>
+        <member name="M:Evergine.Platform.Accelerometer.Dispose">
+            <inheritdoc />
+        </member>
+        <member name="T:Evergine.Platform.Battery">
+            <summary>
+            Battery and charging information of the device.
+            </summary>
+            <remarks>
+            Needs BATTERY_STATS permission set in manifest for Android.
+            </remarks>
+        </member>
+        <member name="P:Evergine.Platform.Battery.IsSupported">
+            <summary>
+            Gets a value indicating whether the battery tracker is supported on the current platform.
+            </summary>
+        </member>
+        <member name="P:Evergine.Platform.Battery.ChargeLevel">
+            <summary>
+            Gets the current charge level of the device from 0.0 to 1.0.
+            </summary>
+            <remarks>
+            Needs BATTERY_STATS permission set in manifest for Android.
+            </remarks>
+        </member>
+        <member name="P:Evergine.Platform.Battery.PowerSource">
+            <summary>
+            Gets the current power source for the device.
+            </summary>
+            <remarks>
+            Needs BATTERY_STATS permission set in manifest for Android.
+            </remarks>
+        </member>
+        <member name="P:Evergine.Platform.Battery.State">
+            <summary>
+            Gets the charging state of the device if it can be determined.
+            </summary>
+            <remarks>
+            Needs BATTERY_STATS permission set in manifest for Android.
+            </remarks>
+        </member>
+        <member name="P:Evergine.Platform.Battery.EnergySaverStatus">
+            <summary>
+            Gets the current energy saver status of the device.
+            </summary>
+            <remarks>
+            Needs BATTERY_STATS permission set in manifest for Android.
+            </remarks>
+        </member>
+        <member name="E:Evergine.Platform.Battery.BatteryInfoChanged">
+            <summary>
+            Occurs when battery properties have changed.
+            </summary>
+        </member>
+        <member name="E:Evergine.Platform.Battery.EnergySaverStatusChanged">
+            <summary>
+            Occurs when energy saver status have changed.
+            </summary>
+        </member>
+        <member name="M:Evergine.Platform.Battery.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Evergine.Platform.Battery"/> class.
+            </summary>
+        </member>
+        <member name="M:Evergine.Platform.Battery.Dispose">
+            <inheritdoc />
+        </member>
+        <member name="T:Evergine.Platform.Compass">
+            <summary>
+            Compass data of the device's orientation relative to Earth's magnetic field.
+            </summary>
+        </member>
+        <member name="P:Evergine.Platform.Compass.IsStarted">
+            <summary>
+            Gets a value indicating whether the compass sensor has been started.
+            </summary>
+        </member>
+        <member name="P:Evergine.Platform.Compass.HeadingMagneticNorth">
+            <summary>
+            Gets the heading (measured in radians) relative to magnetic north.
+            </summary>
+        </member>
+        <member name="M:Evergine.Platform.Compass.Start">
+            <summary>
+            Start monitoring for changes to compass.
+            </summary>
+        </member>
+        <member name="M:Evergine.Platform.Compass.Stop">
+            <summary>
+            Stop monitoring for changes to compass.
+            </summary>
+        </member>
+        <member name="M:Evergine.Platform.Compass.Dispose">
+            <inheritdoc />
+        </member>
+        <member name="T:Evergine.Platform.Connectivity">
+            <summary>
+            Connectivity and networking information of the device.
+            </summary>
+            <remarks>
+            Needs ACCESS_NETWORK_STATE permission set in manifest for Android.
+            </remarks>
+        </member>
+        <member name="P:Evergine.Platform.Connectivity.IsSupported">
+            <summary>
+            Gets a value indicating whether the connectivity tracker is supported on the current platform.
+            </summary>
+        </member>
+        <member name="P:Evergine.Platform.Connectivity.ConnectionProfiles">
+            <summary>
+            Gets the active connectivity types for the device.
+            </summary>
+            <remarks>
+            Needs ACCESS_NETWORK_STATE permission set in manifest for Android.
+            </remarks>
+        </member>
+        <member name="P:Evergine.Platform.Connectivity.NetworkAccess">
+            <summary>
+            Gets the current state of network access. Does not guarantee full access to the internet.
+            </summary>
+            <remarks>
+            Needs ACCESS_NETWORK_STATE permission set in manifest for Android.
+            </remarks>
+        </member>
+        <member name="E:Evergine.Platform.Connectivity.ConnectivityChanged">
+            <summary>
+            Occurs when a network access or profile has changed.
+            </summary>
+        </member>
+        <member name="M:Evergine.Platform.Connectivity.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Evergine.Platform.Connectivity"/> class.
+            </summary>
+        </member>
+        <member name="M:Evergine.Platform.Connectivity.Dispose">
+            <inheritdoc />
+        </member>
+        <member name="T:Evergine.Platform.DeviceInfo">
+            <summary>
+            Represents information about the device.
+            </summary>
+        </member>
+        <member name="F:Evergine.Platform.DeviceInfo.isXamEssentialsSupported">
+            <summary>
+            Indicates if <see cref="N:Xamarin"/> Essentials is supported on this platform;.
+            </summary>
+        </member>
+        <member name="P:Evergine.Platform.DeviceInfo.Model">
+            <summary>
+            Gets the model of the device.
+            </summary>
+        </member>
+        <member name="P:Evergine.Platform.DeviceInfo.Manufacturer">
+            <summary>
+            Gets the manufacturer of the device.
+            </summary>
+        </member>
+        <member name="P:Evergine.Platform.DeviceInfo.Name">
+            <summary>
+            Gets the name of the device.
+            </summary>
+        </member>
+        <member name="P:Evergine.Platform.DeviceInfo.VersionString">
+            <summary>
+            Gets the version of the operating system.
+            </summary>
+        </member>
+        <member name="P:Evergine.Platform.DeviceInfo.PlatformType">
+            <summary>
+            Gets the platform or operating system of the device.
+            </summary>
+        </member>
+        <member name="P:Evergine.Platform.DeviceInfo.PlatformFamily">
+            <summary>
+            Gets the idiom of the device.
+            </summary>
+        </member>
+        <member name="P:Evergine.Platform.DeviceInfo.DisplayOrientation">
+            <summary>
+            Gets the display orientation of the device.
+            </summary>
+        </member>
+        <member name="P:Evergine.Platform.DeviceInfo.IsPhysical">
+            <summary>
+            Gets a value indicating whether the application is running on a physical or virtual device. A virtual
+            device is a simulator or emulator.
+            </summary>
+        </member>
+        <member name="M:Evergine.Platform.DeviceInfo.#cctor">
+            <summary>
+            Initializes static members of the <see cref="T:Evergine.Platform.DeviceInfo"/> class.
+            </summary>
+        </member>
+        <member name="T:Evergine.Platform.DeviceVibration">
+            <summary>
+            Provides an easy way to make the device vibrate.
+            </summary>
+        </member>
+        <member name="M:Evergine.Platform.DeviceVibration.Vibrate">
+            <summary>
+            Vibrate the device fo 500ms.
+            </summary>
+            <remarks>
+            Needs VIBRATE permission set in manifest for Android.
+            </remarks>
+        </member>
+        <member name="M:Evergine.Platform.DeviceVibration.Vibrate(System.TimeSpan)">
+            <summary>
+            Vibrate the device for the specified time in the range [0, 5000]ms.
+            </summary>
+            <param name="duration">The time to vibrate for.</param>
+            <remarks>
+            On iOS, the device will only vibrate for 500ms, regardless of the value specified.
+            Needs VIBRATE permission set in manifest for Android.
+            </remarks>
+        </member>
+        <member name="M:Evergine.Platform.DeviceVibration.Cancel">
+            <summary>
+            Cancel any current vibrations.
+            </summary>
+            <remarks>
+            Needs VIBRATE permission set in manifest for Android.
+            </remarks>
+        </member>
+        <member name="T:Evergine.Platform.Gyroscope">
+            <summary>
+            Gyroscope data of the rotation around the device's three primary axis.
+            </summary>
+        </member>
+        <member name="P:Evergine.Platform.Gyroscope.IsStarted">
+            <summary>
+            Gets a value indicating whether the gyroscope sensor has been started.
+            </summary>
+        </member>
+        <member name="P:Evergine.Platform.Gyroscope.AngularVelocity">
+            <summary>
+            Gets the angular velocity vector in radians per second.
+            </summary>
+            <remarks>
+            The coordinate-system is defined relative to the screen of the device in its default orientation.
+            The axes are not swapped when the device's screen orientation changes.
+            The X axis represents the pitch, the Y axis is vertical and represents the yaw and the Z axis represents
+            the roll.
+            </remarks>
+        </member>
+        <member name="M:Evergine.Platform.Gyroscope.Start">
+            <summary>
+            Start monitoring for changes to gyroscope.
+            </summary>
+        </member>
+        <member name="M:Evergine.Platform.Gyroscope.Stop">
+            <summary>
+            Stop monitoring for changes to gyroscope.
+            </summary>
+        </member>
+        <member name="M:Evergine.Platform.Gyroscope.Dispose">
+            <inheritdoc />
+        </member>
+        <member name="T:Evergine.Platform.Magnometer">
+            <summary>
+            Magnometer data of the device's orientation relative to Earth's magnetic field.
+            </summary>
+        </member>
+        <member name="P:Evergine.Platform.Magnometer.IsStarted">
+            <summary>
+            Gets a value indicating whether the magnometer sensor has been started.
+            </summary>
+        </member>
+        <member name="P:Evergine.Platform.Magnometer.MagneticField">
+            <summary>
+            Gets the magnetic field vector in microteslas (µ).
+            </summary>
+        </member>
+        <member name="M:Evergine.Platform.Magnometer.Start">
+            <summary>
+            Start monitoring for changes to magnometer.
+            </summary>
+        </member>
+        <member name="M:Evergine.Platform.Magnometer.Stop">
+            <summary>
+            Stop monitoring for changes to magnometer.
+            </summary>
+        </member>
+        <member name="M:Evergine.Platform.Magnometer.Dispose">
+            <inheritdoc />
+        </member>
+        <member name="T:Evergine.Platform.OrientationSensor">
+            <summary>
+            Orientation sensor data of the orientation of a device in three dimensional space.
+            </summary>
+        </member>
+        <member name="P:Evergine.Platform.OrientationSensor.IsStarted">
+            <summary>
+            Gets a value indicating whether the orientation sensor has been started.
+            </summary>
+        </member>
+        <member name="P:Evergine.Platform.OrientationSensor.Orientation">
+            <summary>
+            Gets the current orientation that represents a Quaternion.
+            </summary>
+        </member>
+        <member name="M:Evergine.Platform.OrientationSensor.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Evergine.Platform.OrientationSensor"/> class.
+            </summary>
+        </member>
+        <member name="M:Evergine.Platform.OrientationSensor.Start">
+            <summary>
+            Start monitoring for changes to orientation sensor.
+            </summary>
+        </member>
+        <member name="M:Evergine.Platform.OrientationSensor.Stop">
+            <summary>
+            Stop monitoring for changes to orientation sensor.
+            </summary>
+        </member>
+        <member name="M:Evergine.Platform.OrientationSensor.Dispose">
+            <inheritdoc />
+        </member>
+        <member name="T:Evergine.Platform.BatteryPowerSources">
+            <summary>
+            How the device and battery are currently being powered or charged.
+            </summary>
+        </member>
+        <member name="F:Evergine.Platform.BatteryPowerSources.Unknown">
+            <summary>
+            Power source can not be determined.
+            </summary>
+        </member>
+        <member name="F:Evergine.Platform.BatteryPowerSources.Battery">
+            <summary>
+            Power source is the battery and not being charge.
+            </summary>
+        </member>
+        <member name="F:Evergine.Platform.BatteryPowerSources.AC">
+            <summary>
+            Power source is an AC Charger.
+            </summary>
+        </member>
+        <member name="F:Evergine.Platform.BatteryPowerSources.Usb">
+            <summary>
+            Power source is a USB port.
+            </summary>
+        </member>
+        <member name="F:Evergine.Platform.BatteryPowerSources.Wireless">
+            <summary>
+            Power source is wireless.
+            </summary>
+        </member>
+        <member name="T:Evergine.Platform.BatteryStates">
+            <summary>
+            The current state of the battery and if it is being charged or full.
+            </summary>
+        </member>
+        <member name="F:Evergine.Platform.BatteryStates.Unknown">
+            <summary>
+            Battery state could not be determined.
+            </summary>
+        </member>
+        <member name="F:Evergine.Platform.BatteryStates.Charging">
+            <summary>
+            Battery is acively being charged by a power source.
+            </summary>
+        </member>
+        <member name="F:Evergine.Platform.BatteryStates.Discharging">
+            <summary>
+            Battery is not plugged in and discharging.
+            </summary>
+        </member>
+        <member name="F:Evergine.Platform.BatteryStates.Full">
+            <summary>
+            Battery is full.
+            </summary>
+        </member>
+        <member name="F:Evergine.Platform.BatteryStates.NotCharging">
+            <summary>
+            Battery is not charging or discharging, but in an inbetween state.
+            </summary>
+        </member>
+        <member name="F:Evergine.Platform.BatteryStates.NotPresent">
+            <summary>
+            Battery does not exist on the device.
+            </summary>
+        </member>
+        <member name="T:Evergine.Platform.ConnectionProfiles">
+            <summary>
+            Describes the type of connection the device is using.
+            </summary>
+        </member>
+        <member name="F:Evergine.Platform.ConnectionProfiles.Unknown">
+            <summary>
+            Other unknown type of connection.
+            </summary>
+        </member>
+        <member name="F:Evergine.Platform.ConnectionProfiles.Bluetooth">
+            <summary>
+            Bluetooth connection.
+            </summary>
+        </member>
+        <member name="F:Evergine.Platform.ConnectionProfiles.Cellular">
+            <summary>
+            The mobile/cellular data connection.
+            </summary>
+        </member>
+        <member name="F:Evergine.Platform.ConnectionProfiles.Ethernet">
+            <summary>
+            The ethernet data connection.
+            </summary>
+        </member>
+        <member name="F:Evergine.Platform.ConnectionProfiles.WiFi">
+            <summary>
+            The WiFi data connection.
+            </summary>
+        </member>
+        <member name="F:Evergine.Platform.ConnectionProfiles.Wimax">
+            <summary>
+            The Wimax data connection.
+            </summary>
+        </member>
+        <member name="T:Evergine.Platform.EnergySaverStates">
+            <summary>
+            States of energy saver on the device.
+            </summary>
+        </member>
+        <member name="F:Evergine.Platform.EnergySaverStates.Unknown">
+            <summary>
+            Status of energy saver is unknown.
+            </summary>
+        </member>
+        <member name="F:Evergine.Platform.EnergySaverStates.On">
+            <summary>
+            Energy saver is on.
+            </summary>
+        </member>
+        <member name="F:Evergine.Platform.EnergySaverStates.Off">
+            <summary>
+            Energy save is off.
+            </summary>
+        </member>
+        <member name="T:Evergine.Platform.INativeLibraryRegisterMapping">
+            <summary>
+            Registration for native library mappings, for .NET5 and above.
+            </summary>
+        </member>
+        <member name="M:Evergine.Platform.INativeLibraryRegisterMapping.TryGetLibraryNameFor(System.String,Evergine.Common.PlatformType,System.String@)">
+            <summary>
+            Determines if a platform has a explicit library name for a given platform.
+            </summary>
+            <param name="libraryName">Library name.</param>
+            <param name="platform">Target platform.</param>
+            <param name="platformLibraryName">Platform specific library name.</param>
+            <returns>True if there is an explicit mapping; false otherwise.</returns>
+        </member>
+        <member name="T:Evergine.Platform.NetworkAccess">
+            <summary>
+            Various states of the connection to the internet.
+            </summary>
+        </member>
+        <member name="F:Evergine.Platform.NetworkAccess.Unknown">
+            <summary>
+            The state of the connectivity is not known.
+            </summary>
+        </member>
+        <member name="F:Evergine.Platform.NetworkAccess.None">
+            <summary>
+            No connectivity.
+            </summary>
+        </member>
+        <member name="F:Evergine.Platform.NetworkAccess.Local">
+            <summary>
+            Local network access only.
+            </summary>
+        </member>
+        <member name="F:Evergine.Platform.NetworkAccess.ConstrainedInternet">
+            <summary>
+            Limited internet access.
+            </summary>
+        </member>
+        <member name="F:Evergine.Platform.NetworkAccess.Internet">
+            <summary>
+            Local and Internet access.
+            </summary>
+        </member>
+    </members>
+</doc>

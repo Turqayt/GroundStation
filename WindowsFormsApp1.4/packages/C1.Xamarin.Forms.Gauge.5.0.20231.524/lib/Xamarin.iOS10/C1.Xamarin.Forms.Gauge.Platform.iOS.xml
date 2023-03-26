@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>C1.Xamarin.Forms.Gauge.Platform.iOS</name>
+    </assembly>
+    <members>
+        <member name="T:C1.Xamarin.Forms.Gauge.Platform.iOS.C1BulletGraphRenderer">
+            <summary>
+            BulletGraph render.
+            </summary>
+        </member>
+        <member name="M:C1.Xamarin.Forms.Gauge.Platform.iOS.C1BulletGraphRenderer.CreateNativeElement">
+            <summary>
+            Create the native element.
+            </summary>
+            <returns>The native element.</returns>
+        </member>
+        <member name="M:C1.Xamarin.Forms.Gauge.Platform.iOS.C1BulletGraphRenderer.InitializeNativeElement">
+            <summary>
+            Initializes the native element.
+            </summary>
+        </member>
+        <member name="M:C1.Xamarin.Forms.Gauge.Platform.iOS.C1BulletGraphRenderer.FinalizeNativeElement">
+            <summary>
+            Finalize the native element.
+            </summary>
+        </member>
+        <member name="M:C1.Xamarin.Forms.Gauge.Platform.iOS.C1BulletGraphRenderer.OnElementPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            When the element attribute changes.
+            </summary>
+            <param name="sender">The object sender.</param>
+            <param name="e">The <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/>.</param>
+        </member>
+        <member name="M:C1.Xamarin.Forms.Gauge.Platform.iOS.C1BulletGraphRenderer.Dispose(System.Boolean)">
+            <summary>
+            Object dispose.
+            </summary>
+            <param name="disposing">The disposing.</param>
+        </member>
+        <member name="M:C1.Xamarin.Forms.Gauge.Platform.iOS.C1BulletGraphRenderer.SizeThatFits(CoreGraphics.CGSize)">
+            <summary>
+            Returns the size that best fits this view.
+            </summary>
+            <param name="size">The current size of the view.</param>
+            <returns></returns>
+        </member>
+        <member name="T:C1.Xamarin.Forms.Gauge.Platform.iOS.C1GaugeRenderer">
+            <summary>
+            Gauge render.
+            </summary>
+        </member>
+        <member name="M:C1.Xamarin.Forms.Gauge.Platform.iOS.C1GaugeRenderer.Init">
+            <summary>
+            Loads renderers libraries to memory.
+            </summary>
+        </member>
+        <member name="T:C1.Xamarin.Forms.Gauge.Platform.iOS.C1LinearGaugeRenderer">
+            <summary>
+            LinearGauge render.
+            </summary>
+        </member>
+        <member name="M:C1.Xamarin.Forms.Gauge.Platform.iOS.C1LinearGaugeRenderer.CreateNativeElement">
+            <summary>
+            Create the native element.
+            </summary>
+            <returns>The native element.</returns>
+        </member>
+        <member name="M:C1.Xamarin.Forms.Gauge.Platform.iOS.C1LinearGaugeRenderer.InitializeNativeElement">
+            <summary>
+            Initializes the native element.
+            </summary>
+        </member>
+        <member name="M:C1.Xamarin.Forms.Gauge.Platform.iOS.C1LinearGaugeRenderer.FinalizeNativeElement">
+            <summary>
+            Finalize the native element.
+            </summary>
+        </member>
+        <member name="M:C1.Xamarin.Forms.Gauge.Platform.iOS.C1LinearGaugeRenderer.OnElementPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            When the element attribute changes.
+            </summary>
+            <param name="sender">The object sender.</param>
+            <param name="e">The <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/>.</param>
+        </member>
+        <member name="M:C1.Xamarin.Forms.Gauge.Platform.iOS.C1LinearGaugeRenderer.Dispose(System.Boolean)">
+            <summary>
+            Object dispose.
+            </summary>
+            <param name="disposing">The disposing.</param>
+        </member>
+        <member name="M:C1.Xamarin.Forms.Gauge.Platform.iOS.C1LinearGaugeRenderer.SizeThatFits(CoreGraphics.CGSize)">
+            <summary>
+            Returns the size that best fits this view.
+            </summary>
+            <param name="size">The current size of the view.</param>
+            <returns></returns>
+        </member>
+        <member name="T:C1.Xamarin.Forms.Gauge.Platform.iOS.C1RadialGaugeRenderer">
+            <summary>
+            RadiaGauge render.
+            </summary>
+        </member>
+        <member name="M:C1.Xamarin.Forms.Gauge.Platform.iOS.C1RadialGaugeRenderer.CreateNativeElement">
+            <summary>
+            Create the native element.
+            </summary>
+            <returns>The native element.</returns>
+        </member>
+        <member name="M:C1.Xamarin.Forms.Gauge.Platform.iOS.C1RadialGaugeRenderer.InitializeNativeElement">
+            <summary>
+            Initializes the native element.
+            </summary>
+        </member>
+        <member name="M:C1.Xamarin.Forms.Gauge.Platform.iOS.C1RadialGaugeRenderer.FinalizeNativeElement">
+            <summary>
+            Finalize the native element.
+            </summary>
+        </member>
+        <member name="M:C1.Xamarin.Forms.Gauge.Platform.iOS.C1RadialGaugeRenderer.OnElementPropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            When the element attribute changes.
+            </summary>
+            <param name="sender">The object sender.</param>
+            <param name="e">The <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/>.</param>
+        </member>
+        <member name="M:C1.Xamarin.Forms.Gauge.Platform.iOS.C1RadialGaugeRenderer.Dispose(System.Boolean)">
+            <summary>
+            Object dispose.
+            </summary>
+            <param name="disposing">The disposing.</param>
+        </member>
+        <member name="M:C1.Xamarin.Forms.Gauge.Platform.iOS.C1RadialGaugeRenderer.SizeThatFits(CoreGraphics.CGSize)">
+            <summary>
+            Returns the size that best fits this view.
+            </summary>
+            <param name="size">The current size of the view.</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

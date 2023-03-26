@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MindFusion.Reporting.Pdf</name>
+    </assembly>
+    <members>
+        <member name="T:MindFusion.Reporting.Export.PdfExporter">
+            <summary>
+            Exports MindFusion reports to Adobe Portable Document Format (PDF) files.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.PdfExporter.#ctor">
+            <summary>
+            Initializes a new instance of the PdfExporter class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.PdfExporter.Export(MindFusion.Reporting.Report,System.String)">
+            <summary>
+            Creates a PDF file representing the specified report.
+            </summary>
+            <param name="report">
+            A reference to the report that will be exported.
+            </param>
+            <param name="filePath">
+            The full path to the PDF file.
+            </param>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.PdfExporter.PageSize">
+            <summary>
+            Gets or sets the page size.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.PdfExporter.PageOrientation">
+            <summary>
+            Gets or sets the page orientation.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.PdfExporter.Margins">
+            <summary>
+            Gets or sets the page margins.
+            </summary>
+        </member>
+    </members>
+</doc>

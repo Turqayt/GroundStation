@@ -1,0 +1,1472 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MindFusion.Spreadsheet.WinForms.StandardForms</name>
+    </assembly>
+    <members>
+        <member name="F:MindFusion.Spreadsheet.WinForms.AddSortKeyForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.AddSortKeyForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.AddSortKeyForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Spreadsheet.WinForms.ChartForm">
+            <summary>
+            Represents a form which can be used to create and 
+            modify chart objects within a worksheet.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.ChartForm.#ctor(MindFusion.Spreadsheet.Worksheet)">
+            <summary>
+            Initializes a new instance of the ChartForm class.
+            </summary>
+            <param name="worksheet">
+            The parent Worksheet that will contain the created chart.
+            </param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.ChartForm.#ctor(MindFusion.Spreadsheet.Charts.Chart)">
+            <summary>
+            Initializes a new instance of the ChartForm class.
+            </summary>
+            <param name="chart">
+            The Chart object to edit with this form.
+            </param>
+            <remarks>
+            Use this constructor to edit existing charts within a worksheet.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.ChartForm.#ctor(MindFusion.Spreadsheet.Worksheet,System.String)">
+            <summary>
+            Initializes a new instance of the ChartForm class.
+            </summary>
+            <param name="worksheet">
+            The parent Worksheet that will contain the created chart.
+            </param>
+            <param name="dataSource">
+            A string specifying the data source for the chart.
+            </param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.ChartForm.#ctor(MindFusion.Spreadsheet.Worksheet,System.String,MindFusion.Spreadsheet.Charts.PlotBy)">
+            <summary>
+            Initializes a new instance of the ChartForm class.
+            </summary>
+            <param name="worksheet">
+            The parent Worksheet that will contain the created chart.
+            </param>
+            <param name="dataSource">
+            A string specifying the data source for the chart.
+            </param>
+            <param name="plotBy">
+            A flag specifying whether the series are created from the columns or
+            from the rows in the specified range.
+            </param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.ChartForm.#ctor(MindFusion.Spreadsheet.Worksheet,System.String,MindFusion.Spreadsheet.Charts.PlotBy,System.Int32,System.Int32,System.Nullable{System.Boolean},System.Nullable{System.Boolean})">
+            <summary>
+            Initializes a new instance of the ChartForm class.
+            </summary>
+            <param name="worksheet">
+            The parent Worksheet that will contain the created chart.
+            </param>
+            <param name="dataSource">
+            A string specifying the data source for the chart.
+            </param>
+            <param name="plotBy">
+            A flag specifying whether the series are created from the columns or
+            from the rows in the specified range.
+            </param>
+            <param name="column">
+            The column at which to place the newly created chart at.
+            </param>
+            <param name="row">
+            The row at which to place the newly created chart at.
+            </param>
+            <param name="firstColumnAsLabel">
+            A flag specifying whether to use the values in the first column of the specified range
+            as labels, or null, to attempt to automatically determine this based on the type of the data.
+            This parameter is ignored by some charts that do not display labels.
+            </param>
+            <param name="firstRowAsLabel">
+            A flag specifying whether to use the values in the first row of the specified range
+            as labels, or null, to attempt to automatically determine this based on the type of the data.
+            This parameter is ignored by some charts that do not display labels.
+            </param>
+        </member>
+        <member name="F:MindFusion.Spreadsheet.WinForms.ChartForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.ChartForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.ChartForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Spreadsheet.WinForms.ConditionalFormatForm">
+            <summary>
+            A form which can be used to define conditional formats 
+            for cells within a worksheet.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.ConditionalFormatForm.#ctor(MindFusion.Spreadsheet.Workbook,MindFusion.Spreadsheet.IStyle)">
+            <summary>
+            Initializes a new instance of the ConditionalFormatForm class.
+            </summary>
+            <param name="workbook">
+            The Workbook containing the predefined styles and formats 
+            used by this form.</param>
+            <param name="style">
+            The IStyle object containing the conditional formats 
+            to modify with this form.
+            </param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.ConditionalFormatForm.Apply(MindFusion.Spreadsheet.IStyle)">
+            <summary>
+            Applies the conditional formats defined in the form 
+            to a target IStyle object.
+            </summary>
+            <param name="target">
+            The target IStyle object to apply the conditional formats to.
+            </param>
+        </member>
+        <member name="F:MindFusion.Spreadsheet.WinForms.ConditionalFormatForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.ConditionalFormatForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.ConditionalFormatForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Spreadsheet.WinForms.ConditionalFormatItem">
+            <summary>
+            Represents an item in a ConditionalFormatForm, used 
+            to define a conditional format in a worksheet.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Spreadsheet.WinForms.ConditionalFormatItem.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.ConditionalFormatItem.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.ConditionalFormatItem.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Spreadsheet.WinForms.FindReplaceForm">
+            <summary>
+            Represents a form that can be used to find and/or replace texts matching
+            a specified criteria.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.FindReplaceForm.#ctor(MindFusion.Spreadsheet.Workbook,MindFusion.Spreadsheet.Cell)">
+            <summary>
+            Initializes a new instance of the FindReplaceForm class.
+            </summary>
+            <param name="workbook">
+            The workbook to operate on.
+            </param>
+            <param name="currentCell">
+            The cell to start the search from.
+            </param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.FindReplaceForm.OnCellFound(MindFusion.Spreadsheet.CellEventArgs)">
+            <summary>
+            Raises the CellFound event.
+            </summary>
+            <param name="e">
+            An object providing the event data.
+            </param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.FindReplaceForm.OnCellActivated(MindFusion.Spreadsheet.CellEventArgs)">
+            <summary>
+            Raises the CellActivated event.
+            </summary>
+            <param name="e">
+            An object providing the event data.
+            </param>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.FindReplaceForm.Find">
+            <summary>
+            Gets or sets the text to find.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.FindReplaceForm.Replace">
+            <summary>
+            Gets or sets the text to replace with.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.FindReplaceForm.MatchCase">
+            <summary>
+            Gets or sets a value indicating whether the search should be case-sensitive.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.FindReplaceForm.WholeCells">
+            <summary>
+            Gets or sets a value indicating whether to match entire cells only.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.FindReplaceForm.FindWithin">
+            <summary>
+            Gets or sets the target of the search - the referenced worksheet or the entire workbook.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.FindReplaceForm.SearchOrder">
+            <summary>
+            Gets or sets a value specifying whether to search in the cell's formula or value.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.FindReplaceForm.LookIn">
+            <summary>
+            Gets or sets the search order - horizontal or vertical.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.FindReplaceForm.CurrentCell">
+            <summary>
+            Gets or set the cell to start the search from.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Spreadsheet.WinForms.FindReplaceForm.CellFound">
+            <summary>
+            Raised when the user finds a cell.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Spreadsheet.WinForms.FindReplaceForm.CellActivated">
+            <summary>
+            Raised when the user clicks on an entry in the result list.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Spreadsheet.WinForms.FindReplaceForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.FindReplaceForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.FindReplaceForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Spreadsheet.WinForms.CsvExportForm">
+            <summary>
+            A form used to define options for 
+            CSV text data exports.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.CsvExportForm.#ctor(MindFusion.Spreadsheet.Workbook,System.String)">
+            <summary>
+            Initializes a new instance of the CsvExportForm class.
+            </summary>
+            <param name="workbook">
+            The workbook that should provide localization info.
+            </param>
+            <param name="filePath">
+            The string object specifying the path to the .csv file.
+            </param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.CsvExportForm.#ctor(MindFusion.Spreadsheet.Workbook,System.String,System.Char,System.Char)">
+            <summary>
+            Initializes a new instance of the CsvExportForm class.
+            </summary>
+            <param name="workbook">
+            The workbook that should provide localization info.
+            </param>
+            <param name="filePath">
+            The string object specifying the path to the .csv file.
+            </param>
+            <param name="quoteDelimiter">
+            The character to use as quote.
+            </param>
+            <param name="separator">
+            The character to use as separator.
+            </param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.CsvExportForm.#ctor(MindFusion.Spreadsheet.Workbook,System.String,System.Char,System.Char,System.Text.Encoding)">
+            <summary>
+            Initializes a new instance of the CsvExportForm class.
+            </summary>
+            <param name="workbook">
+            The workbook that should provide localization info.
+            </param>
+            <param name="filePath">
+            The string object specifying the path to the .csv file.
+            </param>
+            <param name="quoteDelimiter">
+            The character to use as quote.
+            </param>
+            <param name="separator">
+            The character to use as separator.
+            </param>
+            <param name="encoding">
+            The encoding to use.
+            </param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.CsvExportForm.OnClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Form.OnClosing override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.CsvExportForm.Export(MindFusion.Spreadsheet.Worksheet)">
+            <summary>
+            Exports the data from the specified worksheet.
+            </summary>
+            <param name="worksheet">
+            The Worksheet instance containing the data to export.
+            </param>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.CsvExportForm.Quote">
+            <summary>
+            Gets the character that will be used 
+            as a quote by the exporter.
+            </summary>	
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.CsvExportForm.Separator">
+            <summary>
+            Gets the character that will be used 
+            as a separator by the exporter.
+            </summary>		
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.CsvExportForm.Encoding">
+            <summary>
+            Gets the encoding that will be used by the exporter.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Spreadsheet.WinForms.CsvExportForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.CsvExportForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.CsvExportForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Spreadsheet.WinForms.CsvImportForm">
+            <summary>
+            A form used to define options for 
+            CSV text data imports.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.CsvImportForm.#ctor(MindFusion.Spreadsheet.Workbook,System.String)">
+            <summary>
+            Initializes a new instance of the CsvImportForm class.
+            </summary>
+            <param name="workbook">
+            The workbook that should provide localization info.
+            </param>
+            <param name="filePath">
+            The string object specifying the path to the .csv file.
+            </param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.CsvImportForm.#ctor(MindFusion.Spreadsheet.Workbook,System.String,System.Char,System.Char)">
+            <summary>
+            Initializes a new instance of the CsvImportForm class.
+            </summary>
+            <param name="workbook">
+            The workbook that should provide localization info.
+            </param>
+            <param name="filePath">
+            The string object specifying the path to the .csv file.
+            </param>
+            <param name="quoteDelimiter">
+            The character to use as quote.
+            </param>
+            <param name="separator">
+            The character to use as separator.
+            </param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.CsvImportForm.#ctor(MindFusion.Spreadsheet.Workbook,System.String,System.Char,System.Char,System.Text.Encoding)">
+            <summary>
+            Initializes a new instance of the CsvImportForm class.
+            </summary>
+            <param name="workbook">
+            The workbook that should provide localization info.
+            </param>
+            <param name="filePath">
+            The string object specifying the path to the .csv file.
+            </param>
+            <param name="quoteDelimiter">
+            The character to use as quote.
+            </param>
+            <param name="separator">
+            The character to use as separator.
+            </param>
+            <param name="encoding">
+            The encoding to use.
+            </param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.CsvImportForm.Import(MindFusion.Spreadsheet.Worksheet)">
+            <summary>
+            Imports the data into the specified worksheet.
+            </summary>
+            <param name="worksheet">
+            The Worksheet instance where to import the data.
+            </param>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.CsvImportForm.Quote">
+            <summary>
+            Gets the character that will be used 
+            as a quote by the importer.
+            </summary>	
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.CsvImportForm.Separator">
+            <summary>
+            Gets the character that will be used 
+            as a separator by the importer.
+            </summary>		
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.CsvImportForm.Encoding">
+            <summary>
+            Gets the encoding that will be used 
+            by the importer.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.CsvImportForm.ProcessCmdKey(System.Windows.Forms.Message@,System.Windows.Forms.Keys)">
+            <summary>
+            Form.ProcessCmdKey override.
+            </summary>
+            <remarks>
+            Used to disable the default WorksheetView keyboard navigation.
+            </remarks>
+        </member>
+        <member name="F:MindFusion.Spreadsheet.WinForms.CsvImportForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.CsvImportForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.CsvImportForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Spreadsheet.WinForms.DefineNamedRangeForm">
+            <summary>
+            Prompts the user to define a named range for a worksheet.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.DefineNamedRangeForm.#ctor(MindFusion.Spreadsheet.Workbook,MindFusion.Spreadsheet.Worksheet,System.String,System.String)">
+            <summary>
+            Initializes a new instance of the DefineNamedRangeForm class.
+            </summary>
+            <param name="workbook">
+            The workbook that should provide localization info.
+            </param>
+            <param name="worksheet">
+            The worksheet for which the named range will be defined.
+            </param>
+            <param name="name">
+            The initial name of the range to define.
+            </param>
+            <param name="range">
+            The initial cell range.
+            </param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.DefineNamedRangeForm.#ctor(MindFusion.Spreadsheet.Workbook,MindFusion.Spreadsheet.Worksheet,System.String,MindFusion.Spreadsheet.CellRange)">
+            <summary>
+            Initializes a new instance of the DefineNamedRangeForm class.
+            </summary>
+            <param name="workbook">
+            The workbook that should provide localization info.
+            </param>
+            <param name="worksheet">
+            The worksheet for which the named range will be defined.
+            </param>
+            <param name="name">
+            The initial name of the range to define.
+            </param>
+            <param name="range">
+            The initial cell range.
+            </param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.DefineNamedRangeForm.#ctor(MindFusion.Spreadsheet.Workbook,MindFusion.Spreadsheet.Worksheet,System.String,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the DefineNamedRangeForm class.
+            </summary>
+            <param name="workbook">
+            The workbook that should provide localization info.
+            </param>
+            <param name="worksheet">
+            The worksheet for which the named range will be defined.
+            </param>
+            <param name="name">
+            The initial name of the range to define.
+            </param>
+            <param name="topLeftColumn">
+            The column of the top-left cell of the initial range.
+            </param>
+            <param name="topLeftRow">
+            The row of the top-left cell of the initial range.
+            </param>
+            <param name="bottomRightColumn">
+            The column of the bottom-right cell of the initial range.
+            </param>
+            <param name="bottomRightRow">
+            The row of the bottom-right cell of the initial range.
+            </param>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.DefineNamedRangeForm.NamedRange">
+            <summary>
+            Gets the newly defined named range.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Spreadsheet.WinForms.DefineNamedRangeForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.DefineNamedRangeForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.DefineNamedRangeForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Spreadsheet.WinForms.DeleteCellsForm">
+            <summary>
+            Prompts the user to delete cells from a worksheet.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.DeleteCellsForm.#ctor(MindFusion.Spreadsheet.Workbook)">
+            <summary>
+            Initializes a new instance of the DeleteCellsForm class.
+            </summary>
+            <param name="workbook">
+            The workbook that should provide localization info.
+            </param>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.DeleteCellsForm.Result">
+            <summary>
+            Gets the type of operation to perform.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Spreadsheet.WinForms.DeleteCellsForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.DeleteCellsForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.DeleteCellsForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Spreadsheet.WinForms.CellsFormResult">
+            <summary>
+            Specifies identifiers to indicate the result 
+            value of an InsertCellsForm or DeleteCellsForm box.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Spreadsheet.WinForms.CellsFormResult.ShiftVertical">
+            <summary>
+            Indicates that new cells will be inserted 
+            above or removed below the active cell.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Spreadsheet.WinForms.CellsFormResult.ShiftHorizontal">
+            <summary>
+            Indicates that new cells will be inserted 
+            to the left or removed to the right of the active cell.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Spreadsheet.WinForms.CellsFormResult.EntireRow">
+            <summary>
+            Indicates that whole row(s) be inserted or deleted
+            above the active cell.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Spreadsheet.WinForms.CellsFormResult.EntireColumn">
+            <summary>
+            Indicates that whole column(s) be inserted or deleted
+            to the left of the active cell.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Spreadsheet.WinForms.InsertWorksheetPosition">
+            <summary>
+            Specifies identifiers to indicate the position 
+            of inserted worksheets within a workbook.
+            </summary>
+            <remarks>
+            Used by the InsertWorksheetForm class.
+            </remarks>
+        </member>
+        <member name="F:MindFusion.Spreadsheet.WinForms.InsertWorksheetPosition.BeforeActiveSheet">
+            <summary>
+            Indicates new worksheet(s) will be inserted 
+            before the active sheet of a workbook view.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Spreadsheet.WinForms.InsertWorksheetPosition.AfterActiveSheet">
+            <summary>
+            Indicates new worksheet(s) will be inserted 
+            after the active sheet of a workbook view.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Spreadsheet.WinForms.InsertWorksheetPosition.Other">
+            <summary>
+            Indicates a user specified index to insert 
+            the new worksheets.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Spreadsheet.WinForms.FillSeriesForm">
+            <summary>
+            A form which can be used to specify fill patterns 
+            for filling cell ranges with data.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.FillSeriesForm.#ctor(MindFusion.Spreadsheet.Workbook,MindFusion.Spreadsheet.CellRange)">
+            <summary>
+            Initializes a new instance of the FillSeriesForm class.
+            </summary>
+            <param name="range">
+            The CellRange object that will be filled.
+            </param>
+            <param name="workbook">
+            The workbook that should provide localization info.
+            </param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.FillSeriesForm.#ctor(MindFusion.Spreadsheet.Workbook)">
+            <summary>
+            Initializes a new instance of the FillSeriesForm class.
+            </summary>
+            <param name="workbook">
+            The workbook that should provide localization info.
+            </param>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.FillSeriesForm.FillDirection">
+            <summary>
+            Gets the direction of a data fill operation.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.FillSeriesForm.FillType">
+            <summary>
+            Gets the method used to fill series of cells.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.FillSeriesForm.FillDate">
+            <summary>
+            Gets the date component to increment when filling dates.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.FillSeriesForm.FillStep">
+            <summary>
+            Gets the increment step.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.FillSeriesForm.FillStop">
+            <summary>
+            Gets the fill restriction.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.FillSeriesForm.FillTrend">
+            <summary>
+            Gets the flag indicating whether to use linear or growth trend.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Spreadsheet.WinForms.FillSeriesForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.FillSeriesForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.FillSeriesForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Spreadsheet.WinForms.FontPicker.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.FontPicker.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.FontPicker.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Spreadsheet.WinForms.FormPropertyEventArgs">
+            <summary>
+            Contains the arguments passed to the FontPicker.PropertyValueChanged event handlers.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.FormPropertyEventArgs.#ctor(System.String,System.Object,System.Object)">
+            <summary>
+            Initializes a new instance of the FormPropertyEventArgs class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.FormPropertyEventArgs.PropertyName">
+            <summary>
+            Gets the name of the property that changed.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.FormPropertyEventArgs.OldValue">
+            <summary>
+            Gets the value of the property before the change.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.FormPropertyEventArgs.NewValue">
+            <summary>
+            Gets the current value of the property.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Spreadsheet.WinForms.FontPickerForm">
+            <summary>
+            Represents a form which can be used to specify font 
+            styles within a worksheet.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.FontPickerForm.#ctor(MindFusion.Spreadsheet.Workbook)">
+            <summary>
+            Initializes a new instance of the FontPickerForm class.
+            </summary>
+            <param name="workbook">
+            The workbook that should provide localization info.
+            </param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.FontPickerForm.#ctor(MindFusion.Spreadsheet.Workbook,MindFusion.Spreadsheet.IStyle)">
+            <summary>
+            Initializes a new instance of the FontPickerForm class.
+            </summary>
+            <param name="workbook">
+            The workbook that should provide localization info.
+            </param>
+            <param name="style">A style whose font attributes are used to initialize the font picker.</param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.FontPickerForm.#ctor(MindFusion.Spreadsheet.Workbook,System.String,System.Nullable{System.Double},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Drawing.Color})">
+            <summary>
+            Initializes a new instance of the FontPickerForm class.
+            </summary>
+            <param name="workbook">
+            The workbook that should provide localization info.
+            </param>
+            <param name="name">Font name.</param>
+            <param name="size">Font size.</param>
+            <param name="bold">Indicates bold font.</param>
+            <param name="italic">Indicates italic font.</param>
+            <param name="underline">Indicates underline font.</param>
+            <param name="strikeout">Indicates strikeout font.</param>
+            <param name="color">The text color.</param>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.FontPickerForm.FontName">
+            <summary>
+            Gets the font name.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.FontPickerForm.FontSize">
+            <summary>
+            Gets the font size.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.FontPickerForm.Bold">
+            <summary>
+            Gets whether the font style uses bold.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.FontPickerForm.Italic">
+            <summary>
+            Gets whether the font style uses italic.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.FontPickerForm.Underline">
+            <summary>
+            Gets whether the font style uses underline.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.FontPickerForm.Strikeout">
+            <summary>
+            Gets whether the font style uses strikeout.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.FontPickerForm.TextColor">
+            <summary>
+            Gets the text color.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Spreadsheet.WinForms.FontPickerForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.FontPickerForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.FontPickerForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Spreadsheet.WinForms.FormatForm">
+            <summary>
+            A form which can be used to define format 
+            for cells within a worksheet.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.FormatForm.#ctor(MindFusion.Spreadsheet.Workbook,MindFusion.Spreadsheet.IStyle)">
+            <summary>
+            Initializes a new instance of the FormatForm class.
+            </summary>
+            <param name="workbook">
+            The Workbook containing the predefined styles and formats used by this form.
+            </param>
+            <param name="istyle">
+            The IStyle object containing the formats to modify with this form.
+            </param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.FormatForm.#ctor(MindFusion.Spreadsheet.Workbook,MindFusion.Spreadsheet.IStyle,System.Globalization.CultureInfo)">
+            <summary>
+            Initializes a new instance of the FormatForm class.
+            </summary>
+            <param name="workbook">
+            The Workbook containing the predefined styles and formats 
+            used by this form.</param>
+            <param name="istyle">
+            The IStyle object containing the formats 
+            to modify with this form.
+            </param>
+            <param name="locale">
+            The locale info to be used for the cells format.
+            </param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.FormatForm.OnClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Form.OnClosing override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.FormatForm.Apply(MindFusion.Spreadsheet.IStyle)">
+            <summary>
+            Applies the cell formats defined in the form 
+            to a target IStyle object.
+            </summary>
+            <param name="target">
+            The target IStyle object to apply the cell formats to.
+            </param>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.FormatForm.Locale">
+            <summary>
+            Gets the locale info used for the cells format.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Spreadsheet.WinForms.FormatForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.FormatForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.FormatForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Spreadsheet.WinForms.HeaderSizeForm">
+            <summary>
+            Represents a form that can be used to define row height 
+            or column width within a worksheet.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.HeaderSizeForm.#ctor(MindFusion.Spreadsheet.Workbook,System.String,System.String,MindFusion.Spreadsheet.Measure)">
+            <summary>
+            Initializes a new instance of the HeaderSizeForm class.
+            </summary>
+            <param name="workbook">
+            The workbook that should provide localization info.
+            </param>
+            <param name="headerText">
+            The header text of the form.
+            </param>
+            <param name="captionText">
+            The text of the caption of the form.
+            </param>
+            <param name="headerSize">
+            The current size of the header to edit.
+            </param>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.HeaderSizeForm.HeaderSize">
+            <summary>
+            Gets the size of the header defined by the form.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Spreadsheet.WinForms.HeaderSizeForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.HeaderSizeForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.HeaderSizeForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Spreadsheet.WinForms.HyperlinkForm">
+            <summary>
+            Represents a form which can be used to create and 
+            modify cell hyperlinks in a worksheet.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.HyperlinkForm.#ctor(MindFusion.Spreadsheet.Workbook)">
+            <summary>
+            Initializes a new instance of the HyperlinkForm class.
+            </summary>
+            <param name="workbook">
+            The workbook containing the hyperlink.
+            </param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.HyperlinkForm.#ctor(MindFusion.Spreadsheet.Workbook,MindFusion.Spreadsheet.Hyperlink)">
+            <summary>
+            Initializes a new instance of the HyperlinkForm class.
+            </summary>
+            <param name="workbook">
+            The workbook containing the hyperlink.
+            </param>
+            <param name="hyperlink">
+            A Hyperlink object to load the properties from.
+            </param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.HyperlinkForm.#ctor(MindFusion.Spreadsheet.Workbook,System.String)">
+            <summary>
+            Initializes a new instance of the HyperlinkForm class.
+            </summary>
+            <param name="workbook">
+            The workbook containing the hyperlink.
+            </param>
+            <param name="target">
+            The hyperlink target to use in the form.
+            </param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.HyperlinkForm.OnClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Form.OnClosing override.
+            </summary>
+            <param name="e">
+            An object that contains the event data.
+            </param>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.HyperlinkForm.Type">
+            <summary>
+            Gets the hyperlink type.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.HyperlinkForm.Target">
+            <summary>
+            Gets the hyperlink target.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.HyperlinkForm.SubTarget">
+            <summary>
+            Gets the hyperlink subtarget.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.HyperlinkForm.ToolTip">
+            <summary>
+            Gets the hyperlink tooltip.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Spreadsheet.WinForms.HyperlinkForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.HyperlinkForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.HyperlinkForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Spreadsheet.WinForms.InsertCellsForm">
+            <summary>
+            Prompts the user to insert cells within a worksheet.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.InsertCellsForm.#ctor(MindFusion.Spreadsheet.Workbook)">
+            <summary>
+            Initializes a new instance of the InsertCellsForm class.
+            </summary>
+            <param name="workbook">
+            The workbook that should provide localization info.
+            </param>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.InsertCellsForm.Result">
+            <summary>
+            Gets the type of insert operation to perform.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Spreadsheet.WinForms.InsertCellsForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.InsertCellsForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.InsertCellsForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Spreadsheet.WinForms.InsertWorksheetForm">
+            <summary>
+            Prompts the user to insert worksheets within a workbook.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.InsertWorksheetForm.#ctor(MindFusion.Spreadsheet.Workbook)">
+            <summary>
+            Initializes a new instance of the InsertWorksheetForm class.
+            </summary>
+            <param name="workbook">
+            The workbook to add the worksheet(s) to.
+            </param>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.InsertWorksheetForm.SheetName">
+            <summary>
+            Gets the name of the new worksheet.
+            </summary>
+            <remarks>
+            Only used when the specified number of sheets in the form is 1.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.InsertWorksheetForm.NumberOfSheets">
+            <summary>
+            Gets the number of worksheets to be added to the workbook.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.InsertWorksheetForm.Index">
+            <summary>
+            Gets the index at which to insert the new worksheet(s).
+            </summary>
+            <remarks>
+            Only used when the Position is set to InsertWorksheetPosition.Other.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.InsertWorksheetForm.Position">
+            <summary>
+            Gets the position of the new worksheet(s) within the workbook.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Spreadsheet.WinForms.InsertWorksheetForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.InsertWorksheetForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.InsertWorksheetForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Spreadsheet.WinForms.ManageNamedRangesForm">
+            <summary>
+            Represents a form which can be used to create, edit 
+            and remove named cell ranges from a workbook.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.ManageNamedRangesForm.#ctor(MindFusion.Spreadsheet.Workbook,MindFusion.Spreadsheet.CellRange)">
+            <summary>
+            Initializes a new instance of the ManageNamedRangesForm class.
+            </summary>
+            <param name="workbook">
+            The workbook object that contains the named 
+            cell ranges collection to modify.
+            </param>
+            <param name="selection">
+            A CellRange collection used to specify the default initial range.
+            </param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.ManageNamedRangesForm.Apply(MindFusion.Spreadsheet.Workbook)">
+            <summary>
+            Updates the NamedRanges collection of the 
+            specified workbook with the ranges, defined in the form.
+            </summary>
+            <param name="workbook">
+            The workbook which will be updated.
+            </param>
+        </member>
+        <member name="F:MindFusion.Spreadsheet.WinForms.ManageNamedRangesForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.ManageNamedRangesForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.ManageNamedRangesForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Spreadsheet.WinForms.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.Properties.Resources.Add">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.Properties.Resources.AllBorders">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.Properties.Resources.BottomBorder">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.Properties.Resources.DeleteHS">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.Properties.Resources.DiagonalBorders">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.Properties.Resources.GoToNextMessage">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.Properties.Resources.GoToPreviousMessage">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.Properties.Resources.HorizontalBorders">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.Properties.Resources.LeftBorder">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.Properties.Resources.NoBorders">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.Properties.Resources.PrimaryDiagonal">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.Properties.Resources.RightBorder">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.Properties.Resources.SecondaryDiagonal">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.Properties.Resources.SideBorders">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.Properties.Resources.TopBorder">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.Properties.Resources.VerticalBorders">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.Properties.Resources.Warning">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Spreadsheet.WinForms.SortForm">
+            <summary>
+            Represents a form used to define sorting options
+            for a cell range. 
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.SortForm.#ctor(MindFusion.Spreadsheet.Worksheet,MindFusion.Spreadsheet.CellRange)">
+            <summary>
+            Initializes a new instance of the SortForm class.
+            </summary>
+            <param name="worksheet">
+            The worksheet which contains the cell range.
+            </param>
+            <param name="range">
+            The cell range to sort.
+            </param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.SortForm.Sort">
+            <summary>
+            Sorts the cells in the cell range.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Spreadsheet.WinForms.SortForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.SortForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.SortForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Spreadsheet.WinForms.UnhideSheetsForm">
+            <summary>
+            Represents a form which can be used to unhide 
+            hidden worksheets in a workbook.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.UnhideSheetsForm.#ctor(MindFusion.Spreadsheet.Workbook)">
+            <summary>
+            Initializes a new instance of the UnhideSheetsForm class.
+            </summary>
+            <param name="parentWorkbook">
+            The parent Workbook object which contains the worksheets.
+            </param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.UnhideSheetsForm.OnClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Form.OnClosing override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.UnhideSheetsForm.Apply">
+            <summary>
+            Unhides the specified worksheets in the workbook.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Spreadsheet.WinForms.UnhideSheetsForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.UnhideSheetsForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.UnhideSheetsForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Spreadsheet.WinForms.ValidationForm">
+            <summary>
+            A form which can be used to define validation rules 
+            for cells within a worksheet
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.ValidationForm.#ctor(MindFusion.Spreadsheet.Workbook,MindFusion.Spreadsheet.IValidation)">
+            <summary>
+            Initializes a new instance of the ValidationForm class.
+            </summary>
+            <param name="workbook">
+            The Workbook containing the predefined styles and formats used by this form.
+            </param>
+            <param name="ivalidation">
+            The IValidation object containing the validation rules to modify with this form.
+            </param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.ValidationForm.Apply(MindFusion.Spreadsheet.IValidation)">
+            <summary>
+            Applies the validation rules defined in the form 
+            to a target IValidation object.
+            </summary>
+            <param name="target">
+            The target IValidation object to apply the validation rules to.
+            </param>
+        </member>
+        <member name="F:MindFusion.Spreadsheet.WinForms.ValidationForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.ValidationForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.ValidationForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Spreadsheet.WinForms.WorksheetRenameForm">
+            <summary>
+            Represents a form that can be used specify a name 
+            for a worksheet.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.WorksheetRenameForm.#ctor(MindFusion.Spreadsheet.Workbook,System.String)">
+            <summary>
+            Initializes a new instance of the WorksheetRenameForm class.
+            </summary>
+            <param name="workbook">
+            The workbook that should provide localization info.
+            </param>
+            <param name="sheetName">
+            The current name of the worksheet.
+            </param>
+        </member>
+        <member name="P:MindFusion.Spreadsheet.WinForms.WorksheetRenameForm.WorksheetName">
+            <summary>
+            Gets the name for the worksheet, defined by the form.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Spreadsheet.WinForms.WorksheetRenameForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.WorksheetRenameForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.Spreadsheet.WinForms.WorksheetRenameForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

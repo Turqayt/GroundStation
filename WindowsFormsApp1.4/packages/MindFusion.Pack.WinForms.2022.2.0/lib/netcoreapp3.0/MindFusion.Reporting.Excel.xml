@@ -1,0 +1,1522 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MindFusion.Reporting.Excel</name>
+    </assembly>
+    <members>
+        <member name="T:MindFusion.Reporting.Export.ExcelExporter">
+            <summary>
+            Exports MindFusion reports to Open Office XML files.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelExporter.#ctor">
+            <summary>
+            Initializes a new instance of the ExcelExporter class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelExporter.Export(MindFusion.Reporting.Report,System.String)">
+            <summary>
+            Creates a XLSX file representing the specified report.
+            </summary>
+            <param name="report">
+            A reference to the report that will be exported.
+            </param>
+            <param name="filePath">
+            The full path to the XLSX file.
+            </param>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.ExcelExporter.PageSize">
+            <summary>
+            Gets or sets the page size.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.ExcelExporter.PageOrientation">
+            <summary>
+            Gets or sets the page orientation.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.ExcelExporter.Margins">
+            <summary>
+            Gets or sets the page margins.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.AddMetafileComment(System.Byte[])">
+            <summary>
+            IGraphics.AddMetafileComment implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.BeginContainer">
+            <summary>
+            IGraphics.BeginContainer implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.BeginContainer(System.Drawing.Rectangle,System.Drawing.Rectangle,System.Drawing.GraphicsUnit)">
+            <summary>
+            IGraphics.BeginContainer implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.BeginContainer(System.Drawing.RectangleF,System.Drawing.RectangleF,System.Drawing.GraphicsUnit)">
+            <summary>
+            IGraphics.BeginContainer implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.EndContainer(System.Drawing.Drawing2D.GraphicsContainer)">
+            <summary>
+            IGraphics.EndContainer implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.BeginHyperLink(System.String,System.String)">
+            <summary>
+            IGraphics.BeginHyperLink implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.EndHyperLink">
+            <summary>
+            IGraphics.EndHyperLink implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.Clear(System.Drawing.Color)">
+            <summary>
+            IGraphics.Clear implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.Dispose">
+            <summary>
+            IGraphics.Dispose implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.Save(System.String)">
+            <summary>
+            Saves the contents of the graphics to the specified file.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.Save(System.IO.Stream)">
+            <summary>
+            Saves the contents of the graphics to the specified stream.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.GetColumnWidth(System.Int32)">
+            <summary>
+            Gets the absolute width of the column with specified index.
+            </summary>
+            <param name="column">
+            The 0-based index of the column.
+            </param>
+            <returns>
+            The absolute width of the specified column.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.GetRowHeight(System.Int32)">
+            <summary>
+            Gets the absolute height of the row with specified index.
+            </summary>
+            <param name="row">
+            The 0-based index of the row.
+            </param>
+            <returns>
+            The absolute height of the specified row.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.IsPageBreak(System.Single)">
+            <summary>
+            Gets a value indicating whether there is a page start/end near the specified length.
+            </summary>
+            <param name="height">
+            The accummulative height to check.
+            </param>
+            <returns>
+            true if there is a page break near the specified length; otherwise, false.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.BrushToFill(System.Drawing.Brush,System.Drawing.SizeF)">
+            <summary>
+            Converts the specified Brush to an Excel fill when applied to an area with
+            the specified size.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawArc(System.Drawing.Pen,System.Drawing.Rectangle,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawArc implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawArc(System.Drawing.Pen,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawArc implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawArc(System.Drawing.Pen,System.Drawing.RectangleF,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawArc implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawArc(System.Drawing.Pen,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawArc implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawBezier(System.Drawing.Pen,System.Drawing.Point,System.Drawing.Point,System.Drawing.Point,System.Drawing.Point)">
+            <summary>
+            IGraphics.DrawBezier implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawBezier(System.Drawing.Pen,System.Drawing.PointF,System.Drawing.PointF,System.Drawing.PointF,System.Drawing.PointF)">
+            <summary>
+            IGraphics.DrawBezier implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawBezier(System.Drawing.Pen,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawBezier implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawBeziers(System.Drawing.Pen,System.Drawing.Point[])">
+            <summary>
+            IGraphics.DrawBeziers implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawBeziers(System.Drawing.Pen,System.Drawing.PointF[])">
+            <summary>
+            IGraphics.DrawBezier implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawClosedCurve(System.Drawing.Pen,System.Drawing.Point[],System.Single,System.Drawing.Drawing2D.FillMode)">
+            <summary>
+            IGraphics.DrawClosedCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawClosedCurve(System.Drawing.Pen,System.Drawing.Point[])">
+            <summary>
+            IGraphics.DrawClosedCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawClosedCurve(System.Drawing.Pen,System.Drawing.PointF[],System.Single,System.Drawing.Drawing2D.FillMode)">
+            <summary>
+            IGraphics.DrawClosedCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawClosedCurve(System.Drawing.Pen,System.Drawing.PointF[])">
+            <summary>
+            IGraphics.DrawClosedCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawCurve(System.Drawing.Pen,System.Drawing.Point[],System.Int32,System.Int32,System.Single)">
+            <summary>
+            IGraphics.DrawCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawCurve(System.Drawing.Pen,System.Drawing.Point[],System.Single)">
+            <summary>
+            IGraphics.DrawCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawCurve(System.Drawing.Pen,System.Drawing.Point[])">
+            <summary>
+            IGraphics.DrawCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawCurve(System.Drawing.Pen,System.Drawing.PointF[],System.Int32,System.Int32,System.Single)">
+            <summary>
+            IGraphics.DrawCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawCurve(System.Drawing.Pen,System.Drawing.PointF[],System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawCurve(System.Drawing.Pen,System.Drawing.PointF[],System.Single)">
+            <summary>
+            IGraphics.DrawCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawCurve(System.Drawing.Pen,System.Drawing.PointF[])">
+            <summary>
+            IGraphics.DrawCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawEllipse(System.Drawing.Pen,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawEllipse implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawEllipse(System.Drawing.Pen,System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.DrawEllipse implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawEllipse(System.Drawing.Pen,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawEllipse implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawEllipse(System.Drawing.Pen,System.Drawing.RectangleF)">
+            <summary>
+            IGraphics.DrawEllipse implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawIcon(System.Drawing.Icon,System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.DrawIcon implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawIcon(System.Drawing.Icon,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawIcon implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawIconUnstretched(System.Drawing.Icon,System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.DrawIconUnstretched implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawImage(System.Drawing.Image,System.Drawing.Rectangle,System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.GraphicsUnit,System.Drawing.Imaging.ImageAttributes)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawImage(System.Drawing.Image,System.Drawing.Rectangle,System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.GraphicsUnit)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawImage(System.Drawing.Image,System.Drawing.Rectangle,System.Single,System.Single,System.Single,System.Single,System.Drawing.GraphicsUnit,System.Drawing.Imaging.ImageAttributes)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawImage(System.Drawing.Image,System.Drawing.Rectangle,System.Single,System.Single,System.Single,System.Single,System.Drawing.GraphicsUnit)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawImage(System.Drawing.Image,System.Drawing.Point[],System.Drawing.Rectangle,System.Drawing.GraphicsUnit,System.Drawing.Imaging.ImageAttributes)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawImage(System.Drawing.Image,System.Drawing.Point[],System.Drawing.Rectangle,System.Drawing.GraphicsUnit)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawImage(System.Drawing.Image,System.Drawing.PointF[],System.Drawing.RectangleF,System.Drawing.GraphicsUnit,System.Drawing.Imaging.ImageAttributes)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawImage(System.Drawing.Image,System.Drawing.PointF[],System.Drawing.RectangleF,System.Drawing.GraphicsUnit)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawImage(System.Drawing.Image,System.Drawing.Rectangle,System.Drawing.Rectangle,System.Drawing.GraphicsUnit)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawImage(System.Drawing.Image,System.Drawing.RectangleF,System.Drawing.RectangleF,System.Drawing.GraphicsUnit)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawImage(System.Drawing.Image,System.Int32,System.Int32,System.Drawing.Rectangle,System.Drawing.GraphicsUnit)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawImage(System.Drawing.Image,System.Single,System.Single,System.Drawing.RectangleF,System.Drawing.GraphicsUnit)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawImage(System.Drawing.Image,System.Drawing.Point[])">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawImage(System.Drawing.Image,System.Drawing.PointF[])">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawImage(System.Drawing.Image,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawImage(System.Drawing.Image,System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawImage(System.Drawing.Image,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawImage(System.Drawing.Image,System.Drawing.Point)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawImage(System.Drawing.Image,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawImage(System.Drawing.Image,System.Drawing.RectangleF)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawImage(System.Drawing.Image,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawImage(System.Drawing.Image,System.Drawing.PointF)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawImageUnscaled(System.Drawing.Image,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawImageUnscaled implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawImageUnscaled(System.Drawing.Image,System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawImageUnscaled(System.Drawing.Image,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawImageUnscaled(System.Drawing.Image,System.Drawing.Point)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawLine(System.Drawing.Pen,System.Drawing.Point,System.Drawing.Point)">
+            <summary>
+            IGraphics.DrawLine implementation.
+            </summary>
+            <remarks>
+            This method is partially supported - only for horizontal and vertical lines.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawLine(System.Drawing.Pen,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawLine implementation.
+            </summary>
+            <remarks>
+            This method is partially supported - only for horizontal and vertical lines.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawLine(System.Drawing.Pen,System.Drawing.PointF,System.Drawing.PointF)">
+            <summary>
+            IGraphics.DrawLine implementation.
+            </summary>
+            <remarks>
+            This method is partially supported - only for horizontal and vertical lines.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawLine(System.Drawing.Pen,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawLine implementation.
+            </summary>
+            <remarks>
+            This method is partially supported - only for horizontal and vertical lines.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawLines(System.Drawing.Pen,System.Drawing.Point[])">
+            <summary>
+            IGraphics.DrawLines implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawLines(System.Drawing.Pen,System.Drawing.PointF[])">
+            <summary>
+            IGraphics.DrawLines implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawPath(System.Drawing.Pen,System.Drawing.Drawing2D.GraphicsPath)">
+            <summary>
+            IGraphics.DrawPath implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawPie(System.Drawing.Pen,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawPie implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawPie(System.Drawing.Pen,System.Drawing.Rectangle,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawPie implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawPie(System.Drawing.Pen,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawPie implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawPie(System.Drawing.Pen,System.Drawing.RectangleF,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawPie implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawPolygon(System.Drawing.Pen,System.Drawing.Point[])">
+            <summary>
+            IGraphics.DrawPolygon implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawPolygon(System.Drawing.Pen,System.Drawing.PointF[])">
+            <summary>
+            IGraphics.DrawPolygon implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawRectangle(System.Drawing.Pen,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawRectangle implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawRectangle(System.Drawing.Pen,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawRectangle implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawRectangle(System.Drawing.Pen,System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.DrawRectangle implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawRectangle(System.Drawing.Pen,System.Drawing.RectangleF)">
+            <summary>
+            IGraphics.DrawRectangle implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawRectangles(System.Drawing.Pen,System.Drawing.Rectangle[])">
+            <summary>
+            IGraphics.DrawRectangle implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawRectangles(System.Drawing.Pen,System.Drawing.RectangleF[])">
+            <summary>
+            IGraphics.DrawRectangle implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawFormattedText(MindFusion.Text.Text,System.Drawing.Font,System.Drawing.RectangleF,System.Drawing.StringAlignment,System.Drawing.StringAlignment,System.Drawing.Color)">
+            <summary>
+            Renders the formatted text identified by the specified layout
+            using the information in the specified hint in the current graphics.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Drawing.RectangleF,System.Drawing.StringFormat)">
+            <summary>
+            IGraphics.DrawString implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Drawing.RectangleF)">
+            <summary>
+            IGraphics.DrawString implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Drawing.PointF,System.Drawing.StringFormat)">
+            <summary>
+            IGraphics.DrawString implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Single,System.Single,System.Drawing.StringFormat)">
+            <summary>
+            IGraphics.DrawString implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Drawing.PointF)">
+            <summary>
+            IGraphics.DrawString implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawString implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.DrawBorder(MindFusion.Reporting.Border,System.Drawing.RectangleF)">
+            <summary>
+            Renders the specified border in the specified destination rectangle.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.ToHtmlDashStyle(System.Drawing.Drawing2D.DashStyle)">
+            <summary>
+            Converts the specified DashStyle to its HTML representation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.FillClosedCurve(System.Drawing.Brush,System.Drawing.Point[],System.Drawing.Drawing2D.FillMode,System.Single)">
+            <summary>
+            IGraphics.FillClosedCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.FillClosedCurve(System.Drawing.Brush,System.Drawing.Point[],System.Drawing.Drawing2D.FillMode)">
+            <summary>
+            IGraphics.FillClosedCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.FillClosedCurve(System.Drawing.Brush,System.Drawing.Point[])">
+            <summary>
+            IGraphics.FillClosedCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.FillClosedCurve(System.Drawing.Brush,System.Drawing.PointF[],System.Drawing.Drawing2D.FillMode,System.Single)">
+            <summary>
+            IGraphics.FillClosedCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.FillClosedCurve(System.Drawing.Brush,System.Drawing.PointF[],System.Drawing.Drawing2D.FillMode)">
+            <summary>
+            IGraphics.FillClosedCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.FillClosedCurve(System.Drawing.Brush,System.Drawing.PointF[])">
+            <summary>
+            IGraphics.FillClosedCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.FillEllipse(System.Drawing.Brush,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.FillEllipse implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.FillEllipse(System.Drawing.Brush,System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.FillEllipse implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.FillEllipse(System.Drawing.Brush,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.FillEllipse implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.FillEllipse(System.Drawing.Brush,System.Drawing.RectangleF)">
+            <summary>
+            IGraphics.FillEllipse implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.FillPath(System.Drawing.Brush,System.Drawing.Drawing2D.GraphicsPath)">
+            <summary>
+            IGraphics.FillPath implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.FillPie(System.Drawing.Brush,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.FillPie implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.FillPie(System.Drawing.Brush,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.FillPie implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.FillPie(System.Drawing.Brush,System.Drawing.Rectangle,System.Single,System.Single)">
+            <summary>
+            IGraphics.FillPie implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.FillPolygon(System.Drawing.Brush,System.Drawing.Point[],System.Drawing.Drawing2D.FillMode)">
+            <summary>
+            IGraphics.FillPolygon implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.FillPolygon(System.Drawing.Brush,System.Drawing.Point[])">
+            <summary>
+            IGraphics.FillPolygon implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.FillPolygon(System.Drawing.Brush,System.Drawing.PointF[],System.Drawing.Drawing2D.FillMode)">
+            <summary>
+            IGraphics.FillPolygon implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.FillPolygon(System.Drawing.Brush,System.Drawing.PointF[])">
+            <summary>
+            IGraphics.FillPolygon implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.FillRectangle(System.Drawing.Brush,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.FillRectangle implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.FillRectangle(System.Drawing.Brush,System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.FillRectangle implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.FillRectangle(System.Drawing.Brush,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.FillRectangle implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.FillRectangle(System.Drawing.Brush,System.Drawing.RectangleF)">
+            <summary>
+            IGraphics.FillRectangle implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.FillRectangles(System.Drawing.Brush,System.Drawing.Rectangle[])">
+            <summary>
+            IGraphics.FillRectangles implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.FillRectangles(System.Drawing.Brush,System.Drawing.RectangleF[])">
+            <summary>
+            IGraphics.FillRectangles implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.FillRegion(System.Drawing.Brush,System.Drawing.Region)">
+            <summary>
+            IGraphics.FillRegion implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.Flush(System.Drawing.Drawing2D.FlushIntention)">
+            <summary>
+            IGraphics.Flush implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.Flush">
+            <summary>
+            IGraphics.Flush implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.GetFontHeight(System.Drawing.Font)">
+            <summary>
+            IGraphics.GetFontHeight implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.GetNearestColor(System.Drawing.Color)">
+            <summary>
+            IGraphics.GetNearestColor implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.IsVisible(System.Drawing.RectangleF)">
+            <summary>
+            IGraphics.IsVisible implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.IsVisible(System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.IsVisible implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.IsVisible(System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.IsVisible implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.IsVisible(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.IsVisible implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.IsVisible(System.Drawing.PointF)">
+            <summary>
+            IGraphics.IsVisible implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.IsVisible(System.Single,System.Single)">
+            <summary>
+            IGraphics.IsVisible implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.IsVisible(System.Drawing.Point)">
+            <summary>
+            IGraphics.IsVisible implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.IsVisible(System.Int32,System.Int32)">
+            <summary>
+            IGraphics.IsVisible implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.MeasureCharacterRanges(System.String,System.Drawing.Font,System.Drawing.RectangleF,System.Drawing.StringFormat)">
+            <summary>
+            IGraphics.MeasureCharacterRanges implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.MeasureString(System.String,System.Drawing.Font,System.Int32,System.Drawing.StringFormat)">
+            <summary>
+            IGraphics.MeasureString implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.MeasureString(System.String,System.Drawing.Font,System.Int32)">
+            <summary>
+            IGraphics.MeasureString implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.MeasureString(System.String,System.Drawing.Font)">
+            <summary>
+            IGraphics.MeasureString implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.MeasureString(System.String,System.Drawing.Font,System.Drawing.SizeF,System.Drawing.StringFormat)">
+            <summary>
+            IGraphics.MeasureString implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.MeasureString(System.String,System.Drawing.Font,System.Drawing.SizeF)">
+            <summary>
+            IGraphics.MeasureString implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.MeasureString(System.String,System.Drawing.Font,System.Drawing.PointF,System.Drawing.StringFormat)">
+            <summary>
+            IGraphics.MeasureString implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.MeasureString(System.String,System.Drawing.Font,System.Drawing.SizeF,System.Drawing.StringFormat,System.Int32@,System.Int32@)">
+            <summary>
+            IGraphics.MeasureString implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.GetHdc">
+            <summary>
+            IGraphics.GetHdc implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.ReleaseHdc">
+            <summary>
+            IGraphics.GetHdc implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.ReleaseHdc(System.IntPtr)">
+            <summary>
+            IGraphics.ReleaseHdc implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.ReleaseHdcInternal(System.IntPtr)">
+            <summary>
+            IGraphics.ReleaseHdcInternal implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.Save">
+            <summary>
+            IGraphics.Save implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.Restore(System.Drawing.Drawing2D.GraphicsState)">
+            <summary>
+            IGraphics.Restore implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.IntersectClip(System.Drawing.Region)">
+            <summary>
+            IGraphics.IntersectClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.IntersectClip(System.Drawing.RectangleF)">
+            <summary>
+            IGraphics.IntersectClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.IntersectClip(System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.IntersectClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.ExcludeClip(System.Drawing.Region)">
+            <summary>
+            IGraphics.ExcludeClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.ExcludeClip(System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.ExcludeClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.SetClip(System.Drawing.Region,System.Drawing.Drawing2D.CombineMode)">
+            <summary>
+            IGraphics.SetClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.SetClip(System.Drawing.Drawing2D.GraphicsPath,System.Drawing.Drawing2D.CombineMode)">
+            <summary>
+            IGraphics.SetClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.SetClip(System.Drawing.Drawing2D.GraphicsPath)">
+            <summary>
+            IGraphics.SetClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.SetClip(System.Drawing.RectangleF,System.Drawing.Drawing2D.CombineMode)">
+            <summary>
+            IGraphics.SetClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.SetClip(System.Drawing.RectangleF)">
+            <summary>
+            IGraphics.SetClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.SetClip(System.Drawing.Rectangle,System.Drawing.Drawing2D.CombineMode)">
+            <summary>
+            IGraphics.SetClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.SetClip(System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.SetClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.SetClip(MindFusion.Drawing.IGraphics,System.Drawing.Drawing2D.CombineMode)">
+            <summary>
+            IGraphics.SetClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.SetClip(MindFusion.Drawing.IGraphics)">
+            <summary>
+            IGraphics.SetClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.ResetClip">
+            <summary>
+            IGraphics.ResetClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.TranslateClip(System.Int32,System.Int32)">
+            <summary>
+            IGraphics.TranslateClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.TranslateClip(System.Single,System.Single)">
+            <summary>
+            IGraphics.TranslateClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.TransformPoints(System.Drawing.Drawing2D.CoordinateSpace,System.Drawing.Drawing2D.CoordinateSpace,System.Drawing.Point[])">
+            <summary>
+            IGraphics.TransformPoints implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.TransformPoints(System.Drawing.Drawing2D.CoordinateSpace,System.Drawing.Drawing2D.CoordinateSpace,System.Drawing.PointF[])">
+            <summary>
+            IGraphics.TransformPoints implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.MultiplyTransform(System.Drawing.Drawing2D.Matrix,System.Drawing.Drawing2D.MatrixOrder)">
+            <summary>
+            IGraphics.MultiplyTransform implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.MultiplyTransform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            IGraphics.MultiplyTransform implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.RotateTransform(System.Single,System.Drawing.Drawing2D.MatrixOrder)">
+            <summary>
+            IGraphics.RotateTransform implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.RotateTransform(System.Single)">
+            <summary>
+            IGraphics.RotateTransform implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.ScaleTransform(System.Single,System.Single,System.Drawing.Drawing2D.MatrixOrder)">
+            <summary>
+            IGraphics.ScaleTransform implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.ScaleTransform(System.Single,System.Single)">
+            <summary>
+            IGraphics.ScaleTransform implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.TranslateTransform(System.Single,System.Single,System.Drawing.Drawing2D.MatrixOrder)">
+            <summary>
+            IGraphics.TranslateTransform implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.TranslateTransform(System.Single,System.Single)">
+            <summary>
+            IGraphics.TranslateTransform implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.ResetTransform">
+            <summary>
+            IGraphics.ResetTransform implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.SupportsPenWidth0">
+            <summary>
+            IGraphics.SupportsPenWidth0 implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.TransformsPenWidth">
+            <summary>
+            IGraphics.TransformsPenWidth implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.ToClient(System.Drawing.Point)">
+            <summary>
+            Transforms the specified point to client coordinates.
+            </summary>
+            <remarks>
+            The coordinates supplied to the various methods of this graphics
+            class are in document coordinates (that is, in the coordinates
+            specified in the PageUnit property). This method converts from
+            document coordinates to the point (1/72-th of an inch) coordinates
+            expected by Excel.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.ToClient(System.Drawing.PointF)">
+            <summary>
+            Transforms the specified point to client coordinates.
+            </summary>
+            <remarks>
+            The coordinates supplied to the various methods of this graphics
+            class are in document coordinates (that is, in the coordinates
+            specified in the PageUnit property). This method converts from
+            document coordinates to the point (1/72-th of an inch) coordinates
+            expected by Excel.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ExcelGraphics.ToClient(System.Single)">
+            <summary>
+            Transforms the specified value to client coordinates.
+            </summary>
+            <remarks>
+            The coordinates supplied to the various methods of this graphics
+            class are in document coordinates (that is, in the coordinates
+            specified in the PageUnit property). This method converts from
+            document coordinates to the point (1/72-th of an inch) coordinates
+            expected by Excel.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.ExcelGraphics.CompositingMode">
+            <summary>
+            IGraphics.CompositingMode implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.ExcelGraphics.CompositingQuality">
+            <summary>
+            IGraphics.CompositingQuality implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.ExcelGraphics.DpiX">
+            <summary>
+            IGraphics.DpiX implementation.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.ExcelGraphics.DpiY">
+            <summary>
+            IGraphics.DpiY implementation.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.ExcelGraphics.PageScale">
+            <summary>
+            IGraphics.PageScale implementation.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.ExcelGraphics.RenderingOrigin">
+            <summary>
+            IGraphics.RenderingOrigin implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.ExcelGraphics.PageUnit">
+            <summary>
+            IGraphics.PageUnit implementation.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.ExcelGraphics.PixelOffsetMode">
+            <summary>
+            IGraphics.PixelOffsetMode implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.ExcelGraphics.InterpolationMode">
+            <summary>
+            IGraphics.InterpolationMode implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.ExcelGraphics.VisibleClipBounds">
+            <summary>
+            IGraphics.VisibleClipBounds implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.ExcelGraphics.Clip">
+            <summary>
+            IGraphics.Clip implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.ExcelGraphics.ClipBounds">
+            <summary>
+            IGraphics.ClipBounds implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.ExcelGraphics.IsClipEmpty">
+            <summary>
+            IGraphics.IsClipEmpty implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.ExcelGraphics.IsVisibleClipEmpty">
+            <summary>
+            IGraphics.IsVisibleClipEmpty implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.ExcelGraphics.SmoothingMode">
+            <summary>
+            IGraphics.SmoothingMode implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.ExcelGraphics.TextContrast">
+            <summary>
+            IGraphics.TextContrast implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.ExcelGraphics.TextRenderingHint">
+            <summary>
+            IGraphics.TextRenderingHint implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.ExcelGraphics.Transform">
+            <summary>
+            IGraphics.Transform implementation.
+            </summary>
+            <remarks>
+            Only the translation component of this object is taken into consideration.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.ExcelGraphics.MinCellSize">
+            <summary>
+            Gets or sets a value specifying a minimal size for the rows and columns in the graphics.
+            Rows with height smaller than this value and columns with width smaller than this
+            value are merged.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.ExcelGraphics.MaxCellSize">
+            <summary>
+            Gets or sets a value specifying a maximal size for the rows and columns in the graphics.
+            Rows with height bigger than this value and columns with height smaller than this
+            value are split.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.Export.ExcelGraphics.inner">
+            <summary>
+            An internal graphics object used for measuring, transformations
+            and stat tracking.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.Export.ExcelGraphics.pixelToPoint">
+            <summary>
+            An internal graphics object used for pixel-to-point transformations.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.Export.ExcelGraphics.innerBitmap">
+            <summary>
+            A bitmap used in the creation of the inner Graphics.
+            </summary>
+        </member>
+    </members>
+</doc>

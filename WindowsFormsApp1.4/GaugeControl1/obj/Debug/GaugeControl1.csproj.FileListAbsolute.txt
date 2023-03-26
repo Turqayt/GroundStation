@@ -1,0 +1,32 @@
+C:\Users\Turqay\OneDrive\Desktop\GaugeControls-master\GaugeControl1\bin\Debug\GaugeControl1.exe.config
+C:\Users\Turqay\OneDrive\Desktop\GaugeControls-master\GaugeControl1\bin\Debug\GaugeControl1.exe
+C:\Users\Turqay\OneDrive\Desktop\GaugeControls-master\GaugeControl1\bin\Debug\GaugeControl1.pdb
+C:\Users\Turqay\OneDrive\Desktop\GaugeControls-master\GaugeControl1\obj\Debug\GaugeControl1.csproj.AssemblyReference.cache
+C:\Users\Turqay\OneDrive\Desktop\GaugeControls-master\GaugeControl1\obj\Debug\GaugeControl1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Turqay\OneDrive\Desktop\GaugeControls-master\GaugeControl1\obj\Debug\MainWindow.g.cs
+C:\Users\Turqay\OneDrive\Desktop\GaugeControls-master\GaugeControl1\obj\Debug\App.g.cs
+C:\Users\Turqay\OneDrive\Desktop\GaugeControls-master\GaugeControl1\obj\Debug\GaugeControl1_MarkupCompile.cache
+C:\Users\Turqay\OneDrive\Desktop\GaugeControls-master\GaugeControl1\obj\Debug\GaugeControl1_MarkupCompile.lref
+C:\Users\Turqay\OneDrive\Desktop\GaugeControls-master\GaugeControl1\obj\Debug\MainWindow.baml
+C:\Users\Turqay\OneDrive\Desktop\GaugeControls-master\GaugeControl1\obj\Debug\GaugeControl1.g.resources
+C:\Users\Turqay\OneDrive\Desktop\GaugeControls-master\GaugeControl1\obj\Debug\GaugeControl1.Properties.Resources.resources
+C:\Users\Turqay\OneDrive\Desktop\GaugeControls-master\GaugeControl1\obj\Debug\GaugeControl1.csproj.GenerateResource.cache
+C:\Users\Turqay\OneDrive\Desktop\GaugeControls-master\GaugeControl1\obj\Debug\GaugeControl1.csproj.CoreCompileInputs.cache
+C:\Users\Turqay\OneDrive\Desktop\GaugeControls-master\GaugeControl1\obj\Debug\GaugeControl1.exe
+C:\Users\Turqay\OneDrive\Desktop\GaugeControls-master\GaugeControl1\obj\Debug\GaugeControl1.pdb
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\GaugeControls-master\GaugeControl1\bin\Debug\GaugeControl1.exe.config
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\GaugeControls-master\GaugeControl1\bin\Debug\GaugeControl1.exe
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\GaugeControls-master\GaugeControl1\bin\Debug\GaugeControl1.pdb
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\GaugeControls-master\GaugeControl1\obj\Debug\GaugeControl1.csproj.AssemblyReference.cache
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\GaugeControls-master\GaugeControl1\obj\Debug\GaugeControl1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\GaugeControls-master\GaugeControl1\obj\Debug\MainWindow.g.cs
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\GaugeControls-master\GaugeControl1\obj\Debug\App.g.cs
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\GaugeControls-master\GaugeControl1\obj\Debug\GaugeControl1_MarkupCompile.cache
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\GaugeControls-master\GaugeControl1\obj\Debug\GaugeControl1_MarkupCompile.lref
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\GaugeControls-master\GaugeControl1\obj\Debug\MainWindow.baml
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\GaugeControls-master\GaugeControl1\obj\Debug\GaugeControl1.g.resources
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\GaugeControls-master\GaugeControl1\obj\Debug\GaugeControl1.Properties.Resources.resources
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\GaugeControls-master\GaugeControl1\obj\Debug\GaugeControl1.csproj.GenerateResource.cache
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\GaugeControls-master\GaugeControl1\obj\Debug\GaugeControl1.csproj.CoreCompileInputs.cache
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\GaugeControls-master\GaugeControl1\obj\Debug\GaugeControl1.exe
+C:\Users\Turqay\OneDrive\Desktop\Yer Istasyonu\GaugeControls-master\GaugeControl1\obj\Debug\GaugeControl1.pdb

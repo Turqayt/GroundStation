@@ -1,0 +1,672 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MindFusion.Mapping.WinForms</name>
+    </assembly>
+    <members>
+        <member name="T:MindFusion.Mapping.WinForms.DecorationBubble">
+            <summary>
+            Represents a bubble object that can be drawn as a decoration over the map.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.DecorationBubble.#ctor(System.Int32,System.Drawing.Color,System.Drawing.Color,System.Double,System.Double)">
+            <summary>
+            Initializes a new instance of the DecorationBubble class.
+            </summary>
+            <param name="radius">An integer specifying the bubble radius.</param>
+            <param name="fillColor">A Color instance specifying the bubble fill color.</param>
+            <param name="borderColor">A Color instance specifying the bubble border color.</param>
+            <param name="latitude">A double value specifying the latitude at which the bubble should be drawn.</param>
+            <param name="longitude">A double value specifying the longitude at which the bubble should be drawn.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.DecorationBubble.Draw(MindFusion.Mapping.ICanvas)">
+            <summary>
+            MapElement.Draw override.
+            </summary>
+            <param name="canvas">An ICanvas representing the drawing surface.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.DecorationBubble.DrawLabel(MindFusion.Mapping.ICanvas)">
+            <summary>
+            MapElement.DrawLabel override.
+            </summary>
+            <param name="canvas">An ICanvas representing the drawing surface.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.DecorationBubble.Highlight(MindFusion.Mapping.ICanvas)">
+            <summary>
+            MapElement.Highlight override.
+            </summary>
+            <param name="canvas">An ICanvas representing the drawing surface.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.DecorationBubble.HitTest(MindFusion.Mapping.Point,MindFusion.Mapping.ITransform)">
+            <summary>
+            MapElement.HitTest override.
+            </summary>
+            <param name="point">A Point representing a location on the map.</param>
+            <param name="transform">An ITransform representing the transform currently used to render the map.</param>
+            <returns>true if this element contains the specified point, otherwise false.</returns>
+        </member>
+        <member name="P:MindFusion.Mapping.WinForms.DecorationBubble.Radius">
+            <summary>
+            Gets or sets the bubble radius in pixels.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Mapping.WinForms.DecorationBubble.BorderColor">
+            <summary>
+            Gets or sets the bubble's border color.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Mapping.WinForms.DecorationBubble.FillColor">
+            <summary>
+            Gets or sets the bubble's fill color.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Mapping.WinForms.DecorationImage">
+            <summary>
+            Represents an image that can be drawn as a decoration over the map.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.DecorationImage.#ctor(System.Drawing.Image,System.Double,System.Double)">
+            <summary>
+            Initializes a new instance of the DecorationImage class.
+            </summary>
+            <param name="image">A System.Drawing.Image instance.</param>
+            <param name="latitude">A double value specifying the latitude at which the image should be drawn.</param>
+            <param name="longitude">A double value specifying the longitude at which the image should be drawn.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.DecorationImage.#ctor(System.Drawing.Image,System.Int32,System.Int32,System.Double,System.Double)">
+            <summary>
+            Initializes a new instance of the DecorationImage class.
+            </summary>
+            <param name="image">A System.Drawing.Image instance.</param>
+            <param name="pivotX">Position within the image that should be aligned to the specified longitude.</param>
+            <param name="pivotY">Position within the image that should be aligned to the specified latitude.</param>
+            <param name="latitude">A double value specifying the latitude at which the image should be drawn.</param>
+            <param name="longitude">A double value specifying the longitude at which the image should be drawn.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.DecorationImage.Draw(MindFusion.Mapping.ICanvas)">
+            <summary>
+            MapElement.Draw override.
+            </summary>
+            <param name="canvas">An ICanvas representing the drawing surface.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.DecorationImage.Highlight(MindFusion.Mapping.ICanvas)">
+            <summary>
+            MapElement.Highlight override.
+            </summary>
+            <param name="canvas">An ICanvas representing the drawing surface.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.DecorationImage.DrawLabel(MindFusion.Mapping.ICanvas)">
+            <summary>
+            MapElement.DrawLabel override.
+            </summary>
+            <param name="canvas">An ICanvas representing the drawing surface.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.DecorationImage.HitTest(MindFusion.Mapping.Point,MindFusion.Mapping.ITransform)">
+            <summary>
+            MapElement.HitTest override.
+            </summary>
+            <param name="point">A Point representing a location on the map.</param>
+            <param name="transform">An ITransform representing the transform currently used to render the map.</param>
+            <returns>true if this element contains the specified point, otherwise false.</returns>
+        </member>
+        <member name="P:MindFusion.Mapping.WinForms.DecorationImage.Image">
+            <summary>
+            Gets or sets the System.Drawing.Image that should be displayed as a decoration.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Mapping.WinForms.DecorationImage.HighlightImage">
+            <summary>
+            Gets or sets a System.Drawing.Image that should be displayed when the decoration is highlighted.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Mapping.WinForms.DecorationImage.PivotX">
+            <summary>
+            Gets or sets horizontal offset within the image that should be aligned to the decoration longitude.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Mapping.WinForms.DecorationImage.PivotY">
+            <summary>
+            Gets or sets vertical offset within the image that should be aligned to the decoration latitude.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Mapping.WinForms.DecorationLayer">
+            <summary>
+            Represents a layer containing decorative elements.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.DecorationLayer.#ctor(MindFusion.Mapping.Rect)">
+            <summary>
+            Initializes a new instance of the DecorationLayer class.
+            </summary>
+            <param name="boundingBox">A Rect specifying the map area displayed on this layer.</param>
+        </member>
+        <member name="T:MindFusion.Mapping.WinForms.GdiCanvas">
+            <summary>
+            Implements the ICanvas interface using System.Drawing API.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.GdiCanvas.#ctor(System.Drawing.Graphics,System.Drawing.Point)">
+            <summary>
+            Initializes a new instance of the GdiCanvas class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.GdiCanvas.DrawString(System.String,MindFusion.Mapping.Point,MindFusion.Mapping.Rect,System.String,System.Double)">
+            <summary>
+            Draws a string with the specified attributes.
+            </summary>
+            <param name="s">The string that should be drawn.</param>
+            <param name="point">A Point specifying the string location.</param>
+            <param name="bounds">A Rect specifying the string bounding box.</param>
+            <param name="fontName">The name of the font used to render the string.</param>
+            <param name="fontSize">The size of the font used to render the string.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.GdiCanvas.PointAlongLength(System.Single,System.Drawing.PointF[],System.Drawing.PointF@,System.Double@)">
+            <summary>
+            Returns a point lying on a polyline that is positioned at a relative position along the polyline's length. 
+            </summary>
+            <param name="lengthFactor">A value from 0 to 1 specifying a portion of link's length.</param>
+            <param name="segments">A list of points specifying the polyline segments.</param>
+            <param name="point">A Point instance.</param>
+            <param name="angle">The angle of rotation.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.GdiCanvas.ArrangeLabel(MindFusion.Mapping.Shape,System.Collections.Generic.List{MindFusion.Mapping.Rect})">
+            <summary>
+            Arranges shape's labels so that they do not overlap specified obstacles.
+            </summary>
+            <param name="shape">A Shape whose labels to arrange.</param>
+            <param name="obstacles">A list of obstacles.</param>
+            <returns>true if non-overlapping position has been found, or false otherwise.</returns>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.GdiCanvas.GetRotatedBounds(MindFusion.Mapping.Rect,System.Single)">
+            <summary>
+            Gets the bounding box of a rotated rectangle.
+            </summary>
+            <param name="rect">A Rect to rotate.</param>
+            <param name="angle">Rotation angle.</param>
+            <returns>A Rect that bounds the specified rotated rectangle.</returns>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.GdiCanvas.UpdateLabel(MindFusion.Mapping.Shape)">
+            <summary>
+            Updates bounding box of shape's label from shape coordinates.
+            </summary>
+            <param name="shape">A Shape instance.</param>
+            <returns>The label's bounding box.</returns>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.GdiCanvas.DrawLabel(MindFusion.Mapping.Label)">
+            <summary>
+            Draws a Label.
+            </summary>
+            <param name="label">The Label instance to draw.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.GdiCanvas.DrawPoint(MindFusion.Mapping.Point)">
+            <summary>
+            Draws a point marker at the specified location.
+            </summary>
+            <param name="point">The Point to draw.</param>
+        </member>
+        <member name="P:MindFusion.Mapping.WinForms.GdiCanvas.Scale">
+            <summary>
+            Gets the scale factor or current Transform.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.GdiCanvas.DrawPolyline(System.Collections.Generic.IList{MindFusion.Mapping.Point})">
+            <summary>
+            Draws a polyline.
+            </summary>
+            <param name="points">A list of points specifying the polyline segments.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.GdiCanvas.FillPolygon(System.Collections.Generic.IList{MindFusion.Mapping.Point})">
+            <summary>
+            Fills a polygon.
+            </summary>
+            <param name="points">A list of points specifying the polygon borders.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.GdiCanvas.ClipExclude(System.Collections.Generic.IList{MindFusion.Mapping.Point})">
+            <summary>
+            Excludes the specified area from the current clip region.
+            </summary>
+            <param name="points">A list of points specifying the area to exclude.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.GdiCanvas.ClipExclude(System.Collections.Generic.List{System.Collections.Generic.IList{MindFusion.Mapping.Point}})">
+            <summary>
+            Excludes the specified areas from the current clip region.
+            </summary>
+            <param name="points">A list of points specifying the area to exclude.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.GdiCanvas.ResetClip">
+            <summary>
+            Resets the current clip region.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.GdiCanvas.SetFillColor(System.Int32)">
+            <summary>
+            Sets the current fill color to the specified color from the palette.
+            </summary>
+            <param name="color"></param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.GdiCanvas.SetLineColor">
+            <summary>
+            Sets the current line color to the line color associated with this canvas.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.GdiCanvas.SetHighlightColor">
+            <summary>
+            Sets the current fill and line colors to the highlight color associated with this canvas.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.GdiCanvas.SetTextAlignment(MindFusion.Mapping.TextAlignment,MindFusion.Mapping.TextAlignment)">
+            <summary>
+            Sets the current text alignment.
+            </summary>
+            <param name="horzAlignment">A TextAlignment member specifying the horizontal alignment.</param>
+            <param name="vertAlignment">A TextAlignment member specifying the vertical alignment.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.GdiCanvas.GetPixelSize">
+            <summary>
+            Gets the size of a pixel at the current zoom level.
+            </summary>
+            <returns>A double value specifying the pixel size.</returns>
+        </member>
+        <member name="P:MindFusion.Mapping.WinForms.GdiCanvas.Palette">
+            <summary>
+            Gets or sets the current color palette.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.GdiCanvas.SetPen(MindFusion.Mapping.MapFeature,System.Boolean)">
+            <summary>
+            Sets the current pen to the one associated with specified map feature.
+            </summary>
+            <param name="penKey">A MapFeature used as key in StreetMapPens table.</param>
+            <param name="isBorderPen">true if the pen will be used to outline a closed shape, or false otherwise.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.GdiCanvas.SetBrush(MindFusion.Mapping.MapFeature)">
+            <summary>
+            Sets the current brush to the one associated with specified map feature.
+            </summary>
+            <param name="brushKey">A MapFeature used as key in StreetMapBrushes table.</param>
+        </member>
+        <member name="P:MindFusion.Mapping.WinForms.GdiCanvas.Graphics">
+            <summary>
+            Gets or sets the System.Drawing.Graphics instance backing this canvas.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Mapping.WinForms.GdiCanvas.ZoomFactor">
+            <summary>
+            Gets or sets the current zoom factor.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Mapping.WinForms.GdiCanvas.Transform">
+            <summary>
+            Gets or sets a matrix that transforms geo-coordinates to pixels.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Mapping.WinForms.GdiPalette">
+            <summary>
+            Represents a palette of colors.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Mapping.WinForms.GdiPalette.FillColors">
+            <summary>
+            Gets or sets an array of fill colors.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Mapping.WinForms.GdiPalette.LineColor">
+            <summary>
+            Gets or sets the line color.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Mapping.WinForms.GdiPalette.HighlightColor">
+            <summary>
+            Gets or sets the highlight color.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Mapping.WinForms.GdiTransform">
+            <summary>
+            Represents a geometrical transform used to convert world coordinates
+            to screen coordinates.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.GdiTransform.#ctor(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            Initializes a new instance of the GdiTransform class.
+            </summary>
+            <param name="matrix">A Matrix instance specifying an affine transformation.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.GdiTransform.WorldToDevice(MindFusion.Mapping.Point)">
+            <summary>
+            Convert a point from world to screen coordinates.
+            </summary>
+            <param name="point">A Point specifying world coordinates.</param>
+            <returns>A Point containing the corresponding screen coordinates.</returns>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.GdiTransform.WorldToDevice(MindFusion.Mapping.Point[])">
+            <summary>
+            Convert an array of Point objects from world to screen coordinates.
+            </summary>
+            <param name="points">An array of Point objects specifying world coordinates.</param>
+            <returns>An array of Point objects containing the corresponding screen coordinates.</returns>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.GdiTransform.WorldToDevice(MindFusion.Mapping.Rect)">
+            <summary>
+            Convert a Rect instance from world to screen coordinates.
+            </summary>
+            <param name="rect">An Rect instance specifying world coordinates.</param>
+            <returns>An Rect instance containing the corresponding screen coordinates.</returns>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.GdiTransform.DeviceToWorld(MindFusion.Mapping.Point)">
+            <summary>
+            Convert a point from screen to world coordinates.
+            </summary>
+            <param name="point">A Point specifying screen coordinates.</param>
+            <returns>A Point containing the corresponding world coordinates.</returns>
+        </member>
+        <member name="T:MindFusion.Mapping.WinForms.MapEventArgs">
+            <summary>
+            Provides data for map events.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.MapEventArgs.#ctor(MindFusion.Mapping.MapElement,System.Windows.Forms.MouseButtons)">
+            <summary>
+            Initializes a new instance of the MapEventArgs class.
+            </summary>
+            <param name="mapElement">A MapElement for which the event is raised.</param>
+            <param name="button">A MouseButtons member specifying the related mouse button.</param>
+        </member>
+        <member name="P:MindFusion.Mapping.WinForms.MapEventArgs.MapElement">
+            <summary>
+            Gets ot sets the MapElement for which the event is raised.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Mapping.WinForms.MapEventArgs.Button">
+            <summary>
+            Gets or sets a MouseButtons member specifying the mouse button related to the event.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Mapping.WinForms.MapLayer">
+            <summary>
+            Represents a map layer containing geometric shapes.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Mapping.WinForms.MapView">
+            <summary>
+            A Windows Forms control used to draw maps.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.MapView.#ctor">
+            <summary>
+            Initializes a new instance of the MapView class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.MapView.OnBeginLoad(System.Object,System.EventArgs)">
+            <summary>
+            Raises the BeginLoad event.
+            </summary>
+            <param name="sender">
+            The source of the event.
+            </param>
+            <param name="e">
+            An object providing the event data.
+            </param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.MapView.OnEndLoad(System.Object,System.EventArgs)">
+            <summary>
+            Raises the EndLoad event.
+            </summary>
+            <param name="sender">
+            The source of the event.
+            </param>
+            <param name="e">
+            An object providing the event data.
+            </param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.MapView.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Control.OnPaint override.
+            </summary>
+            <param name="e">A PaintEventArgs that contains the event data.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.MapView.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Control.OnMouseDown override.
+            </summary>
+            <param name="e">A MouseEventArgs that contains the event data.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.MapView.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Control.OnMouseMove override.
+            </summary>
+            <param name="e">A MouseEventArgs that contains the event data.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.MapView.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Control.OnMouseUp override.
+            </summary>
+            <param name="e">A MouseEventArgs that contains the event data.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.MapView.OnMouseWheel(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Control.OnMouseWheel override.
+            </summary>
+            <param name="e">A MouseEventArgs that contains the event data.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.MapView.OnResize(System.EventArgs)">
+            <summary>
+            Control.OnResize override.
+            </summary>
+            <param name="e">An EventArgs that contains the event data.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.MapView.SetZoomFactor(System.Double,System.Drawing.Point)">
+            <summary>
+            Sets the map zoom level.
+            </summary>
+            <param name="zoomFactor">A double value specifying the new zoom level; 1 is for 100% zoom.</param>
+            <param name="pivotPoint">A Point whose screen location should not change after zoom.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.MapView.ScrollTo(MindFusion.Mapping.Point)">
+            <summary>
+            Scrolls to the specified map location and center it inside the control.
+            </summary>
+            <param name="point">A Point instance specifying a map location.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.MapView.ScrollTo(System.Double,System.Double)">
+            <summary>
+            Scrolls to the specified map location and center it inside the control.
+            </summary>
+            <param name="latitude">A double value specifying the location latitude.</param>
+            <param name="longitude">A double value specifying the location longitude.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.MapView.CreateImage">
+            <summary>
+            Exports the currently displayed map to a bitmap image.
+            </summary>
+            <returns>A Bitmap instance.</returns>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.MapView.CreateImage(System.Drawing.Size)">
+            <summary>
+            Exports the currently displayed map to a bitmap image.
+            </summary>
+            <param name="size">A Size instance specifying the bitmap height.</param>
+            <returns>A Bitmap instance.</returns>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.MapView.ClearCache">
+            <summary>
+            Clears cached bitmaps generated to represent current street-map.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Mapping.WinForms.MapView.MaxImageSize">
+            <summary>
+            Specifies the size of the image tiles of the map.
+            Image maps can be split into multuple images to avoid problems with large images.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.MapView.Transform">
+            <summary>
+            Gets a matrix representing the transformation from world to screen coordinates.
+            </summary>
+            <returns>A Matrix instance.</returns>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.MapView.Transform(MindFusion.Mapping.Layer{System.Drawing.Color,MindFusion.Mapping.WinForms.GdiPalette})">
+            <summary>
+            Gets a matrix representing the transformation from layer to screen coordinates.
+            </summary>
+            <param name="layer">A layer whose bounding box should be mapped to the control's rectangle.</param>
+            <returns>A Matrix instance.</returns>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.MapView.ClientToMap(System.Drawing.Point)">
+            <summary>
+            Converts a point from the control's client coordinates to map coordinates.
+            </summary>
+            <param name="point">A System.Drawing.Point instance.</param>
+            <returns>A MindFusion.Mapping.Point instance.</returns>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.MapView.MapToClient(MindFusion.Mapping.Point)">
+            <summary>
+            Converts a point from the map coordinates to control's client coordinates.
+            </summary>
+            <param name="point">A MindFusion.Mapping.Point instance.</param>
+            <returns>A System.Drawing.Point instance.</returns>
+        </member>
+        <member name="E:MindFusion.Mapping.WinForms.MapView.MapElementClick">
+            <summary>
+            Raised when the user clicks a map element.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Mapping.WinForms.MapView.MapElementHover">
+            <summary>
+            Raised when the mouse rests over a map element.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.MapView.OnMapElementClick(MindFusion.Mapping.WinForms.MapEventArgs)">
+            <summary>
+            Raises the MapElementClick event.
+            </summary>
+            <param name="e">A MapEventArgs instance that contains the event data.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.MapView.RaiseMapElementClick(MindFusion.Mapping.MapElement,System.Windows.Forms.MouseButtons)">
+            <summary>
+            Raises the MapElementClick event.
+            </summary>
+            <param name="mapElement">The clicked map element.</param>
+            <param name="button">The mouse button.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.MapView.OnMapElementHover(MindFusion.Mapping.WinForms.MapEventArgs)">
+            <summary>
+            Raises the MapElementHover event.
+            </summary>
+            <param name="e">A MapEventArgs instance that contains the event data.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.MapView.RaiseMapElementHover(MindFusion.Mapping.MapElement)">
+            <summary>
+            Raises the MapElementHover event.
+            </summary>
+            <param name="mapElement">The hovered map element.</param>
+        </member>
+        <member name="P:MindFusion.Mapping.WinForms.MapView.BaseMap">
+            <summary>
+            Gets or sets the Map displayed in the first layer of this view.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Mapping.WinForms.MapView.Layers">
+            <summary>
+            Gets the list of layers displayed in this view.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Mapping.WinForms.MapView.LabelsOnTop">
+            <summary>
+            Gets or sets whether labels of map elements should be drawn after rendering all layers
+            </summary>
+        </member>
+        <member name="P:MindFusion.Mapping.WinForms.MapView.ZoomFactor">
+            <summary>
+            Gets or sets the current zoom level.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Mapping.WinForms.MapView.BackColor">
+            <summary>
+            Gets or sets the background color for the control.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Mapping.WinForms.MapView.Behavior">
+            <summary>
+            Specifies how the view interprets mouse input.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Mapping.WinForms.MapView.LicenseKey">
+            <summary>
+            Gets or sets the license key of the control.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Mapping.WinForms.MapView.EnablePanAnimations">
+            <summary>
+            Gets or sets a value indicating whether the view will apply inertia to pan interactions.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Mapping.WinForms.Behavior">
+            <summary>
+            Defines values that specify how the component responds to actions performed by the user.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Mapping.WinForms.Behavior.Pan">
+            <summary>
+            Dragging with the mouse pans the view.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Mapping.WinForms.Behavior.Select">
+            <summary>
+            Draw a selection rectangle.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Mapping.WinForms.StreetMapLayer">
+            <summary>
+            Represents a map layer containing OpenStreetMap maps.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.StreetMapLayer.#ctor">
+            <summary>
+            Initializes a new instance of the StreetMapLayer class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.StreetMapLayer.DrawLabels(MindFusion.Mapping.ICanvasWithPalette{System.Drawing.Color},MindFusion.Mapping.Rect)">
+            <summary>
+            Layer.DrawLabels override.
+            </summary>
+            <param name="canvas">An ICanvasWithPalette specifying the drawing canvas.</param>
+            <param name="bounds">A Rect specifying the map region to draw.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.StreetMapLayer.Draw(MindFusion.Mapping.ICanvasWithPalette{System.Drawing.Color},MindFusion.Mapping.Rect)">
+            <summary>
+            Layer.Draw override.
+            </summary>
+            <param name="canvas">An ICanvasWithPalette specifying the drawing canvas.</param>
+            <param name="bounds">A Rect specifying the map region to draw.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.StreetMapLayer.ClearCache">
+            <summary>
+            Layer.ClearCache override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.StreetMapLayer.Select(MindFusion.Mapping.MapElement)">
+            <summary>
+            Layer.Select override.
+            </summary>
+            <param name="mapElement">The MapElement that should be selected.</param>
+            <returns>true if the map view should be redrawn, otherwise false.</returns>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.StreetMapLayer.AddPen(System.String,System.String,System.Drawing.Pen)">
+            <summary>
+            Adds a pen to the list of pens used for shapes rendering.
+            </summary>
+            <param name="tagKey">The key of the tag, specifying the map feature.</param>
+            <param name="tagValue">The value of the tag, specifying the map feature.</param>
+            <param name="pen">The Pen object to add.</param>
+        </member>
+        <member name="M:MindFusion.Mapping.WinForms.StreetMapLayer.AddBrush(System.String,System.String,System.Drawing.SolidBrush)">
+            <summary>
+            Adds a brush to the list of brushes used for shapes rendering.
+            </summary>
+            <param name="tagKey">The key of the tag, specifying the map feature.</param>
+            <param name="tagValue">The value of the tag, specifying the map feature.</param>
+            <param name="brush">The SolidBrush object to add.</param>
+        </member>
+    </members>
+</doc>

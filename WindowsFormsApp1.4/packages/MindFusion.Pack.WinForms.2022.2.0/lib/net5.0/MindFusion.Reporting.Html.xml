@@ -1,0 +1,1836 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MindFusion.Reporting.Html</name>
+    </assembly>
+    <members>
+        <member name="T:MindFusion.Reporting.Export.HtmlExporter">
+            <summary>
+            Exports MindFusion reports to HTML files.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporter.#ctor">
+            <summary>
+            Initializes a new instance of the HtmlExporter class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporter.Export(MindFusion.Reporting.Report,System.String)">
+            <summary>
+            Creates an HTML file representing the specified report.
+            </summary>
+            <param name="report">
+            A reference to the report that will be exported.
+            </param>
+            <param name="filePath">
+            The full path to the HTML file.
+            </param>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporter.OnProcessImage(MindFusion.Reporting.Export.ImageEventArgs)">
+            <summary>
+            HtmlExporterBase.OnProcessImage override.
+            </summary>
+            <param name="e">
+            An object providing the event data.
+            </param>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporter.CreateDirectory(System.String)">
+            <summary>
+            Recursively creates all missing directories in
+            the specified path.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.HtmlExporter.EmbedImages">
+            <summary>
+            Gets or sets a value indicating whether to embed images in the HTML
+            or copy them in a specified directory.
+            </summary>
+            <remarks>
+            This property is ignored when exporting directly to a StringBuilder.
+            In this case the images are always embedded in the resulting HTML.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.HtmlExporter.ImageFolder">
+            <summary>
+            Gets or sets the directory where the images referenced in the
+            HTML should be copied.
+            </summary>
+            <remarks>
+            This property is ignored when exporting directly to a StringBuilder.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.HtmlExporter.RootFolder">
+            <summary>
+            Gets or sets the folder of the target HTML.
+            </summary>
+            <remarks>
+            If images are not embedded and ImageFolder
+            is a relative path, this parameter is used as a root.
+            </remarks>
+        </member>
+        <member name="T:MindFusion.Reporting.Export.HtmlExporterBase">
+            <summary>
+            The base class for HTML exporters.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.#ctor">
+            <summary>
+            Initializes a new instance of the HtmlExporterBase class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.Export(MindFusion.Reporting.Report,System.String)">
+            <summary>
+            Creates an output file representing the specified report.
+            </summary>
+            <param name="report">
+            A reference to the report that will be exported.
+            </param>
+            <param name="filePath">
+            The full path to the output file.
+            </param>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.Export(MindFusion.Reporting.Report,System.Text.StringBuilder)">
+            <summary>
+            Exports the specified report as an HTML.
+            </summary>
+            <param name="report">
+            A reference to the report that will be exported.
+            </param>
+            <param name="target">
+            The destination StringBuilder where the report contents will be rendered.
+            </param>
+            <remarks>
+            This method does not raise any events nor does it use many
+            of the HTML-related properties of the HtmlExporter class. Check
+            the individual property remarks for details.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.OnProcessImage(System.Object,MindFusion.Reporting.Export.ImageEventArgs)">
+            <summary>
+            Handles the ProcessImage event of the rendering graphics.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.OnProcessImage(MindFusion.Reporting.Export.ImageEventArgs)">
+            <summary>
+            Raises the ProcessImage event.
+            </summary>
+            <param name="e">
+            An object providing the event data.
+            </param>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.OnBeginRenderHead(MindFusion.Reporting.Export.RenderHtmlEventArgs)">
+            <summary>
+            Fires the BeginRenderHead event.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.OnEndRenderHead(MindFusion.Reporting.Export.RenderHtmlEventArgs)">
+            <summary>
+            Fires the EndRenderHead event.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.OnBeginRenderReport(MindFusion.Reporting.Export.RenderHtmlEventArgs)">
+            <summary>
+            Fires the BeginRenderReport event.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.OnEndRenderReport(MindFusion.Reporting.Export.RenderHtmlEventArgs)">
+            <summary>
+            Fires the EndRenderReport event.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.HtmlExporterBase.MetaTags">
+            <summary>
+            Gets a list with the names and values of the meta-tags to
+            be included in the resulting HTML.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.HtmlExporterBase.Title">
+            <summary>
+            Gets or sets the title of the resulting HTML.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.HtmlExporterBase.PageSize">
+            <summary>
+            Gets or sets the page size.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.HtmlExporterBase.PageOrientation">
+            <summary>
+            Gets or sets the page orientation.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.HtmlExporterBase.Margins">
+            <summary>
+            Gets or sets the page margins.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Reporting.Export.HtmlExporterBase.ProcessImage">
+            <summary>
+            Raised when the underlying HTML is rendered in order to process a referenced image.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Reporting.Export.HtmlExporterBase.BeginRenderHead">
+            <summary>
+            Raised before the &lt;head&gt; tag contents are being rendered,
+            but after the tag itself has been appended.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Reporting.Export.HtmlExporterBase.EndRenderHead">
+            <summary>
+            Raised after the &lt;head&gt; tag contents are being rendered,
+            but before the closing tag has been appended.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Reporting.Export.HtmlExporterBase.BeginRenderReport">
+            <summary>
+            Raised within the &lt;body&gt; right before rendering the report.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Reporting.Export.HtmlExporterBase.EndRenderReport">
+            <summary>
+            Raised within the &lt;body&gt; right after rendering the report.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics">
+            <summary>
+            An IGraphics implementation that renders some graphics as HTML contents.
+            The HtmlGraphics class renders within a StringBuider instance.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.#ctor(System.Text.StringBuilder)">
+            <summary>
+            Initializes a new instance of the HtmlGraphics class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.AddMetafileComment(System.Byte[])">
+            <summary>
+            IGraphics.AddMetafileComment implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.BeginContainer">
+            <summary>
+            IGraphics.BeginContainer implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.BeginContainer(System.Drawing.Rectangle,System.Drawing.Rectangle,System.Drawing.GraphicsUnit)">
+            <summary>
+            IGraphics.BeginContainer implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.BeginContainer(System.Drawing.RectangleF,System.Drawing.RectangleF,System.Drawing.GraphicsUnit)">
+            <summary>
+            IGraphics.BeginContainer implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.EndContainer(System.Drawing.Drawing2D.GraphicsContainer)">
+            <summary>
+            IGraphics.EndContainer implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.BeginHyperLink(System.String,System.String)">
+            <summary>
+            IGraphics.BeginHyperLink implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.EndHyperLink">
+            <summary>
+            IGraphics.EndHyperLink implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.Clear(System.Drawing.Color)">
+            <summary>
+            IGraphics.Clear implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.Dispose">
+            <summary>
+            IGraphics.Dispose implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawArc(System.Drawing.Pen,System.Drawing.Rectangle,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawArc implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawArc(System.Drawing.Pen,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawArc implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawArc(System.Drawing.Pen,System.Drawing.RectangleF,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawArc implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawArc(System.Drawing.Pen,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawArc implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawBezier(System.Drawing.Pen,System.Drawing.Point,System.Drawing.Point,System.Drawing.Point,System.Drawing.Point)">
+            <summary>
+            IGraphics.DrawBezier implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawBezier(System.Drawing.Pen,System.Drawing.PointF,System.Drawing.PointF,System.Drawing.PointF,System.Drawing.PointF)">
+            <summary>
+            IGraphics.DrawBezier implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawBezier(System.Drawing.Pen,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawBezier implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawBeziers(System.Drawing.Pen,System.Drawing.Point[])">
+            <summary>
+            IGraphics.DrawBeziers implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawBeziers(System.Drawing.Pen,System.Drawing.PointF[])">
+            <summary>
+            IGraphics.DrawBezier implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawClosedCurve(System.Drawing.Pen,System.Drawing.Point[],System.Single,System.Drawing.Drawing2D.FillMode)">
+            <summary>
+            IGraphics.DrawClosedCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawClosedCurve(System.Drawing.Pen,System.Drawing.Point[])">
+            <summary>
+            IGraphics.DrawClosedCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawClosedCurve(System.Drawing.Pen,System.Drawing.PointF[],System.Single,System.Drawing.Drawing2D.FillMode)">
+            <summary>
+            IGraphics.DrawClosedCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawClosedCurve(System.Drawing.Pen,System.Drawing.PointF[])">
+            <summary>
+            IGraphics.DrawClosedCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawCurve(System.Drawing.Pen,System.Drawing.Point[],System.Int32,System.Int32,System.Single)">
+            <summary>
+            IGraphics.DrawCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawCurve(System.Drawing.Pen,System.Drawing.Point[],System.Single)">
+            <summary>
+            IGraphics.DrawCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawCurve(System.Drawing.Pen,System.Drawing.Point[])">
+            <summary>
+            IGraphics.DrawCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawCurve(System.Drawing.Pen,System.Drawing.PointF[],System.Int32,System.Int32,System.Single)">
+            <summary>
+            IGraphics.DrawCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawCurve(System.Drawing.Pen,System.Drawing.PointF[],System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawCurve(System.Drawing.Pen,System.Drawing.PointF[],System.Single)">
+            <summary>
+            IGraphics.DrawCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawCurve(System.Drawing.Pen,System.Drawing.PointF[])">
+            <summary>
+            IGraphics.DrawCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawEllipse(System.Drawing.Pen,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawEllipse implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawEllipse(System.Drawing.Pen,System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.DrawEllipse implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawEllipse(System.Drawing.Pen,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawEllipse implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawEllipse(System.Drawing.Pen,System.Drawing.RectangleF)">
+            <summary>
+            IGraphics.DrawEllipse implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawIcon(System.Drawing.Icon,System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.DrawIcon implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawIcon(System.Drawing.Icon,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawIcon implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawIconUnstretched(System.Drawing.Icon,System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.DrawIconUnstretched implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawImage(System.Drawing.Image,System.Drawing.Rectangle,System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.GraphicsUnit,System.Drawing.Imaging.ImageAttributes)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawImage(System.Drawing.Image,System.Drawing.Rectangle,System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.GraphicsUnit)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawImage(System.Drawing.Image,System.Drawing.Rectangle,System.Single,System.Single,System.Single,System.Single,System.Drawing.GraphicsUnit,System.Drawing.Imaging.ImageAttributes)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawImage(System.Drawing.Image,System.Drawing.Rectangle,System.Single,System.Single,System.Single,System.Single,System.Drawing.GraphicsUnit)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawImage(System.Drawing.Image,System.Drawing.Point[],System.Drawing.Rectangle,System.Drawing.GraphicsUnit,System.Drawing.Imaging.ImageAttributes)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawImage(System.Drawing.Image,System.Drawing.Point[],System.Drawing.Rectangle,System.Drawing.GraphicsUnit)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawImage(System.Drawing.Image,System.Drawing.PointF[],System.Drawing.RectangleF,System.Drawing.GraphicsUnit,System.Drawing.Imaging.ImageAttributes)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawImage(System.Drawing.Image,System.Drawing.PointF[],System.Drawing.RectangleF,System.Drawing.GraphicsUnit)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawImage(System.Drawing.Image,System.Drawing.Rectangle,System.Drawing.Rectangle,System.Drawing.GraphicsUnit)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawImage(System.Drawing.Image,System.Drawing.RectangleF,System.Drawing.RectangleF,System.Drawing.GraphicsUnit)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawImage(System.Drawing.Image,System.Int32,System.Int32,System.Drawing.Rectangle,System.Drawing.GraphicsUnit)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawImage(System.Drawing.Image,System.Single,System.Single,System.Drawing.RectangleF,System.Drawing.GraphicsUnit)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawImage(System.Drawing.Image,System.Drawing.Point[])">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawImage(System.Drawing.Image,System.Drawing.PointF[])">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawImage(System.Drawing.Image,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawImage(System.Drawing.Image,System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawImage(System.Drawing.Image,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawImage(System.Drawing.Image,System.Drawing.Point)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawImage(System.Drawing.Image,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawImage(System.Drawing.Image,System.Drawing.RectangleF)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawImage(System.Drawing.Image,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawImage(System.Drawing.Image,System.Drawing.PointF)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawImageUnscaled(System.Drawing.Image,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawImageUnscaled implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawImageUnscaled(System.Drawing.Image,System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawImageUnscaled(System.Drawing.Image,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawImageUnscaled(System.Drawing.Image,System.Drawing.Point)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawLine(System.Drawing.Pen,System.Drawing.Point,System.Drawing.Point)">
+            <summary>
+            IGraphics.DrawLine implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawLine(System.Drawing.Pen,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawLine implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawLine(System.Drawing.Pen,System.Drawing.PointF,System.Drawing.PointF)">
+            <summary>
+            IGraphics.DrawLine implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawLine(System.Drawing.Pen,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawLine implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawLines(System.Drawing.Pen,System.Drawing.Point[])">
+            <summary>
+            IGraphics.DrawLines implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawLines(System.Drawing.Pen,System.Drawing.PointF[])">
+            <summary>
+            IGraphics.DrawLines implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawPath(System.Drawing.Pen,System.Drawing.Drawing2D.GraphicsPath)">
+            <summary>
+            IGraphics.DrawPath implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawPie(System.Drawing.Pen,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawPie implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawPie(System.Drawing.Pen,System.Drawing.Rectangle,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawPie implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawPie(System.Drawing.Pen,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawPie implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawPie(System.Drawing.Pen,System.Drawing.RectangleF,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawPie implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawPolygon(System.Drawing.Pen,System.Drawing.Point[])">
+            <summary>
+            IGraphics.DrawPolygon implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawPolygon(System.Drawing.Pen,System.Drawing.PointF[])">
+            <summary>
+            IGraphics.DrawPolygon implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawRectangle(System.Drawing.Pen,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawRectangle implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawRectangle(System.Drawing.Pen,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawRectangle implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawRectangle(System.Drawing.Pen,System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.DrawRectangle implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawRectangle(System.Drawing.Pen,System.Drawing.RectangleF)">
+            <summary>
+            IGraphics.DrawRectangle implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawRectangles(System.Drawing.Pen,System.Drawing.Rectangle[])">
+            <summary>
+            IGraphics.DrawRectangle implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawRectangles(System.Drawing.Pen,System.Drawing.RectangleF[])">
+            <summary>
+            IGraphics.DrawRectangle implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawFormattedText(MindFusion.Text.Text,System.Drawing.Font,System.Drawing.RectangleF,System.Drawing.StringAlignment,System.Drawing.StringAlignment,System.Drawing.Color)">
+            <summary>
+            Renders the formatted text identified by the specified layout
+            using the information in the specified hint in the current graphics.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Drawing.RectangleF,System.Drawing.StringFormat)">
+            <summary>
+            IGraphics.DrawString implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.CreateTextDiv(System.Drawing.Color,System.Drawing.Font,System.Single,System.Single,System.Single,System.Single,System.Drawing.StringAlignment)">
+            <summary>
+            Creates a &lt;DIV&gt; tag corresponding to a text with the
+            specified characteristics.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Drawing.RectangleF)">
+            <summary>
+            IGraphics.DrawString implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Drawing.PointF,System.Drawing.StringFormat)">
+            <summary>
+            IGraphics.DrawString implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Single,System.Single,System.Drawing.StringFormat)">
+            <summary>
+            IGraphics.DrawString implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Drawing.PointF)">
+            <summary>
+            IGraphics.DrawString implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawString implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DrawBorder(MindFusion.Reporting.Border,System.Drawing.RectangleF)">
+            <summary>
+            Renders the specified border in the specified destination rectangle.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.ToHtmlDashStyle(System.Drawing.Drawing2D.DashStyle)">
+            <summary>
+            Converts the specified DashStyle to its HTML representation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.FillClosedCurve(System.Drawing.Brush,System.Drawing.Point[],System.Drawing.Drawing2D.FillMode,System.Single)">
+            <summary>
+            IGraphics.FillClosedCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.FillClosedCurve(System.Drawing.Brush,System.Drawing.Point[],System.Drawing.Drawing2D.FillMode)">
+            <summary>
+            IGraphics.FillClosedCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.FillClosedCurve(System.Drawing.Brush,System.Drawing.Point[])">
+            <summary>
+            IGraphics.FillClosedCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.FillClosedCurve(System.Drawing.Brush,System.Drawing.PointF[],System.Drawing.Drawing2D.FillMode,System.Single)">
+            <summary>
+            IGraphics.FillClosedCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.FillClosedCurve(System.Drawing.Brush,System.Drawing.PointF[],System.Drawing.Drawing2D.FillMode)">
+            <summary>
+            IGraphics.FillClosedCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.FillClosedCurve(System.Drawing.Brush,System.Drawing.PointF[])">
+            <summary>
+            IGraphics.FillClosedCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.FillEllipse(System.Drawing.Brush,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.FillEllipse implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.FillEllipse(System.Drawing.Brush,System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.FillEllipse implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.FillEllipse(System.Drawing.Brush,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.FillEllipse implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.FillEllipse(System.Drawing.Brush,System.Drawing.RectangleF)">
+            <summary>
+            IGraphics.FillEllipse implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.FillPath(System.Drawing.Brush,System.Drawing.Drawing2D.GraphicsPath)">
+            <summary>
+            IGraphics.FillPath implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.FillPie(System.Drawing.Brush,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.FillPie implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.FillPie(System.Drawing.Brush,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.FillPie implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.FillPie(System.Drawing.Brush,System.Drawing.Rectangle,System.Single,System.Single)">
+            <summary>
+            IGraphics.FillPie implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.FillPolygon(System.Drawing.Brush,System.Drawing.Point[],System.Drawing.Drawing2D.FillMode)">
+            <summary>
+            IGraphics.FillPolygon implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.FillPolygon(System.Drawing.Brush,System.Drawing.Point[])">
+            <summary>
+            IGraphics.FillPolygon implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.FillPolygon(System.Drawing.Brush,System.Drawing.PointF[],System.Drawing.Drawing2D.FillMode)">
+            <summary>
+            IGraphics.FillPolygon implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.FillPolygon(System.Drawing.Brush,System.Drawing.PointF[])">
+            <summary>
+            IGraphics.FillPolygon implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.FillRectangle(System.Drawing.Brush,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.FillRectangle implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.FillRectangle(System.Drawing.Brush,System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.FillRectangle implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.FillRectangle(System.Drawing.Brush,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.FillRectangle implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.FillRectangle(System.Drawing.Brush,System.Drawing.RectangleF)">
+            <summary>
+            IGraphics.FillRectangle implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.FillRectangles(System.Drawing.Brush,System.Drawing.Rectangle[])">
+            <summary>
+            IGraphics.FillRectangles implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.FillRectangles(System.Drawing.Brush,System.Drawing.RectangleF[])">
+            <summary>
+            IGraphics.FillRectangles implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.FillRegion(System.Drawing.Brush,System.Drawing.Region)">
+            <summary>
+            IGraphics.FillRegion implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.Flush(System.Drawing.Drawing2D.FlushIntention)">
+            <summary>
+            IGraphics.Flush implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.Flush">
+            <summary>
+            IGraphics.Flush implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.GetFontHeight(System.Drawing.Font)">
+            <summary>
+            IGraphics.GetFontHeight implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.GetNearestColor(System.Drawing.Color)">
+            <summary>
+            IGraphics.GetNearestColor implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.IsVisible(System.Drawing.RectangleF)">
+            <summary>
+            IGraphics.IsVisible implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.IsVisible(System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.IsVisible implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.IsVisible(System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.IsVisible implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.IsVisible(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.IsVisible implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.IsVisible(System.Drawing.PointF)">
+            <summary>
+            IGraphics.IsVisible implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.IsVisible(System.Single,System.Single)">
+            <summary>
+            IGraphics.IsVisible implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.IsVisible(System.Drawing.Point)">
+            <summary>
+            IGraphics.IsVisible implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.IsVisible(System.Int32,System.Int32)">
+            <summary>
+            IGraphics.IsVisible implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.MeasureCharacterRanges(System.String,System.Drawing.Font,System.Drawing.RectangleF,System.Drawing.StringFormat)">
+            <summary>
+            IGraphics.MeasureCharacterRanges implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.MeasureString(System.String,System.Drawing.Font,System.Int32,System.Drawing.StringFormat)">
+            <summary>
+            IGraphics.MeasureString implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.MeasureString(System.String,System.Drawing.Font,System.Int32)">
+            <summary>
+            IGraphics.MeasureString implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.MeasureString(System.String,System.Drawing.Font)">
+            <summary>
+            IGraphics.MeasureString implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.MeasureString(System.String,System.Drawing.Font,System.Drawing.SizeF,System.Drawing.StringFormat)">
+            <summary>
+            IGraphics.MeasureString implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.MeasureString(System.String,System.Drawing.Font,System.Drawing.SizeF)">
+            <summary>
+            IGraphics.MeasureString implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.MeasureString(System.String,System.Drawing.Font,System.Drawing.PointF,System.Drawing.StringFormat)">
+            <summary>
+            IGraphics.MeasureString implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.MeasureString(System.String,System.Drawing.Font,System.Drawing.SizeF,System.Drawing.StringFormat,System.Int32@,System.Int32@)">
+            <summary>
+            IGraphics.MeasureString implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.GetHdc">
+            <summary>
+            IGraphics.GetHdc implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.ReleaseHdc">
+            <summary>
+            IGraphics.GetHdc implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.ReleaseHdc(System.IntPtr)">
+            <summary>
+            IGraphics.ReleaseHdc implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.ReleaseHdcInternal(System.IntPtr)">
+            <summary>
+            IGraphics.ReleaseHdcInternal implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.Save">
+            <summary>
+            IGraphics.Save implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.Restore(System.Drawing.Drawing2D.GraphicsState)">
+            <summary>
+            IGraphics.Restore implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.IntersectClip(System.Drawing.Region)">
+            <summary>
+            IGraphics.IntersectClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.IntersectClip(System.Drawing.RectangleF)">
+            <summary>
+            IGraphics.IntersectClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.IntersectClip(System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.IntersectClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.ExcludeClip(System.Drawing.Region)">
+            <summary>
+            IGraphics.ExcludeClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.ExcludeClip(System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.ExcludeClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.SetClip(System.Drawing.Region,System.Drawing.Drawing2D.CombineMode)">
+            <summary>
+            IGraphics.SetClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.SetClip(System.Drawing.Drawing2D.GraphicsPath,System.Drawing.Drawing2D.CombineMode)">
+            <summary>
+            IGraphics.SetClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.SetClip(System.Drawing.Drawing2D.GraphicsPath)">
+            <summary>
+            IGraphics.SetClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.SetClip(System.Drawing.RectangleF,System.Drawing.Drawing2D.CombineMode)">
+            <summary>
+            IGraphics.SetClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.SetClip(System.Drawing.RectangleF)">
+            <summary>
+            IGraphics.SetClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.SetClip(System.Drawing.Rectangle,System.Drawing.Drawing2D.CombineMode)">
+            <summary>
+            IGraphics.SetClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.SetClip(System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.SetClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.SetClip(MindFusion.Drawing.IGraphics,System.Drawing.Drawing2D.CombineMode)">
+            <summary>
+            IGraphics.SetClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.SetClip(MindFusion.Drawing.IGraphics)">
+            <summary>
+            IGraphics.SetClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.ResetClip">
+            <summary>
+            IGraphics.ResetClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.TranslateClip(System.Int32,System.Int32)">
+            <summary>
+            IGraphics.TranslateClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.TranslateClip(System.Single,System.Single)">
+            <summary>
+            IGraphics.TranslateClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.TransformPoints(System.Drawing.Drawing2D.CoordinateSpace,System.Drawing.Drawing2D.CoordinateSpace,System.Drawing.Point[])">
+            <summary>
+            IGraphics.TransformPoints implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.TransformPoints(System.Drawing.Drawing2D.CoordinateSpace,System.Drawing.Drawing2D.CoordinateSpace,System.Drawing.PointF[])">
+            <summary>
+            IGraphics.TransformPoints implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.MultiplyTransform(System.Drawing.Drawing2D.Matrix,System.Drawing.Drawing2D.MatrixOrder)">
+            <summary>
+            IGraphics.MultiplyTransform implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.MultiplyTransform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            IGraphics.MultiplyTransform implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.RotateTransform(System.Single,System.Drawing.Drawing2D.MatrixOrder)">
+            <summary>
+            IGraphics.RotateTransform implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.RotateTransform(System.Single)">
+            <summary>
+            IGraphics.RotateTransform implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.ScaleTransform(System.Single,System.Single,System.Drawing.Drawing2D.MatrixOrder)">
+            <summary>
+            IGraphics.ScaleTransform implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.ScaleTransform(System.Single,System.Single)">
+            <summary>
+            IGraphics.ScaleTransform implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.TranslateTransform(System.Single,System.Single,System.Drawing.Drawing2D.MatrixOrder)">
+            <summary>
+            IGraphics.TranslateTransform implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.TranslateTransform(System.Single,System.Single)">
+            <summary>
+            IGraphics.TranslateTransform implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.ResetTransform">
+            <summary>
+            IGraphics.ResetTransform implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.SupportsPenWidth0">
+            <summary>
+            IGraphics.SupportsPenWidth0 implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.TransformsPenWidth">
+            <summary>
+            IGraphics.TransformsPenWidth implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.GetSolidColor(System.Drawing.Brush)">
+            <summary>
+            Retrieves the solid color from the specified brush.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.ToClient(System.Drawing.Point)">
+            <summary>
+            Transforms the specified point to client coordinates.
+            </summary>
+            <remarks>
+            The coordinates supplied to the various methods of this graphics
+            class are in document coordinates (that is, in the coordinates
+            specified in the PageUnit property). Through the use of this method
+            you can convert those coordinates to the pixel coordinates expected
+            by the target HTML.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.ToClient(System.Drawing.PointF)">
+            <summary>
+            Transforms the specified point to client coordinates.
+            </summary>
+            <remarks>
+            The coordinates supplied to the various methods of this graphics
+            class are in document coordinates (that is, in the coordinates
+            specified in the PageUnit property). Through the use of this method
+            you can convert those coordinates to the pixel coordinates expected
+            by the target HTML.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.ToClient(System.Single)">
+            <summary>
+            Transforms the specified value to client coordinates.
+            </summary>
+            <remarks>
+            The coordinates supplied to the various methods of this graphics
+            class are in document coordinates (that is, in the coordinates
+            specified in the PageUnit property). Through the use of this method
+            you can convert those coordinates to the pixel coordinates expected
+            by the target HTML.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.ImageToBase64(System.Drawing.Image)">
+            <summary>
+            Converts the specified image to a base-64 string.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.OnProcessImage(MindFusion.Reporting.Export.ImageEventArgs)">
+            <summary>
+            Raises the ProcessImage event.
+            </summary>
+            <param name="e">
+            An object providing the event data.
+            </param>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.CompositingMode">
+            <summary>
+            IGraphics.CompositingMode implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.CompositingQuality">
+            <summary>
+            IGraphics.CompositingQuality implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DpiX">
+            <summary>
+            IGraphics.DpiX implementation.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.DpiY">
+            <summary>
+            IGraphics.DpiY implementation.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.PageScale">
+            <summary>
+            IGraphics.PageScale implementation.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.RenderingOrigin">
+            <summary>
+            IGraphics.RenderingOrigin implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.PageUnit">
+            <summary>
+            IGraphics.PageUnit implementation.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.PixelOffsetMode">
+            <summary>
+            IGraphics.PixelOffsetMode implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.InterpolationMode">
+            <summary>
+            IGraphics.InterpolationMode implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.VisibleClipBounds">
+            <summary>
+            IGraphics.VisibleClipBounds implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.Clip">
+            <summary>
+            IGraphics.Clip implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.ClipBounds">
+            <summary>
+            IGraphics.ClipBounds implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.IsClipEmpty">
+            <summary>
+            IGraphics.IsClipEmpty implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.IsVisibleClipEmpty">
+            <summary>
+            IGraphics.IsVisibleClipEmpty implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.SmoothingMode">
+            <summary>
+            IGraphics.SmoothingMode implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.TextContrast">
+            <summary>
+            IGraphics.TextContrast implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.TextRenderingHint">
+            <summary>
+            IGraphics.TextRenderingHint implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.Transform">
+            <summary>
+            IGraphics.Transform implementation.
+            </summary>
+            <remarks>
+            Only the translation component of this object is taken into consideration.
+            </remarks>
+        </member>
+        <member name="E:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.ProcessImage">
+            <summary>
+            Raised when the underlying HTML is rendered in order to process a referenced image.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.target">
+            <summary>
+            The StringBuilder instance this objects renders to.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.inner">
+            <summary>
+            An internal graphics object used for measuring, transformations
+            and stat tracking.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.Export.HtmlExporterBase.HtmlGraphics.innerBitmap">
+            <summary>
+            A bitmap used in the creation of the inner Graphics.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Reporting.Export.ImageEventArgs">
+            <summary>
+            Provides information for image-related events during HTML rendering.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.ImageEventArgs.#ctor(System.Drawing.Image)">
+            <summary>
+            Initializes a new instance of the ImageEventArgs class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.ImageEventArgs.Image">
+            <summary>
+            Gets the image related to the event.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.ImageEventArgs.IsProcessed">
+            <summary>
+            Gets or sets a value indicating whether the image has been processed.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.ImageEventArgs.Url">
+            <summary>
+            Gets or sets the desired URL of the image.
+            </summary>
+            <remarks>
+            This URL will be written in the output HTML file.
+            </remarks>
+        </member>
+        <member name="T:MindFusion.Reporting.Export.MhtmlExporter">
+            <summary>
+            Exports MindFusion reports to MHTML files.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.MhtmlExporter.#ctor">
+            <summary>
+            Initializes a new instance of the MhtmlExporter class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.MhtmlExporter.OnProcessImage(MindFusion.Reporting.Export.ImageEventArgs)">
+            <summary>
+            HtmlExporterBase.OnProcessImage override.
+            </summary>
+            <param name="e">
+            An object providing the event data.
+            </param>
+        </member>
+        <member name="T:MindFusion.Reporting.Export.MetaTagNames">
+            <summary>
+            Provides common HTML meta-tag names.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.Export.MetaTagNames.Abstract">
+            <summary>
+            The "abstract" tag. Define a secondary description. 
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.Export.MetaTagNames.Author">
+            <summary>
+            The "author" tag. Records the name of the author of the document.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.Export.MetaTagNames.Classification">
+            <summary>
+            The "classification" tag. Classify the site into the appropriate category.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.Export.MetaTagNames.Copyright">
+            <summary>
+            The "copyright" tag. Used to include copyright information in the document.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.Export.MetaTagNames.Description">
+            <summary>
+            The "description" tag. Some search engines pick up this description to show with the results of searches.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.Export.MetaTagNames.Distribution">
+            <summary>
+            The "distribution" tag. Declares whether a document is available to
+            the web or on an intranet. Possible content values are "Global", "Local", "IU".
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.Export.MetaTagNames.DocClass">
+            <summary>
+            The "doc-class" tag. Indicates completion status of document. Possible
+            values are "Completed", "Draft", "Living Document", "Published".
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.Export.MetaTagNames.DocRights">
+            <summary>
+            The "doc-rights" tag. Indicates copyright status of document. Possible
+            values are "Copywritten Work", "Private", "Public", "Public Domain".
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.Export.MetaTagNames.DocType">
+            <summary>
+            The "doc-type" tag. Specifies type of document. Possible content values
+            are "Confidential Company Papers", "eZine", "Government", "Journal",
+            "Manuscript", "Paper", "Private", "Public", "Web Page", "White Paper".
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.Export.MetaTagNames.Expires">
+            <summary>
+            The "expires" tag. Expiration date of the document.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.Export.MetaTagNames.Generator">
+            <summary>
+            The "generator" tag. The name of the program that created the document.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.Export.MetaTagNames.Googlebot">
+            <summary>
+            The "googlebot" tag. Define pages to be excluded from googebot indexing.
+            Possible content values are "all", "index, follow", "noindex, follow",
+            "index, nofollow", "noindex, nofollow", "none", "nosnippet", "noarchive".
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.Export.MetaTagNames.Keywords">
+            <summary>
+            The "keywords" tag. Inform search engines what your web site or page is about.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.Export.MetaTagNames.MSSmartTagsPreventParsing">
+            <summary>
+            The "MSSmartTagsPreventParsing" tag. Use this tag to prevent
+            any Microsoft product from automatically generating smart tags.
+            Possible content value is "TRUE".
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.Export.MetaTagNames.Owner">
+            <summary>
+            The "owner" tag. Define the owner of the page or site.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.Export.MetaTagNames.ProgId">
+            <summary>
+            The "progid" tag.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.Export.MetaTagNames.Rating">
+            <summary>
+            The "rating" tag. A simple rating for a site.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.Export.MetaTagNames.Refresh">
+            <summary>
+            The "refresh" tag. Indicates the document displays for a specified
+            amount of time before switching to a new URL. The content value should
+            be in the format "n;url", where "n" is the number of seconds to wait
+            before loading the URL specified by "url".
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.Export.MetaTagNames.ReplyTo">
+            <summary>
+            The "reply-to" tag. Email address of contact for document.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.Export.MetaTagNames.ResourceType">
+            <summary>
+            The "resource-type" tag. Indicates the type of web resource. Possible
+            content value is "document".
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.Export.MetaTagNames.RevisitAfter">
+            <summary>
+            The "revisit-after" tag. Defines how often search engine spiders
+            should revisit your site.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Reporting.Export.MetaTagNames.Robots">
+            <summary>
+            The "robots" tag. Defines pages to be excluded from robot indexing.
+            Possible values are "all", "index, follow", "noindex, follow",
+            "index, nofollow", "noindex, nofollow", "none", "noimageindex".
+            </summary>
+        </member>
+        <member name="T:MindFusion.Reporting.Export.RenderHtmlEventArgs">
+            <summary>
+            Provides information to various rendering events of the HtmlExporter,
+            such as BeginRenderHead, EndRenderHead, and so on.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Reporting.Export.RenderHtmlEventArgs.#ctor(System.Text.StringBuilder)">
+            <summary>
+            Initializes a new instance of the RenderHtmlEventArgs class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Reporting.Export.RenderHtmlEventArgs.Target">
+            <summary>
+            Gets the rendering target.
+            </summary>
+        </member>
+    </members>
+</doc>

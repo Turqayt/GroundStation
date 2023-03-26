@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MindFusion.Scheduling.Pdf</name>
+    </assembly>
+    <members>
+        <member name="T:MindFusion.Scheduling.Export.PdfExporter">
+            <summary>
+            Provides methods for exporting MindFusion calendars to PDF.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Export.PdfExporter.#ctor">
+            <summary>
+            Initializes a new instance of the PdfExporter class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Export.PdfExporter.Export(MindFusion.Scheduling.WinForms.Calendar,System.String)">
+            <summary>
+            Exports the specified calendar as a PDF format.
+            </summary>
+            <param name="calendar">
+            The Calendar to export.
+            </param>
+            <param name="fileName">
+            The name of the target file.
+            </param>
+        </member>
+        <member name="P:MindFusion.Scheduling.Export.PdfExporter.VisibleOnly">
+            <summary>
+            Gets or sets a value indicating whether to export only the calendar
+            area that is currently visible.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Export.PdfExporter.Margins">
+            <summary>
+            Gets or sets the margins for the PDF pages, expressed as 100ths of an inch.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Export.PdfExporter.PageOrientation">
+            <summary>
+            Gets or sets page orientation that is set to the resulting PDF pages.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Export.PdfExporter.PageSize">
+            <summary>
+            Gets or sets PDF page size.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Export.PdfExporter.JpegImageEncoding">
+            <summary>
+            Specifies whether images embedded in PDF should be encoded in Jpeg format.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Export.PdfExporter.JpegImageQuality">
+            <summary>
+            Specifies the image quality of Jpeg images.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Export.PdfExporter.DefaultEncoding">
+            <summary>
+            Gets or sets the encoding to use during export, or null,
+            to automatically detect the encoding.
+            </summary>
+        </member>
+    </members>
+</doc>

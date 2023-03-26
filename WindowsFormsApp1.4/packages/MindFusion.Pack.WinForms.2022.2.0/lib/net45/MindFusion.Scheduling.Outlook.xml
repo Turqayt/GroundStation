@@ -1,0 +1,534 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MindFusion.Scheduling.Outlook</name>
+    </assembly>
+    <members>
+        <member name="T:MindFusion.Scheduling.Outlook.ContactConverter">
+            <summary>
+            Provides methods for convert operations between
+            Outlook's contact object and MindFusion's contact object.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.ContactConverter.#ctor(Microsoft.Office.Interop.Outlook.Application)">
+            <summary>
+            Initializes a new instance of the ContactConverter class
+            with the specified MSOutlook.Application object.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Scheduling.Outlook.ContactConfirmEventArgs">
+            <summary>
+            Contains the arguments passed to handlers of contact
+            validation events.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.ContactConfirmEventArgs.#ctor(MindFusion.Scheduling.Contact)">
+            <summary>
+            Initializes a new instance of the ContactConfirmEventArgs class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Outlook.ContactConfirmEventArgs.Contact">
+            <summary>
+            Gets the contact related to the event.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Outlook.ContactConfirmEventArgs.Confirm">
+            <summary>
+            Gets or sets a value indicating whether the operation
+            is confirmed.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Scheduling.Outlook.ItemEventArgs">
+            <summary>
+            Contains the arguments passed to handlers of item
+            validation events.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Outlook.ItemEventArgs.Item">
+            <summary>
+            Gets the exported item.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Outlook.ItemEventArgs.OutlookItem">
+            <summary>
+            Gets the Outlook version of the item.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Scheduling.Outlook.ItemConfirmEventArgs">
+            <summary>
+            Contains the arguments passed to handlers of item
+            validation events.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.ItemConfirmEventArgs.#ctor(MindFusion.Scheduling.Item)">
+            <summary>
+            Intializes a new instance of the ItemConfirmEventArgs class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Outlook.ItemConfirmEventArgs.Confirm">
+            <summary>
+            Gets or sets a value indicating whether the operation
+            is confirmed.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Outlook.ItemConfirmEventArgs.Item">
+            <summary>
+            Gets the item related to the event.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Scheduling.Outlook.TaskConfirmEventArgs">
+            <summary>
+            Contains the arguments passed to handlers of task
+            validation events.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.TaskConfirmEventArgs.#ctor(MindFusion.Scheduling.Task)">
+            <summary>
+            Initializes a new instance of the TaskConfirmEventArgs class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Outlook.TaskConfirmEventArgs.Confirm">
+            <summary>
+            Gets or sets a value indicating whether the operation
+            is confirmed.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Outlook.TaskConfirmEventArgs.Task">
+            <summary>
+            Gets the task related to the event.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Scheduling.Outlook.OutlookExporter">
+            <summary>
+            Provides methods for exporting items, contacts and tasks
+            to Microsoft Outlook.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.OutlookExporter.#ctor(MindFusion.Scheduling.Schedule)">
+            <summary>
+            Initializes a new instance of the OutlookExporter class
+            with the specified Schedule object.
+            </summary>
+            <param name="schedule">
+            A Schedule object to supply the data to export.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.OutlookExporter.#ctor(MindFusion.Scheduling.Schedule,System.Object,System.Object)">
+            <summary>
+            Initializes a new instance of the OutlookExporter class
+            with the specified Schedule object.
+            </summary>
+            <param name="schedule">
+            A Schedule object to supply the data to export.
+            </param>
+            <param name="profile">
+            Outlook's profile name. Pass 'null' or empty string for default profile.
+            </param>
+            <param name="password">
+            Profile's password. If no password is required by mentioned
+            profile pass 'null' or empty string.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.OutlookExporter.ExportContacts">
+            <summary>
+            Exports all contacts from associated schedule to Outlook.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.OutlookExporter.ExportItems">
+            <summary>
+            Exports all events from the associated schedule to Outlook.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.OutlookExporter.ExportItems(System.String)">
+            <summary>
+            Exports all events from the associated schedule to the specified Outlook folder.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.OutlookExporter.ExportTasks">
+            <summary>
+            Exports all tasks from the associated schedule to Outlook.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.OutlookExporter.OnItemExporting(MindFusion.Scheduling.Outlook.ItemConfirmEventArgs)">
+            <summary>
+            Raises the ItemExporting event.
+            </summary>
+            <param name="e">
+            An object, containing the event data.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.OutlookExporter.OnItemExported(MindFusion.Scheduling.Outlook.ItemEventArgs)">
+            <summary>
+            Raises the ItemExported event.
+            </summary>
+            <param name="e">
+            An object containing the event data.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.OutlookExporter.OnContactExporting(MindFusion.Scheduling.Outlook.ContactConfirmEventArgs)">
+            <summary>
+            Raises the ContactExporting event.
+            </summary>
+            <param name="e">
+            An object, containing the event data.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.OutlookExporter.OnTaskExporting(MindFusion.Scheduling.Outlook.TaskConfirmEventArgs)">
+            <summary>
+            Raises the TaskExporting event.
+            </summary>
+            <param name="e">
+            An object, containing the event data.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.OutlookExporter.ConfirmItemExport(MindFusion.Scheduling.Item)">
+            <summary>
+            Invoked to confirm item exporting.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.OutlookExporter.ConfirmContactExport(MindFusion.Scheduling.Contact)">
+            <summary>
+            Invoked to confirm contact exporting.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.OutlookExporter.ConfirmTaskExport(MindFusion.Scheduling.Task)">
+            <summary>
+            Invoked to confirm task exporting.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Outlook.OutlookExporter.Schedule">
+            <summary>
+            Gets the schedule, associated with the exporter.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Scheduling.Outlook.OutlookExporter.ContactExporting">
+            <summary>
+            Fired for each contact to confirm that the contact should be exported.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Scheduling.Outlook.OutlookExporter.ItemExporting">
+            <summary>
+            Fired for each item to confirm that the item should be exported.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Scheduling.Outlook.OutlookExporter.ItemExported">
+            <summary>
+            Raised for each exported item to allow additional data transfer
+            between MindFusion.Scheduling and Microsoft Outlook.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Scheduling.Outlook.OutlookExporter.TaskExporting">
+            <summary>
+            Fired for each task to confirm that the task should be exported.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Scheduling.Outlook.IItemConverter">
+            <summary>
+            IItemConverter interface for converter classes.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.IItemConverter.ConvertFrom(System.Object)">
+            <summary>
+            Converts Outlook's object to corresponding Planner's one.
+            </summary>
+            <param name="outlookItem">
+            Outlook's object to convert.
+            </param>
+            <returns>
+            Converted object.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.IItemConverter.ConvertTo(System.Object)">
+            <summary>
+            Converts Planner's object to corresponding Outlook's one.
+            </summary>
+            <param name="plannerItem">
+            Planner's object to convert.
+            </param>
+            <returns>
+            Converted object.
+            </returns>
+        </member>
+        <member name="T:MindFusion.Scheduling.Outlook.OutlookImporter">
+            <summary>
+            Provides methods for importing items, contacts and tasks
+            from Microsoft Outlook.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.OutlookImporter.#ctor(MindFusion.Scheduling.Schedule)">
+            <summary>
+            Initializes a new instance of the OutlookImporter class
+            with a Schedule object.
+            </summary>
+            <param name="schedule">
+            A Schedule object where the data will be imported.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.OutlookImporter.#ctor(MindFusion.Scheduling.Schedule,System.Object,System.Object)">
+            <summary>
+            Initializes a new instance of the OutlookImporter class
+            and initializes it with a Schedule object.
+            </summary>
+            <param name="schedule">
+            A Schedule object where the data will be imported.
+            </param>
+            <param name="profile">
+            Outlook's profile name. Pass 'null' or empty string for default profile.
+            </param>
+            <param name="password">
+            Profile's password. If no password is required by mentioned
+            profile pass 'null' or empty string.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.OutlookImporter.#ctor(MindFusion.Scheduling.Schedule,System.Object,System.Object,System.String)">
+            <summary>
+            Initializes a new instance of the OutlookImporter class
+            and initializes it with a Schedule object.
+            </summary>
+            <param name="schedule">
+            A Schedule object where the data will be imported.
+            </param>
+            <param name="profile">
+            Outlook's profile name. Pass 'null' or empty string for default profile.
+            </param>
+            <param name="password">
+            Profile's password. If no password is required by mentioned
+            profile pass 'null' or empty string.
+            </param>
+            <param name="recipient">
+            The recipient whose shared calendar the importer will work on.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.OutlookImporter.ImportContacts">
+            <summary>
+            Imports all contacts from Outlook to the associated schedule.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.OutlookImporter.ImportContacts(Microsoft.Office.Interop.Outlook.MAPIFolder)">
+            <summary>
+            Imports all contacts from the specified Outlook folder to the associated schedule.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.OutlookImporter.ImportItems">
+            <summary>
+            Imports all events from the default Outlook folder to the associated schedule.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.OutlookImporter.ImportItems(System.String)">
+            <summary>
+            Imports all events from the specified Outlook folder to the associated schedule.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.OutlookImporter.ImportItems(Microsoft.Office.Interop.Outlook.MAPIFolder)">
+            <summary>
+            Imports all events from the specified Outlook folder to the associated schedule.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.OutlookImporter.ImportTasks">
+            <summary>
+            Imports all tasks from Outlook to the associated schedule.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.OutlookImporter.ImportTasks(Microsoft.Office.Interop.Outlook.MAPIFolder)">
+            <summary>
+            Imports all tasks from the specified Outlook folder to the associated schedule.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.OutlookImporter.OnItemImporting(MindFusion.Scheduling.Outlook.ItemConfirmEventArgs)">
+            <summary>
+            Raises the ItemImporting event.
+            </summary>
+            <param name="e">
+            An object, containing the event data.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.OutlookImporter.OnContactImporting(MindFusion.Scheduling.Outlook.ContactConfirmEventArgs)">
+            <summary>
+            Raises the ContactImporting event.
+            </summary>
+            <param name="e">
+            An object, containing the event data.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.OutlookImporter.OnTaskImporting(MindFusion.Scheduling.Outlook.TaskConfirmEventArgs)">
+            <summary>
+            Raises the TaskImporting event.
+            </summary>
+            <param name="e">
+            An object, containing the event data.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.OutlookImporter.ConfirmItemImport(MindFusion.Scheduling.Item)">
+            <summary>
+            Invoked to confirm item importing.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.OutlookImporter.ConfirmContactImport(MindFusion.Scheduling.Contact)">
+            <summary>
+            Invoked to confirm contact importing.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.OutlookImporter.ConfirmTaskImport(MindFusion.Scheduling.Task)">
+            <summary>
+            Invoked to confirm task importing.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Outlook.OutlookImporter.Schedule">
+            <summary>
+            Gets or sets the schedule, associated with the importer.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Outlook.OutlookImporter.ItemType">
+            <summary>
+            Gets or sets the type of the items that will be created by
+            the importer. The default value, null, indicates items of
+            type Appointment.
+            </summary>
+            <remarks>
+            You usually need to set this property when you are using
+            custom items and would want the items created by the
+            importer class to be of your custom type instead of
+            Appointment. The specified type should derive, directly
+            or indirectly, from Item and should provide a parameterless
+            constructor.
+            </remarks>
+        </member>
+        <member name="E:MindFusion.Scheduling.Outlook.OutlookImporter.ContactImporting">
+            <summary>
+            Fired for each contact to confirm that the contact should be imported.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Scheduling.Outlook.OutlookImporter.ItemImporting">
+            <summary>
+            Fired for each item to confirm that the item should be imported.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Scheduling.Outlook.OutlookImporter.TaskImporting">
+            <summary>
+            Fired for each task to confirm that the task should be imported.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Scheduling.Outlook.ItemConverter">
+            <summary>
+            Provides methods for convert operations between Outlook's
+            appointment object and MindFusion's item object.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.ItemConverter.#ctor(Microsoft.Office.Interop.Outlook.Application)">
+            <summary>
+            Initializes a new instance of the ItemConverter
+            class with the specified MSOutlook.Application object.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.ItemConverter.#ctor(Microsoft.Office.Interop.Outlook.Application,Microsoft.Office.Interop.Outlook.MAPIFolder)">
+            <summary>
+            Initializes a new instance of the ItemConverter class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Outlook.ItemConverter.ItemType">
+            <summary>
+            Gets or sets the type of items created when converting
+            from Outlook to MindFusion.Scheduling.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Scheduling.Outlook.TaskConverter">
+            <summary>
+            Provides methods for convert operations between
+            Outlook's task object and MindFusion's task object.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.TaskConverter.#ctor(Microsoft.Office.Interop.Outlook.Application)">
+            <summary>
+            Initializes a new instance of TaskConverter class
+            with the specified Outlook.Application object.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Scheduling.Outlook.Utility">
+            <summary>
+            Contains common methods for Importer and Exporter classes.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.Utility.#ctor">
+            <summary>
+            Prevent instantiation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.Utility.InitMapi(Microsoft.Office.Interop.Outlook.Application@,Microsoft.Office.Interop.Outlook.NameSpace@)">
+            <summary>
+            Initializes Outlook application's instance and MAPI namespace object.
+            </summary>
+            <param name="application">
+            Outlook.Application object reference to initialize.
+            </param>
+            <param name="nspace">
+            Outlook.NameSpace object reference to initialize.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.Utility.Logon(Microsoft.Office.Interop.Outlook.NameSpace,System.Object,System.Object)">
+            <summary>
+            Logs on to Outlook.
+            </summary>
+            <param name="nspace">
+            Initialized Outlook.NameSpace object.
+            </param>
+            <param name="profile">
+            Outlook's profile name. Pass empty string or 'null' for default profile.
+            </param>
+            <param name="password">
+            Profile's password. If no password is required by mentioned
+            profile pass 'null' or empty string.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.Utility.GetOutlookSharedFolder(Microsoft.Office.Interop.Outlook.NameSpace,Microsoft.Office.Interop.Outlook.Recipient,Microsoft.Office.Interop.Outlook.OlDefaultFolders)">
+            <summary>
+            Gets items from mentioned Outlook's shared default folder.
+            </summary>
+            <param name="nspace">
+            Initialized Outlook.NameSpace object.
+            </param>
+            <param name="recipient">
+            The recipient, whose shared folder will be returned.
+            </param>
+            <param name="folderType">
+            value from Outlook.OlDefaultFolders enumeration.
+            </param>
+            <returns>
+            An Outlook.MAPIFolder ojects.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.Utility.GetOutlookFolder(Microsoft.Office.Interop.Outlook.NameSpace,Microsoft.Office.Interop.Outlook.OlDefaultFolders)">
+            <summary>
+            Gets items from mentioned Outlook's default folder.
+            </summary>
+            <param name="nspace">
+            Initialized Outlook.NameSpace object.
+            </param>
+            <param name="folderType">
+            value from Outlook.OlDefaultFolders enumeration.
+            </param>
+            <returns>
+            Collection of Outlook.Items ojects.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.Utility.GetOutlookFolder(Microsoft.Office.Interop.Outlook.NameSpace,System.String)">
+            <summary>
+            Gets the Outlook folder with the specified name.
+            </summary>
+            <param name="nspace">
+            Initialized Outlook.NameSpace object.
+            </param>
+            <param name="folderName">
+            The name of the folder.
+            </param>
+            <returns>
+            The first folder with the specified name or null, if the folder was not found.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Scheduling.Outlook.Utility.GetFolder(Microsoft.Office.Interop.Outlook.Folders,System.String)">
+            <summary>
+            Recursively searches for the folder with the specified name in the specified list of
+            folders and their subfolders.
+            </summary>
+        </member>
+    </members>
+</doc>

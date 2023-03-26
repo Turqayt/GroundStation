@@ -1,0 +1,2761 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MindFusion.Scheduling.Reporting</name>
+    </assembly>
+    <members>
+        <member name="T:MindFusion.Scheduling.Reporting.ContinuePrintingReportEventArgs">
+            <summary>
+            Provides data for the ContinuePrinting event of the Report class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ContinuePrintingReportEventArgs.#ctor(MindFusion.Scheduling.Reporting.Report,System.Drawing.Printing.PrintDocument)">
+            <summary>
+            Initializes a new instance of the ContinuePrintingReportEventArgs class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ContinuePrintingReportEventArgs.ContinuePrinting">
+            <summary>
+            Call this method if you want the print operation to continue
+            on a new page with the view settings specified in the Calendar
+            control. Call this method only once per event to avoid unnecessary
+            calculations.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ContinuePrintingReportEventArgs.Report">
+            <summary>
+            Gets a reference to the Report control being printed.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ContinuePrintingReportEventArgs.ShouldContinuePrinting">
+            <summary>
+            Gets a flag indicating whether the printing should continue
+            with the new calendar settings.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ContinuePrintingReportEventArgs._report">
+            <summary>
+            A reference to the Report being printed.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ContinuePrintingReportEventArgs._printDocument">
+            <summary>
+            A reference to the print document participating in
+            the print operation.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ContinuePrintingReportEventArgs._continuePrinting">
+            <summary>
+            A flag, indicating whether to continue printing with
+            the new settings.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.AddMetafileComment(System.Byte[])">
+            <summary>
+            IGraphics.AddMetafileComment implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.BeginContainer">
+            <summary>
+            IGraphics.BeginContainer implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.BeginContainer(System.Drawing.Rectangle,System.Drawing.Rectangle,System.Drawing.GraphicsUnit)">
+            <summary>
+            IGraphics.BeginContainer implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.BeginContainer(System.Drawing.RectangleF,System.Drawing.RectangleF,System.Drawing.GraphicsUnit)">
+            <summary>
+            IGraphics.BeginContainer implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.EndContainer(System.Drawing.Drawing2D.GraphicsContainer)">
+            <summary>
+            IGraphics.EndContainer implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.BeginHyperLink(System.String,System.String)">
+            <summary>
+            IGraphics.BeginHyperLink implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.EndHyperLink">
+            <summary>
+            IGraphics.EndHyperLink implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.Clear(System.Drawing.Color)">
+            <summary>
+            IGraphics.Clear implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.Dispose">
+            <summary>
+            IGraphics.Dispose implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.Save(System.String)">
+            <summary>
+            Saves the contents of the graphics to the specified file.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.Save(System.IO.Stream)">
+            <summary>
+            Saves the contents of the graphics to the specified stream.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.GetColumnWidth(System.Int32)">
+            <summary>
+            Gets the absolute width of the column with specified index.
+            </summary>
+            <param name="column">
+            The 0-based index of the column.
+            </param>
+            <returns>
+            The absolute width of the specified column.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.GetRowHeight(System.Int32)">
+            <summary>
+            Gets the absolute height of the row with specified index.
+            </summary>
+            <param name="row">
+            The 0-based index of the row.
+            </param>
+            <returns>
+            The absolute height of the specified row.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.IsPageBreak(System.Single)">
+            <summary>
+            Gets a value indicating whether there is a page start/end near the specified length.
+            </summary>
+            <param name="height">
+            The accummulative height to check.
+            </param>
+            <returns>
+            true if there is a page break near the specified length; otherwise, false.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.BrushToFill(System.Drawing.Brush,System.Drawing.SizeF)">
+            <summary>
+            Converts the specified Brush to an Excel fill when applied to an area with
+            the specified size.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawArc(System.Drawing.Pen,System.Drawing.Rectangle,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawArc implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawArc(System.Drawing.Pen,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawArc implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawArc(System.Drawing.Pen,System.Drawing.RectangleF,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawArc implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawArc(System.Drawing.Pen,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawArc implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawBezier(System.Drawing.Pen,System.Drawing.Point,System.Drawing.Point,System.Drawing.Point,System.Drawing.Point)">
+            <summary>
+            IGraphics.DrawBezier implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawBezier(System.Drawing.Pen,System.Drawing.PointF,System.Drawing.PointF,System.Drawing.PointF,System.Drawing.PointF)">
+            <summary>
+            IGraphics.DrawBezier implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawBezier(System.Drawing.Pen,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawBezier implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawBeziers(System.Drawing.Pen,System.Drawing.Point[])">
+            <summary>
+            IGraphics.DrawBeziers implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawBeziers(System.Drawing.Pen,System.Drawing.PointF[])">
+            <summary>
+            IGraphics.DrawBezier implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawClosedCurve(System.Drawing.Pen,System.Drawing.Point[],System.Single,System.Drawing.Drawing2D.FillMode)">
+            <summary>
+            IGraphics.DrawClosedCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawClosedCurve(System.Drawing.Pen,System.Drawing.Point[])">
+            <summary>
+            IGraphics.DrawClosedCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawClosedCurve(System.Drawing.Pen,System.Drawing.PointF[],System.Single,System.Drawing.Drawing2D.FillMode)">
+            <summary>
+            IGraphics.DrawClosedCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawClosedCurve(System.Drawing.Pen,System.Drawing.PointF[])">
+            <summary>
+            IGraphics.DrawClosedCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawCurve(System.Drawing.Pen,System.Drawing.Point[],System.Int32,System.Int32,System.Single)">
+            <summary>
+            IGraphics.DrawCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawCurve(System.Drawing.Pen,System.Drawing.Point[],System.Single)">
+            <summary>
+            IGraphics.DrawCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawCurve(System.Drawing.Pen,System.Drawing.Point[])">
+            <summary>
+            IGraphics.DrawCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawCurve(System.Drawing.Pen,System.Drawing.PointF[],System.Int32,System.Int32,System.Single)">
+            <summary>
+            IGraphics.DrawCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawCurve(System.Drawing.Pen,System.Drawing.PointF[],System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawCurve(System.Drawing.Pen,System.Drawing.PointF[],System.Single)">
+            <summary>
+            IGraphics.DrawCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawCurve(System.Drawing.Pen,System.Drawing.PointF[])">
+            <summary>
+            IGraphics.DrawCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawEllipse(System.Drawing.Pen,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawEllipse implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawEllipse(System.Drawing.Pen,System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.DrawEllipse implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawEllipse(System.Drawing.Pen,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawEllipse implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawEllipse(System.Drawing.Pen,System.Drawing.RectangleF)">
+            <summary>
+            IGraphics.DrawEllipse implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawIcon(System.Drawing.Icon,System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.DrawIcon implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawIcon(System.Drawing.Icon,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawIcon implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawIconUnstretched(System.Drawing.Icon,System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.DrawIconUnstretched implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawImage(System.Drawing.Image,System.Drawing.Rectangle,System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.GraphicsUnit,System.Drawing.Imaging.ImageAttributes)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawImage(System.Drawing.Image,System.Drawing.Rectangle,System.Int32,System.Int32,System.Int32,System.Int32,System.Drawing.GraphicsUnit)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawImage(System.Drawing.Image,System.Drawing.Rectangle,System.Single,System.Single,System.Single,System.Single,System.Drawing.GraphicsUnit,System.Drawing.Imaging.ImageAttributes)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawImage(System.Drawing.Image,System.Drawing.Rectangle,System.Single,System.Single,System.Single,System.Single,System.Drawing.GraphicsUnit)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawImage(System.Drawing.Image,System.Drawing.Point[],System.Drawing.Rectangle,System.Drawing.GraphicsUnit,System.Drawing.Imaging.ImageAttributes)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawImage(System.Drawing.Image,System.Drawing.Point[],System.Drawing.Rectangle,System.Drawing.GraphicsUnit)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawImage(System.Drawing.Image,System.Drawing.PointF[],System.Drawing.RectangleF,System.Drawing.GraphicsUnit,System.Drawing.Imaging.ImageAttributes)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawImage(System.Drawing.Image,System.Drawing.PointF[],System.Drawing.RectangleF,System.Drawing.GraphicsUnit)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawImage(System.Drawing.Image,System.Drawing.Rectangle,System.Drawing.Rectangle,System.Drawing.GraphicsUnit)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawImage(System.Drawing.Image,System.Drawing.RectangleF,System.Drawing.RectangleF,System.Drawing.GraphicsUnit)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawImage(System.Drawing.Image,System.Int32,System.Int32,System.Drawing.Rectangle,System.Drawing.GraphicsUnit)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawImage(System.Drawing.Image,System.Single,System.Single,System.Drawing.RectangleF,System.Drawing.GraphicsUnit)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawImage(System.Drawing.Image,System.Drawing.Point[])">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawImage(System.Drawing.Image,System.Drawing.PointF[])">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawImage(System.Drawing.Image,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawImage(System.Drawing.Image,System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawImage(System.Drawing.Image,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawImage(System.Drawing.Image,System.Drawing.Point)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawImage(System.Drawing.Image,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawImage(System.Drawing.Image,System.Drawing.RectangleF)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawImage(System.Drawing.Image,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawImage(System.Drawing.Image,System.Drawing.PointF)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawImageUnscaled(System.Drawing.Image,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawImageUnscaled implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawImageUnscaled(System.Drawing.Image,System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawImageUnscaled(System.Drawing.Image,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawImageUnscaled(System.Drawing.Image,System.Drawing.Point)">
+            <summary>
+            IGraphics.DrawImage implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawLine(System.Drawing.Pen,System.Drawing.Point,System.Drawing.Point)">
+            <summary>
+            IGraphics.DrawLine implementation.
+            </summary>
+            <remarks>
+            This method is partially supported - only for horizontal and vertical lines.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawLine(System.Drawing.Pen,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawLine implementation.
+            </summary>
+            <remarks>
+            This method is partially supported - only for horizontal and vertical lines.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawLine(System.Drawing.Pen,System.Drawing.PointF,System.Drawing.PointF)">
+            <summary>
+            IGraphics.DrawLine implementation.
+            </summary>
+            <remarks>
+            This method is partially supported - only for horizontal and vertical lines.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawLine(System.Drawing.Pen,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawLine implementation.
+            </summary>
+            <remarks>
+            This method is partially supported - only for horizontal and vertical lines.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawLines(System.Drawing.Pen,System.Drawing.Point[])">
+            <summary>
+            IGraphics.DrawLines implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawLines(System.Drawing.Pen,System.Drawing.PointF[])">
+            <summary>
+            IGraphics.DrawLines implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawPath(System.Drawing.Pen,System.Drawing.Drawing2D.GraphicsPath)">
+            <summary>
+            IGraphics.DrawPath implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawPie(System.Drawing.Pen,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawPie implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawPie(System.Drawing.Pen,System.Drawing.Rectangle,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawPie implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawPie(System.Drawing.Pen,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawPie implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawPie(System.Drawing.Pen,System.Drawing.RectangleF,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawPie implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawPolygon(System.Drawing.Pen,System.Drawing.Point[])">
+            <summary>
+            IGraphics.DrawPolygon implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawPolygon(System.Drawing.Pen,System.Drawing.PointF[])">
+            <summary>
+            IGraphics.DrawPolygon implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawRectangle(System.Drawing.Pen,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.DrawRectangle implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawRectangle(System.Drawing.Pen,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawRectangle implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawRectangle(System.Drawing.Pen,System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.DrawRectangle implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawRectangle(System.Drawing.Pen,System.Drawing.RectangleF)">
+            <summary>
+            IGraphics.DrawRectangle implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawRectangles(System.Drawing.Pen,System.Drawing.Rectangle[])">
+            <summary>
+            IGraphics.DrawRectangle implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawRectangles(System.Drawing.Pen,System.Drawing.RectangleF[])">
+            <summary>
+            IGraphics.DrawRectangle implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Drawing.RectangleF,System.Drawing.StringFormat)">
+            <summary>
+            IGraphics.DrawString implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Drawing.RectangleF)">
+            <summary>
+            IGraphics.DrawString implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Drawing.PointF,System.Drawing.StringFormat)">
+            <summary>
+            IGraphics.DrawString implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Single,System.Single,System.Drawing.StringFormat)">
+            <summary>
+            IGraphics.DrawString implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Drawing.PointF)">
+            <summary>
+            IGraphics.DrawString implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Single,System.Single)">
+            <summary>
+            IGraphics.DrawString implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.ToHtmlDashStyle(System.Drawing.Drawing2D.DashStyle)">
+            <summary>
+            Converts the specified DashStyle to its HTML representation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.FillClosedCurve(System.Drawing.Brush,System.Drawing.Point[],System.Drawing.Drawing2D.FillMode,System.Single)">
+            <summary>
+            IGraphics.FillClosedCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.FillClosedCurve(System.Drawing.Brush,System.Drawing.Point[],System.Drawing.Drawing2D.FillMode)">
+            <summary>
+            IGraphics.FillClosedCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.FillClosedCurve(System.Drawing.Brush,System.Drawing.Point[])">
+            <summary>
+            IGraphics.FillClosedCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.FillClosedCurve(System.Drawing.Brush,System.Drawing.PointF[],System.Drawing.Drawing2D.FillMode,System.Single)">
+            <summary>
+            IGraphics.FillClosedCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.FillClosedCurve(System.Drawing.Brush,System.Drawing.PointF[],System.Drawing.Drawing2D.FillMode)">
+            <summary>
+            IGraphics.FillClosedCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.FillClosedCurve(System.Drawing.Brush,System.Drawing.PointF[])">
+            <summary>
+            IGraphics.FillClosedCurve implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.FillEllipse(System.Drawing.Brush,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.FillEllipse implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.FillEllipse(System.Drawing.Brush,System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.FillEllipse implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.FillEllipse(System.Drawing.Brush,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.FillEllipse implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.FillEllipse(System.Drawing.Brush,System.Drawing.RectangleF)">
+            <summary>
+            IGraphics.FillEllipse implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.FillPath(System.Drawing.Brush,System.Drawing.Drawing2D.GraphicsPath)">
+            <summary>
+            IGraphics.FillPath implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.FillPie(System.Drawing.Brush,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.FillPie implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.FillPie(System.Drawing.Brush,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.FillPie implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.FillPie(System.Drawing.Brush,System.Drawing.Rectangle,System.Single,System.Single)">
+            <summary>
+            IGraphics.FillPie implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.FillPolygon(System.Drawing.Brush,System.Drawing.Point[],System.Drawing.Drawing2D.FillMode)">
+            <summary>
+            IGraphics.FillPolygon implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.FillPolygon(System.Drawing.Brush,System.Drawing.Point[])">
+            <summary>
+            IGraphics.FillPolygon implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.FillPolygon(System.Drawing.Brush,System.Drawing.PointF[],System.Drawing.Drawing2D.FillMode)">
+            <summary>
+            IGraphics.FillPolygon implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.FillPolygon(System.Drawing.Brush,System.Drawing.PointF[])">
+            <summary>
+            IGraphics.FillPolygon implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.FillRectangle(System.Drawing.Brush,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.FillRectangle implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.FillRectangle(System.Drawing.Brush,System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.FillRectangle implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.FillRectangle(System.Drawing.Brush,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.FillRectangle implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.FillRectangle(System.Drawing.Brush,System.Drawing.RectangleF)">
+            <summary>
+            IGraphics.FillRectangle implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.FillRectangles(System.Drawing.Brush,System.Drawing.Rectangle[])">
+            <summary>
+            IGraphics.FillRectangles implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.FillRectangles(System.Drawing.Brush,System.Drawing.RectangleF[])">
+            <summary>
+            IGraphics.FillRectangles implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.FillRegion(System.Drawing.Brush,System.Drawing.Region)">
+            <summary>
+            IGraphics.FillRegion implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.Flush(System.Drawing.Drawing2D.FlushIntention)">
+            <summary>
+            IGraphics.Flush implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.Flush">
+            <summary>
+            IGraphics.Flush implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.GetFontHeight(System.Drawing.Font)">
+            <summary>
+            IGraphics.GetFontHeight implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.GetNearestColor(System.Drawing.Color)">
+            <summary>
+            IGraphics.GetNearestColor implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.IsVisible(System.Drawing.RectangleF)">
+            <summary>
+            IGraphics.IsVisible implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.IsVisible(System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            IGraphics.IsVisible implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.IsVisible(System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.IsVisible implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.IsVisible(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            IGraphics.IsVisible implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.IsVisible(System.Drawing.PointF)">
+            <summary>
+            IGraphics.IsVisible implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.IsVisible(System.Single,System.Single)">
+            <summary>
+            IGraphics.IsVisible implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.IsVisible(System.Drawing.Point)">
+            <summary>
+            IGraphics.IsVisible implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.IsVisible(System.Int32,System.Int32)">
+            <summary>
+            IGraphics.IsVisible implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.MeasureCharacterRanges(System.String,System.Drawing.Font,System.Drawing.RectangleF,System.Drawing.StringFormat)">
+            <summary>
+            IGraphics.MeasureCharacterRanges implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.MeasureString(System.String,System.Drawing.Font,System.Int32,System.Drawing.StringFormat)">
+            <summary>
+            IGraphics.MeasureString implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.MeasureString(System.String,System.Drawing.Font,System.Int32)">
+            <summary>
+            IGraphics.MeasureString implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.MeasureString(System.String,System.Drawing.Font)">
+            <summary>
+            IGraphics.MeasureString implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.MeasureString(System.String,System.Drawing.Font,System.Drawing.SizeF,System.Drawing.StringFormat)">
+            <summary>
+            IGraphics.MeasureString implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.MeasureString(System.String,System.Drawing.Font,System.Drawing.SizeF)">
+            <summary>
+            IGraphics.MeasureString implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.MeasureString(System.String,System.Drawing.Font,System.Drawing.PointF,System.Drawing.StringFormat)">
+            <summary>
+            IGraphics.MeasureString implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.MeasureString(System.String,System.Drawing.Font,System.Drawing.SizeF,System.Drawing.StringFormat,System.Int32@,System.Int32@)">
+            <summary>
+            IGraphics.MeasureString implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.GetHdc">
+            <summary>
+            IGraphics.GetHdc implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.ReleaseHdc">
+            <summary>
+            IGraphics.GetHdc implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.ReleaseHdc(System.IntPtr)">
+            <summary>
+            IGraphics.ReleaseHdc implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.ReleaseHdcInternal(System.IntPtr)">
+            <summary>
+            IGraphics.ReleaseHdcInternal implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.Save">
+            <summary>
+            IGraphics.Save implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.Restore(System.Drawing.Drawing2D.GraphicsState)">
+            <summary>
+            IGraphics.Restore implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.IntersectClip(System.Drawing.Region)">
+            <summary>
+            IGraphics.IntersectClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.IntersectClip(System.Drawing.RectangleF)">
+            <summary>
+            IGraphics.IntersectClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.IntersectClip(System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.IntersectClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.ExcludeClip(System.Drawing.Region)">
+            <summary>
+            IGraphics.ExcludeClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.ExcludeClip(System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.ExcludeClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.SetClip(System.Drawing.Region,System.Drawing.Drawing2D.CombineMode)">
+            <summary>
+            IGraphics.SetClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.SetClip(System.Drawing.Drawing2D.GraphicsPath,System.Drawing.Drawing2D.CombineMode)">
+            <summary>
+            IGraphics.SetClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.SetClip(System.Drawing.Drawing2D.GraphicsPath)">
+            <summary>
+            IGraphics.SetClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.SetClip(System.Drawing.RectangleF,System.Drawing.Drawing2D.CombineMode)">
+            <summary>
+            IGraphics.SetClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.SetClip(System.Drawing.RectangleF)">
+            <summary>
+            IGraphics.SetClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.SetClip(System.Drawing.Rectangle,System.Drawing.Drawing2D.CombineMode)">
+            <summary>
+            IGraphics.SetClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.SetClip(System.Drawing.Rectangle)">
+            <summary>
+            IGraphics.SetClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.SetClip(MindFusion.Drawing.IGraphics,System.Drawing.Drawing2D.CombineMode)">
+            <summary>
+            IGraphics.SetClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.SetClip(MindFusion.Drawing.IGraphics)">
+            <summary>
+            IGraphics.SetClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.ResetClip">
+            <summary>
+            IGraphics.ResetClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.TranslateClip(System.Int32,System.Int32)">
+            <summary>
+            IGraphics.TranslateClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.TranslateClip(System.Single,System.Single)">
+            <summary>
+            IGraphics.TranslateClip implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.TransformPoints(System.Drawing.Drawing2D.CoordinateSpace,System.Drawing.Drawing2D.CoordinateSpace,System.Drawing.Point[])">
+            <summary>
+            IGraphics.TransformPoints implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.TransformPoints(System.Drawing.Drawing2D.CoordinateSpace,System.Drawing.Drawing2D.CoordinateSpace,System.Drawing.PointF[])">
+            <summary>
+            IGraphics.TransformPoints implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.MultiplyTransform(System.Drawing.Drawing2D.Matrix,System.Drawing.Drawing2D.MatrixOrder)">
+            <summary>
+            IGraphics.MultiplyTransform implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.MultiplyTransform(System.Drawing.Drawing2D.Matrix)">
+            <summary>
+            IGraphics.MultiplyTransform implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.RotateTransform(System.Single,System.Drawing.Drawing2D.MatrixOrder)">
+            <summary>
+            IGraphics.RotateTransform implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.RotateTransform(System.Single)">
+            <summary>
+            IGraphics.RotateTransform implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.ScaleTransform(System.Single,System.Single,System.Drawing.Drawing2D.MatrixOrder)">
+            <summary>
+            IGraphics.ScaleTransform implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.ScaleTransform(System.Single,System.Single)">
+            <summary>
+            IGraphics.ScaleTransform implementation.
+            </summary>
+            <remarks>
+            This method is not supported.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.TranslateTransform(System.Single,System.Single,System.Drawing.Drawing2D.MatrixOrder)">
+            <summary>
+            IGraphics.TranslateTransform implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.TranslateTransform(System.Single,System.Single)">
+            <summary>
+            IGraphics.TranslateTransform implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.ResetTransform">
+            <summary>
+            IGraphics.ResetTransform implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.SupportsPenWidth0">
+            <summary>
+            IGraphics.SupportsPenWidth0 implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.TransformsPenWidth">
+            <summary>
+            IGraphics.TransformsPenWidth implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.ToClient(System.Drawing.Point)">
+            <summary>
+            Transforms the specified point to client coordinates.
+            </summary>
+            <remarks>
+            The coordinates supplied to the various methods of this graphics
+            class are in document coordinates (that is, in the coordinates
+            specified in the PageUnit property). This method converts from
+            document coordinates to the point (1/72-th of an inch) coordinates
+            expected by Excel.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.ToClient(System.Drawing.PointF)">
+            <summary>
+            Transforms the specified point to client coordinates.
+            </summary>
+            <remarks>
+            The coordinates supplied to the various methods of this graphics
+            class are in document coordinates (that is, in the coordinates
+            specified in the PageUnit property). This method converts from
+            document coordinates to the point (1/72-th of an inch) coordinates
+            expected by Excel.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ExcelGraphics.ToClient(System.Single)">
+            <summary>
+            Transforms the specified value to client coordinates.
+            </summary>
+            <remarks>
+            The coordinates supplied to the various methods of this graphics
+            class are in document coordinates (that is, in the coordinates
+            specified in the PageUnit property). This method converts from
+            document coordinates to the point (1/72-th of an inch) coordinates
+            expected by Excel.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ExcelGraphics.CompositingMode">
+            <summary>
+            IGraphics.CompositingMode implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ExcelGraphics.CompositingQuality">
+            <summary>
+            IGraphics.CompositingQuality implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ExcelGraphics.DpiX">
+            <summary>
+            IGraphics.DpiX implementation.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ExcelGraphics.DpiY">
+            <summary>
+            IGraphics.DpiY implementation.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ExcelGraphics.PageScale">
+            <summary>
+            IGraphics.PageScale implementation.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ExcelGraphics.RenderingOrigin">
+            <summary>
+            IGraphics.RenderingOrigin implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ExcelGraphics.PageUnit">
+            <summary>
+            IGraphics.PageUnit implementation.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ExcelGraphics.PixelOffsetMode">
+            <summary>
+            IGraphics.PixelOffsetMode implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ExcelGraphics.InterpolationMode">
+            <summary>
+            IGraphics.InterpolationMode implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ExcelGraphics.VisibleClipBounds">
+            <summary>
+            IGraphics.VisibleClipBounds implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ExcelGraphics.Clip">
+            <summary>
+            IGraphics.Clip implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ExcelGraphics.ClipBounds">
+            <summary>
+            IGraphics.ClipBounds implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ExcelGraphics.IsClipEmpty">
+            <summary>
+            IGraphics.IsClipEmpty implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ExcelGraphics.IsVisibleClipEmpty">
+            <summary>
+            IGraphics.IsVisibleClipEmpty implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ExcelGraphics.SmoothingMode">
+            <summary>
+            IGraphics.SmoothingMode implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ExcelGraphics.TextContrast">
+            <summary>
+            IGraphics.TextContrast implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ExcelGraphics.TextRenderingHint">
+            <summary>
+            IGraphics.TextRenderingHint implementation.
+            </summary>
+            <remarks>
+            This property is not supported.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ExcelGraphics.Transform">
+            <summary>
+            IGraphics.Transform implementation.
+            </summary>
+            <remarks>
+            Only the translation component of this object is taken into consideration.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ExcelGraphics.MinCellSize">
+            <summary>
+            Gets or sets a value specifying a minimal size for the rows and columns in the graphics.
+            Rows with height smaller than this value and columns with width smaller than this
+            value are merged.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ExcelGraphics.MaxCellSize">
+            <summary>
+            Gets or sets a value specifying a maximal size for the rows and columns in the graphics.
+            Rows with height bigger than this value and columns with height smaller than this
+            value are split.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ExcelGraphics.inner">
+            <summary>
+            An internal graphics object used for measuring, transformations
+            and stat tracking.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ExcelGraphics.pixelToPoint">
+            <summary>
+            An internal graphics object used for pixel-to-point transformations.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ExcelGraphics.innerBitmap">
+            <summary>
+            A bitmap used in the creation of the inner Graphics.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Scheduling.Reporting.ReportPreviewForm">
+            <summary>
+            The Print Preview form.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ReportPreviewForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ReportPreviewForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ReportPreviewForm.#ctor(MindFusion.Scheduling.Reporting.Report,System.String)">
+            <summary>
+            Initializes a new instance of the ReportPreviewForm class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ReportPreviewForm.ZoomDisplay(System.Double,System.Windows.Forms.ToolStripMenuItem)">
+            <summary>
+            Sets the zoom to the specified value.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ReportPreviewForm.OnLoad(System.EventArgs)">
+            <summary>
+            Form.OnLoad override.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportPreviewForm.Document">
+            <summary>
+            Gets or sets the internal version of the document.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportPreviewForm.UseAntiAlias">
+            <summary>
+            Gets or sets the anti-alias flag on the preview control.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Scheduling.Reporting.Resources">
+            <summary>
+            Resource provider.
+            </summary>
+            <remarks>
+            In .NET 1.1 and earlier, this class operates on the built-in
+            resources found in the 'Global.resources'.
+            In .NET 2.0 and later, this class reads the resources directly
+            from the project resources.
+            The public interface of the class remains unchanged.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Resources.#ctor">
+            <summary>
+            Initializes a new instance of the Resources class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Resources.Instance">
+            <summary>
+            Retrieves the sole instance of the Resources class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Resources.GetString(System.String)">
+            <summary>
+            Retrieves a string resource given its name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Resources.GetRawString(System.Globalization.CultureInfo,System.String)">
+            <summary>
+            Retrieves a string resource given its name and culture.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Resources.GetString(System.String,System.Object[])">
+            <summary>
+            Retrieves and formats a string resource given its name.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Resources.GetString(System.Globalization.CultureInfo,System.String,System.Object[])">
+            <summary>
+            Retrieves and formats a string resource given its name and culture.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.Resources._instance">
+            <summary>
+            The sole instance.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Scheduling.Reporting.Cache.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.Cache.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.Cache.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.Cache.Resources.ExAboveHighBound">
+            <summary>
+              Looks up a localized string similar to &apos;{0}&apos; is not a valid value for &apos;{1}&apos;. &apos;{1}&apos; must be less than or equal to &apos;{2}&apos;..
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.Cache.Resources.ExArrayLength">
+            <summary>
+              Looks up a localized string similar to The length of the array is not valid for &apos;{0}&apos;. The length must be &apos;{1}&apos;..
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.Cache.Resources.ExBadType">
+            <summary>
+              Looks up a localized string similar to &apos;{0}&apos; is not a valid value for &apos;{1}&apos;. &apos;{1}&apos; must be derived from &apos;{2}&apos;..
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.Cache.Resources.ExBelowLowBound">
+            <summary>
+              Looks up a localized string similar to &apos;{0}&apos; is not a valid value for &apos;{1}&apos;. &apos;{1}&apos; must be greater than or equal to &apos;{2}&apos;..
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.Cache.Resources.ExNullArgument">
+            <summary>
+              Looks up a localized string similar to &apos;{0}&apos; cannot be null..
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.Cache.Resources.ExOutOfRange">
+            <summary>
+              Looks up a localized string similar to &apos;{0}&apos; is not a valid value for &apos;{1}&apos;. &apos;{1}&apos; must be greater than or equal to &apos;{2}&apos; and less than or equal to &apos;{3}&apos;..
+            </summary>
+        </member>
+        <member name="T:MindFusion.Scheduling.Reporting.Report">
+            <summary>
+            Provides methods to generate, preview and print reports
+            of Schedule objects.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.#ctor">
+            <summary>
+            Initializes a new instance of the Report class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.CreateColumn">
+            <summary>
+            Creates a new report column.
+            </summary>
+            <returns>
+            A ReportColumn object representing a newly created column,
+            compatible with the report.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.Preview(System.DateTime,System.DateTime)">
+            <summary>
+            Generates a print preview of the items in the specified range
+            from the underlying schedule.
+            </summary>
+            <param name="start">
+            A DateTime object, specifying the beginning of the time interval
+            containing the items to be included in the report.
+            </param>
+            <param name="end">
+            A DateTime object, specifying the end of the time interval
+            containing the items to be included in the report.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.Preview(System.Drawing.Printing.PrintDocument,System.DateTime,System.DateTime)">
+            <summary>
+            Generates a print preview of the items in the specified range
+            from the underlying schedule.
+            </summary>
+            <param name="doc">
+            A .NET PrintDocument object to print to.
+            </param>
+            <param name="start">
+            A DateTime object, specifying the beginning of the time interval
+            containing the items to be included in the report.
+            </param>
+            <param name="end">
+            A DateTime object, specifying the end of the time interval
+            containing the items to be included in the report.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.ExportExcel(System.String,System.DateTime,System.DateTime)">
+            <summary>
+            Exports the items in the specified range from the underlying schedule as
+            an Open Office XML format.
+            </summary>
+            <param name="filePath">
+            The name of the XLSX file to export to.
+            </param>
+            <param name="start">
+            A DateTime object, specifying the beginning of the time interval
+            containing the items to be included in the report.
+            </param>
+            <param name="end">
+            A DateTime object, specifying the end of the time interval containing
+            the items to be included in the report.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.ExportPdf(System.String,System.DateTime,System.DateTime)">
+            <summary>
+            Exports the items in the specified range from the underlying schedule as PDF.
+            </summary>
+            <param name="filePath">
+            The name of the PDF file to export to.
+            </param>
+            <param name="start">
+            A DateTime object, specifying the beginning of the time interval
+            containing the items to be included in the report.
+            </param>
+            <param name="end">
+            A DateTime object, specifying the end of the time interval containing
+            the items to be included in the report.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.GetPdfPageSize(MindFusion.Pdf.PageSize)">
+            <summary>
+            Returns the size, expressed in points, of the page with the specified format.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.Print(System.DateTime,System.DateTime)">
+            <summary>
+            Prints the items in the specified range from the underlying schedule.
+            </summary>
+            <param name="start">
+            A DateTime object, specifying the beginning of the time interval
+            containing the items to be included in the report.
+            </param>
+            <param name="end">
+            A DateTime object, specifying the end of the time interval containing
+            the items to be included in the report.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.Print(System.Drawing.Printing.PrintDocument,System.DateTime,System.DateTime)">
+            <summary>
+            Prints the items in the specified range from the underlying schedule.
+            </summary>
+            <param name="doc">
+            A .NET PrintDocument object to print to.
+            </param>
+            <param name="start">
+            A DateTime object, specifying the beginning of the time interval
+            containing the items to be included in the report.
+            </param>
+            <param name="end">
+            A DateTime object, specifying the end of the time interval containing
+            the items to be included in the report.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.FillData">
+            <summary>
+            Generates the data to be printed.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.AddItem(System.Collections.Generic.IDictionary{MindFusion.Scheduling.Resource,System.Collections.Generic.List{MindFusion.Scheduling.Item}},MindFusion.Scheduling.Resource,MindFusion.Scheduling.Item)">
+            <summary>
+            Adds the specified item in the specified hashtable under
+            the specified resource key.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.SortData">
+            <summary>
+            Sorts the data.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.GetResourceName(MindFusion.Scheduling.Resource)">
+            <summary>
+            Returns the string representation of the specified resource.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.GetItemPropertyValue(MindFusion.Scheduling.Item,MindFusion.Scheduling.Resource,MindFusion.Scheduling.Reporting.ReportColumn,System.Object@)">
+            <summary>
+            Returns the string representation of the specified property
+            of the specified item.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.ClearData">
+            <summary>
+            Clears the data.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.OnBeginPrint(System.Object,System.Drawing.Printing.PrintEventArgs)">
+            <summary>
+            Handles the BeginPrint event when printing or previewing.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.PrepareForPrinting(System.Drawing.Printing.PrintDocument)">
+            <summary>
+            Prepares the internal variables for printing. The following
+            variables are calculated according to the current settings:
+            _columnWidths, _printRow and _printColumn.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.CalculateColumnWidths(System.Single,System.Single)">
+            <summary>
+            Precalculates the widths of the report columns given the specified page width.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.OnPrintPage(System.Object,System.Drawing.Printing.PrintPageEventArgs)">
+            <summary>
+            Handles the PrintPage event when printing or previewing.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.UpdateContinue(System.Drawing.Printing.PrintPageEventArgs,System.Drawing.Printing.PrintDocument)">
+            <summary>
+            Updates the HasMorePages property of the specified
+            object according to the current state of the printing
+            operation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.OnEndPrint(System.Object,System.Drawing.Printing.PrintEventArgs)">
+            <summary>
+            Handles the EndPrint event when printing or previewing.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.OnStyleChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the StyleChanged event.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.OnAlternativeStyleChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the AlternativeStyleChanged event.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.ShouldRaiseQueryText">
+            <summary>
+            Checks whether there are attached handlers to the QueryText event.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.ShouldRaiseQueryHeaderText">
+            <summary>
+            Checks whether there are attached handlers to the QueryHeaderText event.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.ShouldRaiseQueryStyle">
+            <summary>
+            Checks whether there are attached handlers to the QueryStyle event.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.ShouldRaiseFilterItem">
+            <summary>
+            Checks whether there are attached handlers to the FilterItem event.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.OnQueryText(MindFusion.Scheduling.Reporting.ReportQueryTextEventArgs)">
+            <summary>
+            Raises the QueryText event.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.OnQueryHeaderText(MindFusion.Scheduling.Reporting.ReportQueryHeaderTextEventArgs)">
+            <summary>
+            Raises the QueryHeaderText event.
+            </summary>
+            <param name="e">
+            An object, containing the event data.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.OnQueryStyle(MindFusion.Scheduling.Reporting.ReportQueryStyleEventArgs)">
+            <summary>
+            Raises the QueryStyle event.
+            </summary>
+            <param name="e">
+            An object, containing the event data.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.OnFilterItem(MindFusion.Scheduling.Reporting.ReportFilterItemEventArgs)">
+            <summary>
+            Raises the FilterItem event.
+            </summary>
+            <param name="e">
+            An object, containing the event data.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.OnContinuePrinting(MindFusion.Scheduling.Reporting.ContinuePrintingReportEventArgs)">
+            <summary>
+            Raises the ContinuePrinting event.
+            </summary>
+            <param name="e">
+            An object, containing the event data.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.ConfirmContinuePrinting(System.Drawing.Printing.PrintDocument)">
+            <summary>
+            Invoked to confirm printing continuation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.Report.OnColumnAdded(System.Object,MindFusion.Scheduling.Reporting.ReportColumnEventArgs)">
+            <summary>
+            Handles the ReportColumnCollection.ColumnAdded event.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.Report.Schedule">
+            <summary>
+            Gets or sets the schedule to be printed or previewed by the report.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.Report.Options">
+            <summary>
+            Gets the options, controlling the print output.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.Report.Columns">
+            <summary>
+            Gets a collection with all columns in the report.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Scheduling.Reporting.Report.QueryText">
+            <summary>
+            Raised during the printing or previewing
+            to allow clients to customize particular
+            texts displayed in the report.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Scheduling.Reporting.Report.QueryHeaderText">
+            <summary>
+            Raised to allow clients to customize the
+            text of column headers.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Scheduling.Reporting.Report.QueryStyle">
+            <summary>
+            Raised during the printing or previewing
+            to allow clients to customize the style of
+            elements displayed in the report.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Scheduling.Reporting.Report.FilterItem">
+            <summary>
+            Raised for each individual item in the report
+            during printing or previewing to confirm the
+            item's availability in the report.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Scheduling.Reporting.Report.ContinuePrinting">
+            <summary>
+            Raised at the end of a printing operation to enable 
+            users to continue printing the report with different
+            view settings.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.Report._schedule">
+            <summary>
+            The schedule to be printed / previewed.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.Report._options">
+            <summary>
+            The report options.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.Report._columns">
+            <summary>
+            The columns in the report.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.Report._data">
+            <summary>
+            The list of all rows displayed in the view.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.Report._start">
+            <summary>
+            Temporary variable for storing the start time
+            of the processed interval.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.Report._end">
+            <summary>
+            Temporary variable for storing the end time
+            of the processed interval.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.Report._columnWidths">
+            <summary>
+            The precalculated widths of all columns in the report,
+            expressed in printer coordinates.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.Report._printRow">
+            <summary>
+            A temporary pointer to the top visible row in the current print page.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.Report._printColumn">
+            <summary>
+            A temporary pointer to the left visible row in the current print page.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Scheduling.Reporting.ReportColumn">
+            <summary>
+            Represents a column in the report table.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ReportColumn.#ctor(MindFusion.Scheduling.Style,MindFusion.Scheduling.Style)">
+            <summary>
+            Initializes a new instance of the ReportColumn class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ReportColumn.SetParentStyles(MindFusion.Scheduling.Style,MindFusion.Scheduling.Style)">
+            <summary>
+            Sets the parent style of this column's styles.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportColumn.Header">
+            <summary>
+            Gets or sets the header text of the column.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportColumn.Property">
+            <summary>
+            Gets or sets the Item property displayed in the column.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportColumn.Style">
+            <summary>
+            Gets or sets the style of the column.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportColumn.AlternativeStyle">
+            <summary>
+            Gets or sets the style used for the alternative rows
+            in this column.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportColumn.Width">
+            <summary>
+            Gets or sets the width of the column.
+            </summary>
+            <remarks>
+            The width of the column is expressed in either
+            percents or as hundredths of an inch depending on the
+            ReportOptions.AbsoluteColumnWidth property.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportColumn.Visible">
+            <summary>
+            Gets or sets a value indicating whether the column is
+            displayed in the report.
+            </summary>
+            <remarks>
+            Invisible columns can still be used for sorting.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportColumn.Sort">
+            <summary>
+            Gets or sets the sort of the column.
+            </summary>
+            <remarks>
+            If you specify sorting by more than one column, you can use
+            the SortPriority property to determine which sort should have
+            greater priority.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportColumn.SortPriority">
+            <summary>
+            Gets or sets the sort priority of the column.
+            </summary>
+            <remarks>
+            Columns with higher sort priority take precedence during sorting.
+            </remarks>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ReportColumn._header">
+            <summary>
+            The header text of the column.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ReportColumn._property">
+            <summary>
+            The Item property displayed by the column.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ReportColumn._style">
+            <summary>
+            The style of the column.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ReportColumn._alternativeStyle">
+            <summary>
+            The style for alternative rows in the column.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ReportColumn._width">
+            <summary>
+            The width of the column, expressed in either
+            percents or in pixels, depending on the
+            appropriate option in the oprions.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ReportColumn._visible">
+            <summary>
+            Specifies whether the column is visible.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ReportColumn._sort">
+            <summary>
+            Specifies the sort of the column.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ReportColumn._sortPriority">
+            <summary>
+            Specifies the sort priority of the column.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Scheduling.Reporting.ReportColumnCollection">
+            <summary>
+            Represents a strongly-typed collection of ReportColumn objects.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ReportColumnCollection.#ctor">
+            <summary>
+            Initializes a new instance of the ReportColumnCollection class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ReportColumnCollection.Add(MindFusion.Scheduling.Reporting.ReportColumn)">
+            <summary>
+            Adds the specified column to this collection.
+            </summary>
+            <param name="column">
+            An instance of the ReportColumn class to be added to the collection.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ReportColumnCollection.Insert(System.Int32,MindFusion.Scheduling.Reporting.ReportColumn)">
+            <summary>
+            Inserts a ReportColumn object at the specified position
+            within the collection.
+            </summary>
+            <param name="index">
+            Specifies the position at which the column must be inserted.
+            </param>
+            <param name="column">
+            An instance of the ReportColumn class to be added to the collection.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ReportColumnCollection.Remove(MindFusion.Scheduling.Reporting.ReportColumn)">
+            <summary>
+            Removes the first occurrence of the specified ReportColumn object
+            from this collection.
+            </summary>
+            <param name="column">
+            A ReportColumn instance which must be removed from the collection.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ReportColumnCollection.Clear">
+            <summary>
+            Removes all elements from the collection.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ReportColumnCollection.Contains(MindFusion.Scheduling.Reporting.ReportColumn)">
+            <summary>
+            Determines whether this collection contains the specified column.
+            </summary>
+            <param name="column">
+            The ReportColumn object to search for in the collection.
+            </param>
+            <returns>
+            true if the object is found or false if it isn't.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ReportColumnCollection.OnInsertComplete(System.Int32,System.Object)">
+            <summary>
+            CollectionBase.OnInsertComplete override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ReportColumnCollection.OnColumnAdded(MindFusion.Scheduling.Reporting.ReportColumnEventArgs)">
+            <summary>
+            Fires the ColumnAdded event.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportColumnCollection.Item(System.Int32)">
+            <summary>
+            Gets or sets the column object located at the specified position
+            within this collection.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Scheduling.Reporting.ReportColumnCollection.ColumnAdded">
+            <summary>
+            Raised when a new column has been added to the collection.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Scheduling.Reporting.ReportColumnEventArgs">
+            <summary>
+            Provides information for a report column.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ReportColumnEventArgs.#ctor(MindFusion.Scheduling.Reporting.ReportColumn)">
+            <summary>
+            Initializes a new instance of the ReportColumnEventArgs class.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Scheduling.Reporting.ReportDataComparer">
+            <summary>
+            Compares row datas according to the report settings.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Scheduling.Reporting.ReportDataComparer.SortColumnComparer">
+            <summary>
+            Sorts pairs in ascending order according to the number
+            in their first element.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ReportDataComparer.SortColumnComparer.Compare(MindFusion.Scheduling.Pair{System.Int32,System.Int32},MindFusion.Scheduling.Pair{System.Int32,System.Int32})">
+            <summary>
+            IComparer.Compare implementation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ReportDataComparer.#ctor(MindFusion.Scheduling.Reporting.Report)">
+            <summary>
+            Initializes a new instance of the ReportDataComparer class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ReportDataComparer.Compare(MindFusion.Scheduling.Reporting.RowData,MindFusion.Scheduling.Reporting.RowData)">
+            <summary>
+            IComparer.Compare implementation.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Scheduling.Reporting.ReportFilterItemEventArgs">
+            <summary>
+            Contains the arguments passed to handlers of the FilterItem
+            event raised by the Report class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ReportFilterItemEventArgs.#ctor(MindFusion.Scheduling.Item)">
+            <summary>
+            Initializes a new instance of the ReportFilterItemEventArgs class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ReportFilterItemEventArgs.SetItem(MindFusion.Scheduling.Item)">
+            <summary>
+            Internal setter of the underlying item to avoid
+            unneeded event args instantiation.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ReportFilterItemEventArgs.SetResource(MindFusion.Scheduling.Resource)">
+            <summary>
+            Internal setter of the underlying resource to avoid
+            unneeded event args instantiation.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportFilterItemEventArgs.Item">
+            <summary>
+            Gets the item related to the event.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportFilterItemEventArgs.Resource">
+            <summary>
+            Gets the resource related to the item in a grouped report.
+            </summary>
+            <remarks>
+            In a grouped report the event FilterItem is fired once for
+            each resource an item is associated with. This way it is
+            possible to filter the same item for one resource and to
+            retain it for another.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportFilterItemEventArgs.Filter">
+            <summary>
+            Gets or sets a value indicating whether the item should be
+            filtered out of the report.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Scheduling.Reporting.ReportGroupType">
+            <summary>
+            Specifies grouping criteria for reports
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ReportGroupType.None">
+            <summary>
+            Indicates that grouping is disabled.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ReportGroupType.ByContacts">
+            <summary>
+            Indicates grouping by contacts.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ReportGroupType.ByResources">
+            <summary>
+            Indicates grouping by resources.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ReportGroupType.ByLocations">
+            <summary>
+            Indicates grouping by locations.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ReportGroupType.ByTasks">
+            <summary>
+            Indicates grouping by tasks.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Scheduling.Reporting.ReportOptions">
+            <summary>
+            Encapsulates the options controlling the printing and
+            previewing of a MindFusion.Scheduling report.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ReportOptions.#ctor">
+            <summary>
+            Initializes a new instance of the ReportOptions class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ReportOptions.OnStyleChanged(System.EventArgs)">
+            <summary>
+            Raises the StyleChanged event.
+            </summary>
+            <param name="e">
+            An object, containing the event data.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ReportOptions.OnAlternativeStyleChanged(System.EventArgs)">
+            <summary>
+            Raises the AlternativeStyleChanged event.
+            </summary>
+            <param name="e">
+            An object, containing the event data.
+            </param>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportOptions.ShowHeader">
+            <summary>
+            Gets or sets a value indicating whether the columns
+            headers are displayed.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportOptions.ShowHeadersOnAllPages">
+            <summary>
+            Gets or sets a value indicating whether the column headers
+            are displayed on top of each page or only on the first one.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportOptions.AbsoluteColumnWidth">
+            <summary>
+            Gets or sets a value indicating whether the width specified
+            for individual columns are expressed in units relative to
+            the page width or as points.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportOptions.PageMargins">
+            <summary>
+            Gets or sets the page margins.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportOptions.Landscape">
+            <summary>
+            Gets or sets the orientation of the pages.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportOptions.CellPadding">
+            <summary>
+            Gets or sets the padding of the resource cells,
+            expressed in hundredths of an inch.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportOptions.HeaderHeight">
+            <summary>
+            Gets or sets the height of the columns' header,
+            expressed in hundredths of an inch.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportOptions.RowHeight">
+            <summary>
+            Gets or sets the height of individual rows,
+            expressed in hundredths of an inch.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportOptions.HeaderSpacing">
+            <summary>
+            Gets or sets the spacing between the header and the contents,
+            expressed in hundredths of an inch.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportOptions.ColumnSpacing">
+            <summary>
+            Gets or sets the spacing between adjacent columns,
+            expressed in hundredths of an inch.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportOptions.RowSpacing">
+            <summary>
+            Gets or sets the spacing between adjacent rows,
+            expressed in hundredths of an inch.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportOptions.DocumentName">
+            <summary>
+            Gets or sets the name of the print document.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportOptions.FixedRowHeight">
+            <summary>
+            Gets or sets a value indicating whether to use a fixed
+            row height as specified by the RowHeight property or to
+            calculate the height of individual rows according to the
+            contained text.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportOptions.GroupType">
+            <summary>
+            Gets or sets a value indicating whether grouping is enabled
+            within the report.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportOptions.Style">
+            <summary>
+            Gets or sets the default style used for columns in the report.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportOptions.AlternativeStyle">
+            <summary>
+            Gets or sets the default style for alternative rows.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportOptions.GroupHeaderStyle">
+            <summary>
+            Gets or sets the style for group headers in a grouped report.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportOptions.UseCustomPreviewIcons">
+            <summary>
+            Gets or sets a value indicating whether to use the images specified
+            through the CustomPreviewIcons property.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportOptions.CustomPreviewIcons">
+            <summary>
+            Gets or sets the images to display in the built-in Print Preview form.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportOptions.CustomPreviewTexts">
+            <summary>
+            Returns a dictionary with the custom texts to use in the built-in Print Preview form.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Scheduling.Reporting.ReportOptions.StyleChanged">
+            <summary>
+            Raised when the style has changed.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Scheduling.Reporting.ReportOptions.AlternativeStyleChanged">
+            <summary>
+            Raised when the alternative style has changed.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ReportOptions._showHeader">
+            <summary>
+            Specifies whether the column headers are visible.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ReportOptions._showHeadersOnAllPages">
+            <summary>
+            Specifies whether the column headers are displayed
+            on top of each page or only on the first one.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ReportOptions._absoluteColumnWidth">
+            <summary>
+            Specifies how to treat column width values.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ReportOptions._style">
+            <summary>
+            The default column style.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ReportOptions._alternativeStyle">
+            <summary>
+            The default style of alternative rows in a column.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ReportOptions._groupHeaderStyle">
+            <summary>
+            The style for header rows in a grouped report.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ReportOptions._pageMargins">
+            <summary>
+            The page margins.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ReportOptions._landscape">
+            <summary>
+            The orientation of the page.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ReportOptions._cellPadding">
+            <summary>
+            The padding of the report cells.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ReportOptions._headerHeight">
+            <summary>
+            The height of the column header.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ReportOptions._rowHeight">
+            <summary>
+            The height of individual rows.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ReportOptions._headerSpacing">
+            <summary>
+            The spacing between header and contents.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ReportOptions._columnSpacing">
+            <summary>
+            The spacing between columns.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ReportOptions._rowSpacing">
+            <summary>
+            The spacing between rows.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ReportOptions._documentName">
+            <summary>
+            The name of the print document.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ReportOptions._fixedRowHeight">
+            <summary>
+            Specifies whether to use a fixed row height as specified
+            by the RowHeight property or to calculate the height
+            of individual rows according to the contained text.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.ReportOptions._groupType">
+            <summary>
+            The type of grouping of the report data.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Scheduling.Reporting.ReportQueryHeaderTextEventArgs">
+            <summary>
+            Contains the arguments passed to handlers of the QueryHeaderText
+            event raised by the Report class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ReportQueryHeaderTextEventArgs.#ctor(MindFusion.Scheduling.Reporting.ReportColumn,System.String)">
+            <summary>
+            Initializes a new instance of the ReportQueryHeaderTextEventArgs class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ReportQueryHeaderTextEventArgs.#ctor(MindFusion.Scheduling.Resource,System.String)">
+            <summary>
+            Initializes a new instance of the ReportQueryHeaderTextEventArgs class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportQueryHeaderTextEventArgs.Column">
+            <summary>
+            Gets the column whose header text is being processed.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportQueryHeaderTextEventArgs.Resource">
+            <summary>
+            Gets the resource whose header text is being processed when
+            the event is fired for a group header.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportQueryHeaderTextEventArgs.Representation">
+            <summary>
+            Gets or sets the text of the column.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Scheduling.Reporting.ReportQueryStyleEventArgs">
+            <summary>
+            Contains the arguments passed to handlers of the QueryStyle
+            event raised by the Report class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ReportQueryStyleEventArgs.#ctor(MindFusion.Scheduling.Reporting.ReportColumn,MindFusion.Scheduling.Item,System.Object)">
+            <summary>
+            Initializes a new instance of the ReportQueryStyleEventArgs class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportQueryStyleEventArgs.Column">
+            <summary>
+            Gets the column where the text would appear.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportQueryStyleEventArgs.Item">
+            <summary>
+            Gets the item related to the event.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportQueryStyleEventArgs.Value">
+            <summary>
+            Gets the object that would be displayed.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportQueryStyleEventArgs.Style">
+            <summary>
+            Gets or sets the style to use for the processed cell or
+            null to use the default style.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Scheduling.Reporting.ReportQueryTextEventArgs">
+            <summary>
+            Contains the arguments passed to handlers of the QueryText
+            event raised by the Report class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.ReportQueryTextEventArgs.#ctor(MindFusion.Scheduling.Reporting.ReportColumn,MindFusion.Scheduling.Item,MindFusion.Scheduling.Resource,System.Object,System.String)">
+            <summary>
+            Initializes a new instance of the ReportQueryTextEventArgs class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportQueryTextEventArgs.Column">
+            <summary>
+            Gets the column where the text would appear.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportQueryTextEventArgs.Item">
+            <summary>
+            Gets the item related to the event.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportQueryTextEventArgs.Resource">
+            <summary>
+            Gets the resource related to the item in a grouped report.
+            </summary>
+            <remarks>
+            In a grouped report the event QueryText is fired once for
+            each resource an item is associated with. This way it is
+            possible to display one text for the same item for one
+            resource and another text for another resource.
+            </remarks>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportQueryTextEventArgs.Value">
+            <summary>
+            Gets the object that would be displayed.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.ReportQueryTextEventArgs.Representation">
+            <summary>
+            Gets or sets the text representation of the object.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Scheduling.Reporting.RowData">
+            <summary>
+            Contains the data for a single row in a MindFusion.Scheduling report.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.RowData.#ctor(MindFusion.Scheduling.Item)">
+            <summary>
+            Initializes a new instance of the RowData class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.Reporting.RowData.#ctor(MindFusion.Scheduling.Item,MindFusion.Scheduling.Resource)">
+            <summary>
+            Initializes a new instance of the RowData class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.RowData.Item">
+            <summary>
+            Gets the item associated with this row.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.RowData.Resource">
+            <summary>
+            Gets the resource associated with this row.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.Reporting.RowData.Values">
+            <summary>
+            Gets a list with pairs containing the values displayed in
+            the report and their textual representations.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.RowData._item">
+            <summary>
+            A reference to the item represented by this row.
+            </summary>
+            <remarks>
+            This may be null if the row represents a resource
+            header in a grouped report.
+            </remarks>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.RowData._resource">
+            <summary>
+            A reference to the resource associated with the item
+            represented by this row, or the resource represented
+            by this row if the row is a header in a grouped report.
+            </summary>
+            <remarks>
+            This is null in non-grouped reports.
+            </remarks>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.RowData._values">
+            <summary>
+            A list containing Pair objects. The first element of the
+            pair represents the original item value, corresponding
+            to the report column with the same index as the index of
+            the Pair element within this list. The second element
+            represents the textual representation of the value.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Scheduling.Reporting.Sort">
+            <summary>
+            Specifies a sorting.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.Sort.None">
+            <summary>
+            Specifies that sorting is disabled.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.Sort.Ascending">
+            <summary>
+            Specifies ascending sort order.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.Reporting.Sort.Descending">
+            <summary>
+            Specifies descending sort order.
+            </summary>
+        </member>
+    </members>
+</doc>

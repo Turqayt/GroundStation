@@ -1,0 +1,470 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MindFusion.Common.WinForms</name>
+    </assembly>
+    <members>
+        <member name="T:MindFusion.Common.WinForms.DirListBox">
+            <summary>
+            Displays a directory tree showing the path to specified directory as
+            parent nodes and its subdirectories as child nodes.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Common.WinForms.DirListBox.#ctor">
+            <summary>
+            Initializes a new instance of the DirListBox class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Common.WinForms.DirListBox.Path">
+            <summary>
+            Gets or sets the current path displayed by this control.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Common.WinForms.DirListBox.Sorted">
+            <summary>
+            Gets or sets whether the tree view should be sorted.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Common.WinForms.DirListBox.DirList">
+            <summary>
+            Gets the control's items as a flat list allowing indexed access.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Common.WinForms.DirListBox.DirListCount">
+            <summary>
+            Gets the number of items in the view.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Common.WinForms.DirListBox.DirListIndex">
+            <summary>
+            Gets or sets the index of the currently selected item.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Common.WinForms.DirListBox.DirListProxy">
+            <summary>
+            Implements indexed property -like syntax for the DirList property.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Common.WinForms.DirListBox.DirListProxy.#ctor(MindFusion.Common.WinForms.DirListBox)">
+            <summary>
+            Initializes a new instance of the DirListProxy class.
+            </summary>
+            <param name="dirList">The parent DirListBox control.</param>
+        </member>
+        <member name="P:MindFusion.Common.WinForms.DirListBox.DirListProxy.Item(System.Int32)">
+            <summary>
+            Indexer used to access the items of parent DirListBox.
+            </summary>
+            <param name="index">An integer index of the path to return.</param>
+            <returns>The path at specified position.</returns>
+        </member>
+        <member name="P:MindFusion.Common.WinForms.DirListBox.FormattingEnabled">
+            <summary>
+            Not implemented at this time.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Common.WinForms.DirListBox.IntegralHeight">
+            <summary>
+            Not implemented at this time.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Common.WinForms.DirListBox.Change">
+            <summary>
+            Raised when current Path changes.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Common.WinForms.DirListBox.OnBackColorChanged(System.EventArgs)">
+            <summary>
+            Control.OnBackColorChanged override.
+            </summary>
+            <param name="e">An object that contains the event data.</param>
+        </member>
+        <member name="M:MindFusion.Common.WinForms.DirListBox.OnForeColorChanged(System.EventArgs)">
+            <summary>
+            Control.OnForeColorChanged override.
+            </summary>
+            <param name="e">An object that contains the event data.</param>
+        </member>
+        <member name="M:MindFusion.Common.WinForms.DirListBox.OnFontChanged(System.EventArgs)">
+            <summary>
+            Control.OnFontChanged override.
+            </summary>
+            <param name="e">An object that contains the event data.</param>
+        </member>
+        <member name="M:MindFusion.Common.WinForms.DirListBox.OnBackgroundImageChanged(System.EventArgs)">
+            <summary>
+            Control.OnBackgroundImageChanged override.
+            </summary>
+            <param name="e">An object that contains the event data.</param>
+        </member>
+        <member name="F:MindFusion.Common.WinForms.DirListBox.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Common.WinForms.DirListBox.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.Common.WinForms.DirListBox.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Common.WinForms.FileListBox">
+            <summary>
+            Displays a list of files in specified directory.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Common.WinForms.FileListBox.#ctor">
+            <summary>
+            Initializes a new instance of the FileListBox class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Common.WinForms.FileListBox.Path">
+            <summary>
+            Gets or sets the path to the directory whose contents should be displayed in this control.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Common.WinForms.FileListBox.FileName">
+            <summary>
+            Gets or sets the name of the selected file.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Common.WinForms.FileListBox.FormattingEnabled">
+            <summary>
+            Not implemented at this time.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Common.WinForms.FileListBox.Hidden">
+            <summary>
+            Gets or sets a value specifying whether the control displays hidden files.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Common.WinForms.FileListBox.Pattern">
+            <summary>
+            Gets or sets a file name pattern used to filter the file list.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Common.WinForms.FileListBox.SelectedIndexChanged">
+            <summary>
+            Raised when the selected file changes.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Common.WinForms.FileListBox.OnBackColorChanged(System.EventArgs)">
+            <summary>
+            Control.OnBackColorChanged override.
+            </summary>
+            <param name="e">An object that contains the event data.</param>
+        </member>
+        <member name="M:MindFusion.Common.WinForms.FileListBox.OnForeColorChanged(System.EventArgs)">
+            <summary>
+            Control.OnForeColorChanged override.
+            </summary>
+            <param name="e">An object that contains the event data.</param>
+        </member>
+        <member name="M:MindFusion.Common.WinForms.FileListBox.OnFontChanged(System.EventArgs)">
+            <summary>
+            Control.OnFontChanged override.
+            </summary>
+            <param name="e">An object that contains the event data.</param>
+        </member>
+        <member name="M:MindFusion.Common.WinForms.FileListBox.OnBackgroundImageChanged(System.EventArgs)">
+            <summary>
+            Control.OnBackgroundImageChanged override.
+            </summary>
+            <param name="e">An object that contains the event data.</param>
+        </member>
+        <member name="F:MindFusion.Common.WinForms.FileListBox.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Common.WinForms.FileListBox.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.Common.WinForms.FileListBox.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Common.WinForms.IZoomTarget">
+            <summary>
+            Specifies the capabilities required by ZoomControl from its target controls.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Common.WinForms.IZoomTarget.ZoomLevelChanged">
+            <summary>
+            Raised to notify that the target's zoom level has changed.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Common.WinForms.IZoomTarget.ViewChanged">
+            <summary>
+            Raised to notify that the target view has changed.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Common.WinForms.IZoomTarget.SetZoomLevel(System.Single)">
+            <summary>
+            Sets a new zoom level.
+            </summary>
+            <param name="zoom">A float value specifying the zoom level.</param>
+        </member>
+        <member name="M:MindFusion.Common.WinForms.IZoomTarget.GetZoomLevel">
+            <summary>
+            Gets the current zoom level.
+            </summary>
+            <returns>A float value specifying the zoom level.</returns>
+        </member>
+        <member name="M:MindFusion.Common.WinForms.IZoomTarget.SetScrollX(System.Single)">
+            <summary>
+            Sets the horizontal scroll position.
+            </summary>
+            <param name="scrollX">A float value specifying the horizontal scroll position.</param>
+        </member>
+        <member name="M:MindFusion.Common.WinForms.IZoomTarget.GetScrollX">
+            <summary>
+            Gets the horizontal scroll position.
+            </summary>
+            <returns>A float value specifying the horizontal scroll position.</returns>
+        </member>
+        <member name="M:MindFusion.Common.WinForms.IZoomTarget.SetScrollY(System.Single)">
+            <summary>
+            Sets the vertical scroll position.
+            </summary>
+            <param name="scrollY">A float value specifying the vertical scroll position.</param>
+        </member>
+        <member name="M:MindFusion.Common.WinForms.IZoomTarget.GetScrollY">
+            <summary>
+            Gets the vertical scroll position.
+            </summary>
+            <returns>A float value specifying the vertical scroll position.</returns>
+        </member>
+        <member name="P:MindFusion.Common.WinForms.IZoomTarget.IsDrawing">
+            <summary>
+            Gets or sets a value indicating whether the zoom target is currently
+            being painted by the zoom control.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Common.WinForms.ZoomControl">
+            <summary>
+            ZoomControl lets users zoom and pan a target component interactively.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Common.WinForms.ZoomControl.#ctor">
+            <summary>
+            Initializes a new instance of the ZoomControl class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Common.WinForms.ZoomControl.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Control.OnMouseDown override.
+            </summary>
+            <param name="e">A MouseEventArgs instance providing more information about the event.</param>
+        </member>
+        <member name="M:MindFusion.Common.WinForms.ZoomControl.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Control.OnMouseMove override.
+            </summary>
+            <param name="e">A MouseEventArgs instance providing more information about the event.</param>
+        </member>
+        <member name="M:MindFusion.Common.WinForms.ZoomControl.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Control.OnMouseUp override.
+            </summary>
+            <param name="e">A MouseEventArgs instance providing more information about the event.</param>
+        </member>
+        <member name="M:MindFusion.Common.WinForms.ZoomControl.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Control.OnPaint override.
+            </summary>
+            <param name="e">A PaintEventArgs instance providing more information about the event.</param>
+        </member>
+        <member name="M:MindFusion.Common.WinForms.ZoomControl.SetZoomFactor(System.Single,System.Boolean)">
+            <summary>
+            Sets the current zoom level.
+            </summary>
+            <param name="value">A float value specifying the new zoom level.</param>
+            <param name="applyConstraints">true to apply min/max constraints and align to ZoomStep, or false otherwise.</param>
+        </member>
+        <member name="P:MindFusion.Common.WinForms.ZoomControl.MinZoomFactor">
+            <summary>
+            The minimum zoom level allowed to set through this control.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Common.WinForms.ZoomControl.MaxZoomFactor">
+            <summary>
+            The maximum zoom level allowed to set through this control.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Common.WinForms.ZoomControl.ZoomFactor">
+            <summary>
+            Gets or sets the current zoom level.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Common.WinForms.ZoomControl.ZoomStep">
+            <summary>
+            Gets or sets the amount by which to change zoom level when + and - buttons are clicked.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Common.WinForms.ZoomControl.ScrollStep">
+            <summary>
+            Gets or sets the scroll offset added when users click the pan arrows.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Common.WinForms.ZoomControl.Fill">
+            <summary>
+            Gets or sets the brush used to fill the ZoomControl elements.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Common.WinForms.ZoomControl.ActiveColor">
+            <summary>
+            Gets or sets the color used to render depressed buttons.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Common.WinForms.ZoomControl.BorderColor">
+            <summary>
+            Gets or sets the color of ZoomControl elements' borders.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Common.WinForms.ZoomControl.InnerColor">
+            <summary>
+            Gets or sets the color of plus, minus and arrow icons.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Common.WinForms.ZoomControl.ShadowColor">
+            <summary>
+            Gets or sets the shadow color.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Common.WinForms.ZoomControl.CornerRadius">
+            <summary>
+            Gets or sets the corner radius of rounded child elements.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Common.WinForms.ZoomControl.SnapToZoomStep">
+            <summary>
+            Gets or sets whether the trackbar should snap to ZoomStep values when dragged.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Common.WinForms.ZoomControl.TickPosition">
+            <summary>
+            Gets or sets the current tick position of the trackbar.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Common.WinForms.ZoomControl.ShowLabel">
+            <summary>
+            Gets or sets a value indicating whether the label that shows the current zoom level should be visible.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Common.WinForms.ZoomControl.LabelFill">
+            <summary>
+            Gets or sets the brush of the the label that shows the current zoom level.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Common.WinForms.ZoomControl.Target">
+            <summary>
+            Gets or sets the target view controlled by this ZoomControl.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Common.WinForms.ZoomControl.ZoomFactorChanged">
+            <summary>
+            Raised when the zoom level changes.
+            </summary>
+        </member>
+        <member name="E:MindFusion.Common.WinForms.ZoomControl.ScrollArrowClicked">
+            <summary>
+            Raised when a scroll arrow has been clicked.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Common.WinForms.ZoomControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Common.WinForms.ZoomControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.Common.WinForms.ZoomControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Common.WinForms.ScrollDirection">
+            <summary>
+            Identifies the direction of a scroll arrow.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Common.WinForms.ScrollDirection.Left">
+            <summary>
+            Scroll to the left.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Common.WinForms.ScrollDirection.Top">
+            <summary>
+            Scroll to the top.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Common.WinForms.ScrollDirection.Right">
+            <summary>
+            Scroll to the right.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Common.WinForms.ScrollDirection.Bottom">
+            <summary>
+            Scroll to the bottom.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Common.WinForms.TickPosition">
+            <summary>
+            Specifies the position of trackbar ticks.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Common.WinForms.TickPosition.Left">
+            <summary>
+            Ticks are rendered on the left side of the trackbar.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Common.WinForms.TickPosition.Right">
+            <summary>
+            Ticks are rendered on the right side of the trackbar.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Common.WinForms.TickPosition.Both">
+            <summary>
+            Ticks are rendered on both sides of the trackbar.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Common.WinForms.TickPosition.None">
+            <summary>
+            There are no ticks rendered.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Common.WinForms.ScrollArrowEventArgs">
+            <summary>
+            Contains arguments for the ScrollArrowClicked event.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Common.WinForms.ScrollArrowEventArgs.#ctor(MindFusion.Common.WinForms.ScrollDirection)">
+            <summary>
+            Initializes a new instance of the ScrollArrowEventArgs class.
+            </summary>
+            <param name="p"></param>
+        </member>
+        <member name="P:MindFusion.Common.WinForms.ScrollArrowEventArgs.Direction">
+            <summary>
+            Specifies which arrow button has been clicked.
+            </summary>
+        </member>
+    </members>
+</doc>

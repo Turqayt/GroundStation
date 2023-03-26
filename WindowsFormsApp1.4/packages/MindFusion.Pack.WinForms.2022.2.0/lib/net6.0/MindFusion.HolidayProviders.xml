@@ -1,0 +1,539 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MindFusion.HolidayProviders</name>
+    </assembly>
+    <members>
+        <member name="T:MindFusion.HolidayProviders.AustraliaHolidayProvider">
+            <summary>
+            Provides a list with the national holidays in Australia.
+            </summary>
+        </member>
+        <member name="M:MindFusion.HolidayProviders.AustraliaHolidayProvider.GetHolidays(System.DateTime,System.DateTime)">
+            <summary>
+            Returns all holidays in the specified time interval.
+            </summary>
+            <param name="from">
+            The start of the time interval.
+            </param>
+            <param name="to">
+            The end of the time interval.
+            </param>
+            <returns>
+            An array of Holiday objects representing the holidays in the interval of interest.
+            </returns>
+        </member>
+        <member name="M:MindFusion.HolidayProviders.AustraliaHolidayProvider.GetHolidays(System.Int32)">
+            <summary>
+            Returns all holidays in the specified year.
+            </summary>
+            <param name="year">
+            The year.
+            </param>
+            <returns>
+            An array of Holiday objects representing the holidays in the year of interest.
+            </returns>
+        </member>
+        <member name="T:MindFusion.HolidayProviders.FranceHolidayProvider">
+            <summary>
+            Provides a list with the most common holidays in France.
+            </summary>
+        </member>
+        <member name="M:MindFusion.HolidayProviders.FranceHolidayProvider.GetHolidays(System.DateTime,System.DateTime)">
+            <summary>
+            Returns all holidays in the specified time interval.
+            </summary>
+            <param name="from">
+            The start of the time interval.
+            </param>
+            <param name="to">
+            The end of the time interval.
+            </param>
+            <returns>
+            An array of Holiday objects representing the holidays in the interval of interest.
+            </returns>
+        </member>
+        <member name="M:MindFusion.HolidayProviders.FranceHolidayProvider.GetHolidays(System.Int32)">
+            <summary>
+            Returns all holidays in the specified year.
+            </summary>
+            <param name="year">
+            The year.
+            </param>
+            <returns>
+            An array of Holiday objects representing the holidays in the year of interest.
+            </returns>
+        </member>
+        <member name="T:MindFusion.HolidayProviders.FranceHolidays">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.FranceHolidays.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.FranceHolidays.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.FranceHolidays.allSaintsDay">
+            <summary>
+              Looks up a localized string similar to Toussaint.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.FranceHolidays.armisticeDay">
+            <summary>
+              Looks up a localized string similar to Armistice de 1918.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.FranceHolidays.ascensionDay">
+            <summary>
+              Looks up a localized string similar to Ascension.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.FranceHolidays.assumptionOfMaryToHeaven">
+            <summary>
+              Looks up a localized string similar to Assomption.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.FranceHolidays.bastilleDay">
+            <summary>
+              Looks up a localized string similar to Fête nationale.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.FranceHolidays.christmasDay">
+            <summary>
+              Looks up a localized string similar to Noël.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.FranceHolidays.easterMonday">
+            <summary>
+              Looks up a localized string similar to Lundi de Pâques.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.FranceHolidays.eastern">
+            <summary>
+              Looks up a localized string similar to Pâques.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.FranceHolidays.goodFriday">
+            <summary>
+              Looks up a localized string similar to Vendredi saint.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.FranceHolidays.labourDay">
+            <summary>
+              Looks up a localized string similar to Fête du Travail.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.FranceHolidays.newYearDay">
+            <summary>
+              Looks up a localized string similar to Nouvel an.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.FranceHolidays.stStephenDay">
+            <summary>
+              Looks up a localized string similar to Saint-Étienne.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.FranceHolidays.victoryInEuropeDay">
+            <summary>
+              Looks up a localized string similar to Fête de la Victoire.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.FranceHolidays.whitMonday">
+            <summary>
+              Looks up a localized string similar to Lundi de Pentecôte.
+            </summary>
+        </member>
+        <member name="T:MindFusion.HolidayProviders.GermanyHolidayProvider">
+            <summary>
+            Provides a list with the most common holidays in Germany.
+            </summary>
+        </member>
+        <member name="M:MindFusion.HolidayProviders.GermanyHolidayProvider.GetHolidays(System.DateTime,System.DateTime)">
+            <summary>
+            Returns all holidays in the specified time interval.
+            </summary>
+            <param name="from">
+            The start of the time interval.
+            </param>
+            <param name="to">
+            The end of the time interval.
+            </param>
+            <returns>
+            An array of Holiday objects representing the holidays in the interval of interest.
+            </returns>
+        </member>
+        <member name="M:MindFusion.HolidayProviders.GermanyHolidayProvider.GetHolidays(System.Int32)">
+            <summary>
+            Returns all holidays in the specified year.
+            </summary>
+            <param name="year">
+            The year.
+            </param>
+            <returns>
+            An array of Holiday objects representing the holidays in the year of interest.
+            </returns>
+        </member>
+        <member name="T:MindFusion.HolidayProviders.GermanyHolidays">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.GermanyHolidays.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.GermanyHolidays.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.GermanyHolidays.ascensionDay">
+            <summary>
+              Looks up a localized string similar to Christi Himmelfahrt.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.GermanyHolidays.boxingDay">
+            <summary>
+              Looks up a localized string similar to Zweiter Weihnachtsfeiertag.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.GermanyHolidays.christmasDay">
+            <summary>
+              Looks up a localized string similar to Weihnachtstag.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.GermanyHolidays.easter">
+            <summary>
+              Looks up a localized string similar to Oster.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.GermanyHolidays.easterMonday">
+            <summary>
+              Looks up a localized string similar to Ostermontag.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.GermanyHolidays.germanUnityDay">
+            <summary>
+              Looks up a localized string similar to Tag der Deutschen Einheit.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.GermanyHolidays.goodFriday">
+            <summary>
+              Looks up a localized string similar to Karfreitag.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.GermanyHolidays.laborDay">
+            <summary>
+              Looks up a localized string similar to Tag der Arbeit.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.GermanyHolidays.newYearDay">
+            <summary>
+              Looks up a localized string similar to Neujahrstag.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.GermanyHolidays.whitMonday">
+            <summary>
+              Looks up a localized string similar to Pfingstmontag.
+            </summary>
+        </member>
+        <member name="T:MindFusion.HolidayProviders.HolidayProvider">
+            <summary>
+            The base class of all holiday providers.
+            </summary>
+        </member>
+        <member name="M:MindFusion.HolidayProviders.HolidayProvider.#ctor">
+            <summary>
+            Initializes a new instance of the HolidayProvider class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.HolidayProviders.HolidayProvider.GetHolidays(System.DateTime,System.DateTime)">
+            <summary>
+            Gets the holidays in current time range.
+            </summary>
+            <param name="from">The start of a time range.</param>
+            <param name="to">The end of a time range.</param>
+            <returns>An array of Holiday objects.</returns>
+        </member>
+        <member name="M:MindFusion.HolidayProviders.HolidayProvider.GetHolidays(System.Int32)">
+            <summary>
+            Gets the holidays in specified year.
+            </summary>
+            <param name="year">The year for which to calculate holiday dates.</param>
+            <returns>An array of Holiday objects.</returns>
+        </member>
+        <member name="T:MindFusion.HolidayProviders.Holiday">
+            <summary>
+            Represents a holiday.
+            </summary>
+        </member>
+        <member name="M:MindFusion.HolidayProviders.Holiday.#ctor">
+            <summary>
+            Initializes a new instance of the Holiday class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.HolidayProviders.Holiday.#ctor(System.DateTime,System.DateTime,System.String)">
+            <summary>
+            Initializes a new instance of the Holiday class with the
+            specified start and end date and title.
+            </summary>
+            <param name="start">
+            The start date of the holiday.
+            </param>
+            <param name="end">
+            The end date of the holiday.
+            </param>
+            <param name="title">
+            The title of the holiday.
+            </param>
+        </member>
+        <member name="M:MindFusion.HolidayProviders.Holiday.#ctor(System.DateTime,System.DateTime,System.String,System.Boolean)">
+            <summary>
+            Initializes a new instance of the Holiday class with the
+            specified start and end date and title.
+            </summary>
+            <param name="start">
+            The start date of the holiday.
+            </param>
+            <param name="end">
+            The end date of the holiday.
+            </param>
+            <param name="title">
+            The title of the holiday.
+            </param>
+            <param name="isDayOff">
+            A value indicating whether the holiday is a rest day.
+            </param>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.Holiday.Date">
+            <summary>
+            Gets or sets the start date of the holiday.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.Holiday.EndDate">
+            <summary>
+            Gets or sets the end date of the holiday.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.Holiday.Title">
+            <summary>
+            Gets or sets the title of the holiday.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.Holiday.IsDayOff">
+            <summary>
+            Gets or sets a value indicating whether the holiday is a rest day.
+            </summary>
+        </member>
+        <member name="T:MindFusion.HolidayProviders.IHolidayProvider">
+            <summary>
+            Represents an object, which can provide arrays of culture-specific holidays.
+            </summary>
+        </member>
+        <member name="M:MindFusion.HolidayProviders.IHolidayProvider.GetHolidays(System.DateTime,System.DateTime)">
+            <summary>
+            Returns all holidays in the specified time interval.
+            </summary>
+            <param name="from">
+            The start of the time interval.
+            </param>
+            <param name="to">
+            The end of the time interval.
+            </param>
+            <returns>
+            An array of Holiday objects representing the holidays in the interval of interest.
+            </returns>
+        </member>
+        <member name="M:MindFusion.HolidayProviders.IHolidayProvider.GetHolidays(System.Int32)">
+            <summary>
+            Returns all holidays in the specified year.
+            </summary>
+            <param name="year">
+            The year.
+            </param>
+            <returns>
+            An array of Holiday objects representing the holidays in the year of interest.
+            </returns>
+        </member>
+        <member name="T:MindFusion.HolidayProviders.RussiaHolidayProvider">
+            <summary>
+            Provides a list with the most common holidays in Russia.
+            </summary>
+        </member>
+        <member name="M:MindFusion.HolidayProviders.RussiaHolidayProvider.GetHolidays(System.DateTime,System.DateTime)">
+            <summary>
+            Returns all holidays in the specified time interval.
+            </summary>
+            <param name="from">
+            The start of the time interval.
+            </param>
+            <param name="to">
+            The end of the time interval.
+            </param>
+            <returns>
+            An array of Holiday objects representing the holidays in the interval of interest.
+            </returns>
+        </member>
+        <member name="M:MindFusion.HolidayProviders.RussiaHolidayProvider.GetHolidays(System.Int32)">
+            <summary>
+            Returns all holidays in the specified year.
+            </summary>
+            <param name="year">
+            The year.
+            </param>
+            <returns>
+            An array of Holiday objects representing the holidays in the year of interest.
+            </returns>
+        </member>
+        <member name="T:MindFusion.HolidayProviders.RussiaHolidays">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.RussiaHolidays.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.RussiaHolidays.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.RussiaHolidays.astronautsDay">
+            <summary>
+              Looks up a localized string similar to День космонавтики.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.RussiaHolidays.christmasDay">
+            <summary>
+              Looks up a localized string similar to Рождество Христово.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.RussiaHolidays.cyrillicAlphabethDay">
+            <summary>
+              Looks up a localized string similar to День славянской писменности и культуры.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.RussiaHolidays.easter">
+            <summary>
+              Looks up a localized string similar to Пасха.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.RussiaHolidays.goodFriday">
+            <summary>
+              Looks up a localized string similar to Великая Пятница.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.RussiaHolidays.laborDay">
+            <summary>
+              Looks up a localized string similar to Праздник Весны и Труда.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.RussiaHolidays.laughtDay">
+            <summary>
+              Looks up a localized string similar to День смеха.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.RussiaHolidays.militaryDay">
+            <summary>
+              Looks up a localized string similar to День защитника Отечества.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.RussiaHolidays.newYearDay">
+            <summary>
+              Looks up a localized string similar to Новогодние каникулы.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.RussiaHolidays.russiaDay">
+            <summary>
+              Looks up a localized string similar to День России.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.RussiaHolidays.unityDay">
+            <summary>
+              Looks up a localized string similar to День народного единства.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.RussiaHolidays.victoryDay">
+            <summary>
+              Looks up a localized string similar to День Победы.
+            </summary>
+        </member>
+        <member name="P:MindFusion.HolidayProviders.RussiaHolidays.womenDay">
+            <summary>
+              Looks up a localized string similar to Международный женский день.
+            </summary>
+        </member>
+        <member name="T:MindFusion.HolidayProviders.UKHolidayProvider">
+            <summary>
+            Provides a list with the most common holidays in United Kingdoms.
+            </summary>
+        </member>
+        <member name="M:MindFusion.HolidayProviders.UKHolidayProvider.GetHolidays(System.DateTime,System.DateTime)">
+            <summary>
+            Returns all holidays in the specified time interval.
+            </summary>
+            <param name="from">
+            The start of the time interval.
+            </param>
+            <param name="to">
+            The end of the time interval.
+            </param>
+            <returns>
+            An array of Holiday objects representing the holidays in the interval of interest.
+            </returns>
+        </member>
+        <member name="M:MindFusion.HolidayProviders.UKHolidayProvider.GetHolidays(System.Int32)">
+            <summary>
+            Returns all holidays in the specified year.
+            </summary>
+            <param name="year">
+            The year.
+            </param>
+            <returns>
+            An array of Holiday objects representing the holidays in the year of interest.
+            </returns>
+        </member>
+        <member name="T:MindFusion.HolidayProviders.USHolidayProvider">
+            <summary>
+            Provides a list with the most common holidays in United States.
+            </summary>
+        </member>
+        <member name="M:MindFusion.HolidayProviders.USHolidayProvider.GetHolidays(System.DateTime,System.DateTime)">
+            <summary>
+            Returns all holidays in the specified time interval.
+            </summary>
+            <param name="from">
+            The start of the time interval.
+            </param>
+            <param name="to">
+            The end of the time interval.
+            </param>
+            <returns>
+            An array of Holiday objects representing the holidays in the interval of interest.
+            </returns>
+        </member>
+        <member name="M:MindFusion.HolidayProviders.USHolidayProvider.GetHolidays(System.Int32)">
+            <summary>
+            Returns all holidays in the specified year.
+            </summary>
+            <param name="year">
+            The year.
+            </param>
+            <returns>
+            An array of Holiday objects representing the holidays in the year of interest.
+            </returns>
+        </member>
+    </members>
+</doc>

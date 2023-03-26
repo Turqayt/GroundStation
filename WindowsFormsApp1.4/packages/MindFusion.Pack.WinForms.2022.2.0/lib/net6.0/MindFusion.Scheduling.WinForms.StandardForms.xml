@@ -1,0 +1,467 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MindFusion.Scheduling.WinForms.StandardForms</name>
+    </assembly>
+    <members>
+        <member name="T:MindFusion.Scheduling.WinForms.AppointmentForm">
+            <summary>
+            Ready-made form for appointment editing.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.AppointmentForm.#ctor(MindFusion.Scheduling.Schedule)">
+            <summary>
+            Initializes a new instance of the AppointmentForm class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.AppointmentForm.#ctor(MindFusion.Scheduling.Schedule,System.Globalization.DateTimeFormatInfo,MindFusion.Scheduling.LocalizationInfo)">
+            <summary>
+            Initializes a new instance of the AppointmentForm class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.AppointmentForm.#ctor">
+            <summary>
+            Initializes a new instance of the AppointmentForm class for design-time use.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.AppointmentForm.ShowDates(System.Boolean)">
+            <summary>
+            Shows or hides all date-related controls.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.AppointmentForm.ShowRecurrenceInfo(System.Boolean)">
+            <summary>
+            Shows or hides all recurrence-related controls.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.AppointmentForm.Accept">
+            <summary>
+            Accepts the changes made to the appointment being edited.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.AppointmentForm.ApplyItemChanges(MindFusion.Scheduling.Appointment)">
+            <summary>
+            Called when the user presses the 'Save and Close' button to
+            apply the changes to the appointment.
+            </summary>
+            <param name="app">
+            The appointment to apply the changes to.
+            </param>
+            <returns>
+            true, if there were actual changes to the appointment; otherwise, false.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.AppointmentForm.ApplyRecurrenceChanges(MindFusion.Scheduling.Appointment)">
+            <summary>
+            Called when the user presses the 'Save and Close' button to
+            apply the changes to the appointment's recurrence.
+            </summary>
+            <param name="app">
+            The appointment to which to apply the recurrence.
+            </param>
+            <returns>
+            true, if there were actual changes to the recurrence; otherwise, false.
+            </returns>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.AppointmentForm.SetDates(System.DateTime,System.DateTime,System.Boolean)">
+            <summary>
+            Sets the dates to be used to initialize the form
+            if no appointment is initially set.
+            </summary>
+            <param name="start">
+            A DateTime instance specifying the initial start date of
+            the new appointment.
+            </param>
+            <param name="end">
+            A DateTime instance specifying the initial end date of the
+            new appointment.
+            </param>
+            <param name="allDay">
+            A Boolean flag indicating whether the appointment is an
+            all-day event initially.
+            </param>
+            <remarks>
+            After you create a new instance of the AppointmentForm class,
+            either call SetAppointment to select existing appointment for
+            editing, or optionally call SetDates to initialize some fields
+            on the form.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.AppointmentForm.SetAppointment(MindFusion.Scheduling.Appointment)">
+            <summary>
+            Sets the appointment that is to be edited in the form.
+            </summary>
+            <param name="appointment">
+            A  reference to the Appointment object  to be selected in the
+            form for editing.
+            </param>
+            <remarks>
+            If the appointment represents a recurrence instance or exception,
+            only the instance is being edited. If it represents a recurrence
+            master, all instances are edited.
+            </remarks>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.AppointmentForm._btnSave_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the 'Save' toolbar button.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.AppointmentForm._btnRecurrence_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the 'Recurrence' toolbar button.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.AppointmentForm._btnDelete_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the 'Delete' toolbar button.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.WinForms.AppointmentForm.Appointment">
+            <summary>
+            Gets the appointment being edited in this form.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.WinForms.AppointmentForm.TimeFormat">
+            <summary>
+            Gets or sets the format of times displayed within the form.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.WinForms.AppointmentForm._recurrence">
+            <summary>
+            Copy of the recurrence. Only apply to appointment when accepted.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.WinForms.AppointmentForm._startTime">
+            <summary>
+            Recorded start time.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.WinForms.AppointmentForm._endTime">
+            <summary>
+            Recorder end time.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.WinForms.AppointmentForm._timeFormat">
+            <summary>
+            The format of displayed times.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.WinForms.AppointmentForm._schedule">
+            <summary>
+            The underlying Schedule object.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.AppointmentForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">
+            true to release both managed and unmanaged resources; false to
+            release only unmanaged resources.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.AppointmentForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Scheduling.WinForms.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.WinForms.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.WinForms.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.WinForms.Properties.Resources.Bell">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.WinForms.Properties.Resources.Delete">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.WinForms.Properties.Resources.Recurrence">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.WinForms.Properties.Resources.Save">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Scheduling.WinForms.RecurrenceForm">
+            <summary>
+            Ready-made form for recurrence editing.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.RecurrenceForm.#ctor">
+            <summary>
+            Initializes a new instance of the RecurrenceForm class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.RecurrenceForm.#ctor(System.Globalization.DateTimeFormatInfo,MindFusion.Scheduling.LocalizationInfo)">
+            <summary>
+            Initializes a new instance of the RecurrenceForm class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.RecurrenceForm.OnRightToLeftChanged(System.EventArgs)">
+            <summary>
+            Form.OnRightToLeftChanged override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.RecurrenceForm.OnRightToLeftLayoutChanged(System.EventArgs)">
+            <summary>
+            Form.OnRightToLeftLayoutChanged override.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.RecurrenceForm.GetRtlLayout">
+            <summary>
+            Returns the current RTL layout mode.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.RecurrenceForm.ApplyRtlLayout(System.Windows.Forms.Control)">
+            <summary>
+            Applies right-to-left layout to controls within groups and panels.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.RecurrenceForm.OnPatternChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles changes in the recurrence pattern.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.RecurrenceForm.OnNumLeave(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Leave event on various text boxes.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.RecurrenceForm._btnOK_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the 'OK' button.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.RecurrenceForm._btnCancel_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the 'Cancel' button.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.RecurrenceForm._btnRemove_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the 'Remove' button.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.RecurrenceForm.SetDate(System.DateTime)">
+            <summary>
+            Sets a date to be used to initialize the form
+            if no recurrence is set initially.
+            </summary>
+            <param name="date">
+            A DateTime object specifying the start and end time of
+            the recurrence displayed in the form.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.RecurrenceForm.SetDates(System.DateTime,System.DateTime)">
+            <summary>
+            Sets the dates to be used to initialize the form
+            if no recurrence is initially set.
+            </summary>
+            <param name="start">
+            A DateTime instance specifying the start time of the recurrence.
+            </param>
+            <param name="end">
+            A DateTime instance specifying the end time of the recurrence.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.RecurrenceForm.EnableRemoveButton(System.Boolean)">
+            <summary>
+            Enables or disables the 'Remove' button.
+            </summary>
+            <param name="enable">
+            true to enable the 'Remove' button, false to disable it.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.RecurrenceForm.SetRecurrence(MindFusion.Scheduling.Recurrence,System.DateTime,System.DateTime)">
+            <summary>
+            Sets the recurrence pattern to be edited in the form.
+            </summary>
+            <param name="recurrence">
+            A reference to the Recurrence object to be selected in
+            the form for editing.
+            </param>
+            <param name="startTime">
+            A DateTime instance specifying the initial start time
+            of the recurrence.
+            </param>
+            <param name="endTime">
+            A DateTime instance specifying the initial end time
+            of the recurrence.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.RecurrenceForm.UpdateDurationFromTimes">
+            <summary>
+            Updates the duration field to match the current start and end times.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.RecurrenceForm.UpdateEndTimeFromDuration">
+            <summary>
+            Updates the end time field to match the current start time
+            and duration.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.WinForms.RecurrenceForm.Recurrence">
+            <summary>
+            Gets the recurrence being edited in this form.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.WinForms.RecurrenceForm.StartTime">
+            <summary>
+            Gets the start time of the recurrence.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.WinForms.RecurrenceForm.EndTime">
+            <summary>
+            Gets the end time of the recurrence.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.WinForms.RecurrenceForm.TimeFormat">
+            <summary>
+            Gets or sets the format of times displayed within the form.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.WinForms.RecurrenceForm._recurrence">
+            <summary>
+            The recurrence being edited.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.WinForms.RecurrenceForm._timeFormat">
+            <summary>
+            The format of displayed times.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.WinForms.RecurrenceForm._rtlLayout">
+            <summary>
+            A flag indicating the current layout logic.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.WinForms.RecurrenceForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.RecurrenceForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">
+            true to release both managed and unmanaged resources;
+            false to release only unmanaged resources.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.RecurrenceForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Scheduling.WinForms.TaskForm">
+            <summary>
+            Ready-made form for task editing.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.TaskForm.#ctor">
+            <summary>
+            Initializes a new instance of the TaskForm class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.TaskForm.#ctor(System.Globalization.DateTimeFormatInfo,MindFusion.Scheduling.LocalizationInfo)">
+            <summary>
+            Initializes a new instance of the TaskForm class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.TaskForm.Accept">
+            <summary>
+            Accepts the changes made to the task being edited.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.TaskForm.SetDates(System.DateTime,System.DateTime)">
+            <summary>
+            Sets the dates to be used to initialize the form
+            if no task is initially set.
+            </summary>
+            <param name="start">
+            A DateTime instance specifying the start date initially
+            displayed in the form.
+            </param>
+            <param name="due">
+            A DateTime instance specifying the due date initially
+            displayed in the form.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.TaskForm.SetTask(MindFusion.Scheduling.Task)">
+            <summary>
+            Sets the task that is to be edited in the form.
+            </summary>
+            <param name="task">
+            A reference to the Task object to be selected in the
+            form for editing.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.TaskForm._btnSave_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the 'Save and Close' button.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.TaskForm._btnDelete_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the 'Delete' button.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.WinForms.TaskForm.Task">
+            <summary>
+            Gets the task being edited in this form.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Scheduling.WinForms.TaskForm.TimeFormat">
+            <summary>
+            Gets or sets the format of times displayed within the form.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.WinForms.TaskForm._task">
+            <summary>
+            The associated task.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Scheduling.WinForms.TaskForm._timeFormat">
+            <summary>
+            The format of displayed times.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.TaskForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">
+            true to release both managed and unmanaged resources; false to
+            release only unmanaged resources.
+            </param>
+        </member>
+        <member name="M:MindFusion.Scheduling.WinForms.TaskForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

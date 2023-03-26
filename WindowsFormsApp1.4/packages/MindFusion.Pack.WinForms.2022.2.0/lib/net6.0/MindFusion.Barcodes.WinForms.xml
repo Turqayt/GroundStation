@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MindFusion.Barcodes.WinForms</name>
+    </assembly>
+    <members>
+        <member name="T:MindFusion.Barcodes.WinForms.BarcodeLabel">
+            <summary>
+            Represents a barcode label.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Barcodes.WinForms.BarcodeLabel.#ctor">
+            <summary>
+            Initializes a new instance of the BarcodeLabel class.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Barcodes.WinForms.BarcodeLabel.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Control.OnPaint override.
+            </summary>
+            <param name="pe">A PaintEventArgs that contains the event data.</param>
+        </member>
+        <member name="M:MindFusion.Barcodes.WinForms.BarcodeLabel.OnPaintBackground(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Control.OnPaintBackground override.
+            </summary>
+            <param name="pe">A PaintEventArgs that contains the event data.</param>
+        </member>
+        <member name="M:MindFusion.Barcodes.WinForms.BarcodeLabel.BeginInit">
+            <summary>
+            Implements ISupportInitialize.BeginInit.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Barcodes.WinForms.BarcodeLabel.EndInit">
+            <summary>
+            Implements ISupportInitialize.EndInit.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Barcodes.WinForms.BarcodeLabel.Content">
+            <summary>
+            Gets or sets the text or numeric code that should be represented as barcode symbol.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Barcodes.WinForms.BarcodeLabel.Format">
+            <summary>
+            Gets or sets the barcode format.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Barcodes.WinForms.BarcodeLabel.QRCorrectionLevel">
+            <summary>
+            Gets or sets the correction level of QR barcodes.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Barcodes.WinForms.BarcodeLabel.ForeColor">
+            <summary>
+            Gets or sets the color of the barcode modules.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Barcodes.WinForms.BarcodeLabel.BackColor">
+            <summary>
+            Gets or sets the background color.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Barcodes.WinForms.BarcodeLabel.AutoSize">
+            <summary>
+            Gets or sets a value indicating whether the control is 
+            automatically resized to display its entire contents.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Barcodes.WinForms.BarcodeLabel.LicenseKey">
+            <summary>
+            Gets or sets the license key of the control.
+            </summary>
+        </member>
+        <member name="F:MindFusion.Barcodes.WinForms.BarcodeLabel.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Barcodes.WinForms.BarcodeLabel.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MindFusion.Barcodes.WinForms.BarcodeLabel.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Barcodes.WinForms.BarcodePrinter">
+            <summary>
+            Represents a barcode printer component. It can print, export
+            to bitmap or draw barcodes on custom Graphics surface.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Barcodes.WinForms.BarcodePrinter.NominalSize(System.Drawing.Graphics)">
+            <summary>
+            Returns the nominal barcode size when drawn on specified Graphics.
+            For 1D codes, it is based on 0.33mm module width.
+            </summary>
+            <param name="graphics">A Graphics instance representing the drawing surface.</param>
+            <returns>A Size instance specifying the barcode size.</returns>
+        </member>
+        <member name="M:MindFusion.Barcodes.WinForms.BarcodePrinter.CreateImage">
+            <summary>
+            Creates a bitmap image containing current barcode.
+            </summary>
+            <returns>A Bitmap instance.</returns>
+        </member>
+        <member name="M:MindFusion.Barcodes.WinForms.BarcodePrinter.CreateImage(System.Int32,System.Int32)">
+            <summary>
+            Creates a bitmap image containing current barcode.
+            </summary>
+            <param name="width">The bitmap width in pixels.</param>
+            <param name="height">The bitmap height in pixels.</param>
+            <returns>A Bitmap instance.</returns>
+        </member>
+        <member name="M:MindFusion.Barcodes.WinForms.BarcodePrinter.Draw(System.Drawing.Graphics,System.Int32,System.Int32)">
+            <summary>
+            Draws the current barcode on specified Graphics.
+            </summary>
+            <param name="graphics">A Graphics instance.</param>
+            <param name="x">Horizontal position.</param>
+            <param name="y">Vertical position.</param>
+        </member>
+        <member name="M:MindFusion.Barcodes.WinForms.BarcodePrinter.Draw(System.Drawing.Graphics,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Draws the current barcode on specified Graphics.
+            </summary>
+            <param name="graphics">A Graphics instance.</param>
+            <param name="x">Horizontal position.</param>
+            <param name="y">Vertical position.</param>
+            <param name="width">Width in pixels.</param>
+            <param name="height">Height in pixels.</param>
+        </member>
+        <member name="M:MindFusion.Barcodes.WinForms.BarcodePrinter.Print">
+            <summary>
+            Prints the current barcode, fitting as many labels as possible on the page.
+            </summary>
+        </member>
+        <member name="M:MindFusion.Barcodes.WinForms.BarcodePrinter.PrintPreview">
+            <summary>
+            Shows a preview of printed barcodes.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Barcodes.WinForms.BarcodePrinter.Content">
+            <summary>
+            Gets or sets the text or numeric code that should be represented as barcode symbol.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Barcodes.WinForms.BarcodePrinter.Format">
+            <summary>
+            Gets or sets the barcode format.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Barcodes.WinForms.BarcodePrinter.QRCorrectionLevel">
+            <summary>
+            Gets or sets the correction level of QR barcodes.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Barcodes.WinForms.BarcodePrinter.ForeColor">
+            <summary>
+            Gets or sets the color of the barcode modules.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Barcodes.WinForms.BarcodePrinter.BackColor">
+            <summary>
+            Gets or sets the background color.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Barcodes.WinForms.BarcodePrinter.Font">
+            <summary>
+            Gets or sets the font used to draw code's digits.
+            </summary>
+        </member>
+        <member name="P:MindFusion.Barcodes.WinForms.BarcodePrinter.LicenseKey">
+            <summary>
+            Gets or sets the license key of the control.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Barcodes.WinForms.GdiBarcodeCanvas">
+            <summary>
+            Implements the BarcodeCanvas interface using GDI+ API.
+            </summary>
+        </member>
+        <member name="T:MindFusion.Barcodes.WinForms.InvalidCode">
+            <summary>
+            A placeholder to use as model when content is invalid for current barcode format.
+            </summary>
+        </member>
+    </members>
+</doc>
